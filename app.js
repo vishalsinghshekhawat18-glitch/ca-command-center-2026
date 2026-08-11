@@ -1,4 +1,4 @@
-// Current Affairs Command Center 2026 — Kindle Centered Reader Logic
+// Current Affairs Command Center 2026 — Kindle Centered Reader Logic (v3.4)
 
 document.addEventListener("DOMContentLoaded", () => {
   let activeSectionId = "all";
@@ -18,25 +18,38 @@ document.addEventListener("DOMContentLoaded", () => {
   const sidebarChevron = document.getElementById("sidebarChevron");
   const drillContainer = document.getElementById("drillContainer");
 
-  // Helper: Markdown Parser & Numeral Highlighting
-  function processText(text) {
+  // Helper 1: Plain Markdown Parser (for Headlines & Titles — NO numeral highlighting)
+  function parseMarkdownOnly(text) {
+    if (!text) return "";
+    let html = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+    html = html.replace(/\*(.*?)\*/g, '<em>$1</em>');
+    return html;
+  }
+
+  // Helper 2: High-Yield Numeral Highlight Parser (Excludes passing years 19XX/20XX & dates)
+  function processBodyText(text) {
     if (!text) return "";
 
-    // 1. Parse bold markdown **text** -> <strong>text</strong>
-    let html = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+    // 1. Parse bold & italic markdown
+    let html = parseMarkdownOnly(text);
 
-    // 2. Parse italic markdown *text* -> <em>text</em>
-    html = html.replace(/\*(.*?)\*/g, '<em>$1</em>');
-
-    // 3. Handle Numerals / Currency / Percentages
-    const numRegex = /(\₹[\d,]+|\$\d+(\.\d+)?(B|M|T|billion|trillion|million)?|\d+(\.\d+)?%|\b\d{2,}\b)/g;
+    // 2. High-Yield Numeral Regex: Currency (₹/$), %, or key counts (EXCLUDING passing 4-digit years 19XX/20XX)
+    const keyNumRegex = /(\₹[\d,]+(\.\d+)?\s*(trillion|crore|lakh|billion|cr)?|\$\d+(\.\d+)?\s*(trillion|billion|million|crore)?|\d+(\.\d+)?%|\b(?!19\d\d\b|20\d\d\b)\d{1,3}(,\d{3})*(\.\d+)?\b)/gi;
 
     if (activeRecallMode) {
-      // Ink Mask for Active Recall
-      html = html.replace(numRegex, '<span class="masked-figure" onclick="this.classList.toggle(\'revealed\')">$1</span>');
+      // Ink Mask for Active Recall Mode
+      html = html.replace(keyNumRegex, (match) => {
+        // Exclude standalone 4-digit years (1900-2099)
+        if (/^(19|20)\d\d$/.test(match.trim())) return match;
+        return `<span class="masked-figure" onclick="this.classList.toggle('revealed')">${match}</span>`;
+      });
     } else {
-      // Distinct Monospace Numeral Styling
-      html = html.replace(numRegex, '<span class="num-highlight">$1</span>');
+      // Distinct Monospace Numeral Highlight for Key Trap/Figure Contrast
+      html = html.replace(keyNumRegex, (match) => {
+        // Exclude standalone 4-digit years (1900-2099)
+        if (/^(19|20)\d\d$/.test(match.trim())) return match;
+        return `<span class="num-highlight">${match}</span>`;
+      });
     }
 
     return html;
@@ -73,7 +86,6 @@ document.addEventListener("DOMContentLoaded", () => {
     renderSidebar();
     renderFeed();
     renderDrill();
-    // Close drawer after selection for seamless reading flow
     sectionNavDrawer.classList.remove("open");
     sidebarChevron.textContent = "▼";
   }
@@ -125,38 +137,39 @@ document.addEventListener("DOMContentLoaded", () => {
       if (note.bullets && note.bullets.length > 0) {
         bulletsHtml = `
           <ul class="bullets-list">
-            ${note.bullets.map(b => `<li>${processText(b)}</li>`).join("")}
+            ${note.bullets.map(b => `<li>${processBodyText(b)}</li>`).join("")}
           </ul>
         `;
       }
 
       let hookHtml = note.hook ? `
         <div class="hook-box">
-          🪝 <strong>Rationale:</strong> ${processText(note.hook)}
+          🪝 <strong>Rationale:</strong> ${processBodyText(note.hook)}
         </div>
       ` : "";
 
       let staticHtml = note.staticGk ? `
         <div class="static-gk-box">
-          🏛️ <strong>Static GK:</strong> ${processText(note.staticGk)}
+          🏛️ <strong>Static GK:</strong> ${processBodyText(note.staticGk)}
         </div>
       ` : "";
 
       let trapHtml = note.trap ? `
         <div class="trap-box">
-          ⚠️ <strong>Trap Contrast:</strong> ${processText(note.trap)}
+          ⚠️ <strong>Trap Contrast:</strong> ${processBodyText(note.trap)}
         </div>
       ` : "";
 
       let interviewHtml = note.interviewQ ? `
         <div class="interview-box">
-          💼 <strong>Interview Insight:</strong> ${processText(note.interviewQ)}
+          💼 <strong>Interview Insight:</strong> ${processBodyText(note.interviewQ)}
         </div>
       ` : "";
 
+      // Notice: Headlines use parseMarkdownOnly so title numbers remain clean & plain!
       card.innerHTML = `
         <div class="note-header">
-          <h3 class="note-title">📰 ${processText(note.title)}</h3>
+          <h3 class="note-title">📰 ${parseMarkdownOnly(note.title)}</h3>
           <button class="btn-bookmark ${isBookmarked ? 'bookmarked' : ''}" onclick="toggleBookmark('${note.id}')" title="Bookmark Note">
             ${isBookmarked ? '★' : '☆'}
           </button>
@@ -192,13 +205,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let retrievalsHtml = drill.retrievals.map((q, idx) => `
       <div class="quiz-q-item">
-        <strong>Q${idx+1}.</strong> ${processText(q)}
+        <strong>Q${idx+1}.</strong> ${processBodyText(q)}
       </div>
     `).join("");
 
     let coverTestsHtml = drill.coverTests.map(c => `
       <div class="quiz-q-item">
-        ⚡ ${processText(c)}
+        ⚡ ${processBodyText(c)}
       </div>
     `).join("");
 
@@ -220,7 +233,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <button class="answer-toggle-btn" onclick="toggleAnswerBox(this)">🙈 Reveal Section Drill Answers</button>
       <div class="answer-box">
         <strong>🔑 Verified Answers:</strong><br>
-        ${processText(drill.answers)}
+        ${processBodyText(drill.answers)}
       </div>
     `;
 
