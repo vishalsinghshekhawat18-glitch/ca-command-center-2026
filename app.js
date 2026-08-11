@@ -443,6 +443,32 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
+  function formatSubtleDate(dateStr) {
+    if (!dateStr) return "";
+    const parts = dateStr.split("-");
+    if (parts.length < 3) return dateStr;
+    const year = parts[0];
+    const monthNum = parts[1];
+    const day = parts[2];
+    const monthsMap = {
+      "01": "Jan", "02": "Feb", "03": "Mar", "04": "Apr",
+      "05": "May", "06": "Jun", "07": "Jul", "08": "Aug",
+      "09": "Sep", "10": "Oct", "11": "Nov", "12": "Dec"
+    };
+    const monthName = monthsMap[monthNum] || monthNum;
+    return `${day} ${monthName} ${year}`;
+  }
+
+  function getMonthNameFull(monthKey) {
+    const monthsMap = {
+      "2026-08": "August 2026",
+      "2026-07": "July 2026",
+      "2026-06": "June 2026",
+      "2026-05": "May 2026"
+    };
+    return monthsMap[monthKey] || monthKey;
+  }
+
   // Render Current Affairs Feed
   function renderCAFeed() {
     let filtered = CA_NOTES_DATA.filter(note => {
@@ -482,62 +508,91 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
-    filtered.forEach(note => {
-      const isBookmarked = bookmarkedIds.includes(note.id);
-      const secObj = CA_SECTIONS.find(s => s.id === note.secId);
-      const isCompact = note.tier === "Tier B+" || (!note.hook && !note.trap && !note.interviewQ && note.bullets.length <= 1);
-      
-      const card = document.createElement("div");
-      card.className = `note-card ${isCompact ? 'note-card-compact' : ''}`;
+    // Group notes by month key in order of occurrence (August -> July -> June)
+    const monthGroups = {};
+    const monthKeysInOrder = [];
 
-      let bulletsHtml = "";
-      if (note.bullets && note.bullets.length > 0) {
-        bulletsHtml = `
-          <ul class="bullets-list">
-            ${note.bullets.map(b => `<li>${processBulletText(b)}</li>`).join("")}
-          </ul>
+    filtered.forEach(note => {
+      const mKey = note.date ? note.date.substring(0, 7) : "Other";
+      if (!monthGroups[mKey]) {
+        monthGroups[mKey] = [];
+        monthKeysInOrder.push(mKey);
+      }
+      monthGroups[mKey].push(note);
+    });
+
+    monthKeysInOrder.forEach(mKey => {
+      // If showing "All Months", display a month group divider banner
+      if (activeMonth === "all" && monthKeysInOrder.length > 1) {
+        const groupBanner = document.createElement("div");
+        groupBanner.className = "month-group-banner";
+        groupBanner.innerHTML = `
+          <span>📅 ${getMonthNameFull(mKey)}</span>
+          <span class="badge-count" style="background: rgba(0,0,0,0.08); color: var(--text-main); font-weight: 600;">${monthGroups[mKey].length} Notes</span>
         `;
+        notesFeed.appendChild(groupBanner);
       }
 
-      let hookHtml = note.hook ? `
-        <div class="hook-box">
-          🪝 <strong>Rationale:</strong> ${parseMarkdown(note.hook)}
-        </div>
-      ` : "";
+      monthGroups[mKey].forEach(note => {
+        const isBookmarked = bookmarkedIds.includes(note.id);
+        const secObj = CA_SECTIONS.find(s => s.id === note.secId);
+        const isCompact = note.tier === "Tier B+" || (!note.hook && !note.trap && !note.interviewQ && note.bullets.length <= 1);
+        
+        const card = document.createElement("div");
+        card.className = `note-card ${isCompact ? 'note-card-compact' : ''}`;
 
-      let staticHtml = note.staticGk ? `
-        <div class="static-gk-box">
-          🏛️ <strong>Static GK:</strong> ${parseTrapAndStaticGK(note.staticGk)}
-        </div>
-      ` : "";
+        let bulletsHtml = "";
+        if (note.bullets && note.bullets.length > 0) {
+          bulletsHtml = `
+            <ul class="bullets-list">
+              ${note.bullets.map(b => `<li>${processBulletText(b)}</li>`).join("")}
+            </ul>
+          `;
+        }
 
-      let trapHtml = note.trap ? `
-        <div class="trap-box">
-          ⚠️ <strong>Trap Contrast:</strong> ${parseTrapAndStaticGK(note.trap)}
-        </div>
-      ` : "";
+        let hookHtml = note.hook ? `
+          <div class="hook-box">
+            🪝 <strong>Rationale:</strong> ${parseMarkdown(note.hook)}
+          </div>
+        ` : "";
 
-      let interviewHtml = note.interviewQ ? `
-        <div class="interview-box">
-          💼 <strong>Interview Insight:</strong> ${parseMarkdown(note.interviewQ)}
-        </div>
-      ` : "";
+        let staticHtml = note.staticGk ? `
+          <div class="static-gk-box">
+            🏛️ <strong>Static GK:</strong> ${parseTrapAndStaticGK(note.staticGk)}
+          </div>
+        ` : "";
 
-      card.innerHTML = `
-        <div class="note-header">
-          <h3 class="note-title">📰 ${parseMarkdown(note.title)}</h3>
-          <button class="btn-bookmark ${isBookmarked ? 'bookmarked' : ''}" onclick="toggleBookmark('${note.id}')" title="Bookmark Note">
-            ${isBookmarked ? '★' : '☆'}
-          </button>
-        </div>
-        ${hookHtml}
-        ${bulletsHtml}
-        ${staticHtml}
-        ${trapHtml}
-        ${interviewHtml}
-      `;
+        let trapHtml = note.trap ? `
+          <div class="trap-box">
+            ⚠️ <strong>Trap Contrast:</strong> ${parseTrapAndStaticGK(note.trap)}
+          </div>
+        ` : "";
 
-      notesFeed.appendChild(card);
+        let interviewHtml = note.interviewQ ? `
+          <div class="interview-box">
+            💼 <strong>Interview Insight:</strong> ${parseMarkdown(note.interviewQ)}
+          </div>
+        ` : "";
+
+        card.innerHTML = `
+          <div class="note-header">
+            <h3 class="note-title">📰 ${parseMarkdown(note.title)}</h3>
+            <div style="display: flex; align-items: center; gap: 8px; flex-shrink: 0;">
+              <span class="note-date-subtle" title="Publication Date">${formatSubtleDate(note.date)}</span>
+              <button class="btn-bookmark ${isBookmarked ? 'bookmarked' : ''}" onclick="toggleBookmark('${note.id}')" title="Bookmark Note">
+                ${isBookmarked ? '★' : '☆'}
+              </button>
+            </div>
+          </div>
+          ${hookHtml}
+          ${bulletsHtml}
+          ${staticHtml}
+          ${trapHtml}
+          ${interviewHtml}
+        `;
+
+        notesFeed.appendChild(card);
+      });
     });
   }
 
