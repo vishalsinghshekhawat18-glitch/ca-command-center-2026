@@ -1,4 +1,4 @@
-// Current Affairs Command Center 2026 — Application Logic
+// Current Affairs Command Center 2026 — Kindle E-Book Reader Logic
 
 document.addEventListener("DOMContentLoaded", () => {
   let activeSectionId = "all";
@@ -14,6 +14,30 @@ document.addEventListener("DOMContentLoaded", () => {
   const activeCountEl = document.getElementById("activeCount");
   const toggleRecallBtn = document.getElementById("toggleRecallBtn");
   const drillContainer = document.getElementById("drillContainer");
+
+  // Helper: Markdown Parser & Numeral Highlighting
+  function processText(text) {
+    if (!text) return "";
+
+    // 1. Parse bold markdown **text** -> <strong>text</strong>
+    let html = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+
+    // 2. Parse italic markdown *text* -> <em>text</em>
+    html = html.replace(/\*(.*?)\*/g, '<em>$1</em>');
+
+    // 3. Handle Numerals / Currency / Percentages
+    const numRegex = /(\₹[\d,]+|\$\d+(\.\d+)?(B|M|T|billion|trillion|million)?|\d+(\.\d+)?%|\b\d{2,}\b)/g;
+
+    if (activeRecallMode) {
+      // Ink Mask for Active Recall
+      html = html.replace(numRegex, '<span class="masked-figure" onclick="this.classList.toggle(\'revealed\')">$1</span>');
+    } else {
+      // Distinct Monospace Numeral Styling
+      html = html.replace(numRegex, '<span class="num-highlight">$1</span>');
+    }
+
+    return html;
+  }
 
   // Render Sidebar Section Navigation
   function renderSidebar() {
@@ -48,15 +72,6 @@ document.addEventListener("DOMContentLoaded", () => {
     renderDrill();
   }
 
-  // Active Recall Masker helper
-  function maskNumbersInText(text) {
-    if (!activeRecallMode) return text;
-    // Mask numbers, percentages, currency figures with a blurred span
-    return text.replace(/(\₹[\d,]+|\$\d+(\.\d+)?(B|M|T|billion|trillion|million)?|\d+(\.\d+)?%|\b\d{2,}\b)/g, 
-      '<span class="masked-figure" onclick="this.classList.toggle(\'revealed\')">$1</span>'
-    );
-  }
-
   // Render Notes Feed
   function renderFeed() {
     notesFeed.innerHTML = "";
@@ -76,8 +91,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (filtered.length === 0) {
       notesFeed.innerHTML = `
-        <div class="glass-panel" style="padding: 40px; text-align: center; color: var(--text-muted);">
-          <h3>🔍 No notes match your filters</h3>
+        <div class="note-card" style="padding: 40px; text-align: center; color: var(--text-muted);">
+          <h3>🔍 No notes match your search filters</h3>
           <p style="margin-top: 8px; font-size: 0.9rem;">Try clearing your search query or selecting a different section.</p>
         </div>
       `;
@@ -88,45 +103,48 @@ document.addEventListener("DOMContentLoaded", () => {
       const isBookmarked = bookmarkedIds.includes(note.id);
       const secObj = CA_SECTIONS.find(s => s.id === note.secId);
 
+      // Determine Density Class: Tier B+ or single-bullet notes get compact padding
+      const isCompact = note.tier === "Tier B+" || (!note.hook && !note.trap && !note.interviewQ && note.bullets.length <= 1);
+      
       const card = document.createElement("div");
-      card.className = "glass-panel note-card";
+      card.className = `note-card ${isCompact ? 'note-card-compact' : ''}`;
 
       let bulletsHtml = "";
       if (note.bullets && note.bullets.length > 0) {
         bulletsHtml = `
           <ul class="bullets-list">
-            ${note.bullets.map(b => `<li>${maskNumbersInText(b)}</li>`).join("")}
+            ${note.bullets.map(b => `<li>${processText(b)}</li>`).join("")}
           </ul>
         `;
       }
 
       let hookHtml = note.hook ? `
         <div class="hook-box">
-          🪝 Rationale: ${maskNumbersInText(note.hook)}
+          🪝 <strong>Rationale:</strong> ${processText(note.hook)}
         </div>
       ` : "";
 
       let staticHtml = note.staticGk ? `
         <div class="static-gk-box">
-          🏛️ <strong>Static GK:</strong> ${maskNumbersInText(note.staticGk)}
+          🏛️ <strong>Static GK:</strong> ${processText(note.staticGk)}
         </div>
       ` : "";
 
       let trapHtml = note.trap ? `
         <div class="trap-box">
-          ⚠️ <strong>Trap Contrast:</strong> ${maskNumbersInText(note.trap)}
+          ⚠️ <strong>Trap Contrast:</strong> ${processText(note.trap)}
         </div>
       ` : "";
 
       let interviewHtml = note.interviewQ ? `
         <div class="interview-box">
-          💼 <strong>Interview Insight:</strong> ${maskNumbersInText(note.interviewQ)}
+          💼 <strong>Interview Insight:</strong> ${processText(note.interviewQ)}
         </div>
       ` : "";
 
       card.innerHTML = `
         <div class="note-header">
-          <h3 class="note-title">📰 ${maskNumbersInText(note.title)}</h3>
+          <h3 class="note-title">📰 ${processText(note.title)}</h3>
           <button class="btn-bookmark ${isBookmarked ? 'bookmarked' : ''}" onclick="toggleBookmark('${note.id}')" title="Bookmark Note">
             ${isBookmarked ? '★' : '☆'}
           </button>
@@ -134,7 +152,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="note-tags">
           <span class="tag tag-sec">${secObj ? secObj.emoji : ''} ${secObj ? secObj.title.split(' ')[1] : ''}</span>
           <span class="tag ${note.tier === 'Tier A' ? 'tag-tier-a' : 'tag-tier-b'}">${note.tier}</span>
-          <span class="tag" style="background: rgba(255,255,255,0.05); color: var(--text-muted);">${note.date}</span>
+          <span class="tag" style="background: rgba(0,0,0,0.04); color: var(--text-muted);">${note.date}</span>
         </div>
         ${hookHtml}
         ${bulletsHtml}
@@ -162,13 +180,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let retrievalsHtml = drill.retrievals.map((q, idx) => `
       <div class="quiz-q-item">
-        <strong>Q${idx+1}.</strong> ${q}
+        <strong>Q${idx+1}.</strong> ${processText(q)}
       </div>
     `).join("");
 
     let coverTestsHtml = drill.coverTests.map(c => `
       <div class="quiz-q-item">
-        ⚡ ${c}
+        ⚡ ${processText(c)}
       </div>
     `).join("");
 
@@ -177,12 +195,12 @@ document.addEventListener("DOMContentLoaded", () => {
         🔒 SECTION DRILL & COVER TEST — ${secObj ? secObj.title : ''}
       </div>
       
-      <h4 style="font-size: 0.95rem; color: var(--primary-cyan); margin-bottom: 10px;">🔁 Active Retrieval Questions (Test Recall Before Revealing)</h4>
+      <h4 style="font-size: 0.95rem; color: var(--accent-warm); margin-bottom: 10px;">🔁 Active Retrieval Questions (Test Recall Before Revealing)</h4>
       <div class="quiz-q-list">
         ${retrievalsHtml}
       </div>
 
-      <h4 style="font-size: 0.95rem; color: var(--accent-amber); margin-bottom: 10px; margin-top: 18px;">🔒 High-Yield Cover Tests</h4>
+      <h4 style="font-size: 0.95rem; color: var(--accent-gold); margin-bottom: 10px; margin-top: 18px;">🔒 High-Yield Cover Tests</h4>
       <div class="quiz-q-list">
         ${coverTestsHtml}
       </div>
@@ -190,7 +208,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <button class="answer-toggle-btn" onclick="toggleAnswerBox(this)">🙈 Reveal Section Drill Answers</button>
       <div class="answer-box">
         <strong>🔑 Verified Answers:</strong><br>
-        ${drill.answers}
+        ${processText(drill.answers)}
       </div>
     `;
 
