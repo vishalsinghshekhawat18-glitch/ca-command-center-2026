@@ -1,32 +1,42 @@
-// Current Affairs Command Center 2026 — Kindle Centered Reader Logic (v4.0)
+// Banking Command Center 2026 — Kindle Centered Reader Logic (v4.1)
 
 document.addEventListener("DOMContentLoaded", () => {
+  let activeSubject = "ca"; // "ca" or "quant"
   let activeSectionId = "all";
+  let activeQuantChapterId = "all";
   let activeMonth = "all";
   let onlyBookmarks = false;
   let activeRecallMode = false;
   let bookmarkedIds = JSON.parse(localStorage.getItem("ca_bookmarks") || "[]");
 
   // DOM Elements
+  const appHeaderTitle = document.getElementById("appHeaderTitle");
+  const appHeaderSubtitle = document.getElementById("appHeaderSubtitle");
+  
   const sectionNavList = document.getElementById("sectionNavList");
+  const quantNavGrid = document.getElementById("quantNavGrid");
   const notesFeed = document.getElementById("notesFeed");
   const activeCountEl = document.getElementById("activeCount");
   const activeFilterLabel = document.getElementById("activeFilterLabel");
   const bookmarkBadge = document.getElementById("bookmarkBadge");
   
-  const toggleRecallBtn = document.getElementById("toggleRecallBtn");
+  const toggleSubjectBtn = document.getElementById("toggleSubjectBtn");
   const toggleSidebarBtn = document.getElementById("toggleSidebarBtn");
   const toggleMonthBtn = document.getElementById("toggleMonthBtn");
   const toggleBookmarkFilterBtn = document.getElementById("toggleBookmarkFilterBtn");
+  const toggleRecallBtn = document.getElementById("toggleRecallBtn");
   
+  const subjectNavDrawer = document.getElementById("subjectNavDrawer");
   const sectionNavDrawer = document.getElementById("sectionNavDrawer");
+  const quantNavDrawer = document.getElementById("quantNavDrawer");
   const monthNavDrawer = document.getElementById("monthNavDrawer");
+  
+  const subjectChevron = document.getElementById("subjectChevron");
   const sidebarChevron = document.getElementById("sidebarChevron");
   const monthChevron = document.getElementById("monthChevron");
-  
   const drillContainer = document.getElementById("drillContainer");
 
-  // Helper 1: Plain Markdown Parser (for Headlines, Rationale, Bullets — NO numeral highlights)
+  // Helper 1: Markdown Parser
   function parseMarkdown(text) {
     if (!text) return "";
     let html = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
@@ -34,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
     return html;
   }
 
-  // Helper 2: Atomic Numeral Parser (Strictly for Trap Contrasts & Static GK boxes)
+  // Helper 2: Atomic Numeral Parser
   function parseTrapAndStaticGK(text) {
     if (!text) return "";
     let html = parseMarkdown(text);
@@ -48,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
     return html;
   }
 
-  // Helper 3: Bullet Renderer (Plain text by default; masked in Active Recall Mode)
+  // Helper 3: Bullet Renderer
   function processBulletText(text) {
     if (!text) return "";
     let html = parseMarkdown(text);
@@ -61,30 +71,90 @@ document.addEventListener("DOMContentLoaded", () => {
     return html;
   }
 
-  // Render Top Section Navigation Grid
+  // Close All Drawers
+  function closeAllDrawers() {
+    subjectNavDrawer.classList.remove("open");
+    sectionNavDrawer.classList.remove("open");
+    quantNavDrawer.classList.remove("open");
+    monthNavDrawer.classList.remove("open");
+    if (subjectChevron) subjectChevron.textContent = "▼";
+    if (sidebarChevron) sidebarChevron.textContent = "▼";
+    if (monthChevron) monthChevron.textContent = "▼";
+  }
+
+  // Switch Subject Mode
+  window.switchSubject = function(subj) {
+    activeSubject = subj;
+    closeAllDrawers();
+
+    if (subj === "ca") {
+      appHeaderTitle.textContent = "Banking Command Center";
+      appHeaderSubtitle.textContent = "Kindle E-Book Reader Edition | Framework v3.1";
+      toggleSubjectBtn.innerHTML = `📚 Subject: Current Affairs <span id="subjectChevron">▼</span>`;
+      toggleSubjectBtn.className = "toggle-chip active";
+      toggleSidebarBtn.style.display = "flex";
+      toggleMonthBtn.style.display = "flex";
+      toggleRecallBtn.style.display = "flex";
+    } else {
+      appHeaderTitle.textContent = "The Quant Superbook";
+      appHeaderSubtitle.textContent = "Banking Mains Edition | Formulas & Worked Patterns";
+      toggleSubjectBtn.innerHTML = `📐 Subject: Quant Superbook <span id="subjectChevron">▼</span>`;
+      toggleSubjectBtn.className = "toggle-chip active-quant";
+      toggleSidebarBtn.style.display = "flex";
+      toggleSidebarBtn.innerHTML = `📐 Quant Topics <span id="sidebarChevron">▼</span>`;
+      toggleMonthBtn.style.display = "none";
+      toggleRecallBtn.style.display = "none";
+    }
+
+    renderSidebar();
+    renderFeed();
+    renderDrill();
+  };
+
+  // Render Sidebar / Topic Navigation Grid
   function renderSidebar() {
-    sectionNavList.innerHTML = "";
+    if (activeSubject === "ca") {
+      sectionNavList.innerHTML = "";
 
-    // "All Sections" Item
-    const allLi = document.createElement("li");
-    const allBtn = document.createElement("button");
-    allBtn.className = `nav-item-btn ${activeSectionId === "all" ? "active" : ""}`;
-    allBtn.innerHTML = `<span>📑 All Sections</span> <span class="badge-count">${CA_NOTES_DATA.length}</span>`;
-    allBtn.addEventListener("click", () => selectSection("all"));
-    allLi.appendChild(allBtn);
-    sectionNavList.appendChild(allLi);
+      const allLi = document.createElement("li");
+      const allBtn = document.createElement("button");
+      allBtn.className = `nav-item-btn ${activeSectionId === "all" ? "active" : ""}`;
+      allBtn.innerHTML = `<span>📑 All CA Sections</span> <span class="badge-count">${CA_NOTES_DATA.length}</span>`;
+      allBtn.addEventListener("click", () => selectSection("all"));
+      allLi.appendChild(allBtn);
+      sectionNavList.appendChild(allLi);
 
-    // 11 Locked Sections
-    CA_SECTIONS.forEach(sec => {
-      const count = CA_NOTES_DATA.filter(n => n.secId === sec.id).length;
-      const li = document.createElement("li");
-      const btn = document.createElement("button");
-      btn.className = `nav-item-btn ${activeSectionId === sec.id ? "active" : ""}`;
-      btn.innerHTML = `<span>${sec.title}</span> <span class="badge-count">${count}</span>`;
-      btn.addEventListener("click", () => selectSection(sec.id));
-      li.appendChild(btn);
-      sectionNavList.appendChild(li);
-    });
+      CA_SECTIONS.forEach(sec => {
+        const count = CA_NOTES_DATA.filter(n => n.secId === sec.id).length;
+        const li = document.createElement("li");
+        const btn = document.createElement("button");
+        btn.className = `nav-item-btn ${activeSectionId === sec.id ? "active" : ""}`;
+        btn.innerHTML = `<span>${sec.title}</span> <span class="badge-count">${count}</span>`;
+        btn.addEventListener("click", () => selectSection(sec.id));
+        li.appendChild(btn);
+        sectionNavList.appendChild(li);
+      });
+    } else {
+      quantNavGrid.innerHTML = "";
+
+      const allLi = document.createElement("li");
+      const allBtn = document.createElement("button");
+      allBtn.className = `nav-item-btn ${activeQuantChapterId === "all" ? "active" : ""}`;
+      allBtn.innerHTML = `<span>📐 All Quant Topics</span> <span class="badge-count">${QUANT_CHAPTERS.length}</span>`;
+      allBtn.addEventListener("click", () => selectQuantChapter("all"));
+      allLi.appendChild(allBtn);
+      quantNavGrid.appendChild(allLi);
+
+      QUANT_CHAPTERS.forEach(ch => {
+        const li = document.createElement("li");
+        const btn = document.createElement("button");
+        btn.className = `nav-item-btn ${activeQuantChapterId === ch.id ? "active" : ""}`;
+        btn.innerHTML = `<span>${ch.title}</span> <span class="badge-count">${ch.subsections.length}</span>`;
+        btn.addEventListener("click", () => selectQuantChapter(ch.id));
+        li.appendChild(btn);
+        quantNavGrid.appendChild(li);
+      });
+    }
   }
 
   function selectSection(secId) {
@@ -92,46 +162,58 @@ document.addEventListener("DOMContentLoaded", () => {
     renderSidebar();
     renderFeed();
     renderDrill();
-    sectionNavDrawer.classList.remove("open");
-    sidebarChevron.textContent = "▼";
+    closeAllDrawers();
   }
 
-  // Window global function for month selection
+  function selectQuantChapter(chId) {
+    activeQuantChapterId = chId;
+    renderSidebar();
+    renderFeed();
+    renderDrill();
+    closeAllDrawers();
+  }
+
   window.selectMonth = function(m) {
     activeMonth = m;
     renderFeed();
-    monthNavDrawer.classList.remove("open");
-    monthChevron.textContent = "▼";
-
-    // Update active button state in month grid
-    document.querySelectorAll("#monthNavGrid .nav-item-btn").forEach(btn => {
-      btn.classList.remove("active");
-    });
-
-    const activeBtn = Array.from(document.querySelectorAll("#monthNavGrid .nav-item-btn")).find(btn => {
-      if (m === 'all') return btn.textContent.includes("All Months");
-      if (m === '2026-08') return btn.textContent.includes("August 2026");
-      if (m === '2026-07') return btn.textContent.includes("July 2026");
-      if (m === '2026-06') return btn.textContent.includes("June 2026");
-      return false;
-    });
-
-    if (activeBtn) activeBtn.classList.add("active");
+    closeAllDrawers();
   };
 
-  // Toggle Drawers
+  // Toggle Event Listeners
+  toggleSubjectBtn.addEventListener("click", () => {
+    const isOpen = subjectNavDrawer.classList.contains("open");
+    closeAllDrawers();
+    if (!isOpen) {
+      subjectNavDrawer.classList.add("open");
+      document.getElementById("subjectChevron").textContent = "▲";
+    }
+  });
+
   toggleSidebarBtn.addEventListener("click", () => {
-    monthNavDrawer.classList.remove("open");
-    monthChevron.textContent = "▼";
-    const isOpen = sectionNavDrawer.classList.toggle("open");
-    sidebarChevron.textContent = isOpen ? "▲" : "▼";
+    if (activeSubject === "ca") {
+      const isOpen = sectionNavDrawer.classList.contains("open");
+      closeAllDrawers();
+      if (!isOpen) {
+        sectionNavDrawer.classList.add("open");
+        document.getElementById("sidebarChevron").textContent = "▲";
+      }
+    } else {
+      const isOpen = quantNavDrawer.classList.contains("open");
+      closeAllDrawers();
+      if (!isOpen) {
+        quantNavDrawer.classList.add("open");
+        document.getElementById("sidebarChevron").textContent = "▲";
+      }
+    }
   });
 
   toggleMonthBtn.addEventListener("click", () => {
-    sectionNavDrawer.classList.remove("open");
-    sidebarChevron.textContent = "▼";
-    const isOpen = monthNavDrawer.classList.toggle("open");
-    monthChevron.textContent = isOpen ? "▲" : "▼";
+    const isOpen = monthNavDrawer.classList.contains("open");
+    closeAllDrawers();
+    if (!isOpen) {
+      monthNavDrawer.classList.add("open");
+      monthChevron.textContent = "▲";
+    }
   });
 
   toggleBookmarkFilterBtn.addEventListener("click", () => {
@@ -147,16 +229,24 @@ document.addEventListener("DOMContentLoaded", () => {
     renderFeed();
   });
 
-  // Update Bookmark Count Badge
   function updateBookmarkBadge() {
     bookmarkBadge.textContent = bookmarkedIds.length;
   }
 
-  // Render Notes Feed
+  // Render Main Feed
   function renderFeed() {
     notesFeed.innerHTML = "";
     updateBookmarkBadge();
 
+    if (activeSubject === "ca") {
+      renderCAFeed();
+    } else {
+      renderQuantFeed();
+    }
+  }
+
+  // Render Current Affairs Feed
+  function renderCAFeed() {
     let filtered = CA_NOTES_DATA.filter(note => {
       const matchesSec = activeSectionId === "all" || note.secId === activeSectionId;
       const matchesMonth = activeMonth === "all" || note.date.startsWith(activeMonth);
@@ -166,13 +256,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     activeCountEl.textContent = `${filtered.length} notes`;
 
-    // Dynamic Filter Banner Label
     let labelParts = [];
     if (activeSectionId !== "all") {
       const secObj = CA_SECTIONS.find(s => s.id === activeSectionId);
       if (secObj) labelParts.push(secObj.title);
     } else {
-      labelParts.push("All Sections");
+      labelParts.push("All CA Sections");
     }
 
     if (activeMonth !== "all") {
@@ -189,7 +278,7 @@ document.addEventListener("DOMContentLoaded", () => {
       notesFeed.innerHTML = `
         <div class="note-card" style="padding: 40px; text-align: center; color: var(--text-muted);">
           <h3>🔍 No notes match your selected filters</h3>
-          <p style="margin-top: 8px; font-size: 0.9rem;">Try selecting a different section, month, or clearing starred filters.</p>
+          <p style="margin-top: 8px; font-size: 0.9rem;">Try selecting a different section or clearing starred filters.</p>
         </div>
       `;
       return;
@@ -198,7 +287,6 @@ document.addEventListener("DOMContentLoaded", () => {
     filtered.forEach(note => {
       const isBookmarked = bookmarkedIds.includes(note.id);
       const secObj = CA_SECTIONS.find(s => s.id === note.secId);
-
       const isCompact = note.tier === "Tier B+" || (!note.hook && !note.trap && !note.interviewQ && note.bullets.length <= 1);
       
       const card = document.createElement("div");
@@ -260,17 +348,88 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Render Section Drill at the bottom of active section
+  // Render Quant Superbook Feed
+  function renderQuantFeed() {
+    let chapters = QUANT_CHAPTERS.filter(ch => {
+      return activeQuantChapterId === "all" || ch.id === activeQuantChapterId;
+    });
+
+    let totalSubsections = chapters.reduce((acc, ch) => acc + ch.subsections.length, 0);
+    activeCountEl.textContent = `${totalSubsections} topics`;
+
+    let activeTitle = activeQuantChapterId === "all" ? "All 8 Quant Superbook Topics" : QUANT_CHAPTERS.find(c => c.id === activeQuantChapterId).title;
+    activeFilterLabel.textContent = `📐 ${activeTitle}`;
+
+    chapters.forEach(ch => {
+      ch.subsections.forEach(sub => {
+        const isBookmarked = bookmarkedIds.includes(sub.subId);
+        if (onlyBookmarks && !isBookmarked) return;
+
+        const card = document.createElement("div");
+        card.className = "note-card";
+
+        let bodyHtml = "";
+
+        if (sub.type === "table") {
+          let headersHtml = sub.headers.map(h => `<th>${h}</th>`).join("");
+          let rowsHtml = sub.rows.map(r => `
+            <tr>
+              ${r.map(cell => `<td>${parseMarkdown(cell)}</td>`).join("")}
+            </tr>
+          `).join("");
+
+          bodyHtml = `
+            <div class="quant-table-wrapper">
+              <table class="quant-table">
+                <thead><tr>${headersHtml}</tr></thead>
+                <tbody>${rowsHtml}</tbody>
+              </table>
+            </div>
+          `;
+        } else if (sub.type === "bullets") {
+          bodyHtml = `
+            <ul class="bullets-list">
+              ${sub.items.map(item => `<li>${parseMarkdown(item)}</li>`).join("")}
+            </ul>
+          `;
+        } else if (sub.type === "examples") {
+          bodyHtml = sub.items.map((ex, idx) => `
+            <div class="quant-example-card">
+              <div class="quant-example-q">💡 ${parseMarkdown(ex.q)}</div>
+              <div class="quant-example-sol">${parseMarkdown(ex.sol)}</div>
+            </div>
+          `).join("");
+        }
+
+        card.innerHTML = `
+          <div class="note-header">
+            <h3 class="note-title">${ch.icon} ${sub.title}</h3>
+            <button class="btn-bookmark ${isBookmarked ? 'bookmarked' : ''}" onclick="toggleBookmark('${sub.subId}')" title="Bookmark Topic">
+              ${isBookmarked ? '★' : '☆'}
+            </button>
+          </div>
+          <div class="note-tags">
+            <span class="tag tag-quant">${ch.title}</span>
+            <span class="tag" style="background: rgba(0,0,0,0.04); color: var(--text-muted);">Banking Mains Reference</span>
+          </div>
+          ${bodyHtml}
+        `;
+
+        notesFeed.appendChild(card);
+      });
+    });
+  }
+
+  // Render Section Drill at the bottom
   function renderDrill() {
     drillContainer.innerHTML = "";
-    if (activeSectionId === "all") return;
+    if (activeSubject !== "ca" || activeSectionId === "all") return;
 
     const drill = CA_SECTION_DRILLS[activeSectionId];
     if (!drill) return;
 
     const panel = document.createElement("div");
     panel.className = "drill-panel";
-
     const secObj = CA_SECTIONS.find(s => s.id === activeSectionId);
 
     let retrievalsHtml = drill.retrievals.map((q, idx) => `
