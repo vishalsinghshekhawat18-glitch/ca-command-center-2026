@@ -1,14 +1,6 @@
 // Banking Command Center 2026 — Kindle Centered Reader Logic (v4.2)
 
 document.addEventListener("DOMContentLoaded", () => {
-  let activeSubject = "ca"; // "ca" or "quant"
-  let activeSectionId = "all";
-  let activeQuantChapterId = "all";
-  let activeMonth = "all";
-  let onlyBookmarks = false;
-  let activeRecallMode = false;
-  let bookmarkedIds = JSON.parse(localStorage.getItem("ca_bookmarks") || "[]");
-
   // Tracker State (persisted in browser)
   let userStudyHours = parseFloat(localStorage.getItem("ca_study_hours_today") || "6.5");
   let userTasks = JSON.parse(localStorage.getItem("ca_tracker_tasks") || "null");
