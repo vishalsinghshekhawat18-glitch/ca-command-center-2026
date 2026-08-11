@@ -5252,6 +5252,254 @@ const CA_NOTES_DATA = [
     "secId": "sec7",
     "trap": null,
     "date": "2026-07-29"
+  },
+  {
+    "title": "Cabinet Approves 'Semicon 2.0' Scheme with ₹1,27,500 Crore Outlay",
+    "staticGk": "India Semiconductor Mission (ISM) established under Ministry of Electronics & IT.",
+    "secId": "sec1",
+    "interviewQ": "\"What are the key enhancements introduced in Semicon 2.0 compared to Semicon 1.0?\"\n💡 **Model Answer: Semicon 2.0 expands total outlay to ₹1.27 lakh crore, introduces differentiated 25%-40% capex subsidies across 6 pillars, and focuses heavily on indigenous IP chip design and equipment manufacturing.**",
+    "id": "note-sec1-347",
+    "date": "2026-07-16",
+    "trap": "Silicon fab fiscal subsidy (40%) vs compound semiconductor subsidy (35%) vs packaging subsidy (25%).",
+    "bullets": [
+      "Financial Outlay: ₹1,27,500 crore total budget outlay structured across 6 strategic pillars.",
+      "Differentiated Subsidies: 40% support on eligible capex for silicon fabrication plants; 35% for compound semiconductors/display fabs; 35% for advanced packaging; 25% for conventional packaging (ATMP/OSAT).",
+      "Private Investment Impact: Expected to catalyze an additional ₹4 lakh crore in private semiconductor investment.",
+      "First Fab Timeline: India's 1st commercial semiconductor fabrication plant scheduled for commissioning in 2028."
+    ],
+    "hook": "Provides 40% fiscal subsidy for silicon fabs and 35% for compound semiconductors.",
+    "tier": "Tier A"
+  },
+  {
+    "title": "Union Cabinet Approves 'Mobile Phone Manufacturing Scheme (MPMS)' with ₹62,500 Crore Outlay",
+    "staticGk": "MPMS succeeds PLI Scheme for Large Scale Electronics Manufacturing (PLI-LSEM) which concluded March 2026.",
+    "secId": "sec1",
+    "interviewQ": null,
+    "id": "note-sec1-348",
+    "date": "2026-07-17",
+    "trap": "Base sales incentive (2.25%–5%) vs component sourcing incentive (1.5%) vs R&D design incentive (3%).",
+    "bullets": [
+      "Scheme Outlay & Tenure: ₹62,500 crore budget outlay running for 5 years from FY 2026-27 to FY 2030-31.",
+      "Incentive Tiers: Differentiated sales incentives of 2.25% to 5%; additional 1.5% incentive for domestic component sourcing; 3% incentive for product design R&D.",
+      "Electronics Export Milestone: Smartphones emerged as India's single largest exported product category in 2025 (99.2% of domestic phones built in India)."
+    ],
+    "hook": "5-year scheme (FY27 to FY31) targeting ₹39 lakh crore mobile production and 60,000 direct jobs.",
+    "tier": "Tier A"
+  },
+  {
+    "title": "Gujarat Launches India's 1st State-Level 'Viksit Gujarat Data Centre Policy 2026-29'",
+    "staticGk": "Gujarat CM: Bhupendra Patel | Target .5 trillion state economy by 2047.",
+    "secId": "sec4",
+    "interviewQ": null,
+    "id": "note-sec4-349",
+    "date": "2026-07-18",
+    "trap": "India global data generation share (~20%) vs global data centre capacity share (~3%).",
+    "bullets": [
+      "Policy Targets: Aims to attract ₹6 lakh crore investment and develop 7.5 GW (up to 8 GW) data centre capacity.",
+      "Fiscal Incentives: Capital/interest subsidies, power tariff support, SGST reimbursement, and 20-year tax holiday alignment.",
+      "Data Infrastructure Gap: India generates ~20% of global data but holds only ~3% of global data centre capacity (US & China hold 70%)."
+    ],
+    "hook": "Targets ₹6 lakh crore investment and 7.5 GW data centre capacity in Gandhinagar.",
+    "tier": "Tier A"
+  },
+  {
+    "title": "Madhya Pradesh Cabinet Approves Draft 'Madhya Pradesh Uniform Civil Code (UCC) 2026'",
+    "staticGk": "UCC Committee headed by retired SC Judge Ranjana Prakash Desai | Article 44 DPSP.",
+    "secId": "sec4",
+    "interviewQ": "\"How does the MP Uniform Civil Code 2026 handle live-in relationships and tribal exemptions?\"\n💡 **Model Answer: It mandates live-in registration within 1 month with legal rights for children, while completely exempting Scheduled Tribes under Part XXI of the Constitution.**",
+    "id": "note-sec4-350",
+    "date": "2026-07-19",
+    "trap": "UCC applicability (Exempts Scheduled Tribes) vs live-in registration default penalty (up to 3 months imprisonment).",
+    "bullets": [
+      "4th UCC State: Madhya Pradesh becomes 4th state after Uttarakhand, Gujarat, and Assam to approve a draft Uniform Civil Code.",
+      "Draft Provisions: Bans Triple Talaq, halala, and polygamy; mandates live-in relationship registration within 1 month (3 months jail for default); grants equal inheritance to children born of live-in/surrogacy.",
+      "Exemption: Strictly exempts Scheduled Tribes (Bhil, Gond, Korku, Baiga, Sahariya, Bharia) and Part XXI protected groups."
+    ],
+    "hook": "4th Indian state to adopt a UCC framework, setting marriage age at 21 (men) and 18 (women).",
+    "tier": "Tier A"
+  },
+  {
+    "title": "Andhra Pradesh Launches 'Pillale Sampada' (Children are Wealth) Population Initiative",
+    "staticGk": "Andhra Pradesh CM: N. Chandrababu Naidu | Per capita target ₹55 lakh by 2047.",
+    "secId": "sec4",
+    "interviewQ": null,
+    "id": "note-sec4-351",
+    "date": "2026-07-20",
+    "trap": "Incentive for 3rd child (₹30,000) vs 4th child (₹40,000).",
+    "bullets": [
+      "Demographic Incentive: Financial assistance of ₹30,000 for 3rd child birth and ₹40,000 for 4th child birth.",
+      "Policy Vision: Tackles declining fertility and rapid population ageing in southern states under 'Swarna Andhra 2047'."
+    ],
+    "hook": "Offers ₹30,000 for 3rd child and ₹40,000 for 4th child to tackle declining fertility.",
+    "tier": "Tier A"
+  },
+  {
+    "title": "NITI Aayog Releases First-Ever 'Investment Friendliness Index (IFI) 2026': Gujarat Ranks #1",
+    "staticGk": "IFI index announced in Union Budget 2025-26 | NITI Aayog CEO: B.V.R. Subrahmanyam.",
+    "secId": "sec2",
+    "interviewQ": null,
+    "id": "note-sec2-352",
+    "date": "2026-07-21",
+    "trap": "Large States 1st rank (Gujarat 56.6) vs Hilly States 1st rank (Uttarakhand) vs UTs 1st rank (Goa).",
+    "bullets": [
+      "Large States Ranking: Gujarat #1 (56.6/100), Maharashtra #2 (53.7), Tamil Nadu #3 (53.3).",
+      "Category Winners: Uttarakhand #1 among Hilly/NE States; Goa #1 among UTs and City States.",
+      "Evaluation Pillars: Assesses 28 states & 8 UTs across 84 indicators spanning 8 pillars (infrastructure, regulatory ease, fiscal health)."
+    ],
+    "hook": "Gujarat tops Large States with 56.6 score; Uttarakhand tops Hilly/NE states.",
+    "tier": "Tier A"
+  },
+  {
+    "title": "NITI Aayog Releases Bioeconomy Roadmap 2035: Targets  Billion Bioeconomy by 2035",
+    "staticGk": "Union Science Minister: Dr. Jitendra Singh | India currently 4.8% GDP bioeconomy.",
+    "secId": "sec2",
+    "interviewQ": null,
+    "id": "note-sec2-353",
+    "date": "2026-07-22",
+    "trap": "Bioeconomy 2035 target ( billion) vs 2047 target (.6 trillion).",
+    "bullets": [
+      "Bioeconomy Targets: Projects growth from .3B (2025) to  by 2035 and .6 trillion by 2047 (8-10% of  GDP).",
+      "6 National BioMissions: GeneIndia, AgriBio 2.0, BioX Foundry, One Health Grid, Marine Biotechnology, BioPharmaNext.",
+      "Fund Allocation: Proposes ₹50,000-crore BioEconomy Growth Fund (2026-2035) to bridge lab-to-market commercialisation."
+    ],
+    "hook": "Recommends ₹50,000-crore BioEconomy Growth Fund across 6 National BioMissions.",
+    "tier": "Tier A"
+  },
+  {
+    "title": "Chhattisgarh Passes 'Chhattisgarh Ease of Doing Business Act 2026'",
+    "staticGk": "Chhattisgarh CM: Vishnu Deo Sai | Capital: Raipur.",
+    "secId": "sec4",
+    "interviewQ": null,
+    "id": "note-sec4-354",
+    "date": "2026-07-23",
+    "trap": null,
+    "bullets": [
+      "Risk-Based Approvals: Replaces uniform approvals with risk-based self-certification for low-risk businesses and deemed approvals for larger units.",
+      "Initial Scope: Encompasses 43 services across 8 state government departments."
+    ],
+    "hook": "First Indian state to introduce a comprehensive risk-based and trust-based business permission system.",
+    "tier": "Tier A"
+  },
+  {
+    "title": "Goa Amends Public Gambling Act 1976: Fixes Minimum Casino Entry Age at 21",
+    "staticGk": "Goa CM: Pramod Sawant | Capital: Panaji.",
+    "secId": "sec4",
+    "interviewQ": null,
+    "id": "note-sec4-355",
+    "date": "2026-07-24",
+    "trap": "Casino minimum age (21 years) vs late license fee penal interest (18% p.a.).",
+    "bullets": [
+      "Age Restriction: Mandates minimum entry age of 21 years for designated casino licensed zones.",
+      "Late Fee Penalty: Imposes 18% annual penal interest on operators for delayed annual recurring license fees."
+    ],
+    "hook": "Restricts casino gambling access across 6 offshore vessels and onshore venues to age 21+.",
+    "tier": "Tier A"
+  },
+  {
+    "title": "EPFO Launches 'VISHWAS 2026' One-Time Penalty & Damages Dispute Resolution Scheme",
+    "staticGk": "EPFO CEO: Ramesh Krishnamurthi | Established 1952.",
+    "secId": "sec2",
+    "interviewQ": null,
+    "id": "note-sec2-356",
+    "date": "2026-07-25",
+    "trap": "VISHWAS 2026 scheme duration (6 months) vs default cutoff date (June 14, 2024).",
+    "bullets": [
+      "Dispute Settlement: One-time resolution scheme for penalty disputes under Sec 14B EPF Act 1952 and Sec 128 Code on Social Security 2020.",
+      "Reduced Damages Scale: Defaults before June 14, 2024 get reduced damages of 0.25%/month (up to 2 months), 0.50%/month (2-4 months), and 1%/month (>4 months)."
+    ],
+    "hook": "Operational for 6 months to settle Sec 14B EPF penalty disputes with reduced damages.",
+    "tier": "Tier A"
+  },
+  {
+    "title": "MoHUA Approves Operational Guidelines for ₹9,585 Crore 'PARIVARTAN Scheme'",
+    "staticGk": "Implementing Ministry: Ministry of Road Transport & Highways | Target Region: NCR.",
+    "secId": "sec4",
+    "interviewQ": null,
+    "id": "note-sec4-357",
+    "date": "2026-07-26",
+    "trap": "Total scheme outlay (₹9,585 crore) vs central budgetary support (₹5,041 crore).",
+    "bullets": [
+      "Outlay & Central Support: ₹9,585 crore total outlay including ₹5,041 crore central budgetary support.",
+      "Incentive Package: Motor vehicle tax waivers, 5% interest subvention on vehicle loans, min 8% OEM discount, and Certificate of Deposit (CoD) trading."
+    ],
+    "hook": "Accelerates replacement of polluting NCR trucks and buses with BS-VI or electric vehicles.",
+    "tier": "Tier A"
+  },
+  {
+    "title": "MoSPI Releases 'PAIMANA' Infrastructure Monitoring Dashboard (165 Indicators)",
+    "staticGk": "PAIMANA replaces 20-year-old OCMS-2006 system.",
+    "secId": "sec2",
+    "interviewQ": null,
+    "id": "note-sec2-358",
+    "date": "2026-07-27",
+    "trap": "2036 energy storage target (888 GWh) vs FY28 baseline (87 GWh).",
+    "bullets": [
+      "Dashboard Scope: PAIMANA (Project Assessment, Infrastructure Monitoring & Analytics for Nation-building) tracks 165 indicators across 6 sub-sectors.",
+      "Energy Storage Forecast: India's energy storage requirement projected to rise 10x to 888 GWh by FY36 (from 87 GWh in FY28).",
+      "Teledensity: National teledensity improved to 93.26% in FY26 as mobile towers reached 8.55 lakh."
+    ],
+    "hook": "Replaces OCMS-2006 to track power, civil aviation, telecom, rail, roads, and ports.",
+    "tier": "Tier A"
+  },
+  {
+    "title": "DoT & TSDSI Sign MoU under ₹203 Crore 'TDIP Scheme' for Bharat 6G Standardisation",
+    "staticGk": "Telecom Minister: Jyotiraditya M. Scindia | Bharat 6G Mission target 2030.",
+    "secId": "sec5",
+    "interviewQ": null,
+    "id": "note-sec5-359",
+    "date": "2026-07-28",
+    "trap": "Startup support limit (98% for turnover ≤ ₹10 cr) vs mid-sized MSME support limit (80%).",
+    "bullets": [
+      "TDIP Scheme Outlay: ₹203 crore outlay (2026-2031) under Technology Development and Investment Promotion Scheme.",
+      "Financial Support: Up to 98% funding for startups (turnover ≤ ₹10 cr) and 80% (turnover ₹10 cr – ₹500 cr) to participate in 3GPP, ITU, and oneM2M standards meetings."
+    ],
+    "hook": "Provides up to 98% financial support to Indian startups/MSMEs for global SDO participation.",
+    "tier": "Tier A"
+  },
+  {
+    "title": "DPIIT Approves 51:49 Joint Venture Between Dixon Technologies & Vivo Mobile India",
+    "staticGk": "DPIIT Secretary: Amardeep Singh Bhatia | Ministry of Commerce & Industry.",
+    "secId": "sec5",
+    "interviewQ": null,
+    "id": "note-sec5-360",
+    "date": "2026-07-29",
+    "trap": "Dixon controlling stake (51%) vs Vivo stake (49%).",
+    "bullets": [
+      "Equity Ratio: Dixon Technologies holds 51% controlling stake; Vivo Mobile India holds 49%.",
+      "Manufacturing Scale: Dixon operates 17 manufacturing facilities in India."
+    ],
+    "hook": "Dixon holds 51% controlling stake in ₹5 crore JV for domestic smartphone manufacturing.",
+    "tier": "Tier A"
+  },
+  {
+    "title": "MCD & NDDB Sign MoU for 3 Compressed Bio-Gas (CBG) Plants in Delhi",
+    "staticGk": "Yamuna Rejuvenation Target: Zero untreated wastewater entering Yamuna by Dec 2028.",
+    "secId": "sec4",
+    "interviewQ": null,
+    "id": "note-sec4-361",
+    "date": "2026-07-30",
+    "trap": "Cow dung procurement rate (₹1/kg) vs Yamuna zero-wastewater target (Dec 2028).",
+    "bullets": [
+      "CBG Plant Locations: Nangli, Ghoga-Goyla, and Ghazipur waste management facilities in Delhi.",
+      "Livestock Owner Payout: Livestock owners receive ₹1 per kg of cow dung supplied."
+    ],
+    "hook": "Converts dairy cow dung into CBG at Nangli, Ghoga-Goyla, and Ghazipur to clean Yamuna.",
+    "tier": "Tier A"
+  },
+  {
+    "title": "Arunachal Pradesh & Norway's Tidal Sail AS Sign MoU for 500 kW River Kinetic Plant",
+    "staticGk": "Arunachal Pradesh CM: Pema Khandu | Capital: Itanagar.",
+    "secId": "sec4",
+    "interviewQ": null,
+    "id": "note-sec4-362",
+    "date": "2026-07-31",
+    "trap": null,
+    "bullets": [
+      "Project Capacity: 500 kW River Kinetic Energy Demonstration Project.",
+      "Technology Advantage: Generates electricity directly from river currents without requiring dams or civil barriers."
+    ],
+    "hook": "Establishes India's 1st river kinetic energy demonstration project generating power from river currents.",
+    "tier": "Tier A"
   }
 ];
 
