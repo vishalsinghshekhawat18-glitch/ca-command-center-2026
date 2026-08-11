@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Banking Command Center 2026 — CA & Quant Superbook</title>
+  <title>Banking Command Center 2026 — CA, Quant & Exam Tracker</title>
   <meta name="description" content="Kindle E-Book Reader Command Center for Banking, Regulatory, and Civil Services Exams.">
-  <link rel="stylesheet" href="styles.css?v=v4.1">
+  <link rel="stylesheet" href="styles.css?v=v4.2">
 </head>
 <body>
 
@@ -22,6 +22,9 @@
       <div class="header-controls">
         <button id="toggleSubjectBtn" class="toggle-chip active">
           📚 Subject: Current Affairs <span id="subjectChevron">▼</span>
+        </button>
+        <button id="toggleTrackerBtn" class="toggle-chip">
+          ⏱️ Exam Tracker <span id="trackerBadge" class="badge-count">11d</span> <span id="trackerChevron">▼</span>
         </button>
         <button id="toggleSidebarBtn" class="toggle-chip">
           🔒 Locked Sections <span id="sidebarChevron">▼</span>
@@ -50,6 +53,96 @@
         <button class="nav-item-btn active" onclick="switchSubject('ca')">📰 Current Affairs Command Center <span class="badge-count">205 Notes</span></button>
         <button class="nav-item-btn" onclick="switchSubject('quant')">📐 The Quant Superbook (Banking Mains) <span class="badge-count">8 Topics</span></button>
       </div>
+    </div>
+  </div>
+
+  <!-- Interactive Exam Tracker & Dashboard Panel -->
+  <div id="trackerNavDrawer" class="nav-drawer-panel">
+    <div class="nav-drawer-container">
+      
+      <div class="nav-drawer-header">
+        <span>⏱️ BANKING EXAM COMMAND CENTER & TRACKER</span>
+        <span id="trackerCountdownHeader" class="badge-count" style="background: var(--accent-warm); color: #fff; font-weight: 600;">⚡ IBPS PO Prelims: 11 Days Left</span>
+      </div>
+
+      <!-- Tracker Tabs Bar -->
+      <div class="tracker-tabs-bar">
+        <button id="tabBtn1" class="tracker-tab-btn active" onclick="switchTrackerTab(1)">⚡ Target & Mocks</button>
+        <button id="tabBtn2" class="tracker-tab-btn" onclick="switchTrackerTab(2)">📊 Study Log</button>
+        <button id="tabBtn3" class="tracker-tab-btn" onclick="switchTrackerTab(3)">🗓️ Timetable</button>
+        <button id="tabBtn4" class="tracker-tab-btn" onclick="switchTrackerTab(4)">✅ Checklist</button>
+      </div>
+
+      <!-- Tab Content 1: Target & Mocks -->
+      <div id="trackerTab1" class="tracker-tab-content active">
+        <div class="tracker-card-grid">
+          <div class="tracker-card">
+            <h4 style="color: var(--accent-warm); font-size: 0.95rem; margin-bottom: 6px;">🎯 Primary Target & Sprint</h4>
+            <div style="font-weight: 700; font-size: 1.05rem;" id="trackerTargetTitle">IBPS PO Prelims 2026</div>
+            <div style="font-size: 0.88rem; color: var(--text-muted); margin-top: 4px;" id="trackerTargetSprint">Phase 1: 14-Day Sprint (Target: 65+ Marks / 92%+ile)</div>
+          </div>
+          <div class="tracker-card">
+            <h4 style="color: var(--accent-gold); font-size: 0.95rem; margin-bottom: 6px;">📝 Latest Mock Performance Audit</h4>
+            <div id="trackerMockAuditList" style="font-size: 0.88rem; line-height: 1.6;">
+              <!-- Populated dynamically -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab Content 2: Daily Study Log -->
+      <div id="trackerTab2" class="tracker-tab-content">
+        <div class="tracker-card" style="margin-top: 10px;">
+          <h4 style="color: var(--accent-warm); font-size: 0.95rem; margin-bottom: 10px;">📊 Log Hours Studied Today</h4>
+          <div style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap;">
+            <input type="number" id="studyHoursInput" step="0.5" min="0" max="24" value="6.5" style="width: 90px; padding: 6px 10px; font-family: var(--font-mono); font-size: 1rem; border: 1px solid var(--border-subtle); border-radius: 4px;">
+            <span style="font-size: 0.9rem;">/ <strong id="targetHoursLabel">7.0</strong> Hours Target</span>
+            <button onclick="saveStudyHours()" class="answer-toggle-btn" style="margin-top: 0;">💾 Save Log</button>
+          </div>
+          <div style="margin-top: 14px;">
+            <div style="display: flex; justify-content: space-between; font-size: 0.8rem; color: var(--text-muted); margin-bottom: 4px;">
+              <span>Daily Target Progress</span>
+              <span id="studyProgressPct">93%</span>
+            </div>
+            <div style="background: rgba(0,0,0,0.06); height: 10px; border-radius: 5px; overflow: hidden;">
+              <div id="studyProgressBar" style="background: var(--accent-warm); height: 100%; width: 93%; transition: width 0.3s ease;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab Content 3: Master Timetable -->
+      <div id="trackerTab3" class="tracker-tab-content">
+        <div class="quant-table-wrapper" style="margin-top: 10px;">
+          <table class="quant-table">
+            <thead>
+              <tr>
+                <th>Time Window</th>
+                <th>Zone</th>
+                <th>Focus Area & Action</th>
+                <th>Duration</th>
+              </tr>
+            </thead>
+            <tbody id="trackerTimetableBody">
+              <!-- Populated dynamically -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Tab Content 4: Task & Revision Checklist -->
+      <div id="trackerTab4" class="tracker-tab-content">
+        <div style="margin-top: 10px;">
+          <div style="display: flex; gap: 8px; margin-bottom: 12px;">
+            <input type="text" id="newTaskInput" placeholder="Add custom study task or mock target..." style="flex: 1; padding: 6px 12px; font-family: var(--font-sans); font-size: 0.88rem; border: 1px solid var(--border-subtle); border-radius: 4px;">
+            <button onclick="addNewTask()" class="answer-toggle-btn" style="margin-top: 0;">➕ Add Task</button>
+          </div>
+          <div id="trackerTaskList" class="tracker-task-list">
+            <!-- Populated dynamically -->
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 
@@ -112,15 +205,16 @@
         <!-- Rendered dynamically by app.js -->
       </div>
 
-      <!-- Section Drill Area (Rendered when specific CA section is selected) -->
+      <!-- Section Drill Area -->
       <div id="drillContainer"></div>
 
     </section>
 
   </main>
 
-  <script src="data.js?v=v4.1"></script>
-  <script src="quant_data.js?v=v4.1"></script>
-  <script src="app.js?v=v4.1"></script>
+  <script src="data.js?v=v4.2"></script>
+  <script src="quant_data.js?v=v4.2"></script>
+  <script src="dashboard_data.js?v=v4.2"></script>
+  <script src="app.js?v=v4.2"></script>
 </body>
 </html>
