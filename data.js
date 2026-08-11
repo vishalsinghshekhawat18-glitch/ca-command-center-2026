@@ -3082,6 +3082,1307 @@ const CA_NOTES_DATA = [
     ],
     "secId": "sec5",
     "date": "2026-08-02"
+  },
+  {
+    "secId": "sec1",
+    "interviewQ": null,
+    "date": "2026-07-01",
+    "bullets": [
+      "Funding Agency: Asian Development Bank (ADB) approved .89 million loan (in yen equivalent).",
+      "Implementation Scope: Upgrades infrastructure and learning facilities for 500 integrated public schools in rural and semi-urban districts."
+    ],
+    "title": "ADB Approves .89 Million Loan for Karnataka Public School Infrastructure",
+    "staticGk": "ADB HQ: Manila, Philippines | President: Masato Kanda | Karnataka CM: Siddaramaiah / D.K. Shivakumar.",
+    "tier": "Tier A",
+    "hook": "Strengthens public education system by establishing 500 integrated public schools across Karnataka.",
+    "trap": null,
+    "id": "note-sec1-206"
+  },
+  {
+    "secId": "sec5",
+    "interviewQ": null,
+    "date": "2026-07-02",
+    "bullets": [
+      "Consortium Partners: Lightstorm, Microsoft, Singtel, and Tata Communications.",
+      "Landing Points in India: Machilipatnam (Andhra Pradesh) and South Chennai (Tamil Nadu).",
+      "System Suppliers: NEC Corporation appointed system supplier; ASEAN Cableship Pte Ltd (ACPL) marine partner."
+    ],
+    "title": "Microsoft, Lightstorm, Singtel, & Tata Comms Partner to Build 'I-2SEA' Undersea Cable",
+    "staticGk": "Singtel HQ: Singapore | Tata Communications HQ: Mumbai | NEC Corporation HQ: Tokyo, Japan.",
+    "tier": "Tier A",
+    "hook": "Links India with Malaysia and Singapore to expand regional AI and cloud data centre connectivity.",
+    "trap": "Landing points (Machilipatnam & Chennai) vs international hubs (Kuala Lumpur & Singapore).",
+    "id": "note-sec5-207"
+  },
+  {
+    "secId": "sec1",
+    "interviewQ": "\"Why did the government introduce the 'principal employer' concept in EPF Scheme 2026?\"\n💡 **Model Answer: It prevents principal contractors from evading social security contributions for outsourced contract workers by shifting legal compliance onto lead employers.**",
+    "date": "2026-07-03",
+    "bullets": [
+      "Contract Worker Norms: Introduces 'principal employer' concept requiring mandatory EPF contribution for contract workers.",
+      "Contribution Timelines: Employer must deposit employee and employer contributions within 15 days of month-end.",
+      "Streamlined Withdrawals: Withdrawal categories consolidated from 13 to 3 (Essential Needs, Housing, Special Circumstances).",
+      "Mandatory Balance & Unemployment: 25% minimum balance required; 75% withdrawal permitted after 12 months membership; 100% full withdrawal permitted after 1 year of unemployment.",
+      "Contribution Rates: 12% standard contribution (10% for notified units); wage ceiling fixed at ₹15,000."
+    ],
+    "title": "Central Government Notifies Employees' Provident Fund Scheme 2026 (Replaces 1952 Rules)",
+    "staticGk": "EPFO works under Ministry of Labour & Employment | Minister: Mansukh Mandaviya.",
+    "tier": "Tier A",
+    "hook": "Introduces 'principal employer' liability for contract workers and streamlines withdrawal rules into 3 categories.",
+    "trap": "3 withdrawal categories (down from 13) vs 25% mandatory minimum balance requirement.",
+    "id": "note-sec1-208"
+  },
+  {
+    "secId": "sec1",
+    "interviewQ": null,
+    "date": "2026-07-04",
+    "bullets": [
+      "Settlement Window: EPFO mandated to settle PF withdrawal claims within 3 working days.",
+      "Penal Interest Penalty: Imposes 12% penal interest per annum on officials for claim delays exceeding 20 days.",
+      "Pension & Insurance Claims: Pension and EDLI insurance claims must be processed within 20 days.",
+      "Full Corpus Withdrawal Age: Lowers the age for full PF corpus withdrawal to 55 years (international workers 58 years)."
+    ],
+    "title": "New EPFO Rules Mandate 3-Day Settlement Window with 12% Penal Interest on Delays",
+    "staticGk": "EPFO established in 1952 under EPF & MP Act 1952 | HQ: New Delhi.",
+    "tier": "Tier A",
+    "hook": "Imposes strict 3-day turnaround time for provident fund withdrawal claims to eliminate administrative delays.",
+    "trap": "3-day PF settlement window vs 20-day penal interest threshold.",
+    "id": "note-sec1-209"
+  },
+  {
+    "secId": "sec1",
+    "interviewQ": null,
+    "date": "2026-07-05",
+    "bullets": [
+      "Public Provident Fund (PPF): 7.10% annual interest (Min ₹500, Max ₹1.5 Lakh p.a.; loans 3rd–6th FY; withdrawal from 7th FY).",
+      "Sukanya Samriddhi Yojana (SSY): 8.20% annual interest (Min ₹250, Max ₹1.5 Lakh p.a.; open till age 10; matures after 21 years)."
+    ],
+    "title": "Small Savings Scheme Interest Rates Unchanged for July–September 2026 Quarter",
+    "staticGk": "Small Savings Rates reviewed quarterly by Ministry of Finance.",
+    "tier": "Tier A",
+    "hook": "Finance Ministry retains PPF interest rate at 7.10% and Sukanya Samriddhi Yojana at 8.20%.",
+    "trap": "PPF interest rate (7.10%) vs SSY interest rate (8.20%).",
+    "id": "note-sec1-210"
+  },
+  {
+    "secId": "sec1",
+    "interviewQ": null,
+    "date": "2026-07-06",
+    "bullets": [
+      "Ring-Main Solution: Chennai becomes 1st Indian city to implement a ring-main water supply architecture.",
+      "Project Goal: Modernises municipal water supply, sewage treatment, and flood resilience in Chennai."
+    ],
+    "title": "ADB Approves  Million Loan for Chennai Water Supply & Sanitation Infrastructure",
+    "staticGk": "Tamil Nadu CM: M. K. Stalin | Capital: Chennai.",
+    "tier": "Tier A",
+    "hook": "Finances India's 1st urban ring-main solution for resilient water distribution in Chennai.",
+    "trap": null,
+    "id": "note-sec1-211"
+  },
+  {
+    "secId": "sec1",
+    "interviewQ": null,
+    "date": "2026-07-07",
+    "bullets": [
+      "Unemployment Rate: Average unemployment across 46 million-plus cities stood at 6.8% (Prayagraj & Patna >20%; Ahmedabad & Kolkata <2.5%).",
+      "Regular vs Casual Jobs: Regular wage/salary jobs accounted for 58.5% in million-plus cities (vs 47.6% urban India); casual labor stood at 6.3% (vs 12% urban India).",
+      "Female Participation: Female regular employment reached 65.1% in million-plus cities, surpassing male counterparts (56.4%).",
+      "Earnings Comparison: Self-employed earned ₹30,858/month (vs ₹23,013 urban India); regular employees ₹28,808 (vs ₹26,258); casual labour ₹624/day (vs ₹550)."
+    ],
+    "title": "NSO Report: Regular Salary Employment Higher in Million-Plus Cities (58.5% vs 47.6% Urban India)",
+    "staticGk": "National Statistics Office (NSO) works under MoSPI | Minister: Rao Inderjit Singh.",
+    "tier": "Tier A",
+    "hook": "Highlights urban employment structure across 46 million-plus population cities under PLFS 2025 survey.",
+    "trap": "Female regular job rate in million-plus cities (65.1%) vs male rate (56.4%).",
+    "id": "note-sec1-212"
+  },
+  {
+    "secId": "sec1",
+    "interviewQ": null,
+    "date": "2026-07-08",
+    "bullets": [
+      "Divestment Structure: Base 2.52% stake plus 2.52% green-shoe option at ₹1,400 per share floor price.",
+      "Government Stake: Union Government holds 67.91% equity stake in Cochin Shipyard Ltd (CSL).",
+      "Disinvestment Target: FY27 budget target set at ₹80,000 crore for PSU disinvestment and asset monetisation."
+    ],
+    "title": "Govt Disinvests 2.52% Base Stake in Cochin Shipyard via OFS at ₹1,400 Floor Price",
+    "staticGk": "Cochin Shipyard Ltd HQ: Kochi, Kerala | Greenshoe Option: Post-listing stabilisation mechanism (up to 15% extra shares).",
+    "tier": "Tier A",
+    "hook": "Unlocks PSU equity via Offer for Sale (OFS) with an additional 2.52% green-shoe oversubscription option.",
+    "trap": "Base OFS stake (2.52%) vs green-shoe option (2.52%) vs maximum greenshoe limit (15%).",
+    "id": "note-sec1-213"
+  },
+  {
+    "secId": "sec1",
+    "interviewQ": null,
+    "date": "2026-07-09",
+    "bullets": [
+      "India Category: India remains a Lower-Middle-Income Economy (,176 – ,635 GNI per capita).",
+      "Category Upgrades: Sri Lanka, Vietnam, Philippines, Jordan, Micronesia moved to Upper-Middle-Income (,636–,375); Togo moved to Lower-Middle-Income.",
+      "Income Thresholds: Low-income (≤,175), Lower-middle (,176–,635), Upper-middle (,636–,375), High-income (>,375)."
+    ],
+    "title": "World Bank Income Classification 2026: India Retains Lower-Middle-Income Status",
+    "staticGk": "World Bank HQ: Washington D.C., US | President: Ajay Banga.",
+    "tier": "Tier A",
+    "hook": "Classifies 218 global economies using Atlas method GNI per capita thresholds.",
+    "trap": "India classification (Lower-Middle Income) vs Sri Lanka/Vietnam (Upper-Middle Income).",
+    "id": "note-sec1-214"
+  },
+  {
+    "secId": "sec1",
+    "interviewQ": null,
+    "date": "2026-07-10",
+    "bullets": [
+      "Loan Quantum: JPY 80 billion green loan facility signed with JBIC.",
+      "Project Purpose: Integrates renewable power from Khavda (Gujarat) to Nagpur (Maharashtra) via HVDC grid."
+    ],
+    "title": "POWERGRID Secures JPY 80 Billion Green Loan from Japan Bank for International Cooperation (JBIC)",
+    "staticGk": "POWERGRID Maharatna CPSE HQ: Gurugram, Haryana | JBIC HQ: Tokyo, Japan.",
+    "tier": "Tier A",
+    "hook": "Finances Khavda-Nagpur high-voltage direct current (HVDC) transmission infrastructure in India.",
+    "trap": null,
+    "id": "note-sec1-215"
+  },
+  {
+    "secId": "sec1",
+    "interviewQ": null,
+    "date": "2026-07-11",
+    "bullets": [
+      "India Growth Forecasts: 6.4% in FY27 and 6.7% in FY28 under World Economic Outlook update.",
+      "Global Growth Outlook: World growth projected to moderate to 3.0% in 2026 before recovering to 3.4% in 2027."
+    ],
+    "title": "IMF World Economic Outlook: India Projected to Grow at 6.4% in FY27 and 6.7% in FY28",
+    "staticGk": "IMF Chief Economist: Silvana Tenreyro | Managing Director: Kristalina Georgieva | HQ: Washington D.C.",
+    "tier": "Tier A",
+    "hook": "Reaffirms India's position as the world's fastest-growing major economy.",
+    "trap": "India FY27 GDP forecast (6.4%) vs FY28 GDP forecast (6.7%).",
+    "id": "note-sec1-216"
+  },
+  {
+    "secId": "sec1",
+    "interviewQ": null,
+    "date": "2026-07-12",
+    "bullets": [
+      "GDP Revision: India FY27 GDP growth revised to 6.6% (from earlier 6.9%) due to Middle East energy risks.",
+      "Inflation Forecast: Inflation forecast raised to 5.2% (from 4.5% projected in April)."
+    ],
+    "title": "ADB Trims India's FY27 Growth Forecast to 6.6% Amid Energy Price Concerns",
+    "staticGk": "ADB Asian Development Outlook published biannually | ADB HQ: Manila.",
+    "tier": "Tier A",
+    "hook": "Asian Development Outlook (ADO) raises India inflation forecast sharply to 5.2%.",
+    "trap": "ADB FY27 GDP forecast (6.6%) vs IMF FY27 GDP forecast (6.4%).",
+    "id": "note-sec1-217"
+  },
+  {
+    "secId": "sec1",
+    "interviewQ": null,
+    "date": "2026-07-13",
+    "bullets": [
+      "Database Migration: Unified CITES 2.01 platform consolidates 340 million accounts across 120 databases.",
+      "Auto-Settlement Threshold: Auto-settlement limit for KYC-compliant advance claims raised from ₹1 lakh to ₹5 lakh.",
+      "PF Interest Crediting: Enables crediting of 2025-26 PF interest by July 15 ahead of traditional schedule."
+    ],
+    "title": "EPFO Rolls Out Centralised CITES 2.01 Platform for 340 Million Member Accounts",
+    "staticGk": "Central Board of Trustees (CBT) approved CITES platform | EPFO HQ: New Delhi.",
+    "tier": "Tier A",
+    "hook": "Migrates 120 decentralised databases into a single national system for automated claim processing.",
+    "trap": "Auto-settlement limit (₹5 lakh, up from ₹1 lakh) vs 3-day settlement mandate.",
+    "id": "note-sec1-218"
+  },
+  {
+    "secId": "sec1",
+    "interviewQ": null,
+    "date": "2026-07-14",
+    "bullets": [
+      "Duty Exemptions: Customs duty exempted on automotive/medical display assembly parts, mobile wireless charging modules, and lithium-ion cell machinery till March 31, 2029.",
+      "Previous Duty Rates: Duties previously ranged from 7.5% to 15%."
+    ],
+    "title": "Customs Duty Exempted on Lithium-Ion Battery Machinery & Charger Parts till March 2029",
+    "staticGk": "CBIC works under Department of Revenue, Ministry of Finance.",
+    "tier": "Tier B+",
+    "hook": null,
+    "trap": null,
+    "id": "note-sec1-219"
+  },
+  {
+    "secId": "sec1",
+    "interviewQ": null,
+    "date": "2026-07-15",
+    "bullets": [
+      "Funding Components:  IBRD loan,  Clean Technology Fund concessional loan,  Livable Planet Fund grant.",
+      "Scheme Outlay: PM Surya Ghar Yojana approved in Feb 2024 with ₹75,021 crore outlay for 10 million households.",
+      "National RE Target: India committed to 60% non-fossil electricity capacity by 2035 and net-zero emissions by 2070."
+    ],
+    "title": "World Bank Mobilises .2 Billion Package for PM Surya Ghar: Muft Bijli Yojana",
+    "staticGk": "IBRD is the primary lending arm of the World Bank Group | HQ: Washington D.C.",
+    "tier": "Tier A",
+    "hook": "Includes  million IBRD loan and  million Clean Technology Fund loan for rooftop solar.",
+    "trap": "IBRD loan ( million) vs ADB loan ( million).",
+    "id": "note-sec1-220"
+  },
+  {
+    "secId": "sec1",
+    "interviewQ": null,
+    "date": "2026-07-16",
+    "bullets": [
+      "Financial Grant: ₹4 crore financial assistance released in 3 installments (30:50:20 ratio).",
+      "ULB Incentive: Urban local bodies notifying street vending plans receive ₹25 lakh bonus incentive.",
+      "Partner Agencies: Coordinated by MoHUA, Ministry of Tourism, and FSSAI."
+    ],
+    "title": "Lakhanpur (J&K) Selected as First Town for PM SVANidhi Street Food Hub",
+    "staticGk": "PM SVANidhi launched June 1, 2020 by MoHUA | FSSAI HQ: New Delhi.",
+    "tier": "Tier A",
+    "hook": "Establishes modern street food hub under Ministry of Housing and Urban Affairs initiative.",
+    "trap": "PM SVANidhi street food hub grant (₹4 crore) vs ULB incentive (₹25 lakh).",
+    "id": "note-sec1-221"
+  },
+  {
+    "secId": "sec1",
+    "interviewQ": null,
+    "date": "2026-07-17",
+    "bullets": [
+      "Global Rankings: India became the world's 2nd-largest contributor to global savings in PPP terms (10.3% share).",
+      "Top Country: China ranks 1st globally with a 31.9% share of global savings.",
+      "Historical Growth: India's share rose from 3.3% in 1992 to 10.3% in 2025."
+    ],
+    "title": "India Overtakes US in PPP-Based Global Savings (Trails Only China)",
+    "staticGk": "EAC-PM Chairman: Bibek Debroy | Headquarters: New Delhi.",
+    "tier": "Tier A",
+    "hook": "EAC-PM working paper reveals India's global savings share rose to 10.3% in 2025.",
+    "trap": "India global savings share (10.3%, 2nd) vs China share (31.9%, 1st).",
+    "id": "note-sec1-222"
+  },
+  {
+    "secId": "sec1",
+    "interviewQ": null,
+    "date": "2026-07-18",
+    "bullets": [
+      "Global Outlook: Growth slows to 2.5% in 2026 before picking up to 2.8% in 2027.",
+      "K-Shaped Recovery: Tech-integrated sectors accelerate while traditional labor-intensive sectors decline."
+    ],
+    "title": "Moody's Analytics: Global Growth to Slow to 2.5% in 2026 Amid K-Shaped AI Divide",
+    "staticGk": "Moody's Corporation HQ: New York, US.",
+    "tier": "Tier B+",
+    "hook": null,
+    "trap": null,
+    "id": "note-sec1-223"
+  },
+  {
+    "secId": "sec1",
+    "interviewQ": null,
+    "date": "2026-07-19",
+    "bullets": [
+      "CII Index Value: Notified at 384 for FY 2026-27 (up from 376 in FY 2025-26).",
+      "Application Date: Applies from April 1, 2026 for indexation benefit calculations."
+    ],
+    "title": "CBDT Notifies Cost Inflation Index (CII) at 384 for FY 2026-27",
+    "staticGk": "CBDT Chairman: Ravi Agrawal | Works under Department of Revenue.",
+    "tier": "Tier A",
+    "hook": "Increases Cost Inflation Index by 2.3% for long-term capital gains tax calculations.",
+    "trap": "CII FY27 value (384) vs CII FY26 value (376).",
+    "id": "note-sec1-224"
+  },
+  {
+    "secId": "sec1",
+    "interviewQ": null,
+    "date": "2026-07-20",
+    "bullets": [
+      "State Rankings: Gujarat ranks 1st (749,839 installations); Uttar Pradesh 2nd; Maharashtra 3rd.",
+      "PM Surya Ghar Impact: Accelerated rooftop installations across UP households."
+    ],
+    "title": "Uttar Pradesh Overtakes Maharashtra as India's No. 2 in Rooftop Solar Installations",
+    "staticGk": "Gujarat CM: Bhupendra Patel | UP CM: Yogi Adityanath.",
+    "tier": "Tier A",
+    "hook": "UP secures 2nd spot nationally under PM Surya Ghar Muft Bijli Yojana behind Gujarat.",
+    "trap": "1st rank rooftop solar (Gujarat) vs 2nd rank (Uttar Pradesh).",
+    "id": "note-sec1-225"
+  },
+  {
+    "secId": "sec1",
+    "interviewQ": null,
+    "date": "2026-07-21",
+    "bullets": [
+      "Investment Pipeline: 20 infrastructure projects with  billion (₹20,000 crore) investment potential.",
+      "Partner Entity: International Finance Corporation (IFC), private-sector arm of World Bank Group."
+    ],
+    "title": "Odisha Signs ₹20,000 Crore TASA Agreement with World Bank's IFC",
+    "staticGk": "Odisha CM: Mohan Charan Majhi | IFC HQ: Washington D.C.",
+    "tier": "Tier A",
+    "hook": "Develops pipeline of 20 infrastructure projects under Transaction Advisory Services Agreement.",
+    "trap": null,
+    "id": "note-sec1-226"
+  },
+  {
+    "secId": "sec2",
+    "interviewQ": null,
+    "date": "2026-07-22",
+    "bullets": [
+      "Issuer Protection: CRAs must share key rating information with issuers before publishing ratings.",
+      "Registered CRAs: CareEdge Global IFSC Ltd and S&P Global Ratings Singapore registered in GIFT City."
+    ],
+    "title": "IFSCA Revises GIFT City Credit Rating Agency (CRA) Rules",
+    "staticGk": "IFSCA Chairman: K. Rajaraman | HQ: GIFT City, Gandhinagar, Gujarat.",
+    "tier": "Tier A",
+    "hook": "Mandates pre-rating sharing with issuers to correct factual errors before credit rating publication.",
+    "trap": null,
+    "id": "note-sec2-227"
+  },
+  {
+    "secId": "sec2",
+    "interviewQ": null,
+    "date": "2026-07-23",
+    "bullets": [
+      "Launch Date: Launched July 15, 2015 under Ministry of Skill Development and Entrepreneurship."
+    ],
+    "title": "Skill India Mission Completes 11 Years of Operation (Launched July 15, 2015)",
+    "staticGk": "MSDE Minister: Jayant Chaudhary (MoS I/C).",
+    "tier": "Tier B+",
+    "hook": null,
+    "trap": null,
+    "id": "note-sec2-228"
+  },
+  {
+    "secId": "sec2",
+    "interviewQ": null,
+    "date": "2026-07-24",
+    "bullets": [
+      "Coverage Milestone: 94 crore citizens covered under formal social security schemes.",
+      "Labor Reform Context: 4 Labour Codes consolidated and replaced 29 central labor laws."
+    ],
+    "title": "ILO Report: India's Social Security Coverage Expands to 64% (Encompassing 94 Crore People)",
+    "staticGk": "ILO Director-General: Gilbert F. Houngbo | HQ: Geneva, Switzerland.",
+    "tier": "Tier A",
+    "hook": "Expands social protection coverage from 19% in 2014 to 64% in 2026.",
+    "trap": "Social security coverage 2014 (19%) vs 2026 (64%).",
+    "id": "note-sec2-229"
+  },
+  {
+    "secId": "sec2",
+    "interviewQ": null,
+    "date": "2026-07-25",
+    "bullets": [
+      "CSR Initiative: Launched by Microsoft India and Foundation for Innovation and Technology Transfer (FITT), IIT Delhi.",
+      "Focus: Grassroots AI talent development and startup incubation in Tier 2 and Tier 3 cities."
+    ],
+    "title": "Microsoft India & FITT IIT Delhi Launch UNNATI AI 2.0 for Tier 2/3 Cities",
+    "staticGk": "IIT Delhi Director: Rangan Banerjee | Microsoft CEO: Satya Nadella.",
+    "tier": "Tier A",
+    "hook": "Democratizes AI access and nurtures deep-tech startups across non-metro hubs.",
+    "trap": null,
+    "id": "note-sec2-230"
+  },
+  {
+    "secId": "sec2",
+    "interviewQ": null,
+    "date": "2026-07-26",
+    "bullets": [
+      "Customs Duty Rationalisation: BCD structure simplified by eliminating 100%, 125%, and 150% peak rates, reducing applied rates to 8 bands.",
+      "Export Target: Scale share from 1.8% to 10% by 2047."
+    ],
+    "title": "WTO Trade Policy Review: India Targets 10% Share of Global Merchandise Exports by 2047",
+    "staticGk": "WTO Director-General: Ngozi Okonjo-Iweala | HQ: Geneva, Switzerland.",
+    "tier": "Tier A",
+    "hook": "Outlines strategy to expand global merchandise export share from 1.8% in 2024 to 10% by centenary.",
+    "trap": "India merchandise export share 2024 (1.8%) vs 2047 target (10%).",
+    "id": "note-sec2-231"
+  },
+  {
+    "secId": "sec2",
+    "interviewQ": null,
+    "date": "2026-07-27",
+    "bullets": [
+      "Eligibility Thresholds: Minimum 5 years fund management experience, Net worth ≥ ₹50 crore for past 5 years, Paid-up capital ≥ ₹25 crore.",
+      "Regulatory Oversight: Applicant must be regulated by RBI, SEBI, or IRDAI."
+    ],
+    "title": "PFRDA Opens On-Tap Registration for Pension Fund Managers under NPS",
+    "staticGk": "PFRDA Chairman: Deepak Mohanty | Established 2003 | HQ: New Delhi.",
+    "tier": "Tier A",
+    "hook": "Allows eligible asset managers to apply continuously for managing National Pension System funds.",
+    "trap": "PFM net worth requirement (₹50 crore) vs paid-up capital requirement (₹25 crore).",
+    "id": "note-sec2-232"
+  },
+  {
+    "secId": "sec2",
+    "interviewQ": null,
+    "date": "2026-07-28",
+    "bullets": [
+      "GPF Rate: 7.10% annual interest for July–September 2026 quarter (EPF subscribers earn 8.25%)."
+    ],
+    "title": "GPF Interest Rate Maintained at 7.1% for Q2 FY27; EPF Interest at 8.25%",
+    "staticGk": "GPF applies strictly to eligible government employees.",
+    "tier": "Tier B+",
+    "hook": null,
+    "trap": "GPF interest rate (7.10%) vs EPF interest rate (8.25%).",
+    "id": "note-sec2-233"
+  },
+  {
+    "secId": "sec2",
+    "interviewQ": null,
+    "date": "2026-07-29",
+    "bullets": [
+      "Foreign Cap: Foreign ownership capped at 49.5% on a fully diluted basis.",
+      "IOCC Advantage: Permits direct inventory ownership and sale on quick-commerce platform."
+    ],
+    "title": "Swiggy Board Caps Aggregate Foreign Ownership at 49.5% for IOCC Status",
+    "staticGk": "DPIIT FDI policy governs IOCC compliance thresholds.",
+    "tier": "Tier A",
+    "hook": "Qualifies quick-commerce Instamart as an Indian-Owned and Controlled Company (IOCC).",
+    "trap": "Swiggy foreign ownership cap (49.5%) vs standard retail FDI caps.",
+    "id": "note-sec2-234"
+  },
+  {
+    "secId": "sec2",
+    "interviewQ": null,
+    "date": "2026-07-30",
+    "bullets": [
+      "Tax Exemption: Gifts from specified relatives 100% tax-free; non-relative gifts taxable if aggregate exceeds ₹50,000 in a FY.",
+      "Immovable Property: NRIs/OCIs can receive residential/commercial property as gift; agricultural land, plantations, and farmhouses strictly restricted."
+    ],
+    "title": "Income Tax & FEMA Guidelines for NRI Gifts: Relative Gifts Tax-Free; Non-Relative Exemption ₹50,000",
+    "staticGk": "Income Tax Act 2025 replaced Income Tax Act 1961.",
+    "tier": "Tier A",
+    "hook": "Clarifies tax-free gift rules under Income Tax Act 2025 and FEMA remittance limits.",
+    "trap": "Tax-free non-relative gift threshold (₹50,000 p.a.) vs LRS gift limit (,000).",
+    "id": "note-sec2-235"
+  },
+  {
+    "secId": "sec2",
+    "interviewQ": null,
+    "date": "2026-07-31",
+    "bullets": [
+      "State Rankings: Gujarat ranks 1st in total plantation area; Andhra Pradesh 2nd.",
+      "MISHTI Scheme: Launched June 5, 2023 for 540 sq. km. mangrove restoration across 9 states and 4 UTs.",
+      "National Cover: West Bengal holds 42.45% of national mangrove cover (Sundarbans)."
+    ],
+    "title": "Andhra Pradesh Ranks 2nd Nationally in MISHTI Mangrove Restoration",
+    "staticGk": "Sundarbans is the world's largest contiguous mangrove forest (UNESCO World Heritage Site).",
+    "tier": "Tier A",
+    "hook": "Secures 2nd rank in mangrove plantation area under Shoreline Habitats initiative behind Gujarat.",
+    "trap": "1st rank mangrove plantation (Gujarat) vs largest national mangrove cover share (West Bengal, 42.45%).",
+    "id": "note-sec2-236"
+  },
+  {
+    "secId": "sec2",
+    "interviewQ": null,
+    "date": "2026-07-01",
+    "bullets": [
+      "Thermal Additions: 86,440 MW additional capacity needed by FY36 (63,545 MW under implementation).",
+      "Nuclear Capacity Target: Government targets 100 GW nuclear power capacity by 2047."
+    ],
+    "title": "CEA National Generation Adequacy Plan: India Needs 86.4 GW Additional Thermal Power by FY36",
+    "staticGk": "Central Electricity Authority (CEA) works under Ministry of Power | HQ: New Delhi.",
+    "tier": "Tier A",
+    "hook": "Estimates total coal and lignite thermal capacity requirement of 315,000 MW to meet 2035-36 demand.",
+    "trap": "Additional thermal power needed (86.4 GW) vs 2047 nuclear target (100 GW).",
+    "id": "note-sec2-237"
+  },
+  {
+    "secId": "sec2",
+    "interviewQ": null,
+    "date": "2026-07-02",
+    "bullets": [
+      "Individual Penalties: Paper leak jail term increased to 5-10 years (up from 3-5 yrs); max fine raised to ₹50 lakh.",
+      "Organised Crime Penalties: Minimum jail term 7-10 years; minimum fine ₹1 crore to ₹10 crore.",
+      "Service Provider Debarment: Debarment period for cheating service providers raised to 8 years (fine ₹1 cr to ₹5 cr)."
+    ],
+    "title": "Government Introduces Public Examinations (Prevention of Unfair Means) Amendment Bill 2026",
+    "staticGk": "Public Examinations Act 2024 introduced India's 1st central anti-paper leak law.",
+    "tier": "Tier A",
+    "hook": "Raises paper leak prison sentences up to 10 years and minimum fines up to ₹10 crore for organised syndicates.",
+    "trap": "Individual paper leak fine (up to ₹50 lakh) vs organised syndicate fine (min ₹1 crore to ₹10 crore).",
+    "id": "note-sec2-238"
+  },
+  {
+    "secId": "sec2",
+    "interviewQ": null,
+    "date": "2026-07-03",
+    "bullets": [
+      "CARF Alignment: Aligns Indian crypto exchange reporting with OECD global framework.",
+      "Reporting Scope: RCASPs must collect tax residency and TIN details for annual submission."
+    ],
+    "title": "CBDT Issues Crypto-Asset Reporting Framework (CARF) Compliance Rules",
+    "staticGk": "OECD HQ: Paris, France.",
+    "tier": "Tier B+",
+    "hook": null,
+    "trap": null,
+    "id": "note-sec2-239"
+  },
+  {
+    "secId": "sec2",
+    "interviewQ": null,
+    "date": "2026-07-04",
+    "bullets": [
+      "Super-Rich Taxpayers: 576 individuals reported income > ₹100 crore in AY 2025-26 (up 39% from 415).",
+      "Gini Inequality Reduction: Household survey Gini coefficient fell to 0.237 for rural areas and 0.284 for urban areas."
+    ],
+    "title": "Income Tax Data: 576 Individuals Report Gross Income Above ₹100 Crore in AY 2025-26",
+    "staticGk": "Gini Coefficient measures income/consumption inequality (0 = perfect equality, 1 = absolute inequality).",
+    "tier": "Tier A",
+    "hook": "High-income taxpayers rise 39% YoY as rural-urban Gini inequality index narrows.",
+    "trap": "Rural Gini coefficient (0.237) vs Urban Gini coefficient (0.284).",
+    "id": "note-sec2-240"
+  },
+  {
+    "secId": "sec2",
+    "interviewQ": null,
+    "date": "2026-07-05",
+    "bullets": [
+      "Savings Account Cash: Cash deposits ≥ ₹10 lakh in a FY.",
+      "Current Account Cash: Cash deposits/withdrawals ≥ ₹50 lakh in a FY.",
+      "Credit Cards: Cash payments ≥ ₹1 lakh or total payments ≥ ₹10 lakh in a FY.",
+      "Investments & Property: FDs/Mutual Funds/Bonds ≥ ₹10 lakh; Immovable property purchase/sale > ₹30 lakh."
+    ],
+    "title": "CBDT Reporting Thresholds for High-Value SFT Financial Transactions",
+    "staticGk": "Statement of Financial Transactions (SFT) filed under Section 285BA of Income Tax Act.",
+    "tier": "Tier A",
+    "hook": "Mandates bank and financial institution reporting for high-value cash deposits and credit card payments.",
+    "trap": "Savings account cash SFT limit (₹10 lakh) vs Current account limit (₹50 lakh).",
+    "id": "note-sec2-241"
+  },
+  {
+    "secId": "sec1",
+    "interviewQ": null,
+    "date": "2026-07-06",
+    "bullets": [
+      "Policy Relaxation: FDI restriction lifted for inventory-based e-commerce when selling domestically produced goods exclusively for export.",
+      "Marketplace vs B2C: FDI remains barred in standard domestic B2C inventory e-commerce."
+    ],
+    "title": "India Permits FDI in Inventory-Based E-Commerce Model Exclusively for Exports",
+    "staticGk": "DGFT works under Ministry of Commerce and Industry | Minister: Piyush Goyal.",
+    "tier": "Tier A",
+    "hook": "Allows 100% FDI in inventory-based e-commerce for exported domestic products via DGFT proposal.",
+    "trap": "FDI in export inventory model (permitted) vs domestic B2C inventory model (prohibited).",
+    "id": "note-sec1-242"
+  },
+  {
+    "secId": "sec1",
+    "interviewQ": null,
+    "date": "2026-07-07",
+    "bullets": [
+      "TReDS Mandate: Mandatory TReDS routing for CPSU MSME invoices.",
+      "Facilitation Councils: States mandated to establish 3-5 member MSE Facilitation Councils with legal experts.",
+      "Appeals Deposit: Buyers challenging MSE awards must deposit at least 50% of awarded amount if pending > 6 months."
+    ],
+    "title": "MSME Development Amendment Bill 2026 Mandates TReDS Invoice Routing for CPSUs",
+    "staticGk": "TReDS (Trade Receivables Discounting System) regulated by RBI.",
+    "tier": "Tier A",
+    "hook": "Requires all Central PSUs to route MSME supplier invoices through TReDS platforms.",
+    "trap": "TReDS appeal deposit requirement (min 50% of awarded amount) vs council members (3-5).",
+    "id": "note-sec1-243"
+  },
+  {
+    "secId": "sec1",
+    "interviewQ": null,
+    "date": "2026-07-08",
+    "bullets": [
+      "Export Breakdown: Merchandise exports .8 billion; Services exports .3 billion (Total .1B).",
+      "Top FTA Destination: ASEAN countries emerged as highest merchandise export destination (.42B), followed by UAE (.36B)."
+    ],
+    "title": "India's Total Exports Reach Record .1 Billion in FY 2025-26",
+    "staticGk": "ASEAN (10 member nations) HQ: Jakarta, Indonesia.",
+    "tier": "Tier A",
+    "hook": "Merchandise exports touch .8B and services exports reach .3B.",
+    "trap": "Merchandise exports (.8B) vs Services exports (.3B).",
+    "id": "note-sec1-244"
+  },
+  {
+    "secId": "sec2",
+    "interviewQ": "\"How does the RBI Integrated Ombudsman Scheme 2026 protect retail banking customers?\"\n💡 **Model Answer: It provides a single-window grievance mechanism with a 30-day RE resolution mandate and caps compensation at ₹30 lakh for financial loss plus ₹3 lakh for harassment.**",
+    "date": "2026-07-09",
+    "bullets": [
+      "Complaint Escalation: 30-day RE response window; 90-day RBI Ombudsman escalation window.",
+      "Compensation Caps: Up to ₹30 lakh for consequential financial losses; up to ₹3 lakh for harassment and time loss."
+    ],
+    "title": "RBI Revamped Integrated Ombudsman Scheme 2026 Takes Effect (Replaces 2021 Rules)",
+    "staticGk": "RBI Integrated Ombudsman Scheme covers Banks, NBFCs, and System Participants.",
+    "tier": "Tier A",
+    "hook": "Increases compensation cap for consequential losses to ₹30 lakh plus ₹3 lakh for time loss.",
+    "trap": "Consequential loss compensation cap (₹30 lakh) vs harassment/time loss cap (₹3 lakh).",
+    "id": "note-sec2-245"
+  },
+  {
+    "secId": "sec2",
+    "interviewQ": null,
+    "date": "2026-07-10",
+    "bullets": [
+      "CUSPA Mechanism: Unpaid securities credited directly to client demat and auto-pledged to broker's CUSPA account.",
+      "Broker Right: Broker permitted to liquidate unpaid securities if payment obligation is not fulfilled."
+    ],
+    "title": "SEBI Revises Rules for Unpaid Client Securities (CUSPA Account Auto-Pledge)",
+    "staticGk": "SEBI HQ: Mumbai | Regulates stockbrokers under SEBI (Stock Brokers) Regulations.",
+    "tier": "Tier A",
+    "hook": "Mandates direct demat payout followed by auto-pledge in Client Unpaid Securities Pledgee Account.",
+    "trap": null,
+    "id": "note-sec2-246"
+  },
+  {
+    "secId": "sec2",
+    "interviewQ": null,
+    "date": "2026-07-11",
+    "bullets": [
+      "FRSB Coupon Rate: 8.05% per annum for July 1 to Dec 31, 2026 (payable Jan 1, 2027).",
+      "Benchmark Formula: FRSB rate = NSC rate (7.70%) + 0.35% spread."
+    ],
+    "title": "RBI Retains Floating Rate Savings Bonds (FRSB 2020) Interest Rate at 8.05%",
+    "staticGk": "FRSB bonds issued by RBI on behalf of Union Government (7-year tenure, taxable).",
+    "tier": "Tier A",
+    "hook": "Maintains 0.35% premium over National Savings Certificate (NSC) 7.7% benchmark.",
+    "trap": "FRSB interest rate (8.05%) vs NSC benchmark rate (7.70%).",
+    "id": "note-sec2-247"
+  },
+  {
+    "secId": "sec2",
+    "interviewQ": null,
+    "date": "2026-07-12",
+    "bullets": [
+      "Rupee Fee Structure: Category-I FPI registration fee fixed at ₹2.3 lakh (replaced ,500); ,000 fee replaced by ₹90,000.",
+      "Custodian Monthly Fee: Custodian fee revised to ₹85,000/month (replaced ₹10 lakh annual fee).",
+      "Intraday MF Borrowing: Mutual funds permitted intraday borrowing up to 20% of net assets for settlement liquidity."
+    ],
+    "title": "SEBI Amends FPI Regulations: Rupee-Denominated Fee Structure & Pre-IPO ESOPs",
+    "staticGk": "Designated Depository Participants (DDPs) process FPI registrations in India.",
+    "tier": "Tier A",
+    "hook": "Replaces USD registration fees with INR structure (Category-I FPI fee ₹2.3 lakh).",
+    "trap": "Category-I FPI registration fee (₹2.3 lakh) vs custodian monthly fee (₹85,000).",
+    "id": "note-sec2-248"
+  },
+  {
+    "secId": "sec2",
+    "interviewQ": null,
+    "date": "2026-07-13",
+    "bullets": [
+      "Committee Name: ASCEND (Accelerated Scaling of Global Capital Ecosystem and NPS Development).",
+      "Chairmanship: Chaired by Dinesh Khara, Chairman of NPS Trust."
+    ],
+    "title": "PFRDA Constitutes 'ASCEND' Committee to Attract Global Pension Capital",
+    "staticGk": "National Pension System (NPS) regulated by PFRDA since 2003.",
+    "tier": "Tier A",
+    "hook": "Chaired by Dinesh Khara (NPS Trust Chairman) to scale global pension fund inflows under NPS.",
+    "trap": null,
+    "id": "note-sec2-249"
+  },
+  {
+    "secId": "sec2",
+    "interviewQ": null,
+    "date": "2026-07-14",
+    "bullets": [
+      "New GI Products: Nalanda Bawanbuti Saree (Bihar), Gaya Pattharkatti Stone Craft (Bihar), Kuchai Silk (Jharkhand), Ba Shilp & Bihu Pepa (Assam), Khajuraho Metal Craft (MP).",
+      "NABARD Total: NABARD has supported 176 total products in obtaining GI tags."
+    ],
+    "title": "NABARD Facilitates GI Registration for 28 New Products (Total 176 Supported)",
+    "staticGk": "NABARD established July 12, 1982 | Chairman: Shaji K. V.",
+    "tier": "Tier A",
+    "hook": "Expands GI tagging for indigenous craft and agri-products across Bihar, Assam, and MP.",
+    "trap": "GI products in this round (28) vs total NABARD-supported GI products (176).",
+    "id": "note-sec2-250"
+  },
+  {
+    "secId": "sec2",
+    "interviewQ": null,
+    "date": "2026-07-15",
+    "bullets": [
+      "Platform Connectivity: Terminal directly connected to Negotiated Dealing System-Order Matching (NDS-OM).",
+      "Settlement Guarantee: T+1 trades guaranteed by Clearing Corporation of India Limited (CCIL)."
+    ],
+    "title": "Bloomberg Launches Electronic Trading Platform for Indian Government Bonds (IGBs)",
+    "staticGk": "NDS-OM launched in 2005 by RBI | CCIL settles G-Sec and forex transactions.",
+    "tier": "Tier A",
+    "hook": "Connects FPIs directly to RBI's NDS-OM matching system for T+1 gilt settlement.",
+    "trap": "NDS-OM settlement cycle (T+1) vs stock market equities (T+1).",
+    "id": "note-sec2-251"
+  },
+  {
+    "secId": "sec2",
+    "interviewQ": null,
+    "date": "2026-07-16",
+    "bullets": [
+      "Cooling-Off Period: 2-year cooling-off period before former employees can represent clients before SEBI.",
+      "Equity Bar: Staff barred from direct investment in equities, derivatives, and convertible instruments.",
+      "Gift Threshold: Disclosure threshold for gifts raised from ₹10,000 to ₹50,000."
+    ],
+    "title": "SEBI Tightens Staff Conduct Rules: 2-Year Cooling-Off Period & Equity Investment Bar",
+    "staticGk": "Amends SEBI (Employees' Service) Regulations 2026.",
+    "tier": "Tier A",
+    "hook": "Bars SEBI staff from direct equity trading and caps investment product exposure at 25%.",
+    "trap": "Cooling-off period (2 years) vs gift disclosure threshold (₹50,000).",
+    "id": "note-sec2-252"
+  },
+  {
+    "secId": "sec2",
+    "interviewQ": null,
+    "date": "2026-07-17",
+    "bullets": [
+      "Collaborative Initiative: Joint initiative of NABARD and National Skill Development Corporation (MSDE).",
+      "Executing Agency: Executed by Institute for Industrial Development."
+    ],
+    "title": "NABARD Launches 'Gramodyam' Rural Youth Entrepreneurship Scheme with NSDC",
+    "staticGk": "NSDC HQ: New Delhi | Works under Ministry of Skill Development.",
+    "tier": "Tier A",
+    "hook": "Unveils rural business development initiative on NABARD's 45th Foundation Day.",
+    "trap": null,
+    "id": "note-sec2-253"
+  },
+  {
+    "secId": "sec2",
+    "interviewQ": null,
+    "date": "2026-07-18",
+    "bullets": [
+      "Index Value: FI-Index rose 4.48% to 70.0 in March 2026 (up from 67.0 in March 2025).",
+      "Parameter Weights: Access (35%), Usage (45%), Quality (20%) — published annually without a base year."
+    ],
+    "title": "RBI Financial Inclusion Index (FI-Index) Rises to 70.0 in March 2026",
+    "staticGk": "FI-Index introduced in August 2021 by RBI.",
+    "tier": "Tier A",
+    "hook": "Measures 97 financial inclusion indicators across Access (35%), Usage (45%), and Quality (20%).",
+    "trap": "Usage weightage (45%) vs Access weightage (35%) vs Quality weightage (20%).",
+    "id": "note-sec2-254"
+  },
+  {
+    "secId": "sec2",
+    "interviewQ": null,
+    "date": "2026-07-19",
+    "bullets": [
+      "Implementation Date: Effective October 1, 2026 (unrealised income reversal required by Sept 30, 2027).",
+      "Disposal Cap: Banks must dispose of SNFAs within maximum 7 years via SARFAESI Act 2002 public auction.",
+      "Sale Restriction: Prohibits selling SNFA back to defaulting borrower or related parties."
+    ],
+    "title": "RBI Restricts Banks from Recognising Unrealised Interest as Income on Acquired SNFAs",
+    "staticGk": "SNFA (Specified Non-Financial Asset) defined under Banking Regulation Act 1949.",
+    "tier": "Tier A",
+    "hook": "Mandates 7-year maximum disposal window for Specified Non-Financial Assets acquired under debt resolution.",
+    "trap": "SNFA maximum disposal timeline (7 years) vs income reversal deadline (Sept 30, 2027).",
+    "id": "note-sec2-255"
+  },
+  {
+    "secId": "sec2",
+    "interviewQ": null,
+    "date": "2026-07-20",
+    "bullets": [
+      "2-Phase Rollout: Unit-based SWPs/STPs by Jan 31, 2027; Amount-based by April 30, 2027.",
+      "Nodal Facilitator: Depositories designated as nodal facilitators (operational framework by Oct 31, 2026)."
+    ],
+    "title": "SEBI Clears Standing Instructions for SWP and STP in Demat-Held Mutual Funds",
+    "staticGk": "Depositories in India: NSDL and CDSL.",
+    "tier": "Tier A",
+    "hook": "Allows demat unit holders to execute automatic Systematic Withdrawal and Transfer Plans.",
+    "trap": "Unit-based SWP deadline (Jan 31, 2027) vs Amount-based SWP deadline (April 30, 2027).",
+    "id": "note-sec2-256"
+  },
+  {
+    "secId": "sec2",
+    "interviewQ": null,
+    "date": "2026-07-21",
+    "bullets": [
+      "PRIDE-Disha: Performance comparison tool utilizing 5,000 days NAV data and XIRR methodology.",
+      "Pension Sahayak: AI-powered 22-language grievance portal (30-day intermediary resolution timeline)."
+    ],
+    "title": "PFRDA Launches 'PRIDE-Disha' Performance Tool & 'Pension Sahayak' AI Portal",
+    "staticGk": "XIRR (Extended Internal Rate of Return) accounts for irregular cash inflows/outflows.",
+    "tier": "Tier A",
+    "hook": "Uses XIRR methodology to compare pension fund manager returns based on actual cash flows.",
+    "trap": "Intermediary resolution timeline (30 days) vs NPS Trust escalation timeline (21 days).",
+    "id": "note-sec2-257"
+  },
+  {
+    "secId": "sec2",
+    "interviewQ": null,
+    "date": "2026-07-22",
+    "bullets": [
+      "One-Time Approval: One-time RBI clearance covers future acquisitions up to 10% voting rights/share capital.",
+      "Qualifying Entities: SEBI-registered MFs, IRDAI-registered Insurers, PFRDA-registered Pension Funds."
+    ],
+    "title": "RBI One-Time Approval Proposal for MFs & Insurers to Acquire up to 10% Bank Shareholding",
+    "staticGk": "Standard RBI major shareholding threshold in banks is 5%.",
+    "tier": "Tier A",
+    "hook": "Replaces repeated prior approval requirement for qualifying institutional investors acquiring >5% bank stakes.",
+    "trap": "Standard approval threshold (5%) vs one-time clearance cap (10%).",
+    "id": "note-sec2-258"
+  },
+  {
+    "secId": "sec3",
+    "interviewQ": null,
+    "date": "2026-07-28",
+    "bullets": [
+      "Digital Journeys: 'Financial Fitness' score, 'Sustainability Journey', and 24x7 agentic AI assistant 'YONO Ji'.",
+      "Platform Reach: Deployed across YONO Business web and mobile applications."
+    ],
+    "title": "SBI Unveils Suite of AI Journeys: Financial Fitness, Sustainability, & 'YONO Ji'",
+    "staticGk": "SBI Chairman: CS Setty | HQ: Mumbai, Maharashtra.",
+    "tier": "Tier A",
+    "hook": "Integrates agentic AI virtual assistant 'YONO Ji' across YONO Business web and mobile platforms.",
+    "trap": null,
+    "id": "note-sec3-259"
+  },
+  {
+    "secId": "sec3",
+    "interviewQ": null,
+    "date": "2026-07-29",
+    "bullets": [
+      "Deposit Threshold: Total deposits crossed ₹2,000 crore mark with 0% net NPAs.",
+      "UCF Classification: Tier-I (<₹100 cr), Tier-II (₹100 cr – ₹1,000 cr), Tier-III (₹1,000 cr – ₹10,000 cr)."
+    ],
+    "title": "Kakinada Cooperative Town Bank Attains Tier-III UCB Status (Deposits Surpass ₹2,000 Crore)",
+    "staticGk": "Kakinada Cooperative Town Bank located in Andhra Pradesh.",
+    "tier": "Tier A",
+    "hook": "Secures Tier-III UCB status under RBI norms with zero net Non-Performing Assets (NPAs).",
+    "trap": "Tier-II deposit limit (up to ₹1,000 crore) vs Tier-III deposit threshold (₹1,000 cr – ₹10,000 cr).",
+    "id": "note-sec3-260"
+  },
+  {
+    "secId": "sec3",
+    "interviewQ": null,
+    "date": "2026-07-30",
+    "bullets": [
+      "Biometric Authentication: Replaces SMS-based OTPs with fingerprint, facial recognition, or device PIN.",
+      "Launch Partner: Went live in partnership with IDFC FIRST Bank."
+    ],
+    "title": "Visa Launches Biometric 'Visa Payment Passkey' in India via IDFC FIRST Bank",
+    "staticGk": "IDFC FIRST Bank MD & CEO: V. Vaidyanathan | HQ: Mumbai.",
+    "tier": "Tier A",
+    "hook": "Replaces SMS OTPs with device fingerprint, facial recognition, and PIN biometric authentication.",
+    "trap": null,
+    "id": "note-sec3-261"
+  },
+  {
+    "secId": "sec3",
+    "interviewQ": null,
+    "date": "2026-07-31",
+    "bullets": [
+      "Penalty Breakdown: Private banks collected ₹4,948.71 crore (HDFC Bank top ₹1,798.14 cr; Axis Bank ₹1,081.33 cr); PSBs collected ₹2,137.92 crore (SBI top ₹477.27 cr).",
+      "PSB Exemption: 10 out of 12 PSBs have completely discontinued MAB penal charges.",
+      "BSBDA Accounts: Basic Savings Bank Deposit Accounts (PMJDY) exempt from minimum balance requirements."
+    ],
+    "title": "Banks Collected ₹7,086 Crore in Minimum Average Balance Penalties in FY26",
+    "staticGk": "BSBDA (Basic Savings Bank Deposit Account) rules mandate zero minimum balance.",
+    "tier": "Tier A",
+    "hook": "Private sector banks accounted for 70% of total minimum balance penalties collected.",
+    "trap": "Private bank penalty share (70% / ₹4,948.71 cr) vs PSB share (₹2,137.92 cr).",
+    "id": "note-sec3-262"
+  },
+  {
+    "secId": "sec3",
+    "interviewQ": null,
+    "date": "2026-07-01",
+    "bullets": [
+      "Issuance Details: ₹4,691 crore raised via Basel III Additional Tier 1 (AT1) perpetual bonds at 7.75% coupon.",
+      "Loss Absorbency: AT1 bonds feature loss absorbency (can be written off or converted to equity during stress)."
+    ],
+    "title": "SBI Issues ₹4,691 Crore Basel III-Compliant AT-1 Perpetual Bonds",
+    "staticGk": "Basel III norms mandate minimum total capital ratio of 9% plus capital conservation buffer.",
+    "tier": "Tier A",
+    "hook": "Raises core Tier-I regulatory capital with a coupon rate of 7.75% and 5-year call option.",
+    "trap": "AT1 bond call option window (after 5 years) vs perpetual maturity.",
+    "id": "note-sec3-263"
+  },
+  {
+    "secId": "sec5",
+    "interviewQ": null,
+    "date": "2026-07-05",
+    "bullets": [
+      "Regulatory Objective: Monitors dark patterns and forced add-on sales on digital insurance apps.",
+      "Implementation Alignment: Follows RBI's anti-misselling framework effective January 1, 2027."
+    ],
+    "title": "IRDAI Partners with IPAI to Eliminate Dark Patterns in Insurance Sector",
+    "staticGk": "Dark Patterns: Deceptive UI/UX designs that trick users into unwanted purchases.",
+    "tier": "Tier A",
+    "hook": "Partners with Institute of Public Auditors of India to curb misselling on digital insurance portals.",
+    "trap": null,
+    "id": "note-sec5-264"
+  },
+  {
+    "secId": "sec5",
+    "interviewQ": null,
+    "date": "2026-07-06",
+    "bullets": [
+      "Equity Structure: Prudential plc holds 70% stake, HCL Group holds 30% stake.",
+      "Separate Acquisition: Prudential plc acquired 75% stake in Bharti Life Insurance."
+    ],
+    "title": "IRDAI Grants Health Insurance License to Prudential HCL Joint Venture",
+    "staticGk": "100% FDI permitted in Indian insurance sector under automatic route.",
+    "tier": "Tier A",
+    "hook": "Grants standalone health insurance registration to Prudential HCL Health Insurance (70:30 JV).",
+    "trap": "Prudential stake in Prudential HCL Health (70%) vs stake in Bharti Life (75%).",
+    "id": "note-sec5-265"
+  },
+  {
+    "secId": "sec5",
+    "interviewQ": null,
+    "date": "2026-07-07",
+    "bullets": [
+      "Implementation Window: Mandatory for insurers adopting Ind AS in FY 2026-27 (FY 2027-28 for forbearance entities).",
+      "Scope: Independent validation assesses actuarial models, IT systems, and financial data management."
+    ],
+    "title": "IRDAI Mandates Independent Validation of Insurers' Ind AS Implementation Preparedness",
+    "staticGk": "Ind AS 117 corresponds to IFRS 17 Insurance Contracts global accounting standard.",
+    "tier": "Tier A",
+    "hook": "Requires board-approved strategy validation for transitioning to Ind AS 101 and Ind AS 117 standards.",
+    "trap": "Ind AS adoption timeline (FY27) vs regulatory forbearance timeline (FY28).",
+    "id": "note-sec5-266"
+  },
+  {
+    "secId": "sec5",
+    "interviewQ": null,
+    "date": "2026-07-08",
+    "bullets": [
+      "Acquisition Value: ₹4,500 crore total transaction value.",
+      "Shareholding Division: Patanjali Ayurved acquires 73.56% stake; DS Group acquires 24.50% stake."
+    ],
+    "title": "IRDAI Approves Patanjali Ayurved & DS Group's ₹4,500 Crore Acquisition of Magma General Insurance",
+    "staticGk": "Magma General Insurance HQ: Mumbai, Maharashtra.",
+    "tier": "Tier A",
+    "hook": "Patanjali Ayurved acquires 73.56% majority stake from Adar Poonawalla's Sanoti Properties.",
+    "trap": "Patanjali stake (73.56%) vs DS Group stake (24.50%).",
+    "id": "note-sec5-267"
+  },
+  {
+    "secId": "sec4",
+    "interviewQ": null,
+    "date": "2026-07-09",
+    "bullets": [
+      "Capacity Leader: Gujarat ranks 1st in installed wind capacity (16,086 MW) and annual wind generation (33,706 MUs).",
+      "National Share: Gujarat accounts for nearly one-third of India's total wind power output."
+    ],
+    "title": "Gujarat Tops India's Wind Energy Charts with 16,086 MW Installed Capacity",
+    "staticGk": "Union Ministry of New and Renewable Energy (MNRE) Minister: Pralhad Joshi.",
+    "tier": "Tier A",
+    "hook": "Generates 33,706 million units (MUs) of wind power in FY26, contributing 1/3rd of India's total output.",
+    "trap": "Gujarat wind capacity (16,086 MW) vs annual generation share (nearly 1/3rd).",
+    "id": "note-sec4-268"
+  },
+  {
+    "secId": "sec4",
+    "interviewQ": null,
+    "date": "2026-07-10",
+    "bullets": [
+      "Exploratory Well: MN-DW18-1-H-D located 23 nautical miles from ONGC's Konark discovery in Mahanadi offshore basin.",
+      "Strategic Signicance: Part of India's  billion crude import reduction strategy."
+    ],
+    "title": "ONGC Begins Drilling India's First Deepwater Exploration Well (MN-DW18-1-H-D) off Odisha",
+    "staticGk": "ONGC Chairman & CEO: Arun Kumar Singh | HQ: New Delhi.",
+    "tier": "Tier A",
+    "hook": "Exploratory deepwater drilling initiated 23 nautical miles off Odisha coast in Mahanadi basin.",
+    "trap": null,
+    "id": "note-sec4-269"
+  },
+  {
+    "secId": "sec4",
+    "interviewQ": null,
+    "date": "2026-07-11",
+    "bullets": [
+      "Protected Area: 56,825 sq. km. across Gujarat, Maharashtra, Goa, Karnataka, Kerala, and Tamil Nadu (1,500 km length).",
+      "Committee Reference: Western Ghats Ecology Expert Panel (WGEEP 2011) headed by Madhav Gadgil."
+    ],
+    "title": "Centre Notifies 7th Draft for Ecologically Sensitive Areas (ESA) in Western Ghats",
+    "staticGk": "Western Ghats (Sahyadri Hills) designated UNESCO World Heritage Site in 2012.",
+    "tier": "Tier A",
+    "hook": "Proposes protection for 56,825 sq. km. across 6 states based on Madhav Gadgil WGEEP report.",
+    "trap": "Number of Western Ghats ESA states (6 states) vs total protected area (56,825 sq km).",
+    "id": "note-sec4-270"
+  },
+  {
+    "secId": "sec4",
+    "interviewQ": "\"What is the historical significance of Sarnath's UNESCO World Heritage inscription?\"\n💡 **Model Answer: Sarnath is where Gautama Buddha delivered his first sermon (Dhammacakkappavattana Sutta); the site houses the Ashokan Lion Capital, which forms India's official National Emblem.**",
+    "date": "2026-07-12",
+    "bullets": [
+      "World Heritage Site: Sarnath inscribed as India's 45th UNESCO World Heritage Site (Criteria iii & vi).",
+      "Monuments Included: Chaukhandi Stupa, Dhamekh Stupa, Dharmarajika Stupa, Mulagandhakuti Vihara, and Ashokan Pillar (Lion Capital).",
+      "Global Ranking: India ranks 6th globally and 2nd in Asia-Pacific for total UNESCO World Heritage Sites."
+    ],
+    "title": "UNESCO Inscribes Sarnath (Uttar Pradesh) as India's 45th World Heritage Site",
+    "staticGk": "Buddhism 4 Holiest Sites: Lumbini (Nepal), Bodh Gaya (India), Sarnath (India), Kushinagar (India).",
+    "tier": "Tier A",
+    "hook": "Inscribed at 48th World Heritage Committee session in Busan; includes Dhamekh & Chaukhandi Stupas.",
+    "trap": "India UNESCO World Heritage count (45 sites) vs India global ranking (6th globally, 2nd in Asia-Pacific).",
+    "id": "note-sec4-271"
+  },
+  {
+    "secId": "sec4",
+    "interviewQ": null,
+    "date": "2026-07-13",
+    "bullets": [
+      "GI Awardees: Spiti Seabuckthorn (Chharma), Chamba Salooni Safed Makka & Metal Art, Sirmauri Loiya gown, Kinnauri Topi, Apple & Jewellery, Mandi Sepuvadi."
+    ],
+    "title": "Eight Traditional Himachal Pradesh Products Secure Geographical Indication (GI) Tags",
+    "staticGk": "GI Registry headquartered in Chennai, Tamil Nadu under DPIIT.",
+    "tier": "Tier A",
+    "hook": "Grants GI tags to Seabuckthorn, White Maize, Metal Art, Woollen Gowns, and Kinnauri Apples.",
+    "trap": null,
+    "id": "note-sec4-272"
+  },
+  {
+    "secId": "sec4",
+    "interviewQ": null,
+    "date": "2026-07-14",
+    "bullets": [
+      "New GI Products: Chandannagar's Jalbhara Sandesh, Janai's Manohara sweet, and Balagarh traditional wooden boats.",
+      "State Ranking: West Bengal ranks 3rd in India (59 GI tags), behind Uttar Pradesh (83) and Tamil Nadu (76)."
+    ],
+    "title": "West Bengal Secures 3 New GI Tags: Jalbhara Sandesh, Manohara, & Balagarh Wooden Boats",
+    "staticGk": "Uttar Pradesh ranks 1st in India for total GI tags (83).",
+    "tier": "Tier A",
+    "hook": "Increases West Bengal's total GI registrations to 59, making it India's 3rd-highest GI-tagged state.",
+    "trap": "West Bengal GI rank (3rd, 59 tags) vs Uttar Pradesh (1st, 83 tags) vs Tamil Nadu (2nd, 76 tags).",
+    "id": "note-sec4-273"
+  },
+  {
+    "secId": "sec4",
+    "interviewQ": null,
+    "date": "2026-07-15",
+    "bullets": [
+      "Location: Puga Valley, Union Territory of Ladakh.",
+      "Execution Agency: Executed by ONGC Energy Centre for 1 MW pilot geothermal power project."
+    ],
+    "title": "India Commissions First Geothermal Wells in Puga Valley, Ladakh",
+    "staticGk": "Geothermal Energy taps heat from the Earth's sub-surface crust.",
+    "tier": "Tier A",
+    "hook": "Drills India's deepest geothermal wells for 1 MW pilot geothermal power plant.",
+    "trap": null,
+    "id": "note-sec4-274"
+  },
+  {
+    "secId": "sec4",
+    "interviewQ": null,
+    "date": "2026-07-16",
+    "bullets": [
+      "State Cases Ranking: Uttar Pradesh recorded highest complaints (1.85 lakh), followed by Maharashtra (1.58 lakh) and Karnataka (1.21 lakh).",
+      "Financial Loss Ranking: Maharashtra recorded highest financial loss (₹1,637.66 crore), followed by Karnataka (₹1,097.37 crore)."
+    ],
+    "title": "MHA Cyber Fraud Report: Uttar Pradesh Records Highest Complaints in India (1.85 Lakh Cases)",
+    "staticGk": "National Cyber Crime Reporting Portal (NCRP) helpline: 1930.",
+    "tier": "Tier A",
+    "hook": "Records 12.71 lakh total cyber fraud complaints across India between January and June 2026.",
+    "trap": "Highest complaint volume state (Uttar Pradesh) vs highest financial loss state (Maharashtra).",
+    "id": "note-sec4-275"
+  },
+  {
+    "secId": "sec4",
+    "interviewQ": null,
+    "date": "2026-07-17",
+    "bullets": [
+      "Undernourishment Reduction: Share dropped from 21.1% to 9.8% (142.5 million people).",
+      "Healthy Diet Cost: Cost of healthy diet in India stands at .11 PPP per person per day (2nd lowest in South Asia after Pakistan .94).",
+      "Child Stunting: Stunting in under-5 children fell to 32.9% in 2024 (down from 41.7% in 2012)."
+    ],
+    "title": "UN SOFI 2026 Report: India Undernourished Population Share Drops to 9.8%",
+    "staticGk": "SOFI Report published jointly by FAO, IFAD, UNICEF, WFP, and WHO.",
+    "tier": "Tier A",
+    "hook": "Undernourished population in India declines from 21.1% (2004-06) to 9.8% (2023-25).",
+    "trap": "India undernourished share (9.8%) vs healthy diet cost (.11 PPP/day).",
+    "id": "note-sec4-276"
+  },
+  {
+    "secId": "sec7",
+    "interviewQ": null,
+    "date": "2026-07-18",
+    "bullets": [
+      "Award Name: Bintang Republik Indonesia Adipurna (established 1959).",
+      "Conferring Authority: Indonesian President Prabowo Subianto."
+    ],
+    "title": "PM Narendra Modi Conferred Indonesia's Highest State Honour 'Bintang Republik Indonesia Adipurna'",
+    "staticGk": "Indonesia Capital: Jakarta / Nusantara | Currency: Indonesian Rupiah.",
+    "tier": "Tier A",
+    "hook": "Conferred by President Prabowo Subianto during official visit to Jakarta.",
+    "trap": null,
+    "id": "note-sec7-277"
+  },
+  {
+    "secId": "sec7",
+    "interviewQ": null,
+    "date": "2026-07-19",
+    "bullets": [
+      "60th Jnanpith Awardee: Renowned Tamil poet and lyricist R. Vairamuthu.",
+      "Tamil Predecessors: Akilan (1975) and Jayakanthan (2002).",
+      "Previous Winners: 59th Vinod Kumar Shukla (Hindi); 58th Gulzar (Urdu) & Rambhadracharya (Sanskrit)."
+    ],
+    "title": "Tamil Poet R. Vairamuthu Conferred 60th Jnanpith Award (2025)",
+    "staticGk": "Jnanpith Award instituted in 1961 by Bharatiya Jnanpith (1st winner G. Sankara Kurup 1965).",
+    "tier": "Tier A",
+    "hook": "Becomes 3rd Tamil author to receive India's highest literary honour.",
+    "trap": "60th Jnanpith winner (R. Vairamuthu) vs 59th (Vinod Kumar Shukla).",
+    "id": "note-sec7-278"
+  },
+  {
+    "secId": "sec7",
+    "interviewQ": null,
+    "date": "2026-07-20",
+    "bullets": [
+      "Best Film: Article 370 (Hindi).",
+      "Best Actor: Mammootty (Bramayugam) and Kartik Aaryan (Chandu Champion).",
+      "Best Actress: Yami Gautam (Article 370).",
+      "Best Director: Rajkumar Periasamy (Amaran)."
+    ],
+    "title": "72nd National Film Awards (2024): 'Article 370' Wins Best Film Award",
+    "staticGk": "National Film Awards organized annually by Ministry of Information & Broadcasting (instituted 1954).",
+    "tier": "Tier A",
+    "hook": "Mammootty and Kartik Aaryan share Best Actor Award; Yami Gautam wins Best Actress.",
+    "trap": null,
+    "id": "note-sec7-279"
+  },
+  {
+    "secId": "sec7",
+    "interviewQ": null,
+    "date": "2026-07-21",
+    "bullets": [
+      "Awardee: National Security Advisor Ajit Doval (longest-serving NSA of India).",
+      "Award Presentation: Conferred annually on August 1 (death anniversary of Bal Gangadhar Tilak, instituted 1983)."
+    ],
+    "title": "NSA Ajit Doval Selected for Prestigious Lokmanya Tilak Award 2026",
+    "staticGk": "1st Lokmanya Tilak Award recipient: Socialist leader S. M. Joshi (1983).",
+    "tier": "Tier A",
+    "hook": "Honoured for outstanding national security service on Bal Gangadhar Tilak's death anniversary.",
+    "trap": null,
+    "id": "note-sec7-280"
+  },
+  {
+    "secId": "sec7",
+    "interviewQ": null,
+    "date": "2026-07-22",
+    "bullets": [
+      "Recipients: Yu Deng (Univ of Chicago), John Pardon (Stony Brook), Jacob Tsimerman (Univ of Toronto), Hong Wang (NYU/IHES).",
+      "Award Structure: Conferred every 4 years to mathematicians under 40 (prize: 15,000 CAD / ,600 and gold medal of Archimedes).",
+      "Historic Distinction: Hong Wang (China) is 3rd female recipient after Maryam Mirzakhani (2014) and Maryna Viazovska (2022)."
+    ],
+    "title": "Fields Medal 2026 Conferred on 4 Mathematicians: Hong Wang, Yu Deng, John Pardon, Jacob Tsimerman",
+    "staticGk": "Fields Medal instituted by J.C. Fields at Univ of Toronto | International Mathematical Union (IMU) HQ: Berlin.",
+    "tier": "Tier A",
+    "hook": "Hong Wang becomes 3rd woman scientist in 90-year history to win the 'Nobel Prize of Mathematics'.",
+    "trap": null,
+    "id": "note-sec7-281"
+  },
+  {
+    "secId": "sec6",
+    "interviewQ": null,
+    "date": "2026-07-23",
+    "bullets": [
+      "Champions: Australia (Captain: Sophie Molineux) defeated England by 7 wickets in final.",
+      "Player of Tournament: Beth Mooney (Australia).",
+      "Total Titles: Australia has won 7 of 9 editions (England 1, West Indies 1)."
+    ],
+    "title": "2026 ICC Women's T20 World Cup: Australia Defeats England by 7 Wickets for 7th Title",
+    "staticGk": "ICC HQ: Dubai, UAE | Chairman: Jay Shah.",
+    "tier": "Tier A",
+    "hook": "Australia claims 7th Women's T20 World Cup title in England; Beth Mooney Player of Tournament.",
+    "trap": "Australia Women's T20 World Cup titles count (7 titles).",
+    "id": "note-sec6-282"
+  },
+  {
+    "secId": "sec6",
+    "interviewQ": null,
+    "date": "2026-07-24",
+    "bullets": [
+      "Men's Singles Winner: Jannik Sinner (Italy) defeated Alexander Zverev (Germany).",
+      "Women's Singles Winner: Linda Nosková (Czech Republic) defeated Karolína Muchová.",
+      "Sinner Milestone: 2nd consecutive Wimbledon title and 100th Grand Slam match victory."
+    ],
+    "title": "139th Wimbledon 2026: Jannik Sinner Wins Men's Singles; Linda Nosková Wins Women's Singles",
+    "staticGk": "Wimbledon played on grass courts at All England Club, London (established 1877).",
+    "tier": "Tier A",
+    "hook": "Jannik Sinner defeats Alexander Zverev to claim 2nd consecutive Wimbledon and 5th Grand Slam title.",
+    "trap": "Men's Singles Winner (Jannik Sinner) vs Women's Singles Winner (Linda Nosková).",
+    "id": "note-sec6-283"
+  },
+  {
+    "secId": "sec6",
+    "interviewQ": null,
+    "date": "2026-07-25",
+    "bullets": [
+      "Women's Singles Winner: PV Sindhu defeated Akane Yamaguchi (Japan) in final.",
+      "Men's Singles Winner: Christo Popov (France) defeated Koki Watanabe (Japan)."
+    ],
+    "title": "BWF Japan Open 2026: PV Sindhu Wins Women's Singles Title",
+    "staticGk": "BWF (Badminton World Federation) HQ: Kuala Lumpur, Malaysia.",
+    "tier": "Tier A",
+    "hook": "PV Sindhu becomes 1st Indian badminton player to win Japan Open title.",
+    "trap": null,
+    "id": "note-sec6-284"
+  },
+  {
+    "secId": "sec6",
+    "interviewQ": null,
+    "date": "2026-07-26",
+    "bullets": [
+      "Champions: Spain (Captain: Rodri) defeated Argentina 2-1 at MetLife Stadium, New York.",
+      "Golden Ball (Best Player): Rodri (Spain) | Golden Boot (Top Scorer): Kylian Mbappé (France, 22 all-time World Cup goals).",
+      "Golden Glove (Best Goalkeeper): Unai Simón (Spain) | Young Player: Pau Cubarsí (Spain).",
+      "2030 World Cup Hosts: Main hosts Morocco, Portugal, Spain (Centenary matches in Argentina, Paraguay, Uruguay)."
+    ],
+    "title": "2026 FIFA World Cup: Spain Defeats Defending Champions Argentina 2-1 in New York Final",
+    "staticGk": "FIFA HQ: Zurich, Switzerland | President: Gianni Infantino.",
+    "tier": "Tier A",
+    "hook": "Spain becomes 1st nation to hold men's and women's FIFA World Cup crowns simultaneously.",
+    "trap": "Golden Ball winner (Rodri) vs Golden Boot winner (Kylian Mbappé).",
+    "id": "note-sec6-285"
+  },
+  {
+    "secId": "sec5",
+    "interviewQ": null,
+    "date": "2026-07-27",
+    "bullets": [
+      "Achievement: 18-year-old Aswath S becomes India's 98th Grandmaster."
+    ],
+    "title": "Aswath S (Tamil Nadu) Becomes India's 98th Chess Grandmaster",
+    "staticGk": "India's 1st Grandmaster: Viswanathan Anand (1988).",
+    "tier": "Tier B+",
+    "hook": null,
+    "trap": null,
+    "id": "note-sec5-286"
+  },
+  {
+    "secId": "sec5",
+    "interviewQ": null,
+    "date": "2026-07-28",
+    "bullets": [
+      "Appointment: Lokhande Prashant Sitaram appointed CBSE Chairperson."
+    ],
+    "title": "Lokhande Prashant Sitaram Appointed CBSE Chairperson",
+    "staticGk": "CBSE HQ: New Delhi | Works under Ministry of Education.",
+    "tier": "Tier B+",
+    "hook": null,
+    "trap": null,
+    "id": "note-sec5-287"
+  },
+  {
+    "secId": "sec5",
+    "interviewQ": null,
+    "date": "2026-07-29",
+    "bullets": [
+      "Appointment: Bijay Kumar Mohanty appointed CMD of IREDA."
+    ],
+    "title": "Bijay Kumar Mohanty Appointed CMD of IREDA",
+    "staticGk": "IREDA is a Mini Ratna Category-I CPSE under Ministry of New and Renewable Energy.",
+    "tier": "Tier B+",
+    "hook": null,
+    "trap": null,
+    "id": "note-sec5-288"
+  },
+  {
+    "secId": "sec5",
+    "interviewQ": null,
+    "date": "2026-07-30",
+    "bullets": [
+      "Appointment: Silvana Tenreyro appointed IMF Chief Economist."
+    ],
+    "title": "Silvana Tenreyro Appointed Chief Economist of International Monetary Fund (IMF)",
+    "staticGk": "IMF HQ: Washington D.C. | MD: Kristalina Georgieva.",
+    "tier": "Tier B+",
+    "hook": null,
+    "trap": null,
+    "id": "note-sec5-289"
+  },
+  {
+    "secId": "sec5",
+    "interviewQ": null,
+    "date": "2026-07-31",
+    "bullets": [
+      "Induction: Dilip Asbe inducted into SWIFT Global Supervisory Board.",
+      "SWIFT Governance: Overseen by G-10 central banks and European Central Bank (National Bank of Belgium lead overseer)."
+    ],
+    "title": "Dilip Asbe (NPCI CEO) Inducted into SWIFT Global Supervisory Board",
+    "staticGk": "SWIFT (Society for Worldwide Interbank Financial Telecommunication) HQ: La Hulpe, Belgium.",
+    "tier": "Tier B+",
+    "hook": null,
+    "trap": "SWIFT lead overseer central bank (National Bank of Belgium) vs India membership status (Non-member of G-10).",
+    "id": "note-sec5-290"
   }
 ];
 
