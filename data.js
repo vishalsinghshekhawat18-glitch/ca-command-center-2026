@@ -5748,6 +5748,473 @@ const CA_NOTES_DATA = [
       "Silver Medals: Gulveer Singh (men's 10,000m 27:49.78), Harjinder Kaur (women's 69kg weightlifting 227kg), Sarvesh Kushare (high jump)."
     ],
     "date": "2026-07-08"
+  },
+  {
+    "tier": "Tier A",
+    "title": "Mission Senehjori Launched to Transform Assam Muga Silk Sector by 2028",
+    "interviewQ": null,
+    "secId": "sec1",
+    "trap": null,
+    "date": "2026-06-01",
+    "hook": "MDoNER Minister Jyotiraditya Scindia launches initiative to position Assam Muga silk in global luxury markets.",
+    "bullets": [
+      "Mission Mandate: Launched by Ministry of Development of North Eastern Region (MDoNER) for Assam's unique Muga silk.",
+      "Global Target: Aims to transform Assam Muga silk into a globally competitive luxury textile ecosystem by 2028."
+    ],
+    "id": "note-sec1-379",
+    "staticGk": "Muga Silk carries GI tag and is produced exclusively in Assam."
+  },
+  {
+    "tier": "Tier A",
+    "title": "India Slips to 7th Spot in Global Market Cap Rankings (.9 Trillion)",
+    "interviewQ": null,
+    "secId": "sec2",
+    "trap": "India rank in global market cap (7th) vs top country (US at .1T).",
+    "date": "2026-06-02",
+    "hook": "South Korea and Taiwan overtake India in stock market valuation as US leads with .1 trillion.",
+    "bullets": [
+      "Global Rankings: US #1 (.1T), China #2 (.3T), Japan #3 (.9T), Hong Kong #4 (.6T), South Korea #6 (+), India #7 (.9T).",
+      "Rank Shift: India slipped three places after being overtaken by Hong Kong, Taiwan, and South Korea."
+    ],
+    "id": "note-sec2-380",
+    "staticGk": "India's market capitalization stands at .9 trillion."
+  },
+  {
+    "tier": "Tier A",
+    "title": "Kotak Mahindra Bank Reports Highest Leverage Ratio (16.56%) Among Asia-Pacific Lenders",
+    "interviewQ": null,
+    "secId": "sec2",
+    "trap": "Kotak Bank leverage ratio (16.56%) vs HDFC Bank (11.14%).",
+    "date": "2026-06-03",
+    "hook": "S&P Global data places Kotak Bank #1 among banks with assets over  billion.",
+    "bullets": [
+      "Leverage Leader: Kotak Mahindra Bank reported 16.56% leverage ratio as of March 31, 2026.",
+      "Peer Comparison: HDFC Bank (11.14%), ICICI Bank (10.84%), Axis Bank (9.28%). Australian banks lowest.",
+      "Financial Definition: Lower leverage ratio indicates a financially accountable business with constant revenue stream."
+    ],
+    "id": "note-sec2-381",
+    "staticGk": "Kotak Mahindra Bank MD & CEO: Ashok Vaswani | HQ: Mumbai."
+  },
+  {
+    "tier": "Tier A",
+    "title": "India Becomes World's 2nd-Largest Solar Market Crossing 155 GW Capacity",
+    "interviewQ": null,
+    "secId": "sec1",
+    "trap": null,
+    "date": "2026-06-04",
+    "hook": "Overtakes US in annual solar additions as total solar capacity grows 5,370% since 2014.",
+    "bullets": [
+      "Global Rank: India emerged as world's 2nd-largest solar market in 2025 annual additions (announced by Bhupender Yadav).",
+      "Capacity Surge: Solar capacity reached 155 GW (up from 2.8 GW in 2014)."
+    ],
+    "id": "note-sec1-382",
+    "staticGk": "National Solar Mission launched in 2010 under MNRE."
+  },
+  {
+    "tier": "Tier A",
+    "title": "FEMA Rules Amended: Overseas Individual Portfolio Investment Limit Raised to 10%",
+    "interviewQ": "\"What is the significance of the 2026 FEMA Non-Debt Instruments amendment for foreign retail investors?\"\n💡 **Model Answer: It doubles individual portfolio investment caps in listed Indian companies from 5% to below 10% and extends NRI/OCI investment privileges to all non-resident individuals.**",
+    "secId": "sec2",
+    "trap": "Individual PROI cap (below 10%) vs aggregate limit for all non-residents (24%).",
+    "date": "2026-06-05",
+    "hook": "Amends Non-Debt Instruments Rules 2019, doubling individual non-resident holding limits in listed equities.",
+    "bullets": [
+      "Individual Holding Cap: Maximum holding for individual overseas investor (PROI) in a listed company raised from 5% to below 10%.",
+      "Aggregate Limit: Combined holding of all overseas investors increased from 10% to 24%.",
+      "Coverage Expansion: Extends portfolio investment route to all individual Persons Resident Outside India (PROIs) at par with NRIs and OCIs."
+    ],
+    "id": "note-sec2-383",
+    "staticGk": "FEMA (Non-Debt Instruments) Rules 2019 governed by Department of Economic Affairs, Ministry of Finance."
+  },
+  {
+    "tier": "Tier A",
+    "title": "PFRDA Launches 'StAR NPS' Digital Onboarding Framework Developed by BSE Technologies",
+    "interviewQ": null,
+    "secId": "sec2",
+    "trap": "StAR NPS age eligibility (18 to 85 years) vs registration fee (₹200).",
+    "date": "2026-06-06",
+    "hook": "Streamlines digital account opening with ₹200 registration fee for individuals aged 18 to 85.",
+    "bullets": [
+      "Digital Platform: StAR NPS operationalised for Points of Presence (PoPs) to digitise NPS enrolment.",
+      "Fee & Eligibility: Registration fee fixed at ₹200 + tax for resident Indians aged 18 to 85 years.",
+      "Sandbox Net Worth: Non-registered sandbox applicants require ₹10 lakh minimum net worth."
+    ],
+    "id": "note-sec2-384",
+    "staticGk": "PFRDA Chairperson: Sivasubramanian Ramann | HQ: New Delhi."
+  },
+  {
+    "tier": "Tier A",
+    "title": "India-UK CETA and Social Security Agreement (DCC) Enter Force on July 15, 2026",
+    "interviewQ": null,
+    "secId": "sec1",
+    "trap": "DCC social security exemption duration (5 years, up from 3 years).",
+    "date": "2026-06-07",
+    "hook": "Unlocks immediate duty-free access on 99% of tariff lines and extends social security exemption to 5 years.",
+    "bullets": [
+      "Trade Accord: India-UK Comprehensive Economic and Trade Agreement (CETA) in force July 15, 2026.",
+      "Social Security (DCC): Double Contribution Convention (DCC) extends social security exemption from 3 to 5 years.",
+      "Tariff Relief: Provides immediate duty-free market access on 99% of Indian export tariff lines."
+    ],
+    "id": "note-sec1-385",
+    "staticGk": "UK Prime Minister: Keir Starmer | Capital: London."
+  },
+  {
+    "tier": "Tier A",
+    "title": "EPF Deposit Interest Rate Retained at 8.25% for FY26 (3rd Consecutive Year)",
+    "interviewQ": null,
+    "secId": "sec2",
+    "trap": null,
+    "date": "2026-06-08",
+    "hook": "Central Board of Trustees ratifies 8.25% interest rate on provident fund deposits.",
+    "bullets": [
+      "Ratified Rate: Government ratified 8.25% interest rate on EPF deposits for 2025-26 (3rd consecutive year).",
+      "Statutory Body: CBT EPF established under Section 5A of EPF & MP Act 1952 (5-year tenure)."
+    ],
+    "id": "note-sec2-386",
+    "staticGk": "EPFO works under Ministry of Labour and Employment | CEO: Ramesh Krishnamurthi."
+  },
+  {
+    "tier": "Tier A",
+    "title": "FCRA Rules Tightened: NGOs Must Spend Min ₹10 Lakh Foreign Funds Over 2 Years for Renewal",
+    "interviewQ": null,
+    "secId": "sec1",
+    "trap": "Renewal spend requirement (₹10 lakh over 2 yrs) vs prior permission release threshold (75% utilisation).",
+    "date": "2026-06-09",
+    "hook": "Restricts foreign fund usage to predefined categories and bars foreign nationals as key functionaries.",
+    "bullets": [
+      "Functionary Exclusion: NGOs with foreign nationals (except PIOs) ineligible for FCRA registration without central approval.",
+      "Renewal Expenditure: NGOs must spend at least ₹10 lakh foreign funds over past 2 financial years to renew registration.",
+      "Utilisation Threshold: Next foreign fund instalment released only after 75% of previous instalment is utilised."
+    ],
+    "id": "note-sec1-387",
+    "staticGk": "FCRA 2010 regulated by Ministry of Home Affairs."
+  },
+  {
+    "tier": "Tier A",
+    "title": "MCA Launches 'Corporate Mitra' Scheme for MSME Compliance Training",
+    "interviewQ": null,
+    "secId": "sec2",
+    "trap": "Age limit (30 yrs) vs online course duration (150 hrs) vs fee (₹3,000 + GST).",
+    "date": "2026-06-10",
+    "hook": "Offers 150 hours SWAYAM Plus online learning + 6 months on-job training for graduates up to 30 years old.",
+    "bullets": [
+      "Eligibility & Course: Open to graduates up to 30 yrs old; 150 hrs SWAYAM Plus + 6 months on-job training.",
+      "Fee & Concession: Fee ₹3,000 + GST (50% concession for women and NE/Himalayan/Island candidates).",
+      "Institutional Partners: Rollout via IIT Madras, IIT Pravartak, ICAI, ICSI, and ICoAI."
+    ],
+    "id": "note-sec2-388",
+    "staticGk": "Union Corporate Affairs Minister: Nirmala Sitharaman."
+  },
+  {
+    "tier": "Tier A",
+    "title": "RBI 61st MPC Meeting: Policy Repo Rate Unchanged at 5.25% with Neutral Stance",
+    "interviewQ": null,
+    "secId": "sec2",
+    "trap": "Repo rate (5.25%) vs SDF floor (5.00%) vs MSF ceiling (5.50%).",
+    "date": "2026-06-11",
+    "hook": "Projects FY27 Real GDP growth at 6.6% and CPI inflation at 5.1%.",
+    "bullets": [
+      "Rate Decision: Repo rate kept unchanged at 5.25% (SDF 5.00%, MSF/Bank Rate 5.50%) under Neutral stance.",
+      "Macro Projections: FY27 Real GDP growth projected at 6.6% (Q1 6.6%, Q2 6.3%, Q3 6.5%, Q4 6.8%); CPI inflation 5.1%."
+    ],
+    "id": "note-sec2-389",
+    "staticGk": "RBI Governor: Sanjay Malhotra (26th Governor) | MPC constituted under Sec 45ZB RBI Act 1934."
+  },
+  {
+    "tier": "Tier A",
+    "title": "RBI Eases FPI G-Sec Investment Norms & Merges General/Long-Term Limits",
+    "interviewQ": null,
+    "secId": "sec2",
+    "trap": null,
+    "date": "2026-06-12",
+    "hook": "Removes short-term, security-wise, and concentration limits for FPIs under General Route.",
+    "bullets": [
+      "Limit Removal: Withdrew short-term, security-wise, and concentration limits for FPI G-Sec investments.",
+      "Limit Merging: Merged general and long-term sub-limits into a single limit for Central & State Government Securities (SGSs).",
+      "FAR Designation: Designated 15-yr, 30-yr, and 40-yr G-Secs under Fully Accessible Route (FAR)."
+    ],
+    "id": "note-sec2-390",
+    "staticGk": "Fully Accessible Route (FAR) allows un-capped FPI investment in specified G-Secs."
+  },
+  {
+    "tier": "Tier A",
+    "title": "RBI Recognises 'Sahamati' as Self-Regulatory Organisation for Account Aggregator Ecosystem",
+    "interviewQ": null,
+    "secId": "sec2",
+    "trap": null,
+    "date": "2026-06-13",
+    "hook": "Sahamati becomes official SRO for NBFC-Account Aggregator network powering consent-based data sharing.",
+    "bullets": [
+      "SRO Recognition: RBI recognised Sahamati (not-for-profit entity) as SRO for Account Aggregator ecosystem.",
+      "AA Framework: Consent-based financial data sharing launched Sept 2, 2021; enabled ₹3.5 lakh crore lending in FY26."
+    ],
+    "id": "note-sec2-391",
+    "staticGk": "Account Aggregators operate under RBI NBFC-AA regulations."
+  },
+  {
+    "tier": "Tier A",
+    "title": "India Q4 FY26 Current Account Surplus Touches .1 Billion (0.7% of GDP)",
+    "interviewQ": null,
+    "secId": "sec2",
+    "trap": "Q4 surplus (.1B / 0.7% GDP) vs full-year CAD (.2B / 0.6% GDP).",
+    "date": "2026-06-14",
+    "hook": "Full-year FY26 Current Account Deficit narrows to .2 billion (0.6% of GDP).",
+    "bullets": [
+      "Q4 Surplus: Current account recorded .1 billion surplus (0.7% GDP) in Jan-March Q4 FY26.",
+      "Full-Year CAD: FY26 CAD stood at .2 billion (0.6% GDP), down from .9B.",
+      "Net Inflows & Forex: Net FDI inflows .9 billion in FY26; forex reserves rose .2 billion in Q4."
+    ],
+    "id": "note-sec2-392",
+    "staticGk": "Balance of Payments (BoP) compiled quarterly by RBI."
+  },
+  {
+    "tier": "Tier A",
+    "title": "RBI Exempts Fresh 3-5 Year FCNR(B) Deposits from CRR and SLR Maintenance",
+    "interviewQ": null,
+    "secId": "sec2",
+    "trap": "FCNR(B) reserve exemption deposit tenor (3 to 5 years) vs swap facility rate (1.5% p.a.).",
+    "date": "2026-06-15",
+    "hook": "Temporarily removes reserve requirements on fresh FCNR(B) deposits to boost dollar inflows till Sept 30, 2026.",
+    "bullets": [
+      "Reserve Exemption: Fresh FCNR(B) deposits (tenor 3 to 5 years) mobilized between June 8 and Sept 30, 2026 exempted from CRR and SLR.",
+      "USD-INR Forex Swap: Introduced US Dollar-Rupee Forex Swap facility for PSU ECBs and bank OFCBs (min 3-yr tenor, up to 5 yrs) at 1.5% p.a."
+    ],
+    "id": "note-sec2-393",
+    "staticGk": "CRR under Sec 42(1) RBI Act; SLR under Sec 24 Banking Regulation Act."
+  },
+  {
+    "tier": "Tier A",
+    "title": "RBI Permits Commercial Banks to Lend to Registered REITs & InvITs (49% Exposure Cap)",
+    "interviewQ": "\"Analyze RBI's framework allowing bank lending to REITs and InvITs.\"\n💡 **Model Answer: It permits bank financing up to 49% of asset value while enforcing an 80% positive cash-flow rule, prohibiting bullet repayments, and capping exposure at 10% of capital base.**",
+    "secId": "sec2",
+    "trap": "REIT exposure asset value cap (49%) vs capital base sub-limit (10%) vs positive cash flow requirement (80%).",
+    "date": "2026-06-16",
+    "hook": "Commercial Banks Third Amendment Directions 2026 allows bank lending to SEBI-registered REITs.",
+    "bullets": [
+      "Exposure Ceiling: Overall bank exposure to a REIT/InvIT capped at 49% of asset value; sub-limit capped at 10% of bank's capital base.",
+      "Cash Flow Mandate: Min 80% underlying assets must generate positive operational cash flows for $\\\\ge 1$ year.",
+      "Risk Weighting: Standard risk weight 100% (125% for capital market exposure; 150% for Indian bank overseas branches)."
+    ],
+    "id": "note-sec2-394",
+    "staticGk": "REITs regulated under SEBI (Real Estate Investment Trusts) Regulations 2014."
+  },
+  {
+    "tier": "Tier A",
+    "title": "SEBI Introduces Dynamic Price Bands for Equity & Commodity ETFs (Effective Sept 1, 2026)",
+    "interviewQ": null,
+    "secId": "sec2",
+    "trap": "Equity ETF initial band (±10%) vs Gold/Silver ETF initial band (±6%).",
+    "date": "2026-06-17",
+    "hook": "Equity/Debt ETFs get initial ±10% dynamic price band; Gold/Silver ETFs get ±6% initial band.",
+    "bullets": [
+      "Equity/Debt ETFs: Initial dynamic band ±10%, expandable up to ±20% after 15-minute cooling off.",
+      "Bullion ETFs: Gold & Silver ETFs get initial ±6% band, expandable in 3% stages without upper/lower limits.",
+      "Pre-Open Auction: Pre-open call auction mechanism introduced for Gold & Silver ETFs."
+    ],
+    "id": "note-sec2-395",
+    "staticGk": "Base price calculated using 30-minute VWAP of previous trading day."
+  },
+  {
+    "tier": "Tier A",
+    "title": "RBI Issues Digital Fraud Compensation Framework: 85% Compensation Up to ₹25,000",
+    "interviewQ": null,
+    "secId": "sec2",
+    "trap": "Max compensation cap (₹25,000 or 85% of net loss up to ₹50,000) vs reporting window (5 days).",
+    "date": "2026-06-18",
+    "hook": "Limits customer liability in small-value digital frauds reported within 5 days to 1930 portal.",
+    "bullets": [
+      "Compensation Scale: Victims of small-value digital frauds (up to ₹50,000 loss) receive 85% net loss or ₹25,000 (whichever lower).",
+      "Reporting SLA: Fraud must be reported to bank & Cyber Crime Helpline 1930 within 5 calendar days.",
+      "Investigation Timeline: 45 days for domestic fraud complaints; 60 days for cross-border cases; 5-day shadow reversal for credit card fraud."
+    ],
+    "id": "note-sec2-396",
+    "staticGk": "Framework effective January 1, 2027 under Section 70B Information Technology Act."
+  },
+  {
+    "tier": "Tier A",
+    "title": "RBI Fixes ₹1 Lakh Crore Asset Threshold for NBFC Upper Layer Classification",
+    "interviewQ": null,
+    "secId": "sec2",
+    "trap": "NBFC-UL asset threshold (₹1 lakh crore) vs Tata Sons asset size (~₹1.75 lakh crore).",
+    "date": "2026-06-19",
+    "hook": "Classifies NBFCs with ≥ ₹1 lakh crore assets into Upper Layer (UL) subjecting them to mandatory listing.",
+    "bullets": [
+      "Asset Size Benchmark: NBFCs with asset size ₹1 lakh crore and above classified into NBFC-UL.",
+      "State Risk Weight: 20% risk weight applies to offset exposures backed by State Government guarantees.",
+      "Tata Sons Impact: Tata Sons (standalone asset size ~₹1.75 lakh crore) covered under mandatory listing requirement."
+    ],
+    "id": "note-sec2-397",
+    "staticGk": "NBFC Scale-Based Regulation (SBR) framework introduced by RBI in 2021."
+  },
+  {
+    "tier": "Tier A",
+    "title": "SEBI Board 214th Meeting: Reintroduces Open-Market Buybacks & Intraday MF Borrowing",
+    "interviewQ": null,
+    "secId": "sec2",
+    "trap": "Buyback execution timeline (66 working days) vs min 1st half fund deployment (40%).",
+    "date": "2026-06-20",
+    "hook": "Open-market buybacks re-allowed from Aug 1, 2026; MFs allowed intraday borrowing up to 20% net assets.",
+    "bullets": [
+      "Open-Market Buybacks: Reintroduced from Aug 1, 2026; completed within 66 working days with min 40% funds deployed in 1st half.",
+      "MF Intraday Borrowing: MFs permitted intraday borrowing to manage temporary liquidity mismatches (in addition to 20% net asset borrowing limit).",
+      "QTP Claims: Introduced Quick Transmission Processing (QTP) for small-value deceased investor claims."
+    ],
+    "id": "note-sec2-398",
+    "staticGk": "SEBI Board meeting held in Mumbai | SEBI Chairman: Tuhin Kanta Pandey."
+  },
+  {
+    "tier": "Tier A",
+    "title": "SEBI Tightens Margin Trading Facility (MTF) Rules: Net Worth Limit Raised to ₹5 Crore",
+    "interviewQ": null,
+    "secId": "sec2",
+    "trap": "Broker net worth cap (₹5 crore) vs MTF exposure limit (5.5x net worth).",
+    "date": "2026-06-21",
+    "hook": "Raises broker net worth requirement from ₹3 crore to ₹5 crore and allows LLPs to offer MTFs.",
+    "bullets": [
+      "Net Worth Cap: Broker net worth requirement raised from ₹3 crore to ₹5 crore; LLPs permitted.",
+      "Locked Net Worth: Locked-away amount = lower of 2x min net worth or 50% total net worth.",
+      "Exposure Ceiling: Remaining net worth usable for MTF within overall exposure limit of 5.5x net worth (single client cap 10%)."
+    ],
+    "id": "note-sec2-399",
+    "staticGk": "MTF allows investors to buy stocks by paying a margin while broker funds the rest."
+  },
+  {
+    "tier": "Tier A",
+    "title": "RBI Revamps Lead Bank Scheme: Mandates 1 Exclusive LDM Per District",
+    "interviewQ": null,
+    "secId": "sec1",
+    "trap": null,
+    "date": "2026-06-22",
+    "hook": "Formalises Block Level Bankers' Committee (BLBC) as credit planning foundation.",
+    "bullets": [
+      "Exclusive LDM: Mandates every lead bank to appoint an exclusive Lead District Manager (LDM) per district.",
+      "BLBC Role: Formalises Block Level Bankers' Committee (BLBC) as foundation of district credit planning.",
+      "Meeting Timelines: Prescribes uniform meeting schedules for BLBC, DCC, DLRC, and SLBC."
+    ],
+    "id": "note-sec1-400",
+    "staticGk": "Lead Bank Scheme introduced in 1969 based on Gadgil & Nariman Committee recommendations."
+  },
+  {
+    "tier": "Tier A",
+    "title": "Int'l MSME Day 2026: Collateral-Free MSE Loan Limit Doubled from ₹10 Lakh to ₹20 Lakh",
+    "interviewQ": null,
+    "secId": "sec1",
+    "trap": "Standard MSE collateral-free limit (₹20 lakh) vs good track record limit (₹25 lakh).",
+    "date": "2026-06-23",
+    "hook": "RBI Governor notes MSMEs contribute 31% of India's GDP and half of merchandise exports.",
+    "bullets": [
+      "Collateral Cap Doubled: Mandatory collateral-free loan limit for MSEs doubled from ₹10 lakh to ₹20 lakh (extendable to ₹25 lakh).",
+      "Account Aggregator Impact: AA framework facilitated ₹3.5 lakh crore lending in FY26.",
+      "Pre-Payment Charge Ban: Commercial banks barred from levying pre-payment penalties on floating-rate MSE loans."
+    ],
+    "id": "note-sec1-401",
+    "staticGk": "International MSME Day celebrated June 27 | MSME sector sustains 32 crore livelihoods."
+  },
+  {
+    "tier": "Tier A",
+    "title": "RBI Mandates 100% Collateral-Backed Bank Guarantees for Prop Trading (50% Cash)",
+    "interviewQ": null,
+    "secId": "sec2",
+    "trap": "Total collateral requirement (100%) vs mandatory cash portion (at least 50%).",
+    "date": "2026-06-24",
+    "hook": "Requires capital market trading bank guarantees to be fully collateralised to curb derivatives leverage.",
+    "bullets": [
+      "Collateral Rule: Bank guarantees issued to capital market trading firms must be 100% backed by collateral, with at least 50% in cash (effective July 1, 2026).",
+      "Market Impact: Reduces leverage for proprietary trading firms accounting for over half of NSE options turnover."
+    ],
+    "id": "note-sec2-402",
+    "staticGk": "RBI Governor: Sanjay Malhotra | NSE MD & CEO: Ashishkumar Chauhan."
+  },
+  {
+    "tier": "Tier A",
+    "title": "RBI Draft Directions on Call, Notice & Term Money Markets: SPD Limit Raised to 400%",
+    "interviewQ": null,
+    "secId": "sec2",
+    "trap": "SPD term money limit (400% NOF) vs NBFC term money limit (200% NOF) vs SPD call/notice limit (225%).",
+    "date": "2026-06-25",
+    "hook": "Allows AIFIs and NBFCs into term money market; caps NBFC term money borrowing at 200% NOF.",
+    "bullets": [
+      "Entity Expansion: AIFIs and NBFCs (excl Base Layer) permitted to borrow and lend in term money market; corporate entities as lenders.",
+      "Borrowing Caps: Standalone Primary Dealers (SPDs) term money limit raised to 400% of Net Owned Funds (NOF); NBFC limit set at 200% NOF.",
+      "Platform Mandate: All participants must join NDS-CALL platform within 6 months; OTC deals reported within 15 mins."
+    ],
+    "id": "note-sec2-403",
+    "staticGk": "Call Money (1 day), Notice Money (2-14 days), Term Money (15 days - 1 year)."
+  },
+  {
+    "tier": "Tier A",
+    "title": "UPI Launches in Cambodia via KHQR Linkage (10th Global Destination)",
+    "interviewQ": null,
+    "secId": "sec2",
+    "trap": "Cambodia global position (10th country for UPI acceptance).",
+    "date": "2026-06-26",
+    "hook": "NIPL partners with ACLEDA Bank for cross-border QR payments.",
+    "bullets": [
+      "Cambodia Linkage: UPI accepted in Cambodia via national QR code KHQR (in partnership with ACLEDA Bank).",
+      "10 Countries Tally: Cambodia becomes 10th international destination joining Bhutan, France, Mauritius, Nepal, Singapore, Sri Lanka, UAE, Qatar, and Greece."
+    ],
+    "id": "note-sec2-404",
+    "staticGk": "NPCI International Payments Ltd (NIPL) CEO: Ritesh Shukla."
+  },
+  {
+    "tier": "Tier A",
+    "title": "GRSE Kolkata Upgraded to 29th Navratna Central Public Sector Enterprise",
+    "interviewQ": null,
+    "secId": "sec4",
+    "trap": "GRSE Navratna rank (29th) vs Maharatna count in India (14).",
+    "date": "2026-06-27",
+    "hook": "Department of Public Enterprises upgrades Garden Reach Shipbuilders & Engineers to Navratna status.",
+    "bullets": [
+      "Navratna Status: GRSE upgraded from Miniratna Category-I to 29th Navratna CPSE.",
+      "Financial Autonomy: Grants autonomy to invest up to ₹1,000 crore or 15% of net worth without Cabinet approval."
+    ],
+    "id": "note-sec4-405",
+    "staticGk": "GRSE Chairman & MD: Cdre PR Hari (Retd) | HQ: Kolkata, WB. India has 14 Maharatna CPSEs."
+  },
+  {
+    "tier": "Tier A",
+    "title": "PM Modi Conferred Slovakia's Highest Civilian Award 'Order of the White Double Cross'",
+    "interviewQ": null,
+    "secId": "sec7",
+    "trap": null,
+    "date": "2026-06-28",
+    "hook": "Marks PM Modi's 33rd international honour during State Visit.",
+    "bullets": [
+      "Award Conferred: 'Order of the White Double Cross (1st Class)', Slovakia's highest civilian honour.",
+      "Milestone: 33rd international award conferred on PM Modi (first by independent Slovakia)."
+    ],
+    "id": "note-sec7-406",
+    "staticGk": "Slovakia Capital: Bratislava | Currency: Euro | PM: Robert Fico."
+  },
+  {
+    "tier": "Tier A",
+    "title": "R Praggnanandhaa Wins 2026 Norway Chess Title Defeating Magnus Carlsen Twice",
+    "interviewQ": null,
+    "secId": "sec6",
+    "trap": null,
+    "date": "2026-06-29",
+    "hook": "Becomes 1st Indian champion of Norway Chess since tournament inception in 2013.",
+    "bullets": [
+      "Title Victory: Indian GM R Praggnanandhaa won 2026 Norway Chess title by defeating Vincent Keymer in the final.",
+      "Carlsen Defeats: Defeated 7-time champion and World No. 1 Magnus Carlsen twice in classical chess."
+    ],
+    "id": "note-sec6-407",
+    "staticGk": "Norway Chess established in 2013 in Stavanger, Norway."
+  },
+  {
+    "tier": "Tier A",
+    "title": "India's 1st Private Gold Mine Begins Commercial Operations at Jonnagiri (Kurnool, AP)",
+    "interviewQ": null,
+    "secId": "sec4",
+    "trap": null,
+    "date": "2026-06-30",
+    "hook": "Chief Minister N. Chandrababu Naidu inaugurates Geomysore Services primary gold mining project.",
+    "bullets": [
+      "Private Gold Mine: India's 1st operational private primary gold mine launched at Swarnagiri (Jonnagiri), Kurnool district, AP.",
+      "Operator: Developed and operated by Geomysore Services India Pvt Ltd (GMSI)."
+    ],
+    "id": "note-sec4-408",
+    "staticGk": "Andhra Pradesh CM: N. Chandrababu Naidu | Capital: Amaravati."
   }
 ];
 
