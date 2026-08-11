@@ -538,11 +538,6 @@ document.addEventListener("DOMContentLoaded", () => {
             ${isBookmarked ? '★' : '☆'}
           </button>
         </div>
-        <div class="note-tags">
-          <span class="tag tag-sec">${secObj ? secObj.emoji : ''} ${secObj ? secObj.title.split(' ')[1] : ''}</span>
-          <span class="tag ${note.tier === 'Tier A' ? 'tag-tier-a' : 'tag-tier-b'}">${note.tier}</span>
-          <span class="tag" style="background: rgba(0,0,0,0.04); color: var(--text-muted);">${note.date}</span>
-        </div>
         ${hookHtml}
         ${bulletsHtml}
         ${staticHtml}
@@ -613,10 +608,6 @@ document.addEventListener("DOMContentLoaded", () => {
             <button class="btn-bookmark ${isBookmarked ? 'bookmarked' : ''}" onclick="toggleBookmark('${sub.subId}')" title="Bookmark Topic">
               ${isBookmarked ? '★' : '☆'}
             </button>
-          </div>
-          <div class="note-tags">
-            <span class="tag tag-quant">${ch.title}</span>
-            <span class="tag" style="background: rgba(0,0,0,0.04); color: var(--text-muted);">Banking Mains Reference</span>
           </div>
           ${bodyHtml}
         `;
@@ -693,10 +684,6 @@ document.addEventListener("DOMContentLoaded", () => {
             <button class="btn-bookmark ${isBookmarked ? 'bookmarked' : ''}" onclick="toggleBookmark('${sub.subId}')" title="Bookmark Topic">
               ${isBookmarked ? '★' : '☆'}
             </button>
-          </div>
-          <div class="note-tags">
-            <span class="tag tag-static">${ch.title}</span>
-            <span class="tag" style="background: rgba(0,0,0,0.04); color: var(--text-muted);">Core Banking & Policy Reference</span>
           </div>
           ${bodyHtml}
         `;
