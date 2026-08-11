@@ -210,6 +210,15 @@ document.addEventListener("DOMContentLoaded", () => {
     if (document.getElementById("monthChevron")) document.getElementById("monthChevron").textContent = "▼";
   }
 
+  let activeSubject = "ca"; // "ca", "quant", or "static_ga"
+  let activeSectionId = "all";
+  let activeQuantChapterId = "all";
+  let activeStaticChapterId = "all";
+  let activeMonth = "all";
+  let onlyBookmarks = false;
+  let activeRecallMode = false;
+  let bookmarkedIds = JSON.parse(localStorage.getItem("ca_bookmarks") || "[]");
+
   // Switch Subject Mode
   window.switchSubject = function(subj) {
     activeSubject = subj;
@@ -225,7 +234,7 @@ document.addEventListener("DOMContentLoaded", () => {
       toggleMonthBtn.style.display = "flex";
       toggleRecallBtn.style.display = "flex";
       updateMonthHeaderLabel();
-    } else {
+    } else if (subj === "quant") {
       appHeaderTitle.textContent = "The Quant Superbook";
       appHeaderSubtitle.textContent = "Banking Mains Edition | Formulas & Worked Patterns";
       toggleSubjectBtn.innerHTML = `📐 Subject: Quant Superbook <span id="subjectChevron">▼</span>`;
@@ -234,6 +243,15 @@ document.addEventListener("DOMContentLoaded", () => {
       toggleSidebarBtn.innerHTML = `📐 Quant Topics <span id="sidebarChevron">▼</span>`;
       toggleMonthBtn.style.display = "none";
       toggleRecallBtn.style.display = "none";
+    } else if (subj === "static_ga") {
+      appHeaderTitle.textContent = "Static GA Master Book";
+      appHeaderSubtitle.textContent = "SBI PO & IBPS PO Mains | Core Banking & Policy Master Compendium";
+      toggleSubjectBtn.innerHTML = `📘 Subject: Static GA Master Book <span id="subjectChevron">▼</span>`;
+      toggleSubjectBtn.className = "toggle-chip active-static";
+      toggleSidebarBtn.style.display = "flex";
+      toggleSidebarBtn.innerHTML = `📘 Static GA Chapters <span id="sidebarChevron">▼</span>`;
+      toggleMonthBtn.style.display = "none";
+      toggleRecallBtn.style.display = "flex";
     }
 
     renderSidebar();
@@ -264,7 +282,7 @@ document.addEventListener("DOMContentLoaded", () => {
         li.appendChild(btn);
         sectionNavList.appendChild(li);
       });
-    } else {
+    } else if (activeSubject === "quant") {
       quantNavGrid.innerHTML = "";
 
       const allLi = document.createElement("li");
@@ -284,6 +302,26 @@ document.addEventListener("DOMContentLoaded", () => {
         li.appendChild(btn);
         quantNavGrid.appendChild(li);
       });
+    } else if (activeSubject === "static_ga") {
+      quantNavGrid.innerHTML = "";
+
+      const allLi = document.createElement("li");
+      const allBtn = document.createElement("button");
+      allBtn.className = `nav-item-btn ${activeStaticChapterId === "all" ? "active" : ""}`;
+      allBtn.innerHTML = `<span>📘 All Static GA Chapters</span> <span class="badge-count">${STATIC_GA_CHAPTERS.length}</span>`;
+      allBtn.addEventListener("click", () => selectStaticChapter("all"));
+      allLi.appendChild(allBtn);
+      quantNavGrid.appendChild(allLi);
+
+      STATIC_GA_CHAPTERS.forEach(ch => {
+        const li = document.createElement("li");
+        const btn = document.createElement("button");
+        btn.className = `nav-item-btn ${activeStaticChapterId === ch.id ? "active" : ""}`;
+        btn.innerHTML = `<span>${ch.icon} ${ch.title}</span> <span class="badge-count">${ch.subsections.length}</span>`;
+        btn.addEventListener("click", () => selectStaticChapter(ch.id));
+        li.appendChild(btn);
+        quantNavGrid.appendChild(li);
+      });
     }
   }
 
@@ -297,6 +335,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function selectQuantChapter(chId) {
     activeQuantChapterId = chId;
+    renderSidebar();
+    renderFeed();
+    renderDrill();
+    closeAllDrawers();
+  }
+
+  function selectStaticChapter(chId) {
+    activeStaticChapterId = chId;
     renderSidebar();
     renderFeed();
     renderDrill();
@@ -398,8 +444,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (activeSubject === "ca") {
       renderCAFeed();
-    } else {
+    } else if (activeSubject === "quant") {
       renderQuantFeed();
+    } else if (activeSubject === "static_ga") {
+      renderStaticGAFeed();
     }
   }
 
@@ -569,6 +617,86 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="note-tags">
             <span class="tag tag-quant">${ch.title}</span>
             <span class="tag" style="background: rgba(0,0,0,0.04); color: var(--text-muted);">Banking Mains Reference</span>
+          </div>
+          ${bodyHtml}
+        `;
+
+        notesFeed.appendChild(card);
+      });
+    });
+  }
+
+  // Render Static GA Master Book Feed
+  function renderStaticGAFeed() {
+    let chapters = STATIC_GA_CHAPTERS.filter(ch => {
+      return activeStaticChapterId === "all" || ch.id === activeStaticChapterId;
+    });
+
+    let totalSubsections = chapters.reduce((acc, ch) => acc + ch.subsections.length, 0);
+    activeCountEl.textContent = `${totalSubsections} topics`;
+
+    let activeTitle = activeStaticChapterId === "all" ? "All Static GA Master Book Chapters" : STATIC_GA_CHAPTERS.find(c => c.id === activeStaticChapterId).title;
+    activeFilterLabel.textContent = `📘 ${activeTitle}`;
+
+    chapters.forEach(ch => {
+      ch.subsections.forEach(sub => {
+        const isBookmarked = bookmarkedIds.includes(sub.subId);
+        if (onlyBookmarks && !isBookmarked) return;
+
+        const card = document.createElement("div");
+        card.className = "note-card";
+
+        let bodyHtml = "";
+
+        if (sub.type === "table") {
+          let headersHtml = sub.headers.map(h => `<th>${h}</th>`).join("");
+          let rowsHtml = sub.rows.map(r => `
+            <tr>
+              ${r.map(cell => `<td>${parseTrapAndStaticGK(cell)}</td>`).join("")}
+            </tr>
+          `).join("");
+
+          bodyHtml = `
+            <div class="quant-table-wrapper">
+              <table class="quant-table">
+                <thead><tr>${headersHtml}</tr></thead>
+                <tbody>${rowsHtml}</tbody>
+              </table>
+            </div>
+          `;
+        } else if (sub.type === "bullets") {
+          bodyHtml = `
+            <ul class="bullets-list">
+              ${sub.items.map(item => `<li>${processBulletText(item)}</li>`).join("")}
+            </ul>
+          `;
+        } else if (sub.type === "formula") {
+          bodyHtml = `
+            <div class="formula-box">
+              ${sub.items.map(f => `<div>⚡ ${parseTrapAndStaticGK(f)}</div>`).join("")}
+            </div>
+          `;
+        } else if (sub.type === "examCorner") {
+          bodyHtml = `
+            <div class="exam-corner-box">
+              <h4 style="color: var(--accent-green); margin-bottom: 8px;">🎯 Exam Revision Corner</h4>
+              <ul class="bullets-list">
+                ${sub.items.map(item => `<li>${parseTrapAndStaticGK(item)}</li>`).join("")}
+              </ul>
+            </div>
+          `;
+        }
+
+        card.innerHTML = `
+          <div class="note-header">
+            <h3 class="note-title">${ch.icon} ${sub.title}</h3>
+            <button class="btn-bookmark ${isBookmarked ? 'bookmarked' : ''}" onclick="toggleBookmark('${sub.subId}')" title="Bookmark Topic">
+              ${isBookmarked ? '★' : '☆'}
+            </button>
+          </div>
+          <div class="note-tags">
+            <span class="tag tag-static">${ch.title}</span>
+            <span class="tag" style="background: rgba(0,0,0,0.04); color: var(--text-muted);">Core Banking & Policy Reference</span>
           </div>
           ${bodyHtml}
         `;
