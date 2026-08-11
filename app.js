@@ -1,4 +1,4 @@
-// Current Affairs Command Center 2026 — Kindle Centered Reader Logic (v3.4)
+// Current Affairs Command Center 2026 — Kindle Centered Reader Logic (v3.5)
 
 document.addEventListener("DOMContentLoaded", () => {
   let activeSectionId = "all";
@@ -18,38 +18,43 @@ document.addEventListener("DOMContentLoaded", () => {
   const sidebarChevron = document.getElementById("sidebarChevron");
   const drillContainer = document.getElementById("drillContainer");
 
-  // Helper 1: Plain Markdown Parser (for Headlines & Titles — NO numeral highlighting)
-  function parseMarkdownOnly(text) {
+  // Helper 1: Plain Markdown Parser (for Headlines, Rationale, Bullets — NO numeral highlights)
+  function parseMarkdown(text) {
     if (!text) return "";
     let html = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
     html = html.replace(/\*(.*?)\*/g, '<em>$1</em>');
     return html;
   }
 
-  // Helper 2: High-Yield Numeral Highlight Parser (Excludes passing years 19XX/20XX & dates)
-  function processBodyText(text) {
+  // Helper 2: Atomic Numeral Parser (Strictly for Trap Contrasts & Static GK boxes)
+  function parseTrapAndStaticGK(text) {
     if (!text) return "";
 
-    // 1. Parse bold & italic markdown
-    let html = parseMarkdownOnly(text);
+    // First parse markdown bold & italic
+    let html = parseMarkdown(text);
 
-    // 2. High-Yield Numeral Regex: Currency (₹/$), %, or key counts (EXCLUDING passing 4-digit years 19XX/20XX)
-    const keyNumRegex = /(\₹[\d,]+(\.\d+)?\s*(trillion|crore|lakh|billion|cr)?|\$\d+(\.\d+)?\s*(trillion|billion|million|crore)?|\d+(\.\d+)?%|\b(?!19\d\d\b|20\d\d\b)\d{1,3}(,\d{3})*(\.\d+)?\b)/gi;
+    // Atomic Regex Patterns for Trap Contrast & Static GK (NEVER split dates, fiscal years, or currencies)
+    const atomicNumRegex = /(\₹[\d,]+(\.\d+)?\s*(trillion|crore|lakh|billion|cr)?|\$\d+(\.\d+)?\s*(trillion|billion|million|crore)?|\d+(\.\d+)?%|FY\s*\d{2,4}(-\d{2,4})?|\b(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(,\s*\d{4})?|\b\d{4}-\d{2,4}\b)/gi;
 
     if (activeRecallMode) {
-      // Ink Mask for Active Recall Mode
-      html = html.replace(keyNumRegex, (match) => {
-        // Exclude standalone 4-digit years (1900-2099)
-        if (/^(19|20)\d\d$/.test(match.trim())) return match;
-        return `<span class="masked-figure" onclick="this.classList.toggle('revealed')">${match}</span>`;
-      });
+      // Active Recall Blur Mask
+      html = html.replace(atomicNumRegex, '<span class="masked-figure" onclick="this.classList.toggle(\'revealed\')">$1</span>');
     } else {
-      // Distinct Monospace Numeral Highlight for Key Trap/Figure Contrast
-      html = html.replace(keyNumRegex, (match) => {
-        // Exclude standalone 4-digit years (1900-2099)
-        if (/^(19|20)\d\d$/.test(match.trim())) return match;
-        return `<span class="num-highlight">${match}</span>`;
-      });
+      // Scoped Numeral Highlight strictly for Traps & Static GK
+      html = html.replace(atomicNumRegex, '<span class="num-highlight">$1</span>');
+    }
+
+    return html;
+  }
+
+  // Helper 3: Bullet Renderer (Plain text by default; masked in Active Recall Mode)
+  function processBulletText(text) {
+    if (!text) return "";
+    let html = parseMarkdown(text);
+
+    if (activeRecallMode) {
+      const recallNumRegex = /(\₹[\d,]+(\.\d+)?\s*(trillion|crore|lakh|billion|cr)?|\$\d+(\.\d+)?\s*(trillion|billion|million|crore)?|\d+(\.\d+)?%|\b(?!19\d\d\b|20\d\d\b)\d{2,}\b)/gi;
+      html = html.replace(recallNumRegex, '<span class="masked-figure" onclick="this.classList.toggle(\'revealed\')">$1</span>');
     }
 
     return html;
@@ -127,7 +132,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const isBookmarked = bookmarkedIds.includes(note.id);
       const secObj = CA_SECTIONS.find(s => s.id === note.secId);
 
-      // Determine Density Class: Tier B+ or single-bullet notes get compact padding
+      // Compact layout for Tier B+ or single-bullet notes
       const isCompact = note.tier === "Tier B+" || (!note.hook && !note.trap && !note.interviewQ && note.bullets.length <= 1);
       
       const card = document.createElement("div");
@@ -137,39 +142,43 @@ document.addEventListener("DOMContentLoaded", () => {
       if (note.bullets && note.bullets.length > 0) {
         bulletsHtml = `
           <ul class="bullets-list">
-            ${note.bullets.map(b => `<li>${processBodyText(b)}</li>`).join("")}
+            ${note.bullets.map(b => `<li>${processBulletText(b)}</li>`).join("")}
           </ul>
         `;
       }
 
+      // Rationale: Plain prose without numeral highlighting
       let hookHtml = note.hook ? `
         <div class="hook-box">
-          🪝 <strong>Rationale:</strong> ${processBodyText(note.hook)}
+          🪝 <strong>Rationale:</strong> ${parseMarkdown(note.hook)}
         </div>
       ` : "";
 
+      // Static GK: High-yield atomic numeral highlights for establishing dates & facts
       let staticHtml = note.staticGk ? `
         <div class="static-gk-box">
-          🏛️ <strong>Static GK:</strong> ${processBodyText(note.staticGk)}
+          🏛️ <strong>Static GK:</strong> ${parseTrapAndStaticGK(note.staticGk)}
         </div>
       ` : "";
 
+      // Trap Contrast: High-yield atomic numeral highlights for number-vs-number comparison
       let trapHtml = note.trap ? `
         <div class="trap-box">
-          ⚠️ <strong>Trap Contrast:</strong> ${processBodyText(note.trap)}
+          ⚠️ <strong>Trap Contrast:</strong> ${parseTrapAndStaticGK(note.trap)}
         </div>
       ` : "";
 
+      // Interview Insight: Plain prose
       let interviewHtml = note.interviewQ ? `
         <div class="interview-box">
-          💼 <strong>Interview Insight:</strong> ${processBodyText(note.interviewQ)}
+          💼 <strong>Interview Insight:</strong> ${parseMarkdown(note.interviewQ)}
         </div>
       ` : "";
 
-      // Notice: Headlines use parseMarkdownOnly so title numbers remain clean & plain!
+      // Headline: Plain prose
       card.innerHTML = `
         <div class="note-header">
-          <h3 class="note-title">📰 ${parseMarkdownOnly(note.title)}</h3>
+          <h3 class="note-title">📰 ${parseMarkdown(note.title)}</h3>
           <button class="btn-bookmark ${isBookmarked ? 'bookmarked' : ''}" onclick="toggleBookmark('${note.id}')" title="Bookmark Note">
             ${isBookmarked ? '★' : '☆'}
           </button>
@@ -205,13 +214,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let retrievalsHtml = drill.retrievals.map((q, idx) => `
       <div class="quiz-q-item">
-        <strong>Q${idx+1}.</strong> ${processBodyText(q)}
+        <strong>Q${idx+1}.</strong> ${parseMarkdown(q)}
       </div>
     `).join("");
 
     let coverTestsHtml = drill.coverTests.map(c => `
       <div class="quiz-q-item">
-        ⚡ ${processBodyText(c)}
+        ⚡ ${parseTrapAndStaticGK(c)}
       </div>
     `).join("");
 
@@ -233,7 +242,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <button class="answer-toggle-btn" onclick="toggleAnswerBox(this)">🙈 Reveal Section Drill Answers</button>
       <div class="answer-box">
         <strong>🔑 Verified Answers:</strong><br>
-        ${processBodyText(drill.answers)}
+        ${parseTrapAndStaticGK(drill.answers)}
       </div>
     `;
 
