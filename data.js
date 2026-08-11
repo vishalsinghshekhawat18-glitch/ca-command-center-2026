@@ -2191,6 +2191,897 @@ const CA_NOTES_DATA = [
       "Mullaperiyar Dam: Masonry gravity dam in Thekkady, Idukki, Kerala."
     ],
     "trap": null
+  },
+  {
+    "title": "Maharashtra Approves ₹45-Crore Eco-Nature Park with India's 1st AI Bird Monitoring Centre at Thane Creek",
+    "interviewQ": "\"How does AI-driven acoustic monitoring improve wetland conservation along the Central Asian Flyway?\"\n💡 **Model Answer: Automated real-time image and sound recognition tracks migratory species populations without human environmental disturbance.**",
+    "hook": "Integrates AI acoustic sensors and automated camera tracking into coastal Ramsar wetland conservation.",
+    "tier": "Tier A",
+    "trap": "India's 1st dedicated flamingo sanctuary (Thane Creek, 2015) vs India's 101st Ramsar site (Glaw Lake, Arunachal Pradesh).",
+    "staticGk": "Thane Creek declared wildlife sanctuary in 2015 (India's 1st dedicated flamingo sanctuary) | Designated Ramsar site.",
+    "id": "note-sec4-149",
+    "bullets": [
+      "Project Location: Thane Creek Flamingo Sanctuary shoreline (Bhandup Bird Park project, 20.09 hectares total, 0.35 hectares physical footprint).",
+      "Technology Footprint: Uses AI-based cameras and acoustic sensors across a 1.5-km stretch to track bird activity along the Central Asian Flyway.",
+      "Funding Allocation: ₹45 crore sanctioned from District Planning Committee special fund."
+    ],
+    "secId": "sec4",
+    "date": "2026-08-01"
+  },
+  {
+    "title": "President Droupadi Murmu Launches e-Audio Guide, e-Upahaar 3rd Edition, and RAAHI Electric Bus Service",
+    "interviewQ": null,
+    "hook": "Introduces citizen-centric, sustainability-focused, and heritage initiatives marking 4 years of Presidency.",
+    "tier": "Tier A",
+    "trap": null,
+    "staticGk": "Droupadi Murmu sworn in as 15th President on July 25, 2022 (India's 1st tribal Head of State) | Historic Mughal Gardens renamed Amrit Udyan.",
+    "id": "note-sec4-150",
+    "bullets": [
+      "Heritage & Inclusion: Launched app-based e-Audio Guide (16 Indian languages + sign language) and 3rd edition of e-Upahaar (300 curated gifts for public auction).",
+      "Childcare Facility: Inaugurated 'Bachpan Bal Parisar' comprising 'Kilkari' play zone and 'Samarth Anganwadi-cum-Palna'.",
+      "Green Mobility: Flagged off 'RAAHI' (Rashtrapati Bhavan Access and Heritage Interconnector)—a fare-free, 27-seater electric bus operated by women drivers.",
+      "Net Zero Infrastructure: Foundation stone laid for new service block under Net Zero Energy Strategy."
+    ],
+    "secId": "sec4",
+    "date": "2026-08-02"
+  },
+  {
+    "title": "MHA Reports Over 12,000 e-Zero FIRs Registered Against Cyber Financial Frauds (Delhi Tops List)",
+    "interviewQ": null,
+    "hook": "Expedites emergency reporting of financial cybercrime across 18 participating States and Union Territories.",
+    "tier": "Tier A",
+    "trap": "3-day window to convert e-Zero FIR into regular FIR vs 30-day past due window for loan phone lock restrictions.",
+    "staticGk": "National Cyber Crime Reporting Portal (NCRP) administered under I4C (MHA) | CEO: Rajesh Kumar.",
+    "id": "note-sec1-151",
+    "bullets": [
+      "Operational Network: e-Zero FIR system (launched May 2025) implemented across 18 States/UTs, allowing direct online reporting via helpline 1930.",
+      "State Rankings: Delhi topped nationwide with 6,115 e-Zero FIRs, followed by Chandigarh (4,174) and Uttarakhand (552).",
+      "Procedural Window: Complainants must visit local territorial police station within 3 days to convert Zero FIR into regular FIR.",
+      "Constitutional Domain: 'Police' and 'Public Order' are State subjects under the Seventh Schedule of the Constitution."
+    ],
+    "secId": "sec1",
+    "date": "2026-08-03"
+  },
+  {
+    "title": "Department of Expenditure Enforces 'One Officer, One Official Car' Policy for Central Bureaucracy",
+    "interviewQ": null,
+    "hook": null,
+    "tier": "Tier B+",
+    "trap": null,
+    "staticGk": "Department of Expenditure works under Ministry of Finance.",
+    "id": "note-sec1-152",
+    "bullets": [
+      "Restricts entitled officers to 1 official government car even if assigned additional charge of other ministries, PSUs, or autonomous bodies.",
+      "Personal Travel Allowance: Entitled officers may use official cars for personal travel up to 500 km per month by paying ₹3,000 per month and forfeiting transport allowance."
+    ],
+    "secId": "sec1",
+    "date": "2026-08-04"
+  },
+  {
+    "title": "Defence Minister Inaugurates Country's 1st Department of Military Medicine at Command Hospital, Lucknow",
+    "interviewQ": null,
+    "hook": "Establishes dedicated academic and operational military healthcare research under Army Medical Services.",
+    "tier": "Tier A",
+    "trap": null,
+    "staticGk": "AFMS Headquarters: New Delhi | DGAFMS: Air Marshal Sandeep Thareja.",
+    "id": "note-sec6-153",
+    "bullets": [
+      "Administrative Nodal Body: Established under Directorate General of Medical Services (Army).",
+      "Strategic Alignment: Complements proposed Global Military Medicine Centre under Raksha Strategy Vision 2026-30.",
+      "Specialized Disciplines: Focuses on CBRNe medical response, damage control trauma, combat psychiatry, and high-altitude field care."
+    ],
+    "secId": "sec6",
+    "date": "2026-08-05"
+  },
+  {
+    "title": "Ministry of Panchayati Raj Launches 'DAANVEER' Citizen Participation Portal for Gram Panchayats",
+    "interviewQ": null,
+    "hook": null,
+    "tier": "Tier B+",
+    "trap": null,
+    "staticGk": "Union Minister for Panchayati Raj: Rajiv Ranjan Singh (Lalan Singh).",
+    "id": "note-sec10-154",
+    "bullets": [
+      "Enables individuals and Indian diaspora to voluntarily donate computers to nearly 2.5 lakh Gram Panchayats via 'Meri Panchayat' app and DigiHaat.",
+      "Technical Partners: Developed in collaboration with National Informatics Centre (NIC) and DigiHaat."
+    ],
+    "secId": "sec10",
+    "date": "2026-08-06"
+  },
+  {
+    "title": "MHA Orders Takedown of Open-Source Bluetooth Mesh App 'Bitchat' on GitHub",
+    "interviewQ": "\"Why did law enforcement agencies order the removal of peer-to-peer mesh apps like Bitchat?\"\n💡 **Model Answer: Decentralized BLE apps operate without phone numbers, IP logs, or central servers, preventing lawful interception during cyber threats.**",
+    "hook": "Addresses lawful interception concerns over decentralized Bluetooth Low Energy (BLE) peer-to-peer messaging.",
+    "tier": "Tier A",
+    "trap": "3-hour GitHub takedown deadline vs 3-day e-Zero FIR conversion window.",
+    "staticGk": "IT Act enacted in 2000 | Safe harbour protection provided under Section 79 of IT Act 2000.",
+    "id": "note-sec2-155",
+    "bullets": [
+      "Legal Citation: Order issued by I4C under Section 79(3)(b) of Information Technology Act 2000 and Rule 3(1)(d) of IT Rules 2021.",
+      "Operational Mechanism: Bitchat (created by Jack Dorsey) uses BLE mesh networks for encrypted communication within 30–100 metres without internet or mobile networks.",
+      "Takedown Deadline: GitHub directed to disable access to 3 repositories within 3 hours to avoid loss of intermediary safe-harbour protection."
+    ],
+    "secId": "sec2",
+    "date": "2026-08-07"
+  },
+  {
+    "title": "Air India Expands International Aviation Hub Model across 44 Target Airports",
+    "interviewQ": null,
+    "hook": "Routes Tier-II and Tier-III regional passengers through major hub airports for seamless international connections.",
+    "tier": "Tier A",
+    "trap": null,
+    "staticGk": "Air India CEO: Tewolde Gebremariam | Ministry of Civil Aviation.",
+    "id": "note-sec1-156",
+    "bullets": [
+      "Hub & Spoke Footprint: Delhi serves as 1st primary hub airport; Varanasi, Amritsar, and Ahmedabad operating as spoke airports.",
+      "Easy Connect Flights: Enables international check-in, luggage drop, and immigration formalities at origin regional airports before connecting via Delhi.",
+      "National Target: Ministry of Civil Aviation aims to develop 100 airports and 200 heliports over next 10 years."
+    ],
+    "secId": "sec1",
+    "date": "2026-08-01"
+  },
+  {
+    "title": "MoHUA Approves ₹2,719.80 Crore Urban Challenge Fund (UCF) Projects for Ahmedabad",
+    "interviewQ": null,
+    "hook": "Finances major urban infrastructure, Intelligent Water Management, and ITMS transit under Centrally Sponsored UCF.",
+    "tier": "Tier A",
+    "trap": "UCF Central Assistance (₹1 lakh crore / 25% project cost) vs total urban investment target (₹4 lakh crore).",
+    "staticGk": "MoHUA Minister: Manohar Lal Khattar | ADB approved  billion loan for Urban Transformation and Investment Program.",
+    "id": "note-sec10-157",
+    "bullets": [
+      "Approved Projects: ₹852.93 cr (West Ahmedabad sewerage), ₹551.35 cr (East Ahmedabad sewerage), ₹479.25 cr (125 TPD Integrated Sludge Facility), ₹331.03 cr (ITMS & AFCS Transit).",
+      "UCF Corpus & Structure: UCF approved with ₹1 lakh crore Central Assistance to leverage ₹4 lakh crore urban investments (FY26 to FY31). Central support capped at 25%, minimum 50% market raised, 25% state/ULB.",
+      "Credit Guarantee Sub-Scheme: Central repayment guarantee up to ₹7 crore (or 70% of loan) for Tier-II/III cities."
+    ],
+    "secId": "sec10",
+    "date": "2026-08-02"
+  },
+  {
+    "title": "Supreme Court Issues Interim Order Barring Audio-Video Court Recording Monetisation on Digital Platforms",
+    "interviewQ": null,
+    "hook": "Protects judicial dignity against selective, decontextualized social media video clipping.",
+    "tier": "Tier A",
+    "trap": null,
+    "staticGk": "Supreme Court sanctioned judge strength: 38 (including CJI) | Article 124(1).",
+    "id": "note-sec2-158",
+    "bullets": [
+      "Bench Composition: 3-judge bench headed by CJI Surya Kant, Justice Joymalya Bagchi, and Justice V. Mohana.",
+      "Order Mandate: Bars posting, reposting, extracting, or monetising courtroom audio-video recordings without written permission of Supreme Court Secretary General or High Court Registrar Generals.",
+      "News Reporting Clarification: Clarified that order does NOT restrict genuine news reporting or authorized livestreaming."
+    ],
+    "secId": "sec2",
+    "date": "2026-08-03"
+  },
+  {
+    "title": "Kerala Deploys 'ANNAM.AI' Smart Weather Stations for Climate-Smart Agriculture",
+    "interviewQ": null,
+    "hook": "Rolls out 3-km resolution agricultural weather monitoring developed by IIT Ropar.",
+    "tier": "Tier A",
+    "trap": null,
+    "staticGk": "IIT Ropar located in Punjab | Kerala CM: V. D. Satheesan.",
+    "id": "note-sec6-159",
+    "bullets": [
+      "Centre of Excellence: Developed at IIT Ropar with support from Ministry of Education under 100-day action plan.",
+      "Deployment Footprint: 100 AI-powered weather stations deployed at 3-km resolution tracking solar radiation, soil moisture, and rainfall.",
+      "National Pilot: Punjab was the 1st implementation state (100 stations deployed by March 30, 2026)."
+    ],
+    "secId": "sec6",
+    "date": "2026-08-04"
+  },
+  {
+    "title": "Ladakh Grants Statutory Protection to 23 Ancient Heritage Sites under J&K Preservation Act",
+    "interviewQ": null,
+    "hook": null,
+    "tier": "Tier B+",
+    "trap": null,
+    "staticGk": "Ladakh carved out as UT on October 31, 2019 | Lieutenant Governor: Vinai Kumar Saxena.",
+    "id": "note-sec4-160",
+    "bullets": [
+      "Notifies 23 ancient forts, monasteries, and petroglyph clusters as 'Protected Monuments' across Leh and Kargil.",
+      "Prominent Monuments: Maitreya Buddha Rock Carving at Shey, Tingmosgang Fort, Ancient Caves at Saspol, and Chamba Karpo at Diggar."
+    ],
+    "secId": "sec4",
+    "date": "2026-08-05"
+  },
+  {
+    "title": "Rajasthan Becomes 1st State to Operationalise Auctioned Rare Earth Elements (REE) Exploration License",
+    "interviewQ": null,
+    "hook": "Grants 207.63 sq. km. critical mineral exploration block in Navatala-Devigarh to CMPDI.",
+    "tier": "Tier A",
+    "trap": null,
+    "staticGk": "CMPDI is a Central PSU subsidiary of Coal India Ltd | Rajasthan CM: Bhajan Lal Sharma.",
+    "id": "note-sec1-161",
+    "bullets": [
+      "Licence Area: Spans 207.63 sq. km. across Pachpadra tehsil (Balotra) and Shergarh tehsil (Jodhpur).",
+      "Awardee Entity: Central Mine Planning and Design Institute Limited (CMPDI).",
+      "Critical Minerals Identified: Lanthanum, Cerium, Praseodymium, and Neodymium for EV and semiconductor supply chains."
+    ],
+    "secId": "sec1",
+    "date": "2026-08-06"
+  },
+  {
+    "title": "Brookfield Launches  Million 'Lumara' Renewable Energy Platform in India",
+    "interviewQ": null,
+    "hook": "Accelerates solar, wind, and Battery Energy Storage Systems (BESS) buildout backed by ALTÉRRA fund.",
+    "tier": "Tier A",
+    "trap": null,
+    "staticGk": "Brookfield Asset Management HQ: Toronto/New York | CEO: Bruce Flatt.",
+    "id": "note-sec1-162",
+    "bullets": [
+      "Platform Capital: Initial deployment of ~ million backed by Brookfield Catalytic Transition Fund (CTF).",
+      "Anchor Investor: Funded by UAE-backed climate vehicle ALTÉRRA (target corpus up to  billion).",
+      "National Target Alignment: Supports India's goal of reaching 500 GW installed renewable capacity by 2030."
+    ],
+    "secId": "sec1",
+    "date": "2026-08-07"
+  },
+  {
+    "title": "India Performs Record 20,138 Organ Transplants in 2025; Ranked 3rd Globally (NOTTO Report)",
+    "interviewQ": null,
+    "hook": "Launches nationwide 'Jug Jug Jiyo Abhiyaan' and e-Pratyaropan portal on 16th Indian Organ Donation Day.",
+    "tier": "Tier A",
+    "trap": "India's global transplant rank (3rd) vs deceased organ donor top state (Tamil Nadu, 266 donors).",
+    "staticGk": "NOTTO works under Ministry of Health & Family Welfare | Indian Organ Donation Day observed August 3.",
+    "id": "note-sec3-163",
+    "bullets": [
+      "Global Ranking: India ranks 3rd globally in total organ transplants (behind US and China).",
+      "National Awards: Tamil Nadu named Best State for highest deceased organ donors (266 donors); Assam Best NE State; Delhi Best UT.",
+      "Digital Infrastructure: Launched 'e-Pratyaropan' portal and NOTTO app connecting 1,200 registered transplant hospitals.",
+      "Aadhaar Pledges: Over 5 lakh Aadhaar-verified organ donation pledges recorded since 2023."
+    ],
+    "secId": "sec3",
+    "date": "2026-08-01"
+  },
+  {
+    "title": "Indian Railways Transports Live Donor Heart by Vande Bharat Express for 1st Time",
+    "interviewQ": null,
+    "hook": null,
+    "tier": "Tier B+",
+    "trap": null,
+    "staticGk": "Indian Railways CEO: Satish Kumar | RPF works under Ministry of Railways.",
+    "id": "note-sec3-164",
+    "bullets": [
+      "Ferried live heart 250 km from Surat to Ahmedabad aboard Vande Bharat Express (Train No. 20901) to U.N. Mehta Institute.",
+      "Green Corridor: Platform 1 at Ahmedabad Station connected via RPF-Police green corridor."
+    ],
+    "secId": "sec3",
+    "date": "2026-08-02"
+  },
+  {
+    "title": "PM Modi Dedicates ₹17,900 Crore Infrastructure Projects in Andhra Pradesh & Opens Alluri Sitarama Raju Airport",
+    "interviewQ": null,
+    "hook": "Inaugurates Greenfield PPP airport at Bhogapuram and lays foundation for AP's 1st semiconductor facility.",
+    "tier": "Tier A",
+    "trap": null,
+    "staticGk": "Andhra Pradesh CM: N. Chandrababu Naidu | Karnataka CM: Siddaramaiah / D. K. Shivakumar.",
+    "id": "note-sec4-165",
+    "bullets": [
+      "Bhogapuram International Airport: Developed under PPP mode at ₹5,640 crore (capacity 6 million passengers annually).",
+      "Semiconductor Infrastructure: Foundation stone laid for Andhra Semiconductor and Innovation Park (ASIP) at Visakhapatnam (₹460 crore).",
+      "Heritage Landmark: Inaugurated 'Viveka Smaraka' at Sri Ramakrishna Ashrama in Mysuru, Karnataka."
+    ],
+    "secId": "sec4",
+    "date": "2026-08-03"
+  },
+  {
+    "title": "4th Edition of Tri-Services Future Warfare Course Commences in New Delhi",
+    "interviewQ": null,
+    "hook": null,
+    "tier": "Tier B+",
+    "trap": null,
+    "staticGk": "1st pilot edition held in September 2024 | CENJOWS HQ: New Delhi.",
+    "id": "note-sec6-166",
+    "bullets": [
+      "Organized under aegis of HQ Integrated Defence Staff (IDS) and coordinated by CENJOWS at Manekshaw Centre.",
+      "Focus: Multi-domain operations, grey-zone warfare, AI, quantum tech, and autonomous combat systems."
+    ],
+    "secId": "sec6",
+    "date": "2026-08-05"
+  },
+  {
+    "title": "SBI Card and Google Pay Launch Co-Branded 'Google Pay Flex SBI Card' on RuPay & Visa",
+    "interviewQ": null,
+    "hook": "Integrates UPI payment linking and tap-to-pay tokenization on Google Pay app.",
+    "tier": "Tier A",
+    "trap": null,
+    "staticGk": "SBI Cards MD & CEO: Salila Pande | Google CEO: Sundar Pichai.",
+    "id": "note-sec3-167",
+    "bullets": [
+      "Co-Branded Lineage: Google Pay's 2nd co-branded credit card in India (after Axis Bank in Dec 2025).",
+      "Payment Interoperability: RuPay variant can be linked directly to UPI for merchant QR payments."
+    ],
+    "secId": "sec3",
+    "date": "2026-08-06"
+  },
+  {
+    "title": "NCDEX Launches 'NCDEX Nidhi' Mutual Fund Transaction Platform to Boost Rural Penetration",
+    "interviewQ": null,
+    "hook": "Leverages 800+ Farmer Producer Organisations (FPOs) to expand mutual fund distribution beyond top 100 cities.",
+    "tier": "Tier A",
+    "trap": "FPO corporate ARN fee (reduced to ₹10,000) vs standard corporate ARN fee (₹40,000).",
+    "staticGk": "NCDEX HQ: Mumbai | MD & CEO: Arun Raste | AMFI Chairman: Navneet Munot.",
+    "id": "note-sec3-168",
+    "bullets": [
+      "AMC Onboarding: 6 AMCs onboarded (Nippon India, HDFC, Axis, LIC, Tata, and Invesco MF).",
+      "ARN Fee Reduction: AMFI reduced corporate ARN registration fee for certified FPO distributors to ₹10,000 (from ₹40,000)."
+    ],
+    "secId": "sec3",
+    "date": "2026-08-07"
+  },
+  {
+    "title": "Nepal Central Bank Allows Indian & Nepalese Currency Notes of ₹200 and ₹500 Denominations",
+    "interviewQ": null,
+    "hook": "Relaxes 2019 demonetisation restrictions up to a combined carrying limit of ₹25,000 per person.",
+    "tier": "Tier A",
+    "trap": "Carrying limit for ₹200/₹500 notes (₹25,000 per person) vs un-declared foreign currency limit (,000).",
+    "staticGk": "Nepal Rastra Bank (NRB) Governor: Maha Prasad Adhikari | Currency: Nepalese Rupee.",
+    "id": "note-sec3-169",
+    "bullets": [
+      "Carrying Limit: Combined limit of ₹25,000 per person for post-demonetisation ₹200 and ₹500 notes (issued on/after Nov 9, 2016).",
+      "Prohibited Notes: Older pre-demonetisation ₹500 and ₹1,000 notes remain strictly banned.",
+      "Customs Exemption: Foreign currency up to ,000 allowed without customs declaration."
+    ],
+    "secId": "sec3",
+    "date": "2026-08-01"
+  },
+  {
+    "title": "RBI Defers Revised Basel III Pillar 3 Disclosure Norms Implementation to April 1, 2027",
+    "interviewQ": "\"Why did RBI defer Basel III Pillar 3 disclosure norms to April 2027?\"\n💡 **Model Answer: Grants banks IT upgrade preparation time to align Pillar 3 market disclosures with Expected Credit Loss (ECL) credit-risk capital norms.**",
+    "hook": "Pushes back commencement to align Pillar 3 market discipline disclosures with Expected Credit Loss (ECL) provisioning.",
+    "tier": "Tier A",
+    "trap": "Pillar 3 deferred implementation date (April 1, 2027) vs 1st revised quarterly report (June 30, 2027).",
+    "staticGk": "Basel III standards developed by Basel Committee on Banking Supervision (BCBS), Basel, Switzerland.",
+    "id": "note-sec2-170",
+    "bullets": [
+      "Revised Timeline: Deferred from September 30, 2026 to April 1, 2027 (1st revised quarterly disclosure for quarter ending June 30, 2027).",
+      "Regulatory Directions: RBI issued 10 amendment directions covering commercial banks, SFBs, and payments banks.",
+      "Pillar 3 Scope: Mandates consolidated public disclosures on capital adequacy, risk-weighted assets (RWAs), and risk governance."
+    ],
+    "secId": "sec2",
+    "date": "2026-08-02"
+  },
+  {
+    "title": "DFS Launches 'Bharat Maritime Insurance Pool (BMIP)' Offering .5 Billion War-Risk P&I Insurance",
+    "interviewQ": null,
+    "hook": "India's 1st sovereign-backed Protection & Indemnity insurance pool reduces war-risk premium rates by 35-40%.",
+    "tier": "Tier A",
+    "trap": "BMIP indemnity limit (.5 billion) vs premium rate reduction (35–40%).",
+    "staticGk": "DFS Secretary: Sanjay Lohiya | SCI HQ: Mumbai.",
+    "id": "note-sec3-171",
+    "bullets": [
+      "Underwriting Capacity: Indemnity limit up to .5 billion provided under sovereign backing.",
+      "1st Policy Recipient: DFS handed over 1st P&I policy under BMIP to Shipping Corporation of India (SCI).",
+      "Product Designer: Designed by The New India Assurance Company Ltd."
+    ],
+    "secId": "sec3",
+    "date": "2026-08-03"
+  },
+  {
+    "title": "SEBI Releases 'GARUDA' Green-Channel Framework for Accelerated AIF Scheme Launches",
+    "interviewQ": null,
+    "hook": "Permits regular Alternative Investment Funds (AIFs) to launch schemes within 10 working days of PPM filing.",
+    "tier": "Tier A",
+    "trap": "Regular AIF GARUDA launch window (10 working days after PPM) vs digital accessibility audit extension (October 31, 2026).",
+    "staticGk": "SEBI Chairman: Tuhin Kanta Pandey | AIFs governed under SEBI (AIF) Regulations 2012.",
+    "id": "note-sec2-172",
+    "bullets": [
+      "GARUDA Mechanism: Green-Channel AIF Rollout Upon Document Acknowledgement allows operation 10 working days after Private Placement Memorandum (PPM) filing on SEBI SI Portal.",
+      "Exemption for AI & Large Value Funds: Accredited Investor (AI-only) funds, Large Value Funds (LVFs), and Angel Funds exempted from merchant banker PPM filing.",
+      "Digital Accessibility Audit Extension: Extended deadline for regulated entities to complete digital accessibility audits under Persons with Disabilities Act to October 31, 2026."
+    ],
+    "secId": "sec2",
+    "date": "2026-08-04"
+  },
+  {
+    "title": "Monisha Chakraborty Appointed Executive Director of Reserve Bank of India",
+    "interviewQ": null,
+    "hook": null,
+    "tier": "Tier B+",
+    "trap": null,
+    "staticGk": "RBI Governor: Sanjay Malhotra (26th) | 4 Deputy Governors.",
+    "id": "note-sec2-173",
+    "bullets": [
+      "Appointed ED overseeing Foreign Exchange Department and Financial Markets Regulation Department.",
+      "Career background: Over 3 decades at RBI; previously Chief General Manager-in-Charge of Department of Supervision."
+    ],
+    "secId": "sec2",
+    "date": "2026-08-05"
+  },
+  {
+    "title": "IRDAI Approves ProTec General Insurance License & Operationalises Policyholders' Education Fund (PEPF)",
+    "interviewQ": null,
+    "hook": "Grants 4th general insurance license of 2026 and replaces periodic intermediary renewals with perpetual registration.",
+    "tier": "Tier A",
+    "trap": "100% FDI in insurance vs earlier 74% foreign shareholding cap.",
+    "staticGk": "IRDAI Chairman: Ajay Seth | HQ: Hyderabad, Telangana | Established 1999.",
+    "id": "note-sec3-174",
+    "bullets": [
+      "License Awardee: ProTec General Insurance Ltd (JV between M. Pallonji Group & True North's Divya Sehgal).",
+      "Regulatory Reforms: Operationalised PEPF under Sec 16A of IRDA Act 1999; mandated salesperson tagging on policies; replaced periodic intermediary renewals with annual fee perpetual registration.",
+      "FDI Threshold: 2 insurers (1 life, 1 general) increased foreign shareholding beyond 74% following 100% FDI clearance."
+    ],
+    "secId": "sec3",
+    "date": "2026-08-06"
+  },
+  {
+    "title": "SEBI Clarifies 200-Buyer Limit for Off-Market Unlisted Secondary Share Transfers",
+    "interviewQ": "\"Why did SEBI set a 200-buyer cap per FY for secondary unlisted share deals?\"\n💡 **Model Answer: Prevents unlisted companies from conducting backdoor public issues without fulfilling prospectus disclosure rules.**",
+    "hook": "Private negotiated secondary share sales to up to 200 buyers per FY will not trigger public issue prospectus rules.",
+    "tier": "Tier A",
+    "trap": "200-buyer limit per FY (excluding QIBs) vs public offer prospectus triggers.",
+    "staticGk": "Companies Act 2013 governs securities allotment limits | SEBI HQ: Mumbai.",
+    "id": "note-sec2-175",
+    "bullets": [
+      "Regulatory Informal Guidance: Clarified to IDBI Bank that secondary transfers by existing shareholders to ≤200 buyers in a FY do not constitute a public offer.",
+      "QIB Exclusion: Placements made to Qualified Institutional Buyers (QIBs) excluded from the 200-person calculation limit.",
+      "Promoter Rights: Contractual Right of First Refusal (ROFR) promoter rights preserved."
+    ],
+    "secId": "sec2",
+    "date": "2026-08-07"
+  },
+  {
+    "title": "Indian Navy Launches 'Machilipatnam' ASW Shallow Water Craft & Delivers DSV 'Nipun'",
+    "interviewQ": null,
+    "hook": null,
+    "tier": "Tier B+",
+    "trap": null,
+    "staticGk": "Chief of Naval Staff: Admiral Krishna Swaminathan | Cochin Shipyard HQ: Kochi, Kerala.",
+    "id": "note-sec6-176",
+    "bullets": [
+      "Machilipatnam (BY 529): Launched 7th of 8 Anti-Submarine Warfare Shallow Water Crafts built by Cochin Shipyard Ltd (over 80% indigenous content).",
+      "DSV Nipun: Hindustan Shipyard Ltd delivered 2nd Diving Support Vessel capable of Deep Sea Saturation Diving up to 300m depth."
+    ],
+    "secId": "sec6",
+    "date": "2026-08-01"
+  },
+  {
+    "title": "Solar Defence Demonstrates Indigenous Counter-Swarm Drone System 'Bhargavastra'",
+    "interviewQ": null,
+    "hook": "Vehicle-mounted multi-layered system neutralises autonomous drone swarms within 16 seconds.",
+    "tier": "Tier A",
+    "trap": null,
+    "staticGk": "SDAL HQ: Nagpur, Maharashtra | Parent Company: Solar Industries India Ltd.",
+    "id": "note-sec6-177",
+    "bullets": [
+      "System Architecture: Integrates unguided micro-rockets (20m lethal radius) and precision micro-missiles (interception range 2.5 km).",
+      "Target Detection: Detects large UAVs up to 10 km and small drones up to 6 km under MoD Make-II initiative."
+    ],
+    "secId": "sec6",
+    "date": "2026-08-02"
+  },
+  {
+    "title": "Indian Army Launches 'XWG Diesel' Operational at Extreme Temperatures Down to -42°C",
+    "interviewQ": null,
+    "hook": null,
+    "tier": "Tier B+",
+    "trap": null,
+    "staticGk": "COAS: General Dhiraj Seth | Indian Army HQ: New Delhi.",
+    "id": "note-sec6-178",
+    "bullets": [
+      "Xtreme Weather Grade (XWG) Diesel jointly developed by Indian Army and OMCs for high-altitude deployment in Siachen and Ladakh.",
+      "Specification Compliance: Fully compliant with BS-VI standards and IS 1460:2025 specs without engine modification."
+    ],
+    "secId": "sec6",
+    "date": "2026-08-03"
+  },
+  {
+    "title": "Indian Navy Launches Final Diving Support Craft 'DSC A24' at Titagarh",
+    "interviewQ": null,
+    "hook": null,
+    "tier": "Tier B+",
+    "trap": null,
+    "staticGk": "Titagarh Rail Systems HQ: Kolkata, West Bengal.",
+    "id": "note-sec6-179",
+    "bullets": [
+      "5th and final vessel of DSC Project launched at Hooghly River by Titagarh Naval Systems (70% indigenous content).",
+      "First private shipyard in West Bengal to deliver naval diving vessels."
+    ],
+    "secId": "sec6",
+    "date": "2026-08-04"
+  },
+  {
+    "title": "Anahat Singh Becomes 1st Indian Girl to Win World Junior Squash Championship Title",
+    "interviewQ": null,
+    "hook": "Defeated Egypt's Ruqayya Salem in Canada to end Egypt's 16-year hold on the junior title.",
+    "tier": "Tier A",
+    "trap": null,
+    "staticGk": "Anahat Singh ranked World No. 20 on senior PSA Tour | Squash to debut at LA 2028 Olympics.",
+    "id": "note-sec6-180",
+    "bullets": [
+      "Tournament Location: Niagara-on-the-Lake, Canada.",
+      "Historic Context: 1st Indian finalist in over 20 years since Joshna Chinappa (2005) and 1st ever gold medallist.",
+      "Boys Event: Aryaveer Dewan reached last 16."
+    ],
+    "secId": "sec6",
+    "date": "2026-08-05"
+  },
+  {
+    "title": "India Wins Historic Para Athletics Medals at Commonwealth Games 2026 Glasgow",
+    "interviewQ": null,
+    "hook": "Dilip Mahadu Gavit wins gold and Basil Morssinganakath wins silver in Men's 100m T47.",
+    "tier": "Tier A",
+    "trap": null,
+    "staticGk": "Commonwealth Games 2026 host: Glasgow, Scotland | Overall medal table topper: Australia.",
+    "id": "note-sec6-181",
+    "bullets": [
+      "Gold Medallist: Dilip Mahadu Gavit clocked Games record 10.71 seconds (1st Indian male para athletics CWG gold).",
+      "Additional Medals: Murali Sreeshankar (Silver, Men's Long Jump), Mirabai Chanu (Gold, Women's 48kg Weightlifting), Sharmila Dhankar (Gold, Women's Shot Put F57).",
+      "Overall Standings: India ranked 8th overall with 15 medals (3 gold, 9 silver, 3 bronze)."
+    ],
+    "secId": "sec6",
+    "date": "2026-08-06"
+  },
+  {
+    "title": "ISSF World Cup 2026 Hangzhou: India Ranks 3rd Overall with 4 Medals",
+    "interviewQ": null,
+    "hook": "Esha Singh wins Gold in Women's 25m Pistol; Sainyam Vij wins Silver in 10m Pistol.",
+    "tier": "Tier A",
+    "trap": null,
+    "staticGk": "ISSF HQ: Munich, Germany | President: Luciano Rossi.",
+    "id": "note-sec6-182",
+    "bullets": [
+      "Medal Breakdown: India won 1 Gold (Esha Singh), 1 Silver (Sainyam Vij), 2 Bronze (Manu Bhaker, Sonam Maskar & Himanshu Dhillon).",
+      "World Record: China's Zhang Changhong set new world record of 363.0 points in 50m Rifle 3 Positions (surpassing Aishwary Pratap Singh Tomar's 362.0).",
+      "Overall Winner: China topped standings in Hangzhou."
+    ],
+    "secId": "sec6",
+    "date": "2026-08-07"
+  },
+  {
+    "title": "Ajinkya Rahane Announces Retirement from All Formats of International Cricket",
+    "interviewQ": null,
+    "hook": null,
+    "tier": "Tier B+",
+    "trap": null,
+    "staticGk": "BCCI President: Roger Binny | HQ: Mumbai.",
+    "id": "note-sec6-183",
+    "bullets": [
+      "Played 85 Tests (5,077 runs), 90 ODIs, and 20 T20Is across 195 international matches for India (2011–2026).",
+      "Top scorer for India in 2023 World Test Championship final."
+    ],
+    "secId": "sec6",
+    "date": "2026-08-01"
+  },
+  {
+    "title": "2026 Fields Medals Conferred on 4 Mathematicians at International Congress in Philadelphia",
+    "interviewQ": null,
+    "hook": "Hong Wang becomes 3rd woman scientist in 90-year history to win the 'Nobel Prize of Mathematics'.",
+    "tier": "Tier A",
+    "trap": null,
+    "staticGk": "Fields Medal instituted by J.C. Fields at Univ of Toronto | International Mathematical Union (IMU) HQ: Berlin.",
+    "id": "note-sec7-184",
+    "bullets": [
+      "Recipients: Yu Deng (Univ of Chicago), John Pardon (Stony Brook), Jacob Tsimerman (Univ of Toronto), Hong Wang (NYU/IHES).",
+      "Award Structure: Conferred every 4 years to mathematicians under 40 (prize: 15,000 CAD / ,600 and gold medal of Archimedes).",
+      "Historic Distinction: Hong Wang (China) is 3rd female recipient after Maryam Mirzakhani (2014) and Maryna Viazovska (2022)."
+    ],
+    "secId": "sec7",
+    "date": "2026-08-02"
+  },
+  {
+    "title": "Cabinet Approves Revamped Khelo India Scheme & Enhanced ANSFs Assistance with ₹36,441 Cr Outlay",
+    "interviewQ": null,
+    "hook": "8-fold budget increase creates athlete development pathway from grassroots to TOPS.",
+    "tier": "Tier A",
+    "trap": "Khelo India outlay (₹29,054 crore) vs National Sports Federations ANSF outlay (₹7,387 crore).",
+    "staticGk": "Sports Minister: Mansukh Mandaviya | Targets 2030 CWG hosting and 2036 Olympic Games bid.",
+    "id": "note-sec10-185",
+    "bullets": [
+      "Outlay Allocation: Total ₹36,441 crore (FY27 to FY31) comprising ₹29,054 crore for Khelo India and ₹7,387 crore for ANSFs.",
+      "New Athlete Category: Introduced 'Emerging Khelo India Athletes (E-KIAs)' alongside school programs KIFS and KIUV.",
+      "Coaching Standardisation: Setting up National Coach Accreditation Board (NCAB) to professionalise coaching."
+    ],
+    "secId": "sec10",
+    "date": "2026-08-03"
+  },
+  {
+    "title": "NVIDIA & 35 Tech Giants Launch 'Open Secure AI Alliance' for AI Cybersecurity",
+    "interviewQ": null,
+    "hook": "Develops open-source security tools to detect and respond to AI-powered cyber threats.",
+    "tier": "Tier A",
+    "trap": null,
+    "staticGk": "NVIDIA HQ: Santa Clara, California | CEO: Jensen Huang.",
+    "id": "note-sec6-186",
+    "bullets": [
+      "Founding Alliance Members: Microsoft, IBM, Cisco, Adobe, Cloudflare, CrowdStrike, HPE, Hugging Face, Red Hat, SpaceX, Linux Foundation.",
+      "Notable Absentees: OpenAI, Anthropic, Google, and Meta are absent from alliance roster.",
+      "Foundational Framework: Builds on Linux Foundation's Akrites initiative and OpenSSF."
+    ],
+    "secId": "sec6",
+    "date": "2026-08-04"
+  },
+  {
+    "title": "IN-SPACe Issues India's 1st Mandatory Framework for Planned Space Object Re-entry",
+    "interviewQ": null,
+    "hook": "Caps expected casualty risk below 1 in 10,000 for planned atmospheric re-entry of satellites.",
+    "tier": "Tier A",
+    "trap": "45-day NOTAM advance notice window vs 1 in 10,000 casualty risk cap.",
+    "staticGk": "IN-SPACe HQ: Ahmedabad, Gujarat | Chairman: Dr. Pawan Goenka | Department of Space.",
+    "id": "note-sec6-187",
+    "bullets": [
+      "Single-Window Regulatory Mandate: All Indian entities and foreign entities (via Indian JVs) must obtain prior IN-SPACe authorization.",
+      "Safety Risk Cap: Expected casualty risk capped at below 1 in 10,000 (aligning with NASA and ESA standards).",
+      "Advance Notice: Applicants must file Notice to Airmen (NOTAM) and maritime danger notifications at least 45 days in advance.",
+      "Natural Decay Exemption: Satellites burning up naturally in atmosphere through orbital decay exempted."
+    ],
+    "secId": "sec6",
+    "date": "2026-08-05"
+  },
+  {
+    "title": "NIC & eCourts CoEE Roll Out AI Legal Assistant 'LegRAA' and 'Digital Courts 2.1'",
+    "interviewQ": null,
+    "hook": "Retrieval-Augmented Generation (RAG) AI assistant trained on 36,000 Supreme Court judgments assists judges.",
+    "tier": "Tier A",
+    "trap": null,
+    "staticGk": "MoS Law & Justice: Arjun Ram Meghwal | Developed under eCourts Mission Mode Project Phase-III.",
+    "id": "note-sec2-188",
+    "bullets": [
+      "LegRAA Tool: Legal Research Analysis Assistant uses RAG architecture to analyze pleadings and generate case briefs.",
+      "Digital Courts 2.1: Includes voice-to-text dictation (ASR-SHRUTI) and translation (PANINI) under eCourts Phase-III.",
+      "Financial Allocation: Ministry of Law earmarked ₹53.57 crore for judicial AI tools."
+    ],
+    "secId": "sec2",
+    "date": "2026-08-06"
+  },
+  {
+    "title": "Satya Pal Kumar Appointed Director of Financial Intelligence Unit-India (FIU-IND)",
+    "interviewQ": null,
+    "hook": null,
+    "tier": "Tier B+",
+    "trap": null,
+    "staticGk": "FIU-IND works under Department of Revenue, Ministry of Finance | HQ: New Delhi.",
+    "id": "note-sec5-189",
+    "bullets": [
+      "Appointed Joint Secretary-level Director of FIU-IND for 5-year tenure (succeeding Pankaj Kumar Mishra).",
+      "Agency Mandate: Central national agency receiving and analyzing suspicious financial transaction reports."
+    ],
+    "secId": "sec5",
+    "date": "2026-08-07"
+  },
+  {
+    "title": "Shailesh Jejurikar Appointed Chairman of Procter & Gamble Company",
+    "interviewQ": null,
+    "hook": null,
+    "tier": "Tier B+",
+    "trap": null,
+    "staticGk": "P&G Global HQ: Cincinnati, Ohio, USA.",
+    "id": "note-sec5-190",
+    "bullets": [
+      "Indian-American business leader appointed P&G Board Chairman (succeeding Jon R. Moeller) while continuing as CEO."
+    ],
+    "secId": "sec5",
+    "date": "2026-08-01"
+  },
+  {
+    "title": "Chhattisgarh Launches 'DWEEPTI Yojana' for Women-Led Rooftop Solar Enterprises",
+    "interviewQ": null,
+    "hook": "1st Indian state to adopt a women-led distributed renewable energy policy training 'Solar Didis'.",
+    "tier": "Tier A",
+    "trap": null,
+    "staticGk": "Chhattisgarh CM: Vishnu Deo Sai | Pilot conducted in Kabirdham district.",
+    "id": "note-sec10-191",
+    "bullets": [
+      "Policy Scope: Places women SHGs at center of rooftop solar expansion to establish 5,000 women-led energy enterprises over 5 years.",
+      "Target Reach: 50,000 green jobs and clean energy access for 5 lakh families across Chhattisgarh.",
+      "Technical Partners: Jointly developed by Panchayat Dept and Transform Rural India under Green Economy Transition Mission."
+    ],
+    "secId": "sec10",
+    "date": "2026-08-02"
+  },
+  {
+    "title": "PMKSY Completes 10 Years of Sustainable Irrigation; Cabinet Approves M-CADWM Sub-Scheme",
+    "interviewQ": null,
+    "hook": "Allocates ₹6,587 crore in Budget 2026-27 for micro-irrigation under Per Drop More Crop.",
+    "tier": "Tier A",
+    "trap": "PMKSY total continuation outlay (₹93,068.56 crore) vs M-CADWM initial sub-scheme outlay (₹1,600 crore).",
+    "staticGk": "Ministry of Jal Shakti | PMKSY-AIBP completed 71 of 123 major irrigation projects.",
+    "id": "note-sec10-192",
+    "bullets": [
+      "PMKSY Overview: Launched July 1, 2015; continued for 2021-26 with ₹93,068.56 crore outlay (benefited 27M+ farmers).",
+      "Per Drop More Crop (PDMC): 110.92 lakh hectares brought under micro-irrigation.",
+      "M-CADWM Sub-Scheme: Cabinet approved Modernization of Command Area Development & Water Management with ₹1,600 crore initial outlay for pipeline networks."
+    ],
+    "secId": "sec10",
+    "date": "2026-08-03"
+  },
+  {
+    "title": "Cabinet Approves ₹84,084 Crore 'Samudra Manthan' Offshore Energy Exploration Scheme",
+    "interviewQ": "\"Why did India launch the risk-sharing Samudra Manthan scheme for deepwater energy exploration?\"\n💡 **Model Answer: Deepwater wells cost -150M each; state risk-sharing attracts private capital to reduce India's  crude import dependency.**",
+    "hook": "Unlocks India's offshore crude oil and gas potential across Krishna-Godavari, Cauvery, and Mahanadi basins.",
+    "tier": "Tier A",
+    "trap": "Samudra Manthan Phase-I total outlay (₹84,084 crore) vs deepwater drilling component (₹55,200 crore).",
+    "staticGk": "India is 3rd-largest global crude oil consumer ( billion annual import bill) | Hydrocarbon resource target: 2.2B TOE.",
+    "id": "note-sec1-193",
+    "bullets": [
+      "Phase-I Outlay: ₹84,084 crore implementation through FY31 under Ministry of Petroleum & Natural Gas.",
+      "Scheme Components: (i) ₹28,534 cr (2D/3D seismic data & NDR AI re-processing); (ii) ₹55,200 cr (drilling 60 deepwater wells); (iii) ₹350 cr (monitoring).",
+      "Production Target: Increases domestic oil & gas production from 62 MMTOE to 80 MMTOE annually."
+    ],
+    "secId": "sec1",
+    "date": "2026-08-04"
+  },
+  {
+    "title": "Cabinet Approves ₹5,070 Crore 'Pradhan Mantri Surya Sarovar Yojana (PM-SSY)' for Floating Solar",
+    "interviewQ": null,
+    "hook": "Integrates 5,000 MW floating solar capacity with 10,000 MWh Energy Storage Systems across inland water bodies.",
+    "tier": "Tier A",
+    "trap": "PM-SSY financial outlay (₹5,070 crore) vs Central Financial Assistance (₹1 crore per MW).",
+    "staticGk": "MNRE Minister: Pralhad Joshi | Current installed floating solar capacity in India is ~700 MW.",
+    "id": "note-sec10-194",
+    "bullets": [
+      "Storage & Generation Cap: 5,000 MW floating solar capacity with 2-hour minimum battery storage (10,000 MWh storage capacity).",
+      "Financial Incentive: Central Financial Assistance of ₹1 crore per MW post-commissioning plus ₹50 lakh per project for feasibility studies.",
+      "National Potential: National Institute of Solar Energy (NISE) estimates floating solar potential at 102.18 GWp across reservoirs."
+    ],
+    "secId": "sec10",
+    "date": "2026-08-05"
+  },
+  {
+    "title": "Cabinet Extends PM-KISAN Scheme for 5 Years (FY27 to FY31) with ₹3,15,614 Crore Outlay",
+    "interviewQ": null,
+    "hook": "Reaffirms DBT income support of ₹6,000 annually to eligible landholding farmer families.",
+    "tier": "Tier A",
+    "trap": "PM-KISAN 5-year extension outlay (₹3.15 lakh crore) vs total disbursed since inception (₹4.5 lakh crore).",
+    "staticGk": "PM-KISAN provides ₹6,000 p.a. in 3 equal instalments of ₹2,000 | Ministry of Agriculture.",
+    "id": "note-sec10-195",
+    "bullets": [
+      "5-Year Extension: Total financial outlay of ₹3,15,614 crore (over ₹3.15 lakh crore) through FY31.",
+      "Disbursement Track Record: Over ₹4.5 lakh crore disbursed since Feb 2019 inception; 1 out of 4 beneficiaries is a woman farmer."
+    ],
+    "secId": "sec10",
+    "date": "2026-08-06"
+  },
+  {
+    "title": "BIMCO-ICS Seafarer Report 2026: India Emerges as World's 2nd-Largest Supplier of Seafarers",
+    "interviewQ": null,
+    "hook": "Contributes 3,11,936 maritime professionals to global shipping, capturing 12.16% global workforce share.",
+    "tier": "Tier A",
+    "trap": "India's global seafaring rank (2nd globally) vs global officer workforce share (13.41%).",
+    "staticGk": "Report published by BIMCO & International Chamber of Shipping (ICS) | Ports Minister: Sarbananda Sonowal.",
+    "id": "note-sec7-196",
+    "bullets": [
+      "Global Ranking: India rose to 2nd globally (behind Philippines, ahead of China and Russia).",
+      "Officer Share: 140,718 Indian maritime officers account for 13.41% of world's officer workforce.",
+      "Workforce Growth: Share grew from 5.2% in 2015 to 12.16% in 2026 under 'Mission 20%' target."
+    ],
+    "secId": "sec7",
+    "date": "2026-08-07"
+  },
+  {
+    "title": "Roshni Nadar Tops 2026 Candere Hurun India Women Leaders List (Wealth Multipliers)",
+    "interviewQ": null,
+    "hook": "Recognises 117 outstanding women leaders; Priya Nair leads Professional CEOs category.",
+    "tier": "Tier A",
+    "trap": null,
+    "staticGk": "Published by Candere by Kalyan Jewellers & Hurun India | Spans 12 categories.",
+    "id": "note-sec7-197",
+    "bullets": [
+      "Top Leaders: Roshni Nadar Malhotra (HCLTech, net worth ₹2,84,120 cr); Priya Nair (HUL CEO, company value ₹5,06,600 cr).",
+      "Demographics: Oldest honouree Rajni Bector (86 yrs); youngest Sheetal Devi (19 yrs); 84% self-made leaders."
+    ],
+    "secId": "sec7",
+    "date": "2026-08-01"
+  },
+  {
+    "title": "ADB Approves  Million Loan for PM Surya Ghar: Muft Bijli Yojana (PMSGMBY)",
+    "interviewQ": null,
+    "hook": "Accelerates Subprogram 2 for rooftop solar installations across 10 million low & middle-income households.",
+    "tier": "Tier A",
+    "trap": "ADB PMSGMBY loan ( million) vs World Bank PMSGMBY loan ( million).",
+    "staticGk": "PMSGMBY launched Feb 13, 2024 by PM Modi | ADB HQ: Manila, Philippines.",
+    "id": "note-sec1-198",
+    "bullets": [
+      "Multilateral Funding: ADB  loan adds to  package previously approved by World Bank.",
+      "Subsidy Structure: PMSGMBY (₹75,021 cr outlay) provides ₹30,000 for 1 kW, ₹60,000 for 2 kW, and ₹78,000 for 3 kW solar systems."
+    ],
+    "secId": "sec1",
+    "date": "2026-08-02"
+  },
+  {
+    "title": "REC & PFC Sign ₹26,850 Crore Loan Agreement for 2,400 MW Meja Thermal Power Project",
+    "interviewQ": null,
+    "hook": "Finances 3 Ultra-Super Critical units of 800 MW each at Meja, Uttar Pradesh.",
+    "tier": "Tier A",
+    "trap": null,
+    "staticGk": "REC Chairman & MD: Jitendra Srivastava | PFC CMD: Parminder Chopra.",
+    "id": "note-sec1-199",
+    "bullets": [
+      "Financing Structure: REC and PFC equal 50:50 debt funding of ₹26,850 crore for MUNPL (50:50 JV between NTPC and UPRVUNL).",
+      "Project Completion Cost: Estimated at ₹38,357.81 crore equipped with Air Cooled Condenser (ACC) system."
+    ],
+    "secId": "sec1",
+    "date": "2026-08-03"
+  },
+  {
+    "title": "Parliament Passes Prevention of Insults to National Honour (Amendment) Bill 2026",
+    "interviewQ": null,
+    "hook": "Extends statutory protection under 1971 Act to National Song 'Vande Mataram'.",
+    "tier": "Tier A",
+    "trap": null,
+    "staticGk": "Vande Mataram composed by Bankim Chandra Chattopadhyay in 1875 (first published 1882 in Anandamath) | MoS Home: Nityanand Rai.",
+    "id": "note-sec4-200",
+    "bullets": [
+      "Criminal Offence: Intentional insult, prevention, or disruption of Vande Mataram rendition carries up to 3 years imprisonment or fine.",
+      "Repeat Conviction: Mandatory minimum 1-year jail term.",
+      "Singing Clarification: Bill criminalises deliberate insult/obstruction, NOT the choice not to sing."
+    ],
+    "secId": "sec4",
+    "date": "2026-08-04"
+  },
+  {
+    "title": "Assam Passes Land & Revenue Regulation Bill 2026 Creating 5km Heritage Protected Belts",
+    "interviewQ": null,
+    "hook": "Restricts land transactions within 5 km radius of 250+ year old religious institutions to original inhabitants.",
+    "tier": "Tier A",
+    "trap": "Protected heritage radius (5 km) vs documented residence threshold (75 years / 3 generations).",
+    "staticGk": "Assam CM: Himanta Biswa Sarma | Amends Assam Land and Revenue Regulation 1886.",
+    "id": "note-sec4-201",
+    "bullets": [
+      "Eligibility Criteria: Land sales/purchases within 5-km radius restricted exclusively to SCs, STs, and 'original inhabitants' (75 years documented residence).",
+      "Original Inhabitant Definition: Continuous family residence in protected belt for 3 generations as of January 1, 2006 (25 yrs per generation)."
+    ],
+    "secId": "sec4",
+    "date": "2026-08-05"
+  },
+  {
+    "title": "President Assents to Public Examinations (Prevention of Unfair Means) Amendment Bill 2026",
+    "interviewQ": null,
+    "hook": "Mandates fast-track courts and 3-month trial conclusion for exam paper leak cases.",
+    "tier": "Tier A",
+    "trap": "Individual paper leak penalty (5–10 yrs, ₹50L fine) vs organised crime penalty (min 7 yrs, ₹10 crore fine).",
+    "staticGk": "Builds on Public Examinations Act 2024 covering NTA, UPSC, SSC, and RRB exams | MoS Personnel: Jitendra Singh.",
+    "id": "note-sec4-202",
+    "bullets": [
+      "Trial Timelines: Paper leak investigations must complete within 2 months; fast-track trials must conclude within 3 months of chargesheet.",
+      "Penalties: Paper leak individuals face 5 to 10 years imprisonment & ₹50 lakh fine; organised syndicates face 7 to 10 years jail & ₹10 crore fine."
+    ],
+    "secId": "sec4",
+    "date": "2026-08-06"
+  },
+  {
+    "title": "C-DOT and FSID Sign Agreement to Establish 5th Centre of Excellence at IISc Bengaluru",
+    "interviewQ": null,
+    "hook": null,
+    "tier": "Tier B+",
+    "trap": null,
+    "staticGk": "C-DOT CEO: Dr. Rajkumar Upadhyay | FSID Director: Prof. B. Gurumoorthy.",
+    "id": "note-sec5-203",
+    "bullets": [
+      "5th C-DOT CoE in India focused on 5G Advanced, 6G, quantum communications, and AI-native networks.",
+      "Earlier C-DOT CoEs established at IIT Kanpur, IIT Gandhinagar, IIT Roorkee, and IIT Hyderabad."
+    ],
+    "secId": "sec5",
+    "date": "2026-08-07"
+  },
+  {
+    "title": "DoT and Madhya Pradesh Sign MoU for India's 1st Telecom Manufacturing Zone in Gwalior",
+    "interviewQ": null,
+    "hook": "350-acre plug-and-play cluster supported by ₹493 crore Central infrastructure funding.",
+    "tier": "Tier A",
+    "trap": null,
+    "staticGk": "MP CM: Mohan Yadav | MP Govt provided 170 acres land free of cost.",
+    "id": "note-sec5-204",
+    "bullets": [
+      "SPV Ownership: 51% MP Govt, 49% Department of Telecommunications (MPIDC master developer).",
+      "Central Funding: ₹493 crore 100% central funding for Phase-I testing labs (5G core, satellite comms, optical fibre)."
+    ],
+    "secId": "sec5",
+    "date": "2026-08-01"
+  },
+  {
+    "title": "Cotton Corporation of India Launches 'Kapas Darshan' Bulletin & ₹5,659 Cr Kapas Kanti Mission",
+    "interviewQ": null,
+    "hook": "Transfers ₹41,530 crore directly to cotton farmers under record MSP procurement operations.",
+    "tier": "Tier A",
+    "trap": null,
+    "staticGk": "CCI CMD: Lalit Kumar Gupta | Ministry of Textiles | MSP increased by ~7% for 2026-27.",
+    "id": "note-sec5-205",
+    "bullets": [
+      "MSP Procurement: CCI procured 522 lakh quintals of seed cotton (kapas) via 24 lakh transactions, transferring ₹41,530 crore directly to bank accounts.",
+      "Kapas Kanti Mission: Cotton Productivity Mission approved with ₹5,659 crore outlay over 5 years."
+    ],
+    "secId": "sec5",
+    "date": "2026-08-02"
   }
 ];
 
