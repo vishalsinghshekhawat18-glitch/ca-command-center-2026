@@ -224,6 +224,7 @@ document.addEventListener("DOMContentLoaded", () => {
       toggleSidebarBtn.innerHTML = `🔒 Locked Sections <span id="sidebarChevron">▼</span>`;
       toggleMonthBtn.style.display = "flex";
       toggleRecallBtn.style.display = "flex";
+      updateMonthHeaderLabel();
     } else {
       appHeaderTitle.textContent = "The Quant Superbook";
       appHeaderSubtitle.textContent = "Banking Mains Edition | Formulas & Worked Patterns";
@@ -302,8 +303,27 @@ document.addEventListener("DOMContentLoaded", () => {
     closeAllDrawers();
   }
 
+  function updateMonthHeaderLabel() {
+    let label = "📅 All Months";
+    if (activeMonth === "2026-08") label = "📅 August 2026";
+    else if (activeMonth === "2026-07") label = "📅 July 2026";
+    else if (activeMonth === "2026-06") label = "📅 June 2026";
+    toggleMonthBtn.innerHTML = `${label} <span id="monthChevron">▼</span>`;
+
+    // Update active class on month drawer buttons
+    const monthBtns = monthNavGrid.querySelectorAll(".nav-item-btn");
+    monthBtns.forEach(btn => {
+      if (btn.getAttribute("onclick") === `selectMonth('${activeMonth}')`) {
+        btn.classList.add("active");
+      } else {
+        btn.classList.remove("active");
+      }
+    });
+  }
+
   window.selectMonth = function(m) {
     activeMonth = m;
+    updateMonthHeaderLabel();
     renderFeed();
     closeAllDrawers();
   };
@@ -350,7 +370,7 @@ document.addEventListener("DOMContentLoaded", () => {
     closeAllDrawers();
     if (!isOpen) {
       monthNavDrawer.classList.add("open");
-      monthChevron.textContent = "▲";
+      if (document.getElementById("monthChevron")) document.getElementById("monthChevron").textContent = "▲";
     }
   });
 
