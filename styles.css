@@ -1,4 +1,4 @@
-/* Current Affairs Command Center 2026 — Kindle E-Book Reader Theme (v3.2) */
+/* Current Affairs Command Center 2026 — Kindle Centered Reader Theme (v3.3) */
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap');
 
@@ -47,16 +47,18 @@ header {
   background-color: var(--bg-sidebar);
   border-bottom: 1px solid var(--border-subtle);
   padding: 16px 32px;
-  position: relative; /* Fixed: Non-overlapping page flow */
+  position: relative;
   width: 100%;
 }
 
 .header-container {
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
 }
 
 .logo-group {
@@ -89,7 +91,7 @@ header {
 .header-controls {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
 }
 
 .toggle-chip {
@@ -103,6 +105,9 @@ header {
   border-radius: 6px;
   cursor: pointer;
   transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .toggle-chip:hover {
@@ -116,56 +121,55 @@ header {
   border-color: var(--accent-warm);
 }
 
-/* Main E-Reader Grid Layout */
-.main-layout {
-  max-width: 1200px;
-  margin: 24px auto 48px auto;
-  padding: 0 24px;
-  display: grid;
-  grid-template-columns: 280px 1fr;
-  gap: 32px;
-}
-
-/* Sidebar Navigation */
-.sidebar {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.filter-box {
+/* Collapsible Top Section Navigation Drawer */
+.nav-drawer-panel {
+  display: none;
   background: var(--bg-sidebar);
-  border: 1px solid var(--border-subtle);
-  border-radius: 8px;
-  padding: 16px;
+  border-bottom: 1px solid var(--border-subtle);
+  padding: 20px 24px;
+  animation: slideDown 0.2s ease;
 }
 
-.filter-title {
+.nav-drawer-panel.open {
+  display: block;
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.nav-drawer-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.nav-drawer-header {
   font-family: var(--font-sans);
-  font-size: 0.8rem;
+  font-size: 0.82rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--text-muted);
-  margin-bottom: 12px;
+  margin-bottom: 14px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.section-nav-list {
+.section-nav-grid {
   list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 8px;
 }
 
 .nav-item-btn {
   width: 100%;
   text-align: left;
-  background: transparent;
-  border: none;
-  padding: 9px 12px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  padding: 10px 14px;
   border-radius: 6px;
   font-family: var(--font-sans);
   font-size: 0.88rem;
@@ -178,14 +182,20 @@ header {
 }
 
 .nav-item-btn:hover {
-  background: rgba(0, 0, 0, 0.04);
+  border-color: var(--accent-warm);
+  color: var(--accent-warm);
 }
 
 .nav-item-btn.active {
-  background: var(--bg-card);
-  color: var(--accent-warm);
+  background: var(--accent-warm);
+  color: #fff;
+  border-color: var(--accent-warm);
   font-weight: 600;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.nav-item-btn.active .badge-count {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
 }
 
 .badge-count {
@@ -197,11 +207,18 @@ header {
   border-radius: 10px;
 }
 
-/* Content Feed & Toolbar */
+/* Centered Main E-Reader Reading Layout */
+.main-layout {
+  max-width: 860px; /* Perfectly centered reading column */
+  margin: 28px auto 60px auto;
+  padding: 0 20px;
+}
+
+/* Content Area Centered */
 .content-area {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 22px;
 }
 
 .search-mode-bar {
@@ -245,14 +262,14 @@ header {
 .notes-feed {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 22px;
 }
 
 .note-card {
   background: var(--bg-card);
   border: 1px solid var(--border-subtle);
   border-radius: 8px;
-  padding: 22px 26px;
+  padding: 24px 28px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
   transition: border-color 0.2s ease;
 }
@@ -488,10 +505,9 @@ header {
 }
 
 /* Responsive Rules for Mobile & Tablet */
-@media (max-width: 850px) {
+@media (max-width: 768px) {
   .main-layout {
-    grid-template-columns: 1fr;
-    padding: 0 16px;
+    padding: 0 14px;
   }
   
   header {
@@ -500,5 +516,9 @@ header {
   
   .note-card {
     padding: 18px 20px;
+  }
+
+  .section-nav-grid {
+    grid-template-columns: 1fr;
   }
 }
