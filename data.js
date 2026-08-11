@@ -6215,6 +6215,486 @@ const CA_NOTES_DATA = [
     ],
     "id": "note-sec4-408",
     "staticGk": "Andhra Pradesh CM: N. Chandrababu Naidu | Capital: Amaravati."
+  },
+  {
+    "bullets": [
+      "LPPI Benchmark: Evaluates port performance across dry bulk, liquid bulk, and container cargo under 'Sagar Aankalan'.",
+      "DGS Digital Modules: Includes 24x7 e-Navik grievance, e-Samudra ship registration, medical practitioner, and ship recycling credit note modules.",
+      "Recycling Credit: 40% scrap value credit note provided under ₹70,000 crore maritime development package."
+    ],
+    "staticGk": "JNPA (Jawaharlal Nehru Port Authority) located in Navi Mumbai | 37th Foundation Day.",
+    "secId": "sec1",
+    "hook": "Sarbananda Sonowal launches LPPI under 'Sagar Aankalan' framework along with e-Navik and e-Samudra portals.",
+    "date": "2026-06-01",
+    "interviewQ": null,
+    "tier": "Tier A",
+    "id": "note-sec1-409",
+    "title": "Logistics Port Performance Index (LPPI) FY25 & 4 Digital Modules Launched by DGS",
+    "trap": null
+  },
+  {
+    "bullets": [
+      "Anchor Partner: ArcelorMittal Nippon Steel India approved for Visakhapatnam ITI cluster under PM-SETU.",
+      "PM-SETU Mandate: Upgrades 1,000 government ITIs across India using a hub-and-spoke model.",
+      "Steering Committee: National Steering Committee chaired by Skill Secretary Debashree Mukherjee."
+    ],
+    "staticGk": "AM/NS India Headquarters: Hazira, Gujarat | CEO: Dilip Oommen.",
+    "secId": "sec1",
+    "hook": "Andhra Pradesh becomes 1st state to operationalise industry-led management of ITIs.",
+    "date": "2026-06-02",
+    "interviewQ": null,
+    "tier": "Tier A",
+    "id": "note-sec1-410",
+    "title": "AM/NS India Approved as 1st Anchor Partner Under ₹60,000-Cr PM-SETU Scheme",
+    "trap": null
+  },
+  {
+    "bullets": [
+      "Challenge Mandate: Encourages open-source, voice-first AI solutions operating in low-connectivity environments.",
+      "Reference Device: Builds on 'Sunno Sutra', an open-source handheld AI device unveiled at IndiaAI Impact Summit 2026.",
+      "Developer Support: 20 shortlisted teams receive developer kits and mentorship."
+    ],
+    "staticGk": "Digital India BHASHINI Division (DIBD) CEO: Amitabh Nag | HQ: New Delhi.",
+    "secId": "sec1",
+    "hook": "DIBD MeitY partners with Current AI and Kalpa Impact to offer up to ₹80 lakh in prizes.",
+    "date": "2026-06-03",
+    "interviewQ": null,
+    "tier": "Tier A",
+    "id": "note-sec1-411",
+    "title": "VYOMA Innovation Challenge Launched for Offline & Multilingual Voice AI Solutions",
+    "trap": null
+  },
+  {
+    "bullets": [
+      "Budgetary Support: Disbursed as interest-free advances to Oil Marketing Companies (OMCs) for up to 36 months.",
+      "Volatility Context: ATF prices surged from ₹60.50/L in March 2026 to ₹142/L in May 2026 due to West Asia crisis.",
+      "Cost Impact: ATF accounts for 40% to 60% of airline operating expenses."
+    ],
+    "staticGk": "Union Civil Aviation Minister: Kinjarapu Rammohan Naidu | MoPNG Minister: Hardeep Singh Puri.",
+    "secId": "sec1",
+    "hook": "Buffers Scheduled Indian Airlines against 2.5x surge in Aviation Turbine Fuel prices.",
+    "date": "2026-06-04",
+    "interviewQ": null,
+    "tier": "Tier A",
+    "id": "note-sec1-412",
+    "title": "Cabinet Approves ₹10,000 Crore One-Time ATF Price Stabilisation Corpus for Airlines",
+    "trap": "ATF cost share in airline operations (40% to 60%) vs support corpus (₹10,000 crore)."
+  },
+  {
+    "bullets": [
+      "Flex-Fuel Debut: Maruti Suzuki Wagon R flex-fuel runs on any blend of ethanol and petrol from E20 to E100.",
+      "Target Dispenser Rollout: Government aims to deploy 5,000 E85 fuel dispensers by end of 2027.",
+      "Blending Milestone: India reached 20% ethanol blending (E20) threshold in mid-2025, 5 years ahead of target."
+    ],
+    "staticGk": "Maruti Suzuki MD & CEO: Hisashi Takeuchi | Chairman: R. C. Bhargava.",
+    "secId": "sec1",
+    "hook": "Hero MotoCorp also launches flex-fuel Splendor Plus and HF Deluxe motorcycles.",
+    "date": "2026-06-05",
+    "interviewQ": null,
+    "tier": "Tier A",
+    "id": "note-sec1-413",
+    "title": "Maruti Suzuki Launches India's 1st Flex-Fuel Car 'Wagon R' (E20 to E100)",
+    "trap": null
+  },
+  {
+    "bullets": [
+      "Odisha Coastal Corridor: 160.18-km Rameshwar to Paradip highway under HAM model (₹8,300.79 crore).",
+      "Telangana & Bihar Stretches: Armoor-Jagtial-Mancherial (NH-63/563) in Telangana (₹7,597 crore) and Khagaria-Purnea (NH-31/231) in Bihar (₹3,936 crore).",
+      "MP Upgrades: Key stretches of NH-347B upgraded under HAM model (₹4,415 crore)."
+    ],
+    "staticGk": "PM GatiShakti National Master Plan launched in October 2021.",
+    "secId": "sec1",
+    "hook": "Includes ₹8,300 crore coastal highway between Rameshwar and Paradip in Odisha.",
+    "date": "2026-06-06",
+    "interviewQ": null,
+    "tier": "Tier A",
+    "id": "note-sec1-414",
+    "title": "CCEA Approves 4 Major Highway Corridors Worth ₹24,200 Crore Under PM GatiShakti",
+    "trap": null
+  },
+  {
+    "bullets": [
+      "Vibrant Village Model: Chumur village (24 households) developed under 4 pillars: Infrastructure, Livelihoods, All-Weather, and Defence Integration.",
+      "Climate Housing: Construction of 24 passive solar, thermally insulated houses with homestay facilities.",
+      "Border Altitude: Situated at 16,700 feet along the India-China border."
+    ],
+    "staticGk": "Vibrant Villages Programme (VVP) launched in 2023 for northern border development.",
+    "secId": "sec1",
+    "hook": "LG Vinai Kumar Saxena inaugurates 1st of 10 model border villages at 16,700 feet altitude.",
+    "date": "2026-06-07",
+    "interviewQ": null,
+    "tier": "Tier A",
+    "id": "note-sec1-415",
+    "title": "India's 1st Model Border Village Foundation Laid at Chumur (Ladakh) Under VVP",
+    "trap": null
+  },
+  {
+    "bullets": [
+      "New Base Year: WPI base year updated to 2022-23=100 by Office of Economic Adviser (OEA), DPIIT.",
+      "3 New PPI Series: Output PPI (OPPI), Trial Input PPI (IPPI), and Service PPI (covering 7 Phase-1 services).",
+      "SNA Alignment: Aligns Indian price statistics with International Monetary Fund (IMF) and System of National Accounts (SNA) standards."
+    ],
+    "staticGk": "Office of Economic Adviser functions under DPIIT, Ministry of Commerce & Industry.",
+    "secId": "sec2",
+    "hook": "Replaces 2011-12 base year to address WPI's 55% GDP service exclusion and double-counting bias.",
+    "date": "2026-06-08",
+    "interviewQ": "\"Why is India transitioning from Wholesale Price Index (WPI) to Producer Price Index (PPI)?\"\n💡 **Model Answer: WPI excludes services (which account for ~55% of India's GDP) and suffers from double-counting. PPI aligns with international SNA standards by measuring net output prices at the producer level.**",
+    "tier": "Tier A",
+    "id": "note-sec2-416",
+    "title": "WPI Base Year Revised to 2022-23=100 & 3 Producer Price Indices (PPIs) Introduced",
+    "trap": "New WPI base year (2022-23=100) vs previous base year (2011-12=100)."
+  },
+  {
+    "bullets": [
+      "Silver Restriction: Requires DGFT Import Authorisation for silver powder (71061000), silver grains (71069110), 99.9% silver (71069120), and other silver (71069190).",
+      "Nominated Agencies: RBI and DGFT notified agencies, as well as IFSCA-notified jewellers on IIBX, must secure DGFT licences.",
+      "Forex Conservation: Designed to curb excessive silver imports and reduce trade deficit pressure."
+    ],
+    "staticGk": "DGFT (Directorate General of Foreign Trade) Director General: Lav Aggarwal.",
+    "secId": "sec2",
+    "hook": "Restricts silver powder, grains, and 99.9% silver imports to valid DGFT authorization.",
+    "date": "2026-06-09",
+    "interviewQ": null,
+    "tier": "Tier A",
+    "id": "note-sec2-417",
+    "title": "DGFT Mandates Import Licensing for 4 Specific Silver Categories",
+    "trap": null
+  },
+  {
+    "bullets": [
+      "VINIMAY Platform: Integrated digital platform launched by Amit Shah under MHA's 'Smart Borders' strategy.",
+      "Efficiency Gain: Cuts truck waiting times by 40-60% and gate processing by 22-35%.",
+      "Trade Growth: Land port trade surged 16-fold from ₹5,000 crore in 2014 to ₹83,000 crore in 2026."
+    ],
+    "staticGk": "Land Ports Authority of India (LPAI) Chairman: Jayant Singh | Est 2012.",
+    "secId": "sec1",
+    "hook": "Digitises 90% paperwork using Single Electronic Window and ANPR gate systems.",
+    "date": "2026-06-10",
+    "interviewQ": null,
+    "tier": "Tier A",
+    "id": "note-sec1-418",
+    "title": "MHA Launches 'VINIMAY' Land Port Management System for 15 Operational Land Ports",
+    "trap": "Operational land ports in India (15) vs total proposed border land ports (74)."
+  },
+  {
+    "bullets": [
+      "Quota Reduction: Subsidised 14.2-kg LPG cylinders per beneficiary under PM Ujjwala Yojana cut from 9 to 4 per year.",
+      "Subsidy Level: Targeted subsidy of ₹300 per refill (introduced Oct 2023) continues to be credited via DBT.",
+      "PMUY Launch: Launched in May 2016 to provide deposit-free LPG connections to adult women from BPL families."
+    ],
+    "staticGk": "PMUY implemented by Ministry of Petroleum and Natural Gas.",
+    "secId": "sec1",
+    "hook": "Retains targeted subsidy of ₹300 per 14.2-kg LPG cylinder for poor households.",
+    "date": "2026-06-11",
+    "interviewQ": null,
+    "tier": "Tier A",
+    "id": "note-sec1-419",
+    "title": "PMUY Annual Subsidised LPG Cylinder Quota Reduced from 9 to 4",
+    "trap": "Current subsidised cylinder quota (4 per year) vs original 2016 entitlement (12 per year)."
+  },
+  {
+    "bullets": [
+      "Standard Pack Sizes: Prescribes 9 sizes: 200ml/g, 500ml/g, 1L/kg, 2L/kg, 3L/kg, 4L/kg, 5L/kg, 15L/kg, and 20L/kg.",
+      "Exemption Window: Packs below 200ml/g and minor/niche edible oils are fully exempt.",
+      "Transition SLA: 3-month transition period granted to manufacturers, packers, and importers."
+    ],
+    "staticGk": "Legal Metrology Act enacted in 2009 under Ministry of Consumer Affairs, Food and Public Distribution.",
+    "secId": "sec1",
+    "hook": "Mandates standard packaging sizes under Legal Metrology to prevent non-standard price confusion.",
+    "date": "2026-06-12",
+    "interviewQ": null,
+    "tier": "Tier A",
+    "id": "note-sec1-420",
+    "title": "Consumer Affairs Prescribes 9 Standard Pack Sizes for Edible Oils",
+    "trap": null
+  },
+  {
+    "bullets": [
+      "VB-GRAMG Framework: Total allocation exceeds ₹1.25 lakh crore, covering 2.80 lakh Gram Panchayats.",
+      "MGNREGA Integration: Includes ₹30,000 crore central allocation under MGNREGA 2005.",
+      "Top State Allocations: Uttar Pradesh (₹9,721 cr), West Bengal (₹8,508 cr), Andhra Pradesh (₹7,707 cr), Tamil Nadu (₹7,585 cr)."
+    ],
+    "staticGk": "Minister of Rural Development: Shivraj Singh Chouhan.",
+    "secId": "sec1",
+    "hook": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission effective July 1, 2026.",
+    "date": "2026-06-13",
+    "interviewQ": null,
+    "tier": "Tier A",
+    "id": "note-sec1-421",
+    "title": "Government Announces ₹1.25 Lakh Crore 'VB-GRAMG' Rural Development Framework",
+    "trap": "VB-GRAMG total outlay (₹1.25 lakh crore) vs MGNREGA component (₹30,000 crore)."
+  },
+  {
+    "bullets": [
+      "AI Chatbot: Developed by ICAR-Indian Institute of Oilseeds Research (ICAR-IIOR), Hyderabad.",
+      "Farmer Guidance: Responds instantly in any Indian language on crop management, seed selection, and pest control.",
+      "Import Dependency: India imports 55-60% of its edible oil requirement (~16 million tonnes at ₹1.32 lakh crore)."
+    ],
+    "staticGk": "ICAR Director General: Mangi Lal Jat | Est 1929 in New Delhi.",
+    "secId": "sec1",
+    "hook": "Provides multilingual research-backed advisory to oilseed farmers directly on mobile phones.",
+    "date": "2026-06-14",
+    "interviewQ": null,
+    "tier": "Tier A",
+    "id": "note-sec1-422",
+    "title": "ICAR Launches AI-Based 'Oilseeds Kisaan Mitra' WhatsApp Chatbot (+91 4024598180)",
+    "trap": null
+  },
+  {
+    "bullets": [
+      "Privatisation Cap: Limits airport bundles per bidder to 2-3 bundles (5-6 airports) in 3rd round of privatisation.",
+      "11 Airport Bundles: Amritsar-Kangra; Varanasi-Kushinagar-Gaya; Bhubaneswar-Hubli; Raipur-Aurangabad; Trichy-Tirupati.",
+      "Adani Market Share: Adani Group currently handles ~78 million passengers annually (~25% of India's air traffic)."
+    ],
+    "staticGk": "Public Private Partnership Appraisal Committee (PPPAC) functions under Department of Economic Affairs.",
+    "secId": "sec1",
+    "hook": "Groups 11 airports into 5 bundles for 3rd PPPAC privatization round to prevent market oligopoly.",
+    "date": "2026-06-15",
+    "interviewQ": null,
+    "tier": "Tier A",
+    "id": "note-sec1-423",
+    "title": "MoCA Proposes Capping Airport Privatisation Bundles at 2-3 Bundles Per Bidder",
+    "trap": "Adani passenger market share (~25%) vs proposed bundle cap per bidder (2-3 bundles)."
+  },
+  {
+    "bullets": [
+      "Zojila Breakthrough: Completion of full tunnel excavation between Baltal and Minamarg in Kargil district.",
+      "Project Cost: Developed by NHIDCL at ₹6,800 crore using New Austrian Tunnelling Method (NATM) and SCADA.",
+      "Strategic Value: Provides all-weather connectivity on the Srinagar-Kargil-Leh axis (completion Feb 2028)."
+    ],
+    "staticGk": "NHIDCL (National Highways and Infrastructure Development Corporation Ltd) MD: Krishan Kumar.",
+    "secId": "sec1",
+    "hook": "India's longest road tunnel on NH-1 connects Srinagar, Kargil, and Leh at 11,500 ft altitude.",
+    "date": "2026-06-16",
+    "interviewQ": null,
+    "tier": "Tier A",
+    "id": "note-sec1-424",
+    "title": "Nitin Gadkari Witness Breakthrough of 14-km Zojila Tunnel Main Bore",
+    "trap": "Zojila tunnel length (14 km) vs total highway project cost (₹6,800 crore)."
+  },
+  {
+    "bullets": [
+      "New Standard: Published by BIS Biodiversity Sectional Committee (EED 06) under Environment Department.",
+      "NFSNM Support: National Food Security and Nutrition Mission provides ₹50 lakh one-time assistance for community seed banks.",
+      "Statutory Protection: Aligns with PPV&FRA 2001 and Biological Diversity Act 2002."
+    ],
+    "staticGk": "Bureau of Indian Standards (BIS) Director General: Sanjay Garg | Est 2016.",
+    "secId": "sec1",
+    "hook": "Establishes India's 1st management framework for community-led seed banks.",
+    "date": "2026-06-17",
+    "interviewQ": null,
+    "tier": "Tier A",
+    "id": "note-sec1-425",
+    "title": "BIS Publishes IS 20201:2026 Standard for Community Seed Bank Management",
+    "trap": null
+  },
+  {
+    "bullets": [
+      "Namo Cities: 4 greenfield integrated urban hubs planned along RRTS corridors with ₹5,000 crore central assistance.",
+      "PARIVARTAN Scheme: Cabinet-approved ₹9,585 crore scheme to replace 2.07 lakh old BS-III/IV buses and trucks in Delhi-NCR.",
+      "30-Minute Transit: Integrated RRTS network aiming to reduce inter-city travel time across 55,083 sq km NCR to 30 minutes."
+    ],
+    "staticGk": "NCR Planning Board chaired by Union Housing & Urban Affairs Minister Manohar Lal.",
+    "secId": "sec1",
+    "hook": "Proposes ₹5,000 crore central support for Namo Cities and ₹9,585 crore vehicle replacement scheme.",
+    "date": "2026-06-18",
+    "interviewQ": null,
+    "tier": "Tier A",
+    "id": "note-sec1-426",
+    "title": "NCRPB Draft Regional Plan 2041 Approves 4 Greenfield 'Namo Cities' & 'PARIVARTAN' Scheme",
+    "trap": "Namo Cities central outlay (₹5,000 cr) vs PARIVARTAN vehicle replacement outlay (₹9,585 cr)."
+  },
+  {
+    "bullets": [
+      "GHCI Portal: Facilitates transparent certification under Green Hydrogen Certification Scheme of India.",
+      "Electrolyser Incentives: Financial incentives awarded to 15 companies for 3,000 MW/yr manufacturing under SIGHT.",
+      "Refinery Contracts: 30,000 MTPA green hydrogen supply contracts awarded to IOCL, BPCL, HPCL, and NRL."
+    ],
+    "staticGk": "National Green Hydrogen Mission outlay ₹19,744 crore targeting 5 MMT annual capacity by 2030.",
+    "secId": "sec1",
+    "hook": "Pralhad Joshi sanctions ₹22 crore 1st batch support to 9 green hydrogen startups.",
+    "date": "2026-06-19",
+    "interviewQ": null,
+    "tier": "Tier A",
+    "id": "note-sec1-427",
+    "title": "MNRE Launches 'Green Hydrogen Certification Portal of India (GHCI)' &  Startup Support",
+    "trap": null
+  },
+  {
+    "bullets": [
+      "7x7x7 Expansion: Expands 6x6x6 to 7x7x7 by adding LBW babies (0-6 months), 'Eating Right' intervention, and M&E framework.",
+      "T4 Approach: Transitions from Test, Treat, Talk to Test, Treat, Talk & Track.",
+      "IV Iron Therapy: Includes Intravenous Iron Therapy (Ferric Carboxymaltose) for severe anemia in pregnant women."
+    ],
+    "staticGk": "NFHS-5 data shows 67.1% of children (6-59 months) and 57% of women in India are anemic.",
+    "secId": "sec1",
+    "hook": "Adds Low Birth Weight babies and Eating Right to transition from T3 to T4 approach.",
+    "date": "2026-06-20",
+    "interviewQ": null,
+    "tier": "Tier A",
+    "id": "note-sec1-428",
+    "title": "MHFW Releases 'Anemia Mukt Bharat Abhiyaan' Guidelines Expanding to 7x7x7 Framework",
+    "trap": "New beneficiary group (LBW babies 0-6 months) vs T4 approach (adds 'Track')."
+  },
+  {
+    "bullets": [
+      "Biometric Payment: Enables PIN-free UPI transactions up to ₹5,000 using device fingerprint or face ID.",
+      "UIDAI Face Auth: Allows customers to set/reset UPI PIN using UIDAI facial recognition without debit card.",
+      "IoT Delegated Payments: Enables connected devices and vehicles to execute UPI payments within pre-defined limits."
+    ],
+    "staticGk": "Bank of Baroda MD & CEO: Debadatta Chand | HQ: Vadodara.",
+    "secId": "sec2",
+    "hook": "Introduces OS-native biometric auth up to ₹5,000 and UIDAI face authentication for PIN reset.",
+    "date": "2026-06-21",
+    "interviewQ": null,
+    "tier": "Tier A",
+    "id": "note-sec2-429",
+    "title": "Bank of Baroda Launches 3 Features on 'bob इ Pay' Universal UPI App",
+    "trap": "PIN-free biometric payment limit (₹5,000) vs UIDAI face authentication."
+  },
+  {
+    "bullets": [
+      "Unclaimed Assets Portal: Developed in collaboration with Public Sector Bank Alliance (PSBA) covering 12 PSBs.",
+      "Financial Scope: Provides single search for unclaimed bank deposits, insurance claims, shares, dividends, and mutual funds.",
+      "Campaign Link: Builds on nationwide 'Aapki Punji, Aapka Adhikar' (Your Money, Your Right) campaign."
+    ],
+    "staticGk": "Public Sector Bank Alliance (PSBA) MD & CEO: Eric de Souza.",
+    "secId": "sec2",
+    "hook": "Unified platform www.unclaimedassetsportal.in connects unclaimed deposits, insurance claims, and shares.",
+    "date": "2026-06-22",
+    "interviewQ": null,
+    "tier": "Tier A",
+    "id": "note-sec2-430",
+    "title": "DFS Launches 'Common Landing Portal for Unclaimed Financial Assets' (PSBA)",
+    "trap": null
+  },
+  {
+    "bullets": [
+      "ZCZP Inclusion: Subscription to Zero Coupon Zero Principal (ZCZP) instruments on Social Stock Exchanges added to Schedule VII.",
+      "CSR Cap: Companies permitted to allocate up to 10% of annual mandatory CSR outlay to ZCZP instruments.",
+      "Zero Returns: ZCZP instruments offer no financial returns or principal repayment; used exclusively for social impact projects."
+    ],
+    "staticGk": "Social Stock Exchange (SSE) framework regulated by SEBI.",
+    "secId": "sec2",
+    "hook": "Allows corporates to allocate up to 10% annual CSR expenditure to Social Stock Exchange instruments.",
+    "date": "2026-06-23",
+    "interviewQ": null,
+    "tier": "Tier A",
+    "id": "note-sec2-431",
+    "title": "MCA Amends Schedule VII Companies Act: ZCZP Instruments Eligible Under CSR (Up to 10%)",
+    "trap": "ZCZP CSR cap (10% of annual CSR expenditure) vs return structure (Zero Coupon Zero Principal)."
+  },
+  {
+    "bullets": [
+      "Target-Date NFOs: Launches 'Zerodha Life Cycle Fund 2036' and 'Zerodha Life Cycle Fund 2041' (minimum subscription ₹100).",
+      "Asset Glidepath: Systematically shifts asset allocation from high-equity growth to conservative G-Secs as target year approaches.",
+      "Exit Load Tier: 3% exit load within 1 yr, 2% within 2 yrs, 1% within 3 yrs, nil beyond 3 yrs."
+    ],
+    "staticGk": "Zerodha Fund House CEO: Vishal Jain | Fund Manager: Kedarnath Mirajkar.",
+    "secId": "sec2",
+    "hook": "Introduces target-date open-ended funds following a risk-reducing asset allocation glidepath.",
+    "date": "2026-06-24",
+    "interviewQ": null,
+    "tier": "Tier A",
+    "id": "note-sec2-432",
+    "title": "Zerodha Fund House Launches India's 1st 'Lifecycle Mutual Funds' (NFOs 2036 & 2041)",
+    "trap": "Minimum subscription amount (₹100) vs exit load window (3 years)."
+  },
+  {
+    "bullets": [
+      "Record IPO Size: Estimated to raise ₹33,000 crore to ₹38,000 crore (+), surpassing Hyundai Motor India's ₹27,870 crore record.",
+      "Valuation & Shares: Valued at ₹12-15 lakh crore; issue comprises 27 crore fresh equity shares (no OFS component).",
+      "RIL Holding: Reliance Industries retains 66.43% majority stake in Jio Platforms."
+    ],
+    "staticGk": "Jio Platforms Group CEO: Mathew Oommen | Parent: Reliance Industries Ltd.",
+    "secId": "sec2",
+    "hook": "Reliance Industries subsidiary files for 27 crore shares (~3% post-issue capital) at ₹12-15 lakh crore valuation.",
+    "date": "2026-06-25",
+    "interviewQ": null,
+    "tier": "Tier A",
+    "id": "note-sec2-433",
+    "title": "Jio Platforms Files Draft Papers for India's Biggest-Ever  Billion+ (₹33,000-38,000 Cr) IPO",
+    "trap": "Jio IPO estimated size (₹33,000-38,000 cr) vs Hyundai previous record (₹27,870 cr)."
+  },
+  {
+    "bullets": [
+      "Harmonised Code: Single Common Advertisement Code applies to stockbrokers, MFs, PMs, RAs, and IAs.",
+      "Post-Reporting SLA: Mandates reporting of advertisements within 24 hours of publication instead of prior clearance.",
+      "Celebrity Endorsements: Permits brand-level celebrity endorsements while prohibiting specific product/service endorsements."
+    ],
+    "staticGk": "PaRRVA (Past Risk and Return Verification Agency) ratings permitted under proposed CAC.",
+    "secId": "sec2",
+    "hook": "Replaces separate exchange ad rules with single code and 24-hour post-publication reporting.",
+    "date": "2026-06-26",
+    "interviewQ": null,
+    "tier": "Tier A",
+    "id": "note-sec2-434",
+    "title": "SEBI Proposes Common Advertisement Code (CAC) Under Intermediaries Regulations 2008",
+    "trap": "Ad reporting SLA (24 hours after publication) vs celebrity endorsement scope (brand-level only)."
+  },
+  {
+    "bullets": [
+      "MEPRO X6 Sight: Fixed 6x magnification daytime sight with 1,000m effective range for NEGEV NG-7 7.62x51mm LMGs.",
+      "Prime Contractor: Bharat Electronics Limited (BEL) secured tender via Transfer of Technology (ToT) from Israel's Meprolight & RRP Defense.",
+      "Global First: Marks 1st instance globally of a military deploying telescopic optics on LMGs across regular infantry."
+    ],
+    "staticGk": "NEGEV NG-7 LMG manufactured in India under licence from Israel Weapon Industries (IWI).",
+    "secId": "sec4",
+    "hook": "First army in the world to place telescopic optics on light machine guns at scale.",
+    "date": "2026-06-27",
+    "interviewQ": null,
+    "tier": "Tier A",
+    "id": "note-sec4-435",
+    "title": "Indian Army Procures 10,000+ Meprolight 'MEPRO X6' Telescopic Sights for NEGEV LMGs",
+    "trap": null
+  },
+  {
+    "bullets": [
+      "M777 Howitzer Package:  million sustainment support for 145 M777A2 Ultra-Light Howitzers (contractor: BAE Systems).",
+      "Apache Helicopter Package: .2 million support for 22 AH-64E Apache Guardian helicopters (contractors: Boeing & Lockheed Martin).",
+      "FMS Channel: Administered under US Foreign Military Sales (FMS) programme."
+    ],
+    "staticGk": "Indian Army operates 145 M777A2 howitzers and 22 AH-64E Apache helicopters.",
+    "secId": "sec4",
+    "hook": "Approves foreign military sales package for 145 M777A2 howitzers and 22 AH-64E Apache helicopters.",
+    "date": "2026-06-28",
+    "interviewQ": null,
+    "tier": "Tier A",
+    "id": "note-sec4-436",
+    "title": "US DSCA Notifies .2 Million Sustainment Package for India's M777 Howitzers & Apaches",
+    "trap": "M777 howitzer package () vs Apache package (.2M)."
+  },
+  {
+    "bullets": [
+      "5 Individual Awards: Vaibhav Sooryavanshi (RR) won Orange Cap, MVP, Emerging Player, Super Striker, and Super Sixes.",
+      "Record Sixes: Struck 72 sixes in a single season, breaking Chris Gayle's 2011 record of 59 sixes.",
+      "RCB Title Retention: RCB (captain Rajat Patidar) defeated Gujarat Titans to retain title (3rd team after CSK and MI)."
+    ],
+    "staticGk": "Vaibhav Sooryavanshi (Bihar) selected for Indian Men's T20 team at age 15 years 71 days.",
+    "secId": "sec6",
+    "hook": "Becomes youngest Orange Cap winner in IPL history with 776 runs and 72 sixes.",
+    "date": "2026-06-29",
+    "interviewQ": null,
+    "tier": "Tier A",
+    "id": "note-sec6-437",
+    "title": "15-Year-Old Vaibhav Sooryavanshi Sweeps 5 IPL 2026 Awards as RCB Retains Title",
+    "trap": "Vaibhav sixes record (72 sixes) vs Gayle previous record (59 sixes)."
+  },
+  {
+    "bullets": [
+      "World No. 1 Boxers: Jaismine Lamboria (57kg) and Minakshi Hooda (48kg) achieved World No. 1 rankings.",
+      "Top-10 Representation: Indian boxers feature in top 10 across 9 of 10 women's weight categories and 8 of 10 men's divisions.",
+      "Global Position: India ranks 3rd overall in top-10 athletes globally behind Kazakhstan and Uzbekistan."
+    ],
+    "staticGk": "International Boxing Association (IBA) HQ: Lausanne, Switzerland.",
+    "secId": "sec6",
+    "hook": "India ranks 3rd overall globally and 2nd in women's boxing worldwide.",
+    "date": "2026-06-30",
+    "interviewQ": null,
+    "tier": "Tier A",
+    "id": "note-sec6-438",
+    "title": "World Boxing Rankings: Jaismine Lamboria & Minakshi Hooda Ranked World No. 1",
+    "trap": "Jaismine Lamboria category (57kg) vs Minakshi Hooda category (48kg)."
   }
 ];
 
