@@ -4564,6 +4564,349 @@ const CA_NOTES_DATA = [
     "id": "note-sec4-302",
     "title": "Static GK: Nehru Trophy Boat Race & Indian Navy Maritime Security Scope",
     "staticGk": "Exclusive Economic Zone (EEZ) extends 200 nautical miles from baseline."
+  },
+  {
+    "tier": "Tier A",
+    "bullets": [
+      "Statutory Mandate: Viksit Bharat Guarantee for Rozgar and Aajeevika Mission (Gramin) replaces MGNREGA nationwide.",
+      "Employment Guarantee: Increases statutory wage employment from 100 days to 125 days per year (total budget ₹1,51,282 crore).",
+      "Minimum Wage Rate: Wage rates increased by ~10% on average, ensuring no state has a wage rate below ₹300/day.",
+      "Initial Outlay: First 'Mother Sanction' installment of ₹25,863 crore released to states to ensure 15-day wage payments."
+    ],
+    "staticGk": "Union Rural Development Minister: Shivraj Singh Chouhan | MGNREGA enacted 2005.",
+    "trap": "New statutory employment guarantee (125 days, up from 100 days) vs minimum daily wage rate (₹300/day).",
+    "interviewQ": "\"Why did the government replace MGNREGA with the VB-G-RAM-G Act in 2026?\"\n💡 **Model Answer: To raise guaranteed annual rural employment from 100 to 125 days, establish a uniform ₹300/day wage floor, and enforce 15-day automated wage disbursement.**",
+    "secId": "sec1",
+    "id": "note-sec1-303",
+    "date": "2026-07-01",
+    "hook": "Replaces MGNREGA from July 1, 2026 with a minimum statutory wage rate of ₹300 per day.",
+    "title": "VB-G-RAM-G Act Replaces MGNREGA: Wage Employment Guarantee Increased to 125 Days"
+  },
+  {
+    "tier": "Tier A",
+    "bullets": [
+      "Phased Registration Restrictions: From Jan 1, 2027, only electric 3-wheelers and N1 goods carriers allowed; from April 1, 2028, new petrol/CNG 2-wheeler registrations discontinued.",
+      "Purchase Subsidies: Up to ₹30,000 for electric 2-wheelers; ₹50,000 for 3-wheelers; ₹1 lakh for N1 trucks (100% road tax/reg fee exemption).",
+      "Infrastructure & Bus Fleet: Outlay of ₹7,000 crore to install 32,000 active EV charging points and electrify 30% of school bus fleets by March 2030."
+    ],
+    "staticGk": "Delhi CM: Rekha Gupta | Delhi Transport Commissioner: Niharika Rai.",
+    "trap": "Electric 3-wheeler registration mandate (Jan 1, 2027) vs petrol 2-wheeler ban (April 1, 2028).",
+    "interviewQ": null,
+    "secId": "sec4",
+    "id": "note-sec4-304",
+    "date": "2026-07-02",
+    "hook": "Phases out fossil-fuel two-wheeler registrations while committing ₹7,000 crore for EV incentives.",
+    "title": "Delhi EV Policy 2026 (EV Policy 2.0): Bans Petrol & CNG Two-Wheeler Registrations from April 2028"
+  },
+  {
+    "tier": "Tier A",
+    "bullets": [
+      "Project Details: Operationalises 1994 Upper Yamuna River Basin (UYRB) agreement at a cost of ₹34,102 crore.",
+      "Conveyance System: 580 million cubic metres (MCM) water piped from Western Yamuna Canal via 3 underground pipelines.",
+      "Beneficiary Regions: Supplies drinking water to Sikar, Churu, and Jhunjhunu (Rajasthan) and Bhiwani & Fatehabad (Haryana)."
+    ],
+    "staticGk": "Special Purpose Vehicle: Rajasthan-Haryana Yamuna Water SPV (RHYW-SPV) formed for execution.",
+    "trap": "Pipeline conveyance capacity (580 MCM) vs total project outlay (₹34,102 crore).",
+    "interviewQ": null,
+    "secId": "sec4",
+    "id": "note-sec4-305",
+    "date": "2026-07-03",
+    "hook": "Resolves 30-year-old inter-state water dispute by conveying 580 MCM water to Shekhawati.",
+    "title": "Haryana & Rajasthan Sign ₹34,102 Crore Yamuna Water Project Agreement"
+  },
+  {
+    "tier": "Tier A",
+    "bullets": [
+      "Equity Structure: 50:50 Joint Venture between Adani Enterprises Ltd and IHC Group's IRH (Abu Dhabi).",
+      "Infrastructure Scope: 4 MMTPA alumina refinery in Rayagada, 2 MMTPA aluminium smelter in Sundargarh, and 4,000 MW captive power plant (400 MW renewable).",
+      "Odisha Bauxite Share: Odisha holds nearly 50% of India's bauxite reserves and accounts for 54% of national aluminium output."
+    ],
+    "staticGk": "Adani Enterprises Chairman: Gautam Adani | Odisha CM: Mohan Charan Majhi.",
+    "trap": "Alumina refinery capacity (4 MMTPA in Rayagada) vs Aluminium smelter capacity (2 MMTPA in Sundargarh).",
+    "interviewQ": null,
+    "secId": "sec1",
+    "id": "note-sec1-306",
+    "date": "2026-07-04",
+    "hook": "India's largest FDI in metallurgy sector featuring a 4 MMTPA alumina refinery and 2 MMTPA smelter.",
+    "title": "Adani Enterprises & IRH (Abu Dhabi) Sign .5 Billion MoU for Odisha Aluminium Project"
+  },
+  {
+    "tier": "Tier A",
+    "bullets": [
+      "Kanpur-Kabrai Corridor: 117.7 km 4/6-lane access-controlled highway on NH-34 (₹7,145.14 cr on BOT Toll mode).",
+      "Delhi Road Tunnel: 8.1 km 6-lane tunnel connecting Dwarka Expressway (NH-248BB) to Nelson Mandela Marg (NH-148AE) in Vasant Kunj (₹6,969.67 cr on HAM mode)."
+    ],
+    "staticGk": "CCEA chaired by Prime Minister | NHAI Chairman: Santosh Kumar Yadav.",
+    "trap": "Kanpur-Kabrai highway length (117.7 km, BOT Toll) vs Vasant Kunj tunnel (8.1 km, HAM mode).",
+    "interviewQ": null,
+    "secId": "sec4",
+    "id": "note-sec4-307",
+    "date": "2026-07-05",
+    "hook": "Clears Kanpur-Kabrai Greenfield Highway and 8.1 km Dwarka Expressway road tunnel.",
+    "title": "CCEA Approves 2 National Highway Projects in UP & Delhi (₹14,114.81 Crore Outlay)"
+  },
+  {
+    "tier": "Tier A",
+    "bullets": [
+      "FCRA 2.0 Portal: Fully digitises Foreign Contribution (Regulation) Act 2010 filings for ~14,500 active NGOs via NGO Darpan integration.",
+      "e-OCI Card: Creates fully digital OCI ecosystem for >50 lakh cardholders (no new booklet needed upon passport renewal after age 20).",
+      "Hosting Platform: Hosted on National Government Cloud 'MeghRaj' with Aadhaar e-Sign and OCR analysis."
+    ],
+    "staticGk": "Union Home Minister: Amit Shah | FCRA regulated by Ministry of Home Affairs.",
+    "trap": "FCRA portal version (2.0) vs OCI booklet renewal exemption age (20 years).",
+    "interviewQ": null,
+    "secId": "sec2",
+    "id": "note-sec2-308",
+    "date": "2026-07-06",
+    "hook": "Digitises FCRA compliance for 14,500 NGOs and eliminates OCI booklet renewal upon passport update.",
+    "title": "MHA Launches FCRA 2.0 Portal and Electronic OCI (e-OCI) Card on MeghRaj Cloud"
+  },
+  {
+    "tier": "Tier A",
+    "bullets": [
+      "Eligibility & Age: Open to Indian graduates and final-year students up to 30 years of age.",
+      "Training Structure: 12-month program comprising 150 hours online learning on SWAYAM Plus followed by 6 months on-the-job training.",
+      "Partner Bodies: Supported by IIT Madras (IIT Pravartak), ICAI, ICSI, and ICMAI."
+    ],
+    "staticGk": "Union Corporate Affairs Minister: Nirmala Sitharaman.",
+    "trap": "Online learning duration (150 hours on SWAYAM Plus) vs on-job training (6 months).",
+    "interviewQ": null,
+    "secId": "sec1",
+    "id": "note-sec1-309",
+    "date": "2026-07-07",
+    "hook": "Creates certified pool of para-professionals to assist MSMEs with accounting, tax, and secretarial compliance.",
+    "title": "MCA Launches Corporate Mitra Scheme for MSME Compliance Para-Professionals"
+  },
+  {
+    "tier": "Tier A",
+    "bullets": [
+      "Airport City Investment: AACL investing > ₹20,000 crore across 6 airports (Mumbai, Navi Mumbai, Ahmedabad, Lucknow, Jaipur, Guwahati) covering 22 million sq. ft.",
+      "Hotel Tie-Up: Signed IHG Hotels & Resorts for 5 luxury hotels (debut of Kimpton brand in India).",
+      "Organic Fertilizer & CBG: Adani TotalEnergies Biomass Ltd (ATBL) launched 'Harit Amrit' fertilizer; Barsana (UP) project developed as India's largest agri-waste compressed biogas facility under SATAT (5% blending target)."
+    ],
+    "staticGk": "Adani Airport Holdings manages 8 airports in India | LEED Gold pre-certified.",
+    "trap": "Barsana CBG facility location (Uttar Pradesh) vs SATAT CBG blending target (5%).",
+    "interviewQ": null,
+    "secId": "sec4",
+    "id": "note-sec4-310",
+    "date": "2026-07-08",
+    "hook": "Develops 655 acres across 6 airports while launching India's largest agri-waste CBG facility in Barsana.",
+    "title": "Adani Airport City (AACL) ₹20,000 Crore Airport City Plan and Harit Amrit Fertilizer Launch"
+  },
+  {
+    "tier": "Tier A",
+    "bullets": [
+      "Campaign Duration: Digi Rover-GNSS Special Land Measurement Campaign runs July 1 to August 15, 2026.",
+      "Technology: Uses GNSS satellite instruments for centimetre-level accurate land demarcation under DILRMP."
+    ],
+    "staticGk": "DILRMP: Digital India Land Records Modernisation Programme.",
+    "trap": null,
+    "interviewQ": null,
+    "secId": "sec4",
+    "id": "note-sec4-311",
+    "date": "2026-07-09",
+    "hook": "Deploys Global Navigation Satellite System (GNSS) rovers across all UP tehsils to resolve land disputes.",
+    "title": "Uttar Pradesh Launches Digi Rover (GNSS) Centimetre-Accurate Land Measurement Campaign"
+  },
+  {
+    "tier": "Tier A",
+    "bullets": [
+      "Price Revision: Procurement price raised from ₹1,875 to ₹2,125 per quintal (w.e.f. July 4).",
+      "Procurement Agencies: Procured through NAFED and National Cooperative Consumers' Federation (NCCF).",
+      "Production Estimate: 2025-26 onion production estimated at 307.37 lakh metric tonnes (LMT)."
+    ],
+    "staticGk": "NAFED HQ: New Delhi | Works under Ministry of Agriculture.",
+    "trap": "Revised procurement price (₹2,125/quintal) vs earlier price (₹1,875/quintal).",
+    "interviewQ": null,
+    "secId": "sec1",
+    "id": "note-sec1-312",
+    "date": "2026-07-10",
+    "hook": "Revises onion procurement price upwards for the 5th time this season via NAFED and NCCF.",
+    "title": "Government Raises Onion Price Stabilisation Buffer Procurement Price by 13% to ₹2,125/Quintal"
+  },
+  {
+    "tier": "Tier A",
+    "bullets": [
+      "Greece Partner: Eurobank (Greece) partnered with NPCI International Payments Limited (NIPL).",
+      "10 Global Countries: Greece joins Singapore, UAE, Bhutan, Nepal, Sri Lanka, France, Mauritius, Qatar, and Cambodia.",
+      "Domestic Volume: UPI processes 22–23 billion transactions per month domestically."
+    ],
+    "staticGk": "NPCI International Payments Ltd (NIPL) CEO: Ritesh Shukla.",
+    "trap": "Greece position as UPI international destination (10th country globally).",
+    "interviewQ": null,
+    "secId": "sec3",
+    "id": "note-sec3-313",
+    "date": "2026-07-11",
+    "hook": "Expands UPI cross-border merchant payments into Greece as 10th international destination.",
+    "title": "NIPL Partners with Eurobank to Make UPI Live in Greece (10th Country Globally)"
+  },
+  {
+    "tier": "Tier A",
+    "bullets": [
+      "Group Leadership: Chaired by Ananta Barua (former SEBI WTM); Co-Chairperson Rajnish Kumar (former SBI Chairman).",
+      "Terms of Reference: Comprehensive review of SEBI (Debenture Trustees) Regulations 1993 and net-worth requirements."
+    ],
+    "staticGk": "Debenture Trustees are SEBI-registered entities protecting bondholders' interests.",
+    "trap": "Working Group Chairman (Ananta Barua) vs Co-Chairman (Rajnish Kumar).",
+    "interviewQ": null,
+    "secId": "sec2",
+    "id": "note-sec2-314",
+    "date": "2026-07-12",
+    "hook": "Reviews 1993 Debenture Trustees regulations with former SBI Chairman Rajnish Kumar as Co-Chair.",
+    "title": "SEBI Constitutes Expert Working Group Chaired by Ananta Barua on Debenture Trusteeship"
+  },
+  {
+    "tier": "Tier A",
+    "bullets": [
+      "Warships Commissioned: INS Dunagiri (7th & final Project 17A stealth frigate), INS Sanshodhak (4th Survey Vessel Large), and INS Agray (ASW Shallow Water Craft).",
+      "Builder & Content: Built by Garden Reach Shipbuilders & Engineers (GRSE) Kolkata with >75% indigenous content.",
+      "Navratna Status: Marks GRSE's 1st warship commissioning after receiving Navratna status."
+    ],
+    "staticGk": "GRSE Chairman & MD: Cdre PR Hari (Retd) | HQ: Kolkata, WB.",
+    "trap": "INS Dunagiri (Project 17A 7th frigate) vs INS Sanshodhak (Survey Vessel 4th vessel).",
+    "interviewQ": null,
+    "secId": "sec4",
+    "id": "note-sec4-315",
+    "date": "2026-07-13",
+    "hook": "Commissions 7th Project 17A frigate, 4th Survey Vessel Large, and ASW Shallow Water Craft.",
+    "title": "PM Modi Commissions 3 Warships in Kolkata: INS Dunagiri, INS Sanshodhak, & INS Agray"
+  },
+  {
+    "tier": "Tier A",
+    "bullets": [
+      "Indian Awardees: Parveen Shaikh (BNHS, Indian Skimmer) and Barkha Subba (FSEP, Himalayan Salamander).",
+      "Award Details: Conferred by UK's Princess Anne at Royal Geographical Society, London (£50,000 funding)."
+    ],
+    "staticGk": "Whitley Fund for Nature (UK) institutes the annual Whitley Awards.",
+    "trap": "Parveen Shaikh species focus (Indian Skimmer) vs Barkha Subba species focus (Himalayan Salamander).",
+    "interviewQ": null,
+    "secId": "sec7",
+    "id": "note-sec7-316",
+    "date": "2026-07-14",
+    "hook": "Recognized for conserving the Indian Skimmer (Chambal River) and Himalayan Salamander (Darjeeling).",
+    "title": "Parveen Shaikh & Barkha Subba Conferred 2026 Whitley Award ('Green Oscar') in London"
+  },
+  {
+    "tier": "Tier A",
+    "bullets": [
+      "Awardees: Sunil Bharti Mittal (Bharti Enterprises), V Prem Watsa (Fairfax Financial), and Christopher T Calio (RTX Corp).",
+      "Event Context: Conferred during IX USISPF Leadership Summit marking America@250 anniversary."
+    ],
+    "staticGk": "USISPF President & CEO: Mukesh Aghi | HQ: Washington D.C.",
+    "trap": null,
+    "interviewQ": null,
+    "secId": "sec7",
+    "id": "note-sec7-317",
+    "date": "2026-07-15",
+    "hook": "Conferred at IX USISPF Leadership Summit alongside V Prem Watsa and Christopher Calio.",
+    "title": "Sunil Bharti Mittal Presented USISPF 2026 Leadership Award in Washington D.C."
+  },
+  {
+    "tier": "Tier A",
+    "bullets": [
+      "Academic Partnership: IIT Delhi and Sorbonne University (Paris) launched joint master's and PhD programs.",
+      "Integrated Campus: Centred around Franco-Indian Integrated Health Campus for healthcare AI and robotics."
+    ],
+    "staticGk": "Sorbonne University HQ: Paris, France | IIT Delhi Director: Rangan Banerjee.",
+    "trap": null,
+    "interviewQ": null,
+    "secId": "sec5",
+    "id": "note-sec5-318",
+    "date": "2026-07-16",
+    "hook": "Establishes 'Franco-Indian Integrated Health Campus' for joint medical and AI research.",
+    "title": "IIT Delhi and Sorbonne University (France) Launch Joint Master's & PhD in Biological Science"
+  },
+  {
+    "tier": "Tier A",
+    "bullets": [
+      "Mission Scope: World's 1st all-girls international satellite mission to the Moon.",
+      "Lead Agency: Conceptualised and led by Space Kidz India; Gautam Buddha University (GBU) academic partner."
+    ],
+    "staticGk": "Space Kidz India Founder & CEO: Dr. Srimathy Kesan | HQ: Chennai.",
+    "trap": "Mission ShakthiSAT reach (12,000 girls from 108 countries).",
+    "interviewQ": null,
+    "secId": "sec5",
+    "id": "note-sec5-319",
+    "date": "2026-07-17",
+    "hook": "Engages 12,000 young girls from 108 countries to build a lunar satellite.",
+    "title": "GBU, Space Kidz India, and IN-SPACe Launch Mission ShakthiSAT (World's 1st All-Girls Lunar Satellite)"
+  },
+  {
+    "tier": "Tier A",
+    "bullets": [
+      "Platform Portal: trlcompass.in launched by Principal Scientific Adviser Prof. Ajay Kumar Sood.",
+      "National Framework: Standardises 9-level TRL scale to support ANRF and Research, Development & Innovation (RDI) Fund."
+    ],
+    "staticGk": "Data Security Council of India (DSCI) is a non-profit body set up by NASSCOM.",
+    "trap": "TRL scale levels (9 levels) vs platform developer (DSCI + Office of PSA).",
+    "interviewQ": null,
+    "secId": "sec5",
+    "id": "note-sec5-320",
+    "date": "2026-07-18",
+    "hook": "India's 1st unified 9-level framework for assessing Technology Readiness Levels in deep-tech.",
+    "title": "Office of PSA and DSCI Launch TRL Compass Platform (trlcompass.in)"
+  },
+  {
+    "tier": "Tier A",
+    "bullets": [
+      "Flight Validation: 1st operational validation of Satellite-Based Landing System (SLS) on a commercial jet in India.",
+      "GAGAN SBAS: GAGAN developed by ISRO & AAI; 4th SBAS system in the world (after US WAAS, Europe EGNOS, Japan MSAS)."
+    ],
+    "staticGk": "DGCA Director General: Vir Vikram Yadav | HQ: New Delhi.",
+    "trap": "4th SBAS system globally (GAGAN) vs 1st commercial jet trial in India.",
+    "interviewQ": null,
+    "secId": "sec5",
+    "id": "note-sec5-321",
+    "date": "2026-07-19",
+    "hook": "IndiGo Airbus A320 completes GAGAN-aided LPV landing at Maharana Pratap Airport, Udaipur.",
+    "title": "DGCA Supervises India's 1st Satellite-Based Landing System Trial on Mainline Commercial Aircraft"
+  },
+  {
+    "tier": "Tier A",
+    "bullets": [
+      "Narcotics Roadmap: Released 3-year Vision Document on Narcotics Control (2026-2029).",
+      "Seizure Statistics: Drug seizures rose to 11.8 million kg (2014-2026) valued at ₹1,84,000 crore."
+    ],
+    "staticGk": "Narcotics Control Bureau (NCB) Director General: Anurag Garg.",
+    "trap": null,
+    "interviewQ": null,
+    "secId": "sec4",
+    "id": "note-sec4-322",
+    "date": "2026-07-20",
+    "hook": "Destroys ₹6,000 crore worth of seized narcotics during Online Drug Disposal Fortnight.",
+    "title": "10th NCORD Meeting Chaired by Amit Shah: Releases Vision Document on Narcotics Control 2026-2029"
+  },
+  {
+    "tier": "Tier A",
+    "bullets": [
+      "Constitutional Body: Central Council of Health and Family Welfare (CCHFW) constituted under Article 263.",
+      "Policy Documents: Operational Guidelines on National Ambulance Services (NAS 2026), SUMAN Roadmap 2030, and SSBSK child health program.",
+      "Digital DPI: Aarogya Setu 2.0, eSushrut@clinic (C-DAC), Ayushman Sarathi chatbot, UHI, and Drug Registry."
+    ],
+    "staticGk": "1.85 lakh Ayushman Arogya Mandirs operational across India.",
+    "trap": "CCHFW constitutional basis (Article 263) vs SUMAN target year (2030).",
+    "interviewQ": null,
+    "secId": "sec4",
+    "id": "note-sec4-323",
+    "date": "2026-07-21",
+    "hook": "Apex health council constituted under Article 263 launches digital health DPI initiatives.",
+    "title": "16th CCHFW Conference Chaired by J.P. Nadda: Launches SUMAN Roadmap 2030 and Aarogya Setu 2.0"
+  },
+  {
+    "tier": "Tier A",
+    "bullets": [
+      "Global Rankings: Finland #1 for 2nd year, followed by Sweden & Denmark; South Sudan bottom.",
+      "India Performance: India ranks 94th with score of 68.3/100 (up from 99th in 2025 and 112th in 2015).",
+      "Key Challenges: Zero Hunger (SDG 2) most pressing concern; per capita CO2 emissions 2.21 tonnes."
+    ],
+    "staticGk": "NITI Aayog tracks domestic SDG progress via SDG India Index.",
+    "trap": "India SDG rank 2026 (94th) vs 2025 (99th) vs overall score (68.3).",
+    "interviewQ": null,
+    "secId": "sec4",
+    "id": "note-sec4-324",
+    "date": "2026-07-22",
+    "hook": "India climbs 18 places since 2015 with 33.3% of SDG targets on track for 2030.",
+    "title": "SDSN Sustainable Development Report 2026: Finland Ranks #1; India Ranks 94th (Score 68.3)"
   }
 ];
 
