@@ -1,4 +1,4 @@
-// Current Affairs Command Center 2026 — Kindle E-Book Reader Logic
+// Current Affairs Command Center 2026 — Kindle Centered Reader Logic
 
 document.addEventListener("DOMContentLoaded", () => {
   let activeSectionId = "all";
@@ -13,6 +13,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const searchInput = document.getElementById("searchInput");
   const activeCountEl = document.getElementById("activeCount");
   const toggleRecallBtn = document.getElementById("toggleRecallBtn");
+  const toggleSidebarBtn = document.getElementById("toggleSidebarBtn");
+  const sectionNavDrawer = document.getElementById("sectionNavDrawer");
+  const sidebarChevron = document.getElementById("sidebarChevron");
   const drillContainer = document.getElementById("drillContainer");
 
   // Helper: Markdown Parser & Numeral Highlighting
@@ -39,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
     return html;
   }
 
-  // Render Sidebar Section Navigation
+  // Render Top Section Navigation Grid
   function renderSidebar() {
     sectionNavList.innerHTML = "";
 
@@ -70,7 +73,16 @@ document.addEventListener("DOMContentLoaded", () => {
     renderSidebar();
     renderFeed();
     renderDrill();
+    // Close drawer after selection for seamless reading flow
+    sectionNavDrawer.classList.remove("open");
+    sidebarChevron.textContent = "▼";
   }
+
+  // Toggle Section Drawer Accordion
+  toggleSidebarBtn.addEventListener("click", () => {
+    const isOpen = sectionNavDrawer.classList.toggle("open");
+    sidebarChevron.textContent = isOpen ? "▲" : "▼";
+  });
 
   // Render Notes Feed
   function renderFeed() {
