@@ -1,4 +1,4 @@
-// Banking Command Center 2026 — Kindle Centered Reader Logic (v4.1)
+// Banking Command Center 2026 — Kindle Centered Reader Logic (v4.2)
 
 document.addEventListener("DOMContentLoaded", () => {
   let activeSubject = "ca"; // "ca" or "quant"
@@ -8,6 +8,14 @@ document.addEventListener("DOMContentLoaded", () => {
   let onlyBookmarks = false;
   let activeRecallMode = false;
   let bookmarkedIds = JSON.parse(localStorage.getItem("ca_bookmarks") || "[]");
+
+  // Tracker State (persisted in browser)
+  let userStudyHours = parseFloat(localStorage.getItem("ca_study_hours_today") || "6.5");
+  let userTasks = JSON.parse(localStorage.getItem("ca_tracker_tasks") || "null");
+  if (!userTasks) {
+    userTasks = DASHBOARD_DATA.defaultTasks;
+    localStorage.setItem("ca_tracker_tasks", JSON.stringify(userTasks));
+  }
 
   // DOM Elements
   const appHeaderTitle = document.getElementById("appHeaderTitle");
@@ -21,19 +29,31 @@ document.addEventListener("DOMContentLoaded", () => {
   const bookmarkBadge = document.getElementById("bookmarkBadge");
   
   const toggleSubjectBtn = document.getElementById("toggleSubjectBtn");
+  const toggleTrackerBtn = document.getElementById("toggleTrackerBtn");
   const toggleSidebarBtn = document.getElementById("toggleSidebarBtn");
   const toggleMonthBtn = document.getElementById("toggleMonthBtn");
   const toggleBookmarkFilterBtn = document.getElementById("toggleBookmarkFilterBtn");
   const toggleRecallBtn = document.getElementById("toggleRecallBtn");
   
   const subjectNavDrawer = document.getElementById("subjectNavDrawer");
+  const trackerNavDrawer = document.getElementById("trackerNavDrawer");
   const sectionNavDrawer = document.getElementById("sectionNavDrawer");
   const quantNavDrawer = document.getElementById("quantNavDrawer");
   const monthNavDrawer = document.getElementById("monthNavDrawer");
   
-  const subjectChevron = document.getElementById("subjectChevron");
-  const sidebarChevron = document.getElementById("sidebarChevron");
-  const monthChevron = document.getElementById("monthChevron");
+  const trackerBadge = document.getElementById("trackerBadge");
+  const trackerCountdownHeader = document.getElementById("trackerCountdownHeader");
+  const trackerTargetTitle = document.getElementById("trackerTargetTitle");
+  const trackerTargetSprint = document.getElementById("trackerTargetSprint");
+  const trackerMockAuditList = document.getElementById("trackerMockAuditList");
+  const trackerTimetableBody = document.getElementById("trackerTimetableBody");
+  const trackerTaskList = document.getElementById("trackerTaskList");
+  
+  const studyHoursInput = document.getElementById("studyHoursInput");
+  const targetHoursLabel = document.getElementById("targetHoursLabel");
+  const studyProgressPct = document.getElementById("studyProgressPct");
+  const studyProgressBar = document.getElementById("studyProgressBar");
+
   const drillContainer = document.getElementById("drillContainer");
 
   // Helper 1: Markdown Parser
@@ -71,15 +91,123 @@ document.addEventListener("DOMContentLoaded", () => {
     return html;
   }
 
+  // Calculate Days Remaining
+  function getDaysRemaining(targetDateStr) {
+    const today = new Date();
+    const targetDate = new Date(targetDateStr);
+    const diffTime = targetDate - today;
+    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+    return diffDays > 0 ? diffDays : 0;
+  }
+
+  // Initialize Tracker Panel Data
+  function initTrackerPanel() {
+    const daysLeft = getDaysRemaining(DASHBOARD_DATA.targetDate);
+    trackerBadge.textContent = `${daysLeft}d`;
+    trackerCountdownHeader.textContent = `⚡ ${DASHBOARD_DATA.primaryTarget}: ${daysLeft} Days Left`;
+    trackerTargetTitle.textContent = DASHBOARD_DATA.primaryTarget;
+    trackerTargetSprint.textContent = DASHBOARD_DATA.currentPhase;
+
+    // Mock Audits List
+    trackerMockAuditList.innerHTML = DASHBOARD_DATA.mockAudits.map(m => `
+      <div style="margin-bottom: 8px;">
+        <strong>${m.date}:</strong> ${m.mock} — 
+        <span style="color: var(--accent-warm); font-weight: 700;">${m.score}</span> 
+        (Cutoff: ${m.cutoff}) | ${m.accuracy} Accuracy 
+        <div style="font-size: 0.8rem; color: var(--accent-gold); margin-top: 2px;">⚠️ ${m.trap}</div>
+      </div>
+    `).join("");
+
+    // Timetable Body
+    trackerTimetableBody.innerHTML = DASHBOARD_DATA.timetable.map(t => `
+      <tr>
+        <td style="font-family: var(--font-mono); font-weight: 600;">${t.time}</td>
+        <td><span class="tag tag-tier-a">${t.zone}</span></td>
+        <td>${t.task}</td>
+        <td>${t.duration}</td>
+      </tr>
+    `).join("");
+
+    // Study Hours Input & Progress
+    studyHoursInput.value = userStudyHours;
+    targetHoursLabel.textContent = DASHBOARD_DATA.dailyTargetHours.toFixed(1);
+    updateStudyProgressUI();
+
+    // Render Checklist
+    renderChecklist();
+  }
+
+  function updateStudyProgressUI() {
+    const pct = Math.min(100, Math.round((userStudyHours / DASHBOARD_DATA.dailyTargetHours) * 100));
+    studyProgressPct.textContent = `${pct}%`;
+    studyProgressBar.style.width = `${pct}%`;
+  }
+
+  window.saveStudyHours = function() {
+    const val = parseFloat(studyHoursInput.value);
+    if (!isNaN(val) && val >= 0) {
+      userStudyHours = val;
+      localStorage.setItem("ca_study_hours_today", val.toString());
+      updateStudyProgressUI();
+    }
+  };
+
+  function renderChecklist() {
+    trackerTaskList.innerHTML = userTasks.map(t => `
+      <div class="tracker-task-item ${t.done ? 'done' : ''}">
+        <input type="checkbox" ${t.done ? 'checked' : ''} onchange="toggleTaskDone('${t.id}')">
+        <span>${t.text}</span>
+      </div>
+    `).join("");
+  }
+
+  window.toggleTaskDone = function(id) {
+    userTasks = userTasks.map(t => {
+      if (t.id === id) {
+        return { ...t, done: !t.done };
+      }
+      return t;
+    });
+    localStorage.setItem("ca_tracker_tasks", JSON.stringify(userTasks));
+    renderChecklist();
+  };
+
+  window.addNewTask = function() {
+    const input = document.getElementById("newTaskInput");
+    const text = input.value.trim();
+    if (text) {
+      const newTask = {
+        id: "task-" + Date.now(),
+        text: text,
+        done: false
+      };
+      userTasks.push(newTask);
+      localStorage.setItem("ca_tracker_tasks", JSON.stringify(userTasks));
+      input.value = "";
+      renderChecklist();
+    }
+  };
+
+  // Switch Tracker Tab inside Drawer
+  window.switchTrackerTab = function(tabNum) {
+    document.querySelectorAll(".tracker-tab-btn").forEach(btn => btn.classList.remove("active"));
+    document.querySelectorAll(".tracker-tab-content").forEach(content => content.classList.remove("active"));
+
+    document.getElementById(`tabBtn${tabNum}`).classList.add("active");
+    document.getElementById(`trackerTab${tabNum}`).classList.add("active");
+  };
+
   // Close All Drawers
   function closeAllDrawers() {
     subjectNavDrawer.classList.remove("open");
+    trackerNavDrawer.classList.remove("open");
     sectionNavDrawer.classList.remove("open");
     quantNavDrawer.classList.remove("open");
     monthNavDrawer.classList.remove("open");
-    if (subjectChevron) subjectChevron.textContent = "▼";
-    if (sidebarChevron) sidebarChevron.textContent = "▼";
-    if (monthChevron) monthChevron.textContent = "▼";
+    if (document.getElementById("subjectChevron")) document.getElementById("subjectChevron").textContent = "▼";
+    if (document.getElementById("trackerChevron")) document.getElementById("trackerChevron").textContent = "▼";
+    if (document.getElementById("sidebarChevron")) document.getElementById("sidebarChevron").textContent = "▼";
+    if (document.getElementById("monthChevron")) document.getElementById("monthChevron").textContent = "▼";
   }
 
   // Switch Subject Mode
@@ -93,6 +221,7 @@ document.addEventListener("DOMContentLoaded", () => {
       toggleSubjectBtn.innerHTML = `📚 Subject: Current Affairs <span id="subjectChevron">▼</span>`;
       toggleSubjectBtn.className = "toggle-chip active";
       toggleSidebarBtn.style.display = "flex";
+      toggleSidebarBtn.innerHTML = `🔒 Locked Sections <span id="sidebarChevron">▼</span>`;
       toggleMonthBtn.style.display = "flex";
       toggleRecallBtn.style.display = "flex";
     } else {
@@ -186,6 +315,15 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!isOpen) {
       subjectNavDrawer.classList.add("open");
       document.getElementById("subjectChevron").textContent = "▲";
+    }
+  });
+
+  toggleTrackerBtn.addEventListener("click", () => {
+    const isOpen = trackerNavDrawer.classList.contains("open");
+    closeAllDrawers();
+    if (!isOpen) {
+      trackerNavDrawer.classList.add("open");
+      document.getElementById("trackerChevron").textContent = "▲";
     }
   });
 
@@ -487,6 +625,7 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   // Initial Execution
+  initTrackerPanel();
   renderSidebar();
   renderFeed();
   renderDrill();
