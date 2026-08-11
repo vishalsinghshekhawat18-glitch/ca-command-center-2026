@@ -5500,6 +5500,254 @@ const CA_NOTES_DATA = [
     ],
     "hook": "Establishes India's 1st river kinetic energy demonstration project generating power from river currents.",
     "tier": "Tier A"
+  },
+  {
+    "trap": "Wild-capture marine fishing subsidies (covered) vs aquaculture and inland fisheries (excluded).",
+    "staticGk": "WTO Ministerial Conference (12th MC) adopted agreement in Geneva in June 2022.",
+    "hook": "Commerce Secretary deposits Instrument of Acceptance to curb harmful wild-capture subsidies.",
+    "tier": "Tier A",
+    "secId": "sec1",
+    "interviewQ": null,
+    "id": "note-sec1-363",
+    "title": "India Accepts WTO Fisheries Subsidies Agreement (123rd Member)",
+    "bullets": [
+      "Acceptance Milestone: India becomes 123rd WTO member to accept Agreement on Fisheries Subsidies.",
+      "Coverage Scope: Curbs subsidies for IUU (illegal, unreported, unregulated) fishing; strictly excludes aquaculture and inland fisheries.",
+      "Effective Date: Entered into force Sept 15, 2025 after 2/3rd WTO member acceptance."
+    ],
+    "date": "2026-07-24"
+  },
+  {
+    "trap": "Lakadong cultivation target (7,000 hectares) vs target Lakadong economy by FY29 (₹100 crore).",
+    "staticGk": "Lakadong Turmeric carries GI tag and contains 7%-12% natural curcumin.",
+    "hook": "Scales world's highest naturally occurring curcumin turmeric to a ₹100 crore economy by FY29.",
+    "tier": "Tier A",
+    "secId": "sec4",
+    "interviewQ": null,
+    "id": "note-sec4-364",
+    "title": "MDoNER & Meghalaya Launch 'Mission Golden Spice' for Lakadong Turmeric (₹175.45 Crore)",
+    "bullets": [
+      "Outlay & Roadmap: ₹175.45 crore 5-year convergence project (2025-2030) under 'Unlock Economic Potential of Northeast'.",
+      "Cultivation Target: Triples cultivation area to 7,000 hectares, benefiting 17,500 farmers (99% women) in Jaintia Hills."
+    ],
+    "date": "2026-07-25"
+  },
+  {
+    "trap": "BSMR-200 site (Tarapur, Maharashtra) vs HTGCR site (Visakhapatnam, AP).",
+    "staticGk": "SHANTI Act 2025 opened India's nuclear sector to private participation.",
+    "hook": "BARC develops BSMR-200, SMR-55, and HTGCR models with ₹20,000 crore total SMR outlay.",
+    "tier": "Tier A",
+    "secId": "sec1",
+    "interviewQ": null,
+    "id": "note-sec1-365",
+    "title": "DAE Target: 5 Indigenous Small Modular Reactors (SMRs) Operational by 2033 under SHANTI Act",
+    "bullets": [
+      "3 SMR Models: BSMR-200 (220 MWe, Tarapur), SMR-55 (55 MWe, Tarapur), and HTGCR (5 MWth gas-cooled, Visakhapatnam).",
+      "Capacity Target: Nuclear capacity expanding from 8.78 GW to 22 GW (2031-32) and 100 GW by 2047 under SHANTI Act 2025."
+    ],
+    "date": "2026-07-26"
+  },
+  {
+    "trap": "0% tariff phase (2 years) vs 100% phase (1 year) vs 200% phase (permanent after 2029).",
+    "staticGk": "India supplies 65% of US birth control pill prescriptions (Glenmark & Lupin).",
+    "hook": "Imposes zero-percent tariff for 2 years (from Aug 2026), 100% in Aug 2028, and 200% in Aug 2029.",
+    "tier": "Tier A",
+    "secId": "sec1",
+    "interviewQ": null,
+    "id": "note-sec1-366",
+    "title": "US President Donald Trump Announces Phased 200% Tariff Policy on Generic Drug Imports",
+    "bullets": [
+      "Phased Tariff Schedule: 0% tariff (Aug 2026 – July 2028), 100% (Aug 2028 – July 2029), 200% (from Aug 2029).",
+      "India Impact: Impacts >40% of India's .5 billion generic pharma exports to the US."
+    ],
+    "date": "2026-07-27"
+  },
+  {
+    "trap": "Discounted issue price (~₹10,296 crore) vs maturity face value (₹20,000 crore).",
+    "staticGk": "NaBFID (National Bank for Financing Infrastructure and Development) est 2021 | HQ: Mumbai.",
+    "hook": "Approves issuance of 20 lakh zero-coupon infrastructure bonds at discounted price of ₹10,296.12 crore.",
+    "tier": "Tier A",
+    "secId": "sec3",
+    "interviewQ": null,
+    "id": "note-sec3-367",
+    "title": "CBDT Notifies 10-Year Zero Coupon Bonds for NaBFID (₹20,000 Crore Maturity Value)",
+    "bullets": [
+      "Bond Structure: 20 lakh 10-year zero-coupon deep discount bonds approved under Sec 2(112) Income Tax Act 2025.",
+      "Financial Details: Discounted issue price ~₹10,296.12 crore for ₹20,000 crore maturity value (issuance on/before March 31, 2028)."
+    ],
+    "date": "2026-07-28"
+  },
+  {
+    "trap": "Nifty 500 Ahimsa constituent count (326 stocks) vs base value (1,000).",
+    "staticGk": "BSE introduced 'Saatvik 100 Index' in June 2026.",
+    "hook": "India's 1st animal-cruelty-free thematic stock market index based on AIM framework.",
+    "tier": "Tier A",
+    "secId": "sec3",
+    "interviewQ": null,
+    "id": "note-sec3-368",
+    "title": "NSE Indices Launches 'Nifty 500 Ahimsa Index' (326 Animal-Cruelty-Free Stocks)",
+    "bullets": [
+      "Index Composition: 326 stocks selected from Nifty 500 universe using Ahimsa Investment Movement (AIM) Green-band screening.",
+      "Base Date & CAGR: Base date April 1, 2016 (base value 1,000); delivered 15.11% CAGR since inception."
+    ],
+    "date": "2026-07-29"
+  },
+  {
+    "trap": "BHAVYA Rasayan outlay (₹3,030 crore for 3 chemical parks) vs BHAVYA industrial parks outlay (₹33,660 crore).",
+    "staticGk": "Distinct from BHAVYA scheme (₹33,660 cr for 100 industrial parks approved March 2026).",
+    "hook": "Provides ₹1,000 crore grant per park to build common infrastructure across 3 chemical hubs.",
+    "tier": "Tier A",
+    "secId": "sec1",
+    "interviewQ": null,
+    "id": "note-sec1-369",
+    "title": "Cabinet Approves 'BHAVYA Rasayan' Scheme (₹3,030 Crore for 3 Chemical Parks)",
+    "bullets": [
+      "Scheme Outlay: ₹3,030 crore financial outlay over 5 years (FY27 to FY31) from Union Budget FY27.",
+      "Park Requirements: Grant up to ₹1,000 cr per park (min ₹500 cr state contribution); min area 2,000 acres (8 sq km).",
+      "Chemical Sector Rank: India ranks 6th globally and 3rd in Asia in chemical production (contributes 7% to GDP)."
+    ],
+    "date": "2026-07-30"
+  },
+  {
+    "trap": "New base year (2022-23) vs combined core industries weightage in IIP (32.88%).",
+    "staticGk": "Office of Economic Adviser (DPIIT) compiles monthly Index of Core Industries.",
+    "hook": "Increases core industries count from 8 to 9; combined IIP weightage set at 32.88%.",
+    "tier": "Tier A",
+    "secId": "sec1",
+    "interviewQ": "\"Why did DPIIT add Iron Ore as the 9th core industry and update the base year to 2022-23?\"\n💡 **Model Answer: To align core industry tracking with updated 2022-23 macroeconomic bases (GDP, WPI, IIP) and reflect iron ore's critical role in India's expanding steel manufacturing.**",
+    "id": "note-sec1-370",
+    "title": "DPIIT Revises Index of Core Industries (ICI) Base Year to 2022-23 & Adds 'Iron Ore' as 9th Core Industry",
+    "bullets": [
+      "Base Year Revision: Base year updated to 2022-23 (replacing 2011-12 base) to align with GDP, WPI, and IIP.",
+      "9th Core Industry: 'Iron Ore' added as 9th core industry (Coal, Crude Oil, Natural Gas, Refinery Products, Fertilisers, Steel, Cement, Electricity, Iron Ore).",
+      "IIP Weightage: Combined weight of 9 core industries in IIP stands at 32.88% (down from 40.27%)."
+    ],
+    "date": "2026-07-31"
+  },
+  {
+    "trap": "India-Sri Lanka PPT effective date (April 1, 2027) vs original treaty date (2013).",
+    "staticGk": "OECD BEPS: Base Erosion and Profit Shifting framework.",
+    "hook": "OECD BEPS anti-abuse provision empowered to deny tax treaty benefits for tax avoidance.",
+    "tier": "Tier A",
+    "secId": "sec1",
+    "interviewQ": null,
+    "id": "note-sec1-371",
+    "title": "India & Sri Lanka Amend DTAA Protocol to Incorporate 'Principal Purpose Test (PPT)'",
+    "bullets": [
+      "DTAA Protocol Amendment: Incorporates Principal Purpose Test (PPT) into 2013 India-Sri Lanka tax treaty.",
+      "Anti-Abuse Rule: Allows tax authorities to deny treaty benefits if primary purpose of a deal is gaining tax advantage.",
+      "Effective Date: Applies to income derived in India on or after April 1, 2027."
+    ],
+    "date": "2026-07-01"
+  },
+  {
+    "trap": null,
+    "staticGk": "HCLTech CEO: C Vijayakumar | Odisha CM: Mohan Charan Majhi.",
+    "hook": "1st AI-optimised data centre at upcoming Odisha Sovereign AI Park in Bhubaneswar.",
+    "tier": "Tier A",
+    "secId": "sec4",
+    "interviewQ": null,
+    "id": "note-sec4-372",
+    "title": "HCLTech, Sarvam AI, & Odisha Sign ₹14,257 Crore MoU for AI-Optimised Data Centre",
+    "bullets": [
+      "Project Outlay: ₹14,257 crore (.7 billion) capital outlay supported by Odisha Government.",
+      "Technology Integration: Combines HCLTech full-stack AI with Sarvam AI foundation models; houses 5,000 jobs by 2028."
+    ],
+    "date": "2026-07-02"
+  },
+  {
+    "trap": null,
+    "staticGk": "EIL CMD: Atul Gupta | Critical Minerals include Lithium, Cobalt, Nickel, Neodymium.",
+    "hook": "CSIR-IMMT designated Centre of Excellence for critical minerals processing (lithium, cobalt, REEs).",
+    "tier": "Tier A",
+    "secId": "sec1",
+    "interviewQ": null,
+    "id": "note-sec1-373",
+    "title": "Engineers India Ltd & CSIR-IMMT Partner under National Critical Mineral Mission (NCMM)",
+    "bullets": [
+      "NCMM CoE: CSIR-IMMT Bhubaneswar designated Centre of Excellence for critical minerals.",
+      "4 Research Areas: Mineral processing joint R&D, technology scale-up, pilot plants, and technical training."
+    ],
+    "date": "2026-07-03"
+  },
+  {
+    "trap": "Electricity consumption cap (2,400 units/yr) vs maximum children limit (3 children).",
+    "staticGk": "Delhi CM: Rekha Gupta | 1st installment released on Raksha Bandhan.",
+    "hook": "Replaces Mahila Samriddhi Yojana with 1st instalment of ₹2,500 on August 28.",
+    "tier": "Tier A",
+    "secId": "sec4",
+    "interviewQ": null,
+    "id": "note-sec4-374",
+    "title": "Delhi Govt Rolls Out 'Delhi Lakshmi Yojana' (₹2,500/Month for Women)",
+    "bullets": [
+      "Financial Benefit: ₹2,500/month for eligible women (aged 21-60, resident for 10+ years).",
+      "Eligibility Caps: Family electricity usage ≤ 2,400 units/year, annual income ≤ ₹2.5 lakh, max 3 living children."
+    ],
+    "date": "2026-07-04"
+  },
+  {
+    "trap": "DISHA 2.0 outlay (₹255 crore) vs DISHA 1.0 outlay (₹250 crore).",
+    "staticGk": "DISHA 1.0 ran 2021-2026 with ₹250 crore outlay | Department of Justice.",
+    "hook": "Integrates Tele-Law (14454), Nyaya Bandhu, and VIDHI-Sanjeevani with AI 'Nyaya Setu' chatbot.",
+    "tier": "Tier A",
+    "secId": "sec2",
+    "interviewQ": null,
+    "id": "note-sec2-375",
+    "title": "Ministry of Justice Restructures 'DISHA 2.0' Scheme (₹255 Crore Outlay for 2026-2031)",
+    "bullets": [
+      "Financial Outlay: ₹255 crore Central Sector Scheme outlay for 2026-27 to 2030-31.",
+      "4 Integrated Pillars: Tele-Law (toll-free 14454), Nyaya Bandhu Pro Bono, Legal Literacy, and VIDHI-Sanjeevani.",
+      "AI Integration: VIDHI-Sanjeevani integrates with 22-language AI voice chatbot 'Nyaya Setu'."
+    ],
+    "date": "2026-07-05"
+  },
+  {
+    "trap": "PM-Vidyalaxmi subvention loan cap (₹10 lakh) vs CGFSEL credit guarantee cap (₹7.5 lakh).",
+    "staticGk": "PM-Vidyalaxmi scheme approved by Cabinet in November 2024.",
+    "hook": "Provides 3% interest subvention for education loans up to ₹10 lakh (family income ≤ ₹8 lakh).",
+    "tier": "Tier A",
+    "secId": "sec1",
+    "interviewQ": null,
+    "id": "note-sec1-376",
+    "title": "PM-Vidyalaxmi Scheme Sanctions 1,12,817 Education Loans Worth ₹15,634 Crore",
+    "bullets": [
+      "Sanctioned Loans: 1,12,817 collateral-free and guarantor-free loans worth ₹15,634 crore as of July 2026.",
+      "Interest Subvention: 3% interest subvention on loans up to ₹10 lakh for family income ≤ ₹8 lakh p.a.",
+      "PM-USP CGFSEL Guarantee: Department of Higher Education scheme issued 14.65 lakh guarantees worth ₹59,843.74 crore (75% default cover up to ₹7.5 lakh)."
+    ],
+    "date": "2026-07-06"
+  },
+  {
+    "trap": "1st rank in acreage (38% world share) vs 2nd rank in cotton production/consumption.",
+    "staticGk": "Cotton Corporation of India (CCI) procured 105.09 lakh bales valued at ₹41,530 crore in 2025-26.",
+    "hook": "Accounts for 38% of world cotton acreage; 2026-27 MSP raised to ₹8,267 (medium) and ₹8,667 (long).",
+    "tier": "Tier A",
+    "secId": "sec1",
+    "interviewQ": null,
+    "id": "note-sec1-377",
+    "title": "Ministry of Textiles Factsheet: India Ranks 1st Globally in Cotton Cultivation Area (114.84 Lakh Hectares)",
+    "bullets": [
+      "Global Ranks: India ranks 1st globally in cotton acreage (114.84 lakh hectares, 38% world share) and 2nd in production/consumption.",
+      "Species Cultivation: India is the only country cultivating all 4 recognised cotton species.",
+      "MSP & Mission Outlay: 2026-27 MSP ₹8,267/quintal (medium-staple) and ₹8,667 (long-staple); 5-year 'Mission for Cotton Productivity' outlay ₹5,659.22 crore."
+    ],
+    "date": "2026-07-07"
+  },
+  {
+    "trap": "Mirabai Chanu CWG gold streak (3rd consecutive: 2018, 2022, 2026).",
+    "staticGk": "Glasgow 2026 CWG: India tally 12 medals (2 gold, 7 silver, 3 bronze).",
+    "hook": "Mirabai Chanu lifts 190 kg for 3rd consecutive CWG gold; Sharmila Dhankar wins 1st para athletics gold.",
+    "tier": "Tier A",
+    "secId": "sec6",
+    "interviewQ": null,
+    "id": "note-sec6-378",
+    "title": "Commonwealth Games 2026 (Glasgow): Mirabai Chanu & Sharmila Dhankar Win Gold Medals",
+    "bullets": [
+      "Mirabai Chanu Gold: Lifted 190 kg (85kg snatch + 105kg clean & jerk) for 3rd straight CWG gold in women's 48kg.",
+      "Sharmila Dhankar Gold: Gold in women's shot put F57 para athletics (ending India's 20-year CWG para athletics wait).",
+      "Silver Medals: Gulveer Singh (men's 10,000m 27:49.78), Harjinder Kaur (women's 69kg weightlifting 227kg), Sarvesh Kushare (high jump)."
+    ],
+    "date": "2026-07-08"
   }
 ];
 
