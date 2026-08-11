@@ -1,4 +1,4 @@
-/* Current Affairs Command Center 2026 — Kindle E-Book Reader Theme */
+/* Current Affairs Command Center 2026 — Kindle E-Book Reader Theme (v3.2) */
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap');
 
@@ -22,6 +22,7 @@
   
   --font-serif: 'Merriweather', 'Bookerly', 'Georgia', 'Crimson Pro', serif;
   --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'Consolas', 'Courier New', 'SF Mono', ui-monospace, monospace;
 }
 
 /* Base Reset & Reader Layout */
@@ -41,14 +42,13 @@ body {
   min-height: 100vh;
 }
 
-/* Minimalist E-Reader Header */
+/* Minimalist Non-Overlapping E-Reader Header */
 header {
   background-color: var(--bg-sidebar);
   border-bottom: 1px solid var(--border-subtle);
-  padding: 18px 32px;
-  position: sticky;
-  top: 0;
-  z-index: 100;
+  padding: 16px 32px;
+  position: relative; /* Fixed: Non-overlapping page flow */
+  width: 100%;
 }
 
 .header-container {
@@ -71,7 +71,7 @@ header {
 
 .logo-text h1 {
   font-family: var(--font-serif);
-  font-size: 1.35rem;
+  font-size: 1.3rem;
   font-weight: 700;
   color: var(--text-headline);
   letter-spacing: -0.01em;
@@ -79,7 +79,7 @@ header {
 
 .logo-text p {
   font-family: var(--font-sans);
-  font-size: 0.78rem;
+  font-size: 0.76rem;
   color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -119,10 +119,10 @@ header {
 /* Main E-Reader Grid Layout */
 .main-layout {
   max-width: 1200px;
-  margin: 28px auto;
+  margin: 24px auto 48px auto;
   padding: 0 24px;
   display: grid;
-  grid-template-columns: 290px 1fr;
+  grid-template-columns: 280px 1fr;
   gap: 32px;
 }
 
@@ -245,20 +245,34 @@ header {
 .notes-feed {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 20px;
 }
 
 .note-card {
   background: var(--bg-card);
   border: 1px solid var(--border-subtle);
   border-radius: 8px;
-  padding: 24px 28px;
+  padding: 22px 26px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
   transition: border-color 0.2s ease;
 }
 
-.note-card:hover {
-  border-color: #cbbba3;
+/* Compact Card Styling for Tier B+ / Single-Bullet Items */
+.note-card-compact {
+  padding: 14px 18px;
+}
+
+.note-card-compact .note-title {
+  font-size: 1.02rem;
+  margin-bottom: 4px;
+}
+
+.note-card-compact .note-tags {
+  margin-bottom: 8px;
+}
+
+.note-card-compact .bullets-list {
+  margin-bottom: 0;
 }
 
 .note-header {
@@ -266,7 +280,7 @@ header {
   justify-content: space-between;
   align-items: flex-start;
   gap: 16px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .note-title {
@@ -275,6 +289,29 @@ header {
   font-weight: 700;
   color: var(--text-headline);
   line-height: 1.5;
+}
+
+/* Bold Markdown Styling Override */
+.note-title strong,
+.bullets-list strong,
+.hook-box strong,
+.static-gk-box strong,
+.trap-box strong,
+.interview-box strong {
+  font-weight: 700;
+  color: var(--text-headline);
+}
+
+/* Typographic Numeral Highlight (Monospace & Tabular Alignment) */
+.num-highlight {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 0.96em;
+  color: var(--accent-warm);
+  background: rgba(166, 82, 40, 0.08);
+  padding: 1px 5px;
+  border-radius: 4px;
+  letter-spacing: -0.02em;
 }
 
 .btn-bookmark {
@@ -299,7 +336,7 @@ header {
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 
 .tag {
@@ -333,12 +370,12 @@ header {
 
 .bullets-list {
   padding-left: 20px;
-  margin-bottom: 14px;
+  margin-bottom: 12px;
   color: var(--text-main);
 }
 
 .bullets-list li {
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .static-gk-box {
@@ -390,6 +427,7 @@ header {
   color: var(--accent-warm);
   text-shadow: none;
   font-weight: 700;
+  font-family: var(--font-mono);
 }
 
 /* Section Drill Panel (Kindle End-of-Chapter Style) */
