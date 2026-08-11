@@ -4907,6 +4907,351 @@ const CA_NOTES_DATA = [
     "date": "2026-07-22",
     "hook": "India climbs 18 places since 2015 with 33.3% of SDG targets on track for 2030.",
     "title": "SDSN Sustainable Development Report 2026: Finland Ranks #1; India Ranks 94th (Score 68.3)"
+  },
+  {
+    "interviewQ": null,
+    "title": "Digital India Programme Completes 11 Years: UPI Handles 81% of India Digital Payments",
+    "tier": "Tier A",
+    "staticGk": "Digital India launched July 1, 2015 by PM Modi across 9 core pillars.",
+    "id": "note-sec2-325",
+    "bullets": [
+      "Digital Milestones: Internet connections rose to 1.02 billion (from 250M in 2015); UPI processed 24,162 crore transactions in FY26 (49% of global real-time digital payments).",
+      "Electronics & Chips: Electronics manufacturing reached ₹13 lakh crore (3rd-largest export category); India Semiconductor Mission approved 12 projects with ₹1.64 lakh crore investment pipeline.",
+      "Global DPI Model: DigiLocker, UMANG, eSanjeevani, and DIKSHA (2 crore users) exported via 'India Stack Global'."
+    ],
+    "hook": "Quadruples internet connections to 1.02 billion as electronics manufacturing reaches ₹13 lakh crore.",
+    "secId": "sec2",
+    "trap": "UPI share of domestic digital payments (81%) vs share of global real-time digital transactions (49%).",
+    "date": "2026-07-08"
+  },
+  {
+    "interviewQ": null,
+    "title": "ZSI 111th Foundation Day: Discovers 709 New Faunal Records (India Total 1,05,953 Species)",
+    "tier": "Tier A",
+    "staticGk": "Zoological Survey of India (ZSI) established July 1, 1916 | Director: Dr. Dhriti Banerjee | HQ: Kolkata.",
+    "id": "note-sec4-326",
+    "bullets": [
+      "Faunal Biodiversity: 709 new faunal records added in 2025 (483 new to science, 226 new to India), raising India's total faunal wealth to 1,05,953 species.",
+      "State Leader: Kerala led regional species discoveries (98 new species), followed by West Bengal, Karnataka, and Arunachal Pradesh.",
+      "Digital Platforms: Launched 'Fauna of India Checklist 3.0' and 'PaleoIndia Portal' (specimen fossil mapping across 28 states and 8 UTs)."
+    ],
+    "hook": "Releases 'Animal Discoveries 2025' and 'Fauna of India Checklist 3.0' at Kolkata summit.",
+    "secId": "sec4",
+    "trap": "New faunal records added (709) vs total species documented in India (1,05,953).",
+    "date": "2026-07-09"
+  },
+  {
+    "interviewQ": null,
+    "title": "Ministry of Cooperation 5th Foundation Day: Plans Cooperative Life Insurance & 'Sahakar Taxi'",
+    "tier": "Tier A",
+    "staticGk": "Ministry of Cooperation formed July 6, 2021 | Minister: Amit Shah.",
+    "id": "note-sec4-327",
+    "bullets": [
+      "Cooperative Life Insurance: Plans dedicated cooperative life insurer building on IFFCO-Tokio general insurance model.",
+      "Sahakar Taxi Aggregator: Establishes utility aggregator cooperative on lines of 'Bharat Taxi' (0.63M drivers, 3.58M registered users).",
+      "Infrastructure & Seeds: Transferred 135 godowns (75,000 tonnes capacity) and signed BBSSL-ICAR MoU for certified seed tissue culture."
+    ],
+    "hook": "Announces utility aggregator cooperative for ride-hailing and converts 50,000 PACS into e-PACS.",
+    "secId": "sec4",
+    "trap": null,
+    "date": "2026-07-10"
+  },
+  {
+    "interviewQ": null,
+    "title": "APSRTC to Electrify 10,660 Bus Fleet by 2029 under SEMP 4.0 & Introduces 'Dry Lease' Model",
+    "tier": "Tier A",
+    "staticGk": "Andhra Pradesh CM: N. Chandrababu Naidu | Capital: Amaravati.",
+    "id": "note-sec1-328",
+    "bullets": [
+      "Electrification Mandate: APSRTC electrifying entire 10,660 bus fleet by 2029 under AP Sustainable Electric Mobility Policy 4.0.",
+      "PM eBus Sewa Sanction: Centre sanctioned 1,050 electric buses (₹145.3 crore grant, CESL GCC model across 11 cities).",
+      "Dry Lease Innovation: APSRTC introducing India's 1st 'Dry Lease' model for 1,450 electric buses to utilize surplus drivers."
+    ],
+    "hook": "First Indian state transport corporation to introduce a 'Dry Lease' model for 1,450 electric buses.",
+    "secId": "sec1",
+    "trap": "PM eBus Sewa central sanction (1,050 buses) vs APSRTC dry lease procurement (1,450 buses).",
+    "date": "2026-07-11"
+  },
+  {
+    "interviewQ": null,
+    "title": "SEBI Replaces ₹10 Lakh Annual Custodian Fee with ₹85,000 Monthly Fee Mechanism",
+    "tier": "Tier A",
+    "staticGk": "SEBI received ₹175.80 crore in custodian fees in FY26.",
+    "id": "note-sec2-329",
+    "bullets": [
+      "Revised Fee Formula: Custodians will pay ₹85,000/month or 0.0000416% AUC (whichever higher) effective October 1, 2026.",
+      "Previous Fee Structure: Replaces annual fee of ₹10 lakh or 0.0005% AUC.",
+      "Payment Schedule: Monthly fee must be remitted within 15 days of month-end."
+    ],
+    "hook": "Amends Custodian Regulations to charge ₹85,000/month or 0.0000416% Assets Under Custody.",
+    "secId": "sec2",
+    "trap": "Monthly custodian fee (₹85,000 / 0.0000416% AUC) vs previous annual fee (₹10 lakh / 0.0005% AUC).",
+    "date": "2026-07-12"
+  },
+  {
+    "interviewQ": null,
+    "title": "CCI Imposes ₹126.87 Crore Penalty on HP India Sales for GeM Bid-Rigging",
+    "tier": "Tier A",
+    "staticGk": "Competition Commission of India (CCI) Chairperson: Ravneet Kaur | Est 2003.",
+    "id": "note-sec2-330",
+    "bullets": [
+      "Cartelisation Fine: CCI imposed ₹126.87 crore penalty on HP India Sales Pvt Ltd under Section 27 of Competition Act 2002.",
+      "Reseller Penalties: Combined penalty of ₹1.22 crore on 5 colluding resellers (Delphi Infosolutions, Digitech, Orbit Techsol, Hind Technocare, Krishna Computer).",
+      "Printer Supplies Fine: Separate ₹11.98 crore penalty imposed on HP India for GeM printer cartridge cartelisation."
+    ],
+    "hook": "Fines HP India and 5 resellers for cartelisation in GeM PC and printer cartridge procurement.",
+    "secId": "sec2",
+    "trap": "PC cartelisation penalty (₹126.87 crore) vs printer cartridge penalty (₹11.98 crore).",
+    "date": "2026-07-13"
+  },
+  {
+    "interviewQ": null,
+    "title": "India & Japan Sign 1st Bilateral Defence Agreement for 'UNICORN' Integrated Radio Mast",
+    "tier": "Tier A",
+    "staticGk": "BEL Chairman & MD: Manoj Jain | HQ: Bengaluru, Karnataka.",
+    "id": "note-sec4-331",
+    "bullets": [
+      "Inaugural Defence Deal: 1st bilateral agreement for joint defence equipment development signed at 16th India-Japan Annual Summit.",
+      "UNICORN Technology: Bharat Electronics Limited (BEL) to manufacture UNICORN (Unified Complex Radio Antenna) integrated mast for Mogami-class frigates.",
+      "Radar Stealth: Encloses communication antennas into a single mast, significantly reducing warship radar signatures."
+    ],
+    "hook": "BEL to manufacture Japan's UNICORN stealth shipborne mast in India for naval frigates.",
+    "secId": "sec4",
+    "trap": null,
+    "date": "2026-07-14"
+  },
+  {
+    "interviewQ": null,
+    "title": "DAC Accords Acceptance of Necessity (AoN) for ₹52,000 Crore Capital Defence Acquisitions",
+    "tier": "Tier A",
+    "staticGk": "Defence Acquisition Council (DAC) chaired by Defence Minister Rajnath Singh | Est 2001.",
+    "id": "note-sec4-332",
+    "bullets": [
+      "Army Cleared Systems (6): 'Akash Tarang' anti-UAV EW system, MPATGM, MRSAM, V-SHORADS, Active Protection System, jet Kamikaze drones.",
+      "Navy Approved Proposals (3): Multi Influence Ground Mine (MIGM), Naval Shipborne UAS (NSUAS), Land-Based Testing Facility (LBTF).",
+      "Air Force Approval: Fixed-Wing High Altitude Pseudo Satellite (FW-HAPS) operating at 18-20 km stratosphere altitude."
+    ],
+    "hook": "Clears Akash Tarang anti-UAV system, MPATGM, MRSAM, V-SHORADS, and FW-HAPS pseudo-satellite.",
+    "secId": "sec4",
+    "trap": "Total AoN value (₹52,000 crore) vs total FY26 approved proposals (₹6.73 lakh crore).",
+    "date": "2026-07-15"
+  },
+  {
+    "interviewQ": null,
+    "title": "NITI Aayog Releases 'Strategic Roadmap for Making Ayurveda Global' by 2047",
+    "tier": "Tier A",
+    "staticGk": "NITI Aayog Vice Chairman: Suman Bery / Dr. Ashok Kumar Lahiri | CEO: B.V.R. Subrahmanyam.",
+    "id": "note-sec2-333",
+    "bullets": [
+      "3-Pillar Framework: Availability, Acceptability, and Propagation (prepared with PwC).",
+      "Export Growth: Ayurvedic exports rose from .09 billion (2014) to .16 billion (2023) across 150 countries.",
+      "Key Recommendations: WHO-aligned Global Ayurveda Register, World Federation for Ayurveda & Yoga, and export Ayurvedic Pharmacopoeia."
+    ],
+    "hook": "3-pillar framework targeting formal Ayurveda recognition across 20 national healthcare systems.",
+    "secId": "sec2",
+    "trap": "Ayurvedic exports 2023 (.16 billion) vs 2047 target (20 national healthcare systems).",
+    "date": "2026-07-16"
+  },
+  {
+    "interviewQ": null,
+    "title": "MoE PGI-S 2.0 & PGI-D Report: Chandigarh Tops School Education for 5th Consecutive Year",
+    "tier": "Tier A",
+    "staticGk": "PGI-S evaluates school education across 1,000 points and 70 indicators.",
+    "id": "note-sec4-334",
+    "bullets": [
+      "State Leader: Chandigarh topped PGI-S 2.0 for 5th straight year (only entity in 'Uttam-3' grade).",
+      "Sharpest Improvement: Meghalaya climbed 2 grades to 'Akanshi-1' (score rose from 448 to 525.7).",
+      "District Level: 19 districts reached 'Uttam-2' grade (led by 7 from Punjab)."
+    ],
+    "hook": "Chandigarh sole UT/State in 'Uttam-3' category; Meghalaya records sharpest improvement.",
+    "secId": "sec4",
+    "trap": "State PGI-S scale (1,000 points) vs District PGI-D scale (600 points).",
+    "date": "2026-07-17"
+  },
+  {
+    "interviewQ": null,
+    "title": "MoE UDISE+ 2025-26 Report: Pupil-Teacher Ratio Improves to 10-21 Across Key Stages",
+    "tier": "Tier A",
+    "staticGk": "UDISE+ (Unified District Information System for Education Plus) covers 14.8 lakh schools and 26 crore students.",
+    "id": "note-sec4-335",
+    "bullets": [
+      "Pupil-Teacher Ratio (PTR): 10 at foundational level, 12 at preparatory, 17 at middle, 21 at secondary (all better than NEP 30:1 target).",
+      "Enrolment & Dropouts: Secondary GER rose to 71.7% (from 68.5%); secondary dropout rate fell to 7% (from 8.2%); female teaching staff 54.9%.",
+      "Single-Teacher Reduction: Single-teacher schools fell to 1,00,843; zero-enrolment schools dropped 29% to 5,663."
+    ],
+    "hook": "Teacher count rises to 1.02 crore as secondary Gross Enrolment Ratio touches 71.7%.",
+    "secId": "sec4",
+    "trap": "NEP recommended PTR (30:1) vs secondary level actual PTR (21:1).",
+    "date": "2026-07-18"
+  },
+  {
+    "interviewQ": null,
+    "title": "WIPO World Intangible Investment Report: India Records World's Highest Growth (7.9% YoY)",
+    "tier": "Tier A",
+    "staticGk": "Published jointly by WIPO and Luiss Business School | Sweden most intangible-intensive economy.",
+    "id": "note-sec2-336",
+    "bullets": [
+      "Growth Leader: India recorded highest intangible investment growth (7.9% YoY to .2B) among top 15 economies.",
+      "Asset Breakdown: Software & databases (45%), organisational capital (21.8%), R&D (12.7%), brands (9.3%), design (11%).",
+      "Global Intangibles: Total global intangible investment exceeded  trillion for 1st time in 2025."
+    ],
+    "hook": "India's intangible investment touches .2 billion as software & databases account for 45%.",
+    "secId": "sec2",
+    "trap": "Software & database share of Indian intangibles (45%) vs R&D share (12.7%).",
+    "date": "2026-07-19"
+  },
+  {
+    "interviewQ": null,
+    "title": "WDMMA 2026 Global Air Power Rankings: IAF Ranked 3rd Powerful Nation & 6th Service Branch",
+    "tier": "Tier A",
+    "staticGk": "WDMMA evaluates 129 air services across 103 countries using TruVal Rating (TVR).",
+    "id": "note-sec4-337",
+    "bullets": [
+      "Country Ranking: India ranked 3rd military aviation nation globally (behind US 1st and Russia 2nd).",
+      "Branch Ranking: IAF ranked 6th overall (TruVal 69.4), outranking China PLAAF (63.8, 7th) for 5th straight year.",
+      "Fleet Strength: IAF operates 1,716 aircraft (542 fighters, 498 helicopters, 282 transport, 374 trainers) across 29 fighter squadrons."
+    ],
+    "hook": "IAF TruVal rating of 69.4 outranks China's PLAAF for 5th consecutive year.",
+    "secId": "sec4",
+    "trap": "IAF country rank (3rd globally) vs individual service branch rank (6th, TruVal 69.4).",
+    "date": "2026-07-20"
+  },
+  {
+    "interviewQ": null,
+    "title": "Drugs Rules 1945 Amended: High-Alcohol Formulations (>12% v/v) Moved to Schedule H1",
+    "tier": "Tier A",
+    "staticGk": "Drugs and Cosmetics Act 1940 regulates drug manufacturing and licensing in India.",
+    "id": "note-sec2-338",
+    "bullets": [
+      "Licensing Mandate: Formulations containing >12% v/v ethyl alcohol in quantities >30 mL removed from Schedule K exemption.",
+      "Schedule H1 Shift: Moved to Schedule H1 under Drugs Rules 1945 requiring mandatory prescription and record-keeping."
+    ],
+    "hook": "Restricts over-the-counter sale of high-alcohol tinctures to prescription-only Registered Medical Practitioners.",
+    "secId": "sec2",
+    "trap": "Schedule K exemption removal threshold (>12% v/v ethyl alcohol & >30 mL quantity).",
+    "date": "2026-07-21"
+  },
+  {
+    "interviewQ": null,
+    "title": "QCI & NSIC Sign 5-Year MoU to Connect ZED-Certified MSMEs to Global Mart",
+    "tier": "Tier A",
+    "staticGk": "Quality Council of India (QCI) Chairman: Jaxay Shah | NSIC CMD: Dr. Subhransu Sekhar Acharya.",
+    "id": "note-sec1-339",
+    "bullets": [
+      "Strategic Integration: Combines QCI accreditation with NSIC network to link ZED-certified MSMEs to MSME Global Mart.",
+      "Economic Impact: India's 6.5 crore MSMEs employ ~28 crore people and contribute ~30% of GDP."
+    ],
+    "hook": "Integrates MSME ZED Certification Scheme with MSME Global Mart for 6.5 crore MSMEs.",
+    "secId": "sec1",
+    "trap": "MSME GDP contribution (~30%) vs employment (~28 crore people).",
+    "date": "2026-07-22"
+  },
+  {
+    "interviewQ": null,
+    "title": "DoP & TRAI Sign MoU for Village-Level Telecom Survey Across 5.68 Lakh Villages",
+    "tier": "Tier A",
+    "staticGk": "TRAI Chairman: Anil Kumar Lahoti | Established under TRAI Act 1997.",
+    "id": "note-sec1-340",
+    "bullets": [
+      "Audit Scale: Field survey assessing mobile network performance of Airtel, Jio, Vi, and BSNL across 5.68 lakh villages.",
+      "Execution Mechanism: Department of Posts conducts field operations; TRAI provides survey app and technical monitoring."
+    ],
+    "hook": "Department of Posts uses nationwide postal network to conduct India's largest rural telecom audit.",
+    "secId": "sec1",
+    "trap": "Survey village coverage (5.68 lakh villages) vs executing agency (Department of Posts).",
+    "date": "2026-07-23"
+  },
+  {
+    "interviewQ": null,
+    "title": "West Bengal Launches 'PMCSPY' ₹313.30 Crore Special Package for Tea Garden Workers",
+    "tier": "Tier A",
+    "staticGk": "Nodal Agency: North Bengal Development Department (NBDD).",
+    "id": "note-sec1-341",
+    "bullets": [
+      "Package Outlay: ₹313.30 crore special assistance package under Pradhan Mantri Cha Shramik Protsahan Yojana.",
+      "Three Pillars: Cha Shramik Shiksha Yojana (₹177 cr), Swasthya Suraksha (₹72 cr), and Aashray Yojana (₹63 cr for 321 resting sheds)."
+    ],
+    "hook": "Allocates ₹177 crore for Cha Shramik Shiksha and constructs 321 modern resting sheds.",
+    "secId": "sec1",
+    "trap": "Education allocation (₹177 cr) vs healthcare (₹72 cr) vs resting sheds (₹63 cr).",
+    "date": "2026-07-24"
+  },
+  {
+    "interviewQ": null,
+    "title": "Government Approves Pan-India Rollout of ₹60,000 Crore 'PM-SETU' ITI Skilling Scheme",
+    "tier": "Tier A",
+    "staticGk": "National Steering Committee chaired by MSDE Secretary Debashree Mukherjee.",
+    "id": "note-sec1-342",
+    "bullets": [
+      "National Rollout: ₹60,000 crore PM-SETU (Pradhan Mantri Skilling & Employability Transformation through Upgraded ITIs) rolled out across 200 clusters.",
+      "Strategic Investment Plans: Cleared 5 SIPs worth ₹1,237.58 crore to upgrade ITI clusters in Odisha, Gujarat, and Telangana."
+    ],
+    "hook": "Upgrades 200 ITI clusters with ₹1,237.58 crore initial Strategic Investment Plans.",
+    "secId": "sec1",
+    "trap": "Total scheme outlay (₹60,000 crore) vs initial 5-cluster SIP outlay (₹1,237.58 crore).",
+    "date": "2026-07-25"
+  },
+  {
+    "interviewQ": null,
+    "title": "ECLGS 5.0 Guarantees Reach ₹1.55 Lakh Crore Across 4,11,497 Issued Guarantees",
+    "tier": "Tier A",
+    "staticGk": "ECLGS (Emergency Credit Line Guarantee Scheme) managed by NCGTC under DFS.",
+    "id": "note-sec1-343",
+    "bullets": [
+      "Guarantee Progress: 4,11,497 guarantees issued totaling ₹1,55,229 crore (around ₹1.55 lakh crore).",
+      "MSME Share: MSMEs account for 98% of total guarantee count and 82% of total guaranteed amount.",
+      "Borrowing Limits: Additional credit up to 20% working capital (cap ₹100 cr for MSMEs; cap ₹1,500 cr for airlines)."
+    ],
+    "hook": "MSMEs account for 98% of total guarantees under Cabinet-approved ₹18,100 crore outlay.",
+    "secId": "sec1",
+    "trap": "MSME guarantee count share (98%) vs MSME guaranteed amount share (82%).",
+    "date": "2026-07-26"
+  },
+  {
+    "interviewQ": null,
+    "title": "UP Launches 'Mukhyamantri Shikshak Cashless Chikitsa Yojana' (₹5 Lakh Medical Cover)",
+    "tier": "Tier A",
+    "staticGk": "Uttar Pradesh is the first state to provide comprehensive cashless medical and social security to its entire teaching workforce.",
+    "id": "note-sec4-344",
+    "bullets": [
+      "Cashless Benefit: Up to ₹5 lakh per year medical cover at empanelled hospitals for 15 lakh basic/secondary teachers and staff.",
+      "SBI Social Security MoU: SBI partnership provides group term insurance and accident cover to 10 lakh teachers.",
+      "DBT Student Transfer: Transferred ₹1,320 crore via DBT to 1.10 crore students (₹1,200/student for uniforms/stationery)."
+    ],
+    "hook": "Provides cashless medical treatment up to ₹5 lakh/year for 15 lakh teachers and staff.",
+    "secId": "sec4",
+    "trap": "Cashless medical cover cap (₹5 lakh/yr) vs student DBT transfer (₹1,200/student).",
+    "date": "2026-07-27"
+  },
+  {
+    "interviewQ": null,
+    "title": "Adani Defence Lays Foundation for ₹2,500 Crore Missile Complex in Shivpuri (MP)",
+    "tier": "Tier A",
+    "staticGk": "Adani Defence & Aerospace CEO: Ashish Rajvanshi | HQ: Ahmedabad.",
+    "id": "note-sec4-345",
+    "bullets": [
+      "Private Ecosystem: ₹2,500 crore missile complex built across 3 years in Shivpuri, Madhya Pradesh.",
+      "Backward Integration: Combines missile assembly with composite propellant and TNT explosive manufacturing under one roof."
+    ],
+    "hook": "Establishes South Asia's largest private-sector backward-integrated missile manufacturing facility.",
+    "secId": "sec4",
+    "trap": null,
+    "date": "2026-07-28"
+  },
+  {
+    "interviewQ": null,
+    "title": "Fortune India Most Powerful Women 2026: Nita Ambani Ranks #1 Nationally",
+    "tier": "Tier A",
+    "staticGk": "Fortune India MPW list evaluates 100 women leaders across business, finance, and policy.",
+    "id": "note-sec7-346",
+    "bullets": [
+      "Rank #1: Nita M. Ambani (Founder & Chairperson of Reliance Foundation) ranked #1 in Fortune India MPW 2026 list.",
+      "Key Recognition: Marks her 2nd major recognition of 2026 following AAPI Humanitarian Award & Key to City of Tampa."
+    ],
+    "hook": "Recognizes top 100 female leaders shaping India's economic and business landscape.",
+    "secId": "sec7",
+    "trap": null,
+    "date": "2026-07-29"
   }
 ];
 
