@@ -1,4 +1,4 @@
-// Banking Command Center 2026 — Master Live Mentor Dashboard & Tracker Dataset (v4.2)
+// Banking Command Center 2026 — Master Live Mentor Dashboard & Tracker Dataset (v4.3)
 
 const DASHBOARD_DATA = {
   primaryTarget: "IBPS PO Prelims 2026",
@@ -32,9 +32,9 @@ const DASHBOARD_DATA = {
   defaultTasks: [
     { id: "task-1", text: "Rev 1 (24h): Re-solve wrong questions from Mock 1 without timer", done: true },
     { id: "task-2", text: "Current Affairs: Complete August 1-7 Core Items (205 notes)", done: true },
-    { id: "task-3", text: "Quant Superbook: Review Mensuration & Arithmetic Shortcuts", done: true },
-    { id: "task-4", text: "Attempt Smartkeeda IBPS PO Mock 2 & 30m Audit", done: false },
-    { id: "task-5", text: "Rev 2 (Day 3): Re-attempt skipped hard DI set from Mock 1", done: false },
-    { id: "task-6", text: "Reasoning: Practice 4 Floor/Box Puzzles under timer", done: false }
+    { id: "task-3", text: "Current Affairs: Process July 2026 Monthly Core (Part 1 - 85 notes)", done: true },
+    { id: "task-4", text: "Quant Superbook: Review Mensuration & Arithmetic Shortcuts", done: true },
+    { id: "task-5", text: "Attempt Smartkeeda IBPS PO Mock 2 & 30m Audit", done: false },
+    { id: "task-6", text: "Rev 2 (Day 3): Re-attempt skipped hard DI set from Mock 1", done: false }
   ]
 };
