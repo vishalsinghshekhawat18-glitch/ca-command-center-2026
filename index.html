@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Current Affairs Command Center 2026 — Framework v3.1</title>
   <meta name="description" content="Kindle E-Book Reader Current Affairs Command Center for Banking, Regulatory, and Civil Services Exams.">
-  <link rel="stylesheet" href="styles.css?v=v3.5">
+  <link rel="stylesheet" href="styles.css?v=v4.0">
 </head>
 <body>
 
-  <!-- Header -->
+  <!-- Modular Header Command Bar -->
   <header>
     <div class="header-container">
       <div class="logo-group">
@@ -23,8 +23,14 @@
         <button id="toggleSidebarBtn" class="toggle-chip">
           🔒 Locked Sections <span id="sidebarChevron">▼</span>
         </button>
+        <button id="toggleMonthBtn" class="toggle-chip">
+          📅 August 2026 <span id="monthChevron">▼</span>
+        </button>
         <button id="toggleRecallBtn" class="toggle-chip">
           👁️ Active Recall: OFF
+        </button>
+        <button id="toggleBookmarkFilterBtn" class="toggle-chip">
+          ⭐ Bookmarks <span id="bookmarkBadge" class="badge-count">0</span>
         </button>
       </div>
     </div>
@@ -43,21 +49,32 @@
     </div>
   </div>
 
+  <!-- Collapsible Top Month Navigation Panel -->
+  <div id="monthNavDrawer" class="nav-drawer-panel">
+    <div class="nav-drawer-container">
+      <div class="nav-drawer-header">
+        <span>📅 Select Exam Timeframe / Month</span>
+        <span class="badge-count" style="background: rgba(0,0,0,0.06); color: var(--text-muted);">Multi-month archive</span>
+      </div>
+      <div id="monthNavGrid" class="month-nav-grid">
+        <button class="nav-item-btn active" onclick="selectMonth('all')">📅 All Months <span class="badge-count" id="monthAllCount">148</span></button>
+        <button class="nav-item-btn" onclick="selectMonth('2026-08')">📅 August 2026 <span class="badge-count" id="monthAugCount">148</span></button>
+        <button class="nav-item-btn" onclick="selectMonth('2026-07')" style="opacity: 0.6;">📅 July 2026 <span class="badge-count">Archive</span></button>
+        <button class="nav-item-btn" onclick="selectMonth('2026-06')" style="opacity: 0.6;">📅 June 2026 <span class="badge-count">Archive</span></button>
+      </div>
+    </div>
+  </div>
+
   <!-- Centered Main Layout -->
   <main class="main-layout">
     
     <!-- Centered Content Feed Area -->
     <section class="content-area">
-      
-      <!-- Search & Mode Toolbar -->
-      <div class="search-mode-bar">
-        <div class="search-input-wrapper">
-          <span class="search-icon">🔍</span>
-          <input type="text" id="searchInput" class="search-input" placeholder="Search headlines, numbers, acts, or static GK...">
-        </div>
-        <div id="activeCount" class="badge-count" style="font-size: 0.88rem; padding: 6px 12px;">
-          <!-- Count updated by app.js -->
-        </div>
+
+      <!-- Active Filter Banner Bar -->
+      <div id="filterBannerBar" class="filter-banner-bar">
+        <span id="activeFilterLabel">📑 Displaying All 148 Current Affairs Notes</span>
+        <span id="activeCount" class="badge-count" style="font-size: 0.85rem; padding: 4px 10px;">148 notes</span>
       </div>
 
       <!-- Notes Feed -->
@@ -72,7 +89,7 @@
 
   </main>
 
-  <script src="data.js?v=v3.5"></script>
-  <script src="app.js?v=v3.5"></script>
+  <script src="data.js?v=v4.0"></script>
+  <script src="app.js?v=v4.0"></script>
 </body>
 </html>
