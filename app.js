@@ -1,21 +1,29 @@
-// Current Affairs Command Center 2026 — Kindle Centered Reader Logic (v3.5)
+// Current Affairs Command Center 2026 — Kindle Centered Reader Logic (v4.0)
 
 document.addEventListener("DOMContentLoaded", () => {
   let activeSectionId = "all";
-  let activeTier = "all";
-  let searchQuery = "";
+  let activeMonth = "all";
+  let onlyBookmarks = false;
   let activeRecallMode = false;
   let bookmarkedIds = JSON.parse(localStorage.getItem("ca_bookmarks") || "[]");
 
   // DOM Elements
   const sectionNavList = document.getElementById("sectionNavList");
   const notesFeed = document.getElementById("notesFeed");
-  const searchInput = document.getElementById("searchInput");
   const activeCountEl = document.getElementById("activeCount");
+  const activeFilterLabel = document.getElementById("activeFilterLabel");
+  const bookmarkBadge = document.getElementById("bookmarkBadge");
+  
   const toggleRecallBtn = document.getElementById("toggleRecallBtn");
   const toggleSidebarBtn = document.getElementById("toggleSidebarBtn");
+  const toggleMonthBtn = document.getElementById("toggleMonthBtn");
+  const toggleBookmarkFilterBtn = document.getElementById("toggleBookmarkFilterBtn");
+  
   const sectionNavDrawer = document.getElementById("sectionNavDrawer");
+  const monthNavDrawer = document.getElementById("monthNavDrawer");
   const sidebarChevron = document.getElementById("sidebarChevron");
+  const monthChevron = document.getElementById("monthChevron");
+  
   const drillContainer = document.getElementById("drillContainer");
 
   // Helper 1: Plain Markdown Parser (for Headlines, Rationale, Bullets — NO numeral highlights)
@@ -29,21 +37,14 @@ document.addEventListener("DOMContentLoaded", () => {
   // Helper 2: Atomic Numeral Parser (Strictly for Trap Contrasts & Static GK boxes)
   function parseTrapAndStaticGK(text) {
     if (!text) return "";
-
-    // First parse markdown bold & italic
     let html = parseMarkdown(text);
-
-    // Atomic Regex Patterns for Trap Contrast & Static GK (NEVER split dates, fiscal years, or currencies)
     const atomicNumRegex = /(\₹[\d,]+(\.\d+)?\s*(trillion|crore|lakh|billion|cr)?|\$\d+(\.\d+)?\s*(trillion|billion|million|crore)?|\d+(\.\d+)?%|FY\s*\d{2,4}(-\d{2,4})?|\b(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(,\s*\d{4})?|\b\d{4}-\d{2,4}\b)/gi;
 
     if (activeRecallMode) {
-      // Active Recall Blur Mask
       html = html.replace(atomicNumRegex, '<span class="masked-figure" onclick="this.classList.toggle(\'revealed\')">$1</span>');
     } else {
-      // Scoped Numeral Highlight strictly for Traps & Static GK
       html = html.replace(atomicNumRegex, '<span class="num-highlight">$1</span>');
     }
-
     return html;
   }
 
@@ -95,34 +96,100 @@ document.addEventListener("DOMContentLoaded", () => {
     sidebarChevron.textContent = "▼";
   }
 
-  // Toggle Section Drawer Accordion
+  // Window global function for month selection
+  window.selectMonth = function(m) {
+    activeMonth = m;
+    renderFeed();
+    monthNavDrawer.classList.remove("open");
+    monthChevron.textContent = "▼";
+
+    // Update active button state in month grid
+    document.querySelectorAll("#monthNavGrid .nav-item-btn").forEach(btn => {
+      btn.classList.remove("active");
+    });
+
+    const activeBtn = Array.from(document.querySelectorAll("#monthNavGrid .nav-item-btn")).find(btn => {
+      if (m === 'all') return btn.textContent.includes("All Months");
+      if (m === '2026-08') return btn.textContent.includes("August 2026");
+      if (m === '2026-07') return btn.textContent.includes("July 2026");
+      if (m === '2026-06') return btn.textContent.includes("June 2026");
+      return false;
+    });
+
+    if (activeBtn) activeBtn.classList.add("active");
+  };
+
+  // Toggle Drawers
   toggleSidebarBtn.addEventListener("click", () => {
+    monthNavDrawer.classList.remove("open");
+    monthChevron.textContent = "▼";
     const isOpen = sectionNavDrawer.classList.toggle("open");
     sidebarChevron.textContent = isOpen ? "▲" : "▼";
   });
 
+  toggleMonthBtn.addEventListener("click", () => {
+    sectionNavDrawer.classList.remove("open");
+    sidebarChevron.textContent = "▼";
+    const isOpen = monthNavDrawer.classList.toggle("open");
+    monthChevron.textContent = isOpen ? "▲" : "▼";
+  });
+
+  toggleBookmarkFilterBtn.addEventListener("click", () => {
+    onlyBookmarks = !onlyBookmarks;
+    toggleBookmarkFilterBtn.classList.toggle("active", onlyBookmarks);
+    renderFeed();
+  });
+
+  toggleRecallBtn.addEventListener("click", () => {
+    activeRecallMode = !activeRecallMode;
+    toggleRecallBtn.classList.toggle("active", activeRecallMode);
+    toggleRecallBtn.innerHTML = activeRecallMode ? "👁️ Active Recall: ON" : "👁️ Active Recall: OFF";
+    renderFeed();
+  });
+
+  // Update Bookmark Count Badge
+  function updateBookmarkBadge() {
+    bookmarkBadge.textContent = bookmarkedIds.length;
+  }
+
   // Render Notes Feed
   function renderFeed() {
     notesFeed.innerHTML = "";
+    updateBookmarkBadge();
 
     let filtered = CA_NOTES_DATA.filter(note => {
       const matchesSec = activeSectionId === "all" || note.secId === activeSectionId;
-      const matchesTier = activeTier === "all" || note.tier === activeTier;
-      const q = searchQuery.toLowerCase().trim();
-      const matchesSearch = !q || 
-        note.title.toLowerCase().includes(q) || 
-        (note.staticGk && note.staticGk.toLowerCase().includes(q)) ||
-        (note.bullets && note.bullets.some(b => b.toLowerCase().includes(q)));
-      return matchesSec && matchesTier && matchesSearch;
+      const matchesMonth = activeMonth === "all" || note.date.startsWith(activeMonth);
+      const matchesBookmark = !onlyBookmarks || bookmarkedIds.includes(note.id);
+      return matchesSec && matchesMonth && matchesBookmark;
     });
 
     activeCountEl.textContent = `${filtered.length} notes`;
 
+    // Dynamic Filter Banner Label
+    let labelParts = [];
+    if (activeSectionId !== "all") {
+      const secObj = CA_SECTIONS.find(s => s.id === activeSectionId);
+      if (secObj) labelParts.push(secObj.title);
+    } else {
+      labelParts.push("All Sections");
+    }
+
+    if (activeMonth !== "all") {
+      labelParts.push(`Month: ${activeMonth}`);
+    }
+
+    if (onlyBookmarks) {
+      labelParts.push("Starred Bookmarks Only");
+    }
+
+    activeFilterLabel.textContent = `📑 ${labelParts.join(" • ")}`;
+
     if (filtered.length === 0) {
       notesFeed.innerHTML = `
         <div class="note-card" style="padding: 40px; text-align: center; color: var(--text-muted);">
-          <h3>🔍 No notes match your search filters</h3>
-          <p style="margin-top: 8px; font-size: 0.9rem;">Try clearing your search query or selecting a different section.</p>
+          <h3>🔍 No notes match your selected filters</h3>
+          <p style="margin-top: 8px; font-size: 0.9rem;">Try selecting a different section, month, or clearing starred filters.</p>
         </div>
       `;
       return;
@@ -132,7 +199,6 @@ document.addEventListener("DOMContentLoaded", () => {
       const isBookmarked = bookmarkedIds.includes(note.id);
       const secObj = CA_SECTIONS.find(s => s.id === note.secId);
 
-      // Compact layout for Tier B+ or single-bullet notes
       const isCompact = note.tier === "Tier B+" || (!note.hook && !note.trap && !note.interviewQ && note.bullets.length <= 1);
       
       const card = document.createElement("div");
@@ -147,35 +213,30 @@ document.addEventListener("DOMContentLoaded", () => {
         `;
       }
 
-      // Rationale: Plain prose without numeral highlighting
       let hookHtml = note.hook ? `
         <div class="hook-box">
           🪝 <strong>Rationale:</strong> ${parseMarkdown(note.hook)}
         </div>
       ` : "";
 
-      // Static GK: High-yield atomic numeral highlights for establishing dates & facts
       let staticHtml = note.staticGk ? `
         <div class="static-gk-box">
           🏛️ <strong>Static GK:</strong> ${parseTrapAndStaticGK(note.staticGk)}
         </div>
       ` : "";
 
-      // Trap Contrast: High-yield atomic numeral highlights for number-vs-number comparison
       let trapHtml = note.trap ? `
         <div class="trap-box">
           ⚠️ <strong>Trap Contrast:</strong> ${parseTrapAndStaticGK(note.trap)}
         </div>
       ` : "";
 
-      // Interview Insight: Plain prose
       let interviewHtml = note.interviewQ ? `
         <div class="interview-box">
           💼 <strong>Interview Insight:</strong> ${parseMarkdown(note.interviewQ)}
         </div>
       ` : "";
 
-      // Headline: Plain prose
       card.innerHTML = `
         <div class="note-header">
           <h3 class="note-title">📰 ${parseMarkdown(note.title)}</h3>
@@ -265,19 +326,6 @@ document.addEventListener("DOMContentLoaded", () => {
     box.classList.toggle("show");
     btn.textContent = box.classList.contains("show") ? "🙈 Hide Section Drill Answers" : "🙈 Reveal Section Drill Answers";
   };
-
-  // Event Listeners
-  searchInput.addEventListener("input", (e) => {
-    searchQuery = e.target.value;
-    renderFeed();
-  });
-
-  toggleRecallBtn.addEventListener("click", () => {
-    activeRecallMode = !activeRecallMode;
-    toggleRecallBtn.classList.toggle("active", activeRecallMode);
-    toggleRecallBtn.innerHTML = activeRecallMode ? "👁️ Active Recall: ON" : "👁️ Active Recall: OFF";
-    renderFeed();
-  });
 
   // Initial Execution
   renderSidebar();
