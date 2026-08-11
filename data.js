@@ -4383,6 +4383,187 @@ const CA_NOTES_DATA = [
     "hook": null,
     "trap": "SWIFT lead overseer central bank (National Bank of Belgium) vs India membership status (Non-member of G-10).",
     "id": "note-sec5-290"
+  },
+  {
+    "bullets": [
+      "Establishment & Legal Basis: Established April 27, 2020 under the IFSCA Act 2019.",
+      "Headquarters & Leadership: Headquartered at GIFT City, Gandhinagar, Gujarat | Chairperson: K. Rajaraman.",
+      "Regulatory Jurisdiction: Combines regulatory oversight of banking, capital markets, insurance, and pensions in IFSC zones."
+    ],
+    "interviewQ": null,
+    "secId": "sec2",
+    "hook": "Unified regulator combining RBI, SEBI, IRDAI, and PFRDA powers for IFSC regions.",
+    "date": "2026-07-01",
+    "trap": null,
+    "tier": "Tier A",
+    "id": "note-sec2-291",
+    "title": "Static GK: International Financial Services Centres Authority (IFSCA) Mandate & Governance",
+    "staticGk": "IFSCA Act 2019 created India's 1st unified international financial regulator."
+  },
+  {
+    "bullets": [
+      "Establishment: Founded July 9, 1988 under National Housing Bank Act 1987 | HQ: New Delhi.",
+      "Capital Structure: Authorized capital stands at ₹1,450 crore (100% fully subscribed by Union Government).",
+      "Leadership: MD: Sanjay Shukla | Chairman: Prabhanjan Mohapatra."
+    ],
+    "interviewQ": null,
+    "secId": "sec2",
+    "hook": "100% Government of India owned principal housing finance institution.",
+    "date": "2026-07-02",
+    "trap": "NHB ownership (100% Government of India, transferred from RBI in 2019).",
+    "tier": "Tier A",
+    "id": "note-sec2-292",
+    "title": "Static GK: National Housing Bank (NHB) Capital Structure & Governance",
+    "staticGk": "NHB shareholding was transferred 100% from RBI to Government of India in 2019."
+  },
+  {
+    "bullets": [
+      "BRBNMPL Presses (RBI Subsidiary): Mysore (Karnataka) and Salboni (West Bengal) established under BRBNMPL (Founded Feb 3, 1995).",
+      "SPMCIL Presses (Government of India): Nashik (Maharashtra) and Dewas (Madhya Pradesh) under Security Printing and Minting Corporation of India."
+    ],
+    "interviewQ": null,
+    "secId": "sec3",
+    "hook": "India operates 4 currency printing presses divided equally between RBI and SPMCIL.",
+    "date": "2026-07-03",
+    "trap": "BRBNMPL presses (Mysore & Salboni) vs SPMCIL presses (Nashik & Dewas).",
+    "tier": "Tier A",
+    "id": "note-sec3-293",
+    "title": "Static GK: Bank Note Printing Presses & Currency Infrastructure in India",
+    "staticGk": "BRBNMPL HQ: Bengaluru, Karnataka | SPMCIL HQ: New Delhi."
+  },
+  {
+    "bullets": [
+      "Geography & Course: Also known as Reva; originates from Amarkantak (MP) and empties into Gulf of Khambhat (Arabian Sea); spans MP, Gujarat, Maharashtra, and Chhattisgarh.",
+      "Major Hydropower Projects: Sardar Sarovar Dam (Gujarat), Indira Sagar Dam (MP), Maheshwar Dam, and Omkareshwar Dam."
+    ],
+    "interviewQ": null,
+    "secId": "sec4",
+    "hook": "Longest west-flowing river in India, originating in Maikala range near Amarkantak.",
+    "date": "2026-07-04",
+    "trap": "Narmada discharge (Gulf of Khambhat, Arabian Sea) vs east-flowing rivers (Bay of Bengal).",
+    "tier": "Tier A",
+    "id": "note-sec4-294",
+    "title": "Static GK: Narmada River Hydroelectric Projects & Geography",
+    "staticGk": "Sardar Sarovar Dam is built on the Narmada River in Navagam, Gujarat."
+  },
+  {
+    "bullets": [
+      "Bordering Nations (6 Countries): Bulgaria, Romania, Ukraine, Russia, Georgia, and Türkiye.",
+      "Connecting Waterways: Linked to Sea of Marmara via Bosphorus Strait; to Aegean Sea via Dardanelles Strait; to Sea of Azov via Kerch Strait."
+    ],
+    "interviewQ": null,
+    "secId": "sec4",
+    "hook": "Marginal sea connecting Europe and Asia via Bosphorus, Dardanelles, and Kerch Straits.",
+    "date": "2026-07-05",
+    "trap": "Connecting strait to Sea of Azov (Kerch Strait) vs Sea of Marmara (Bosphorus Strait).",
+    "tier": "Tier A",
+    "id": "note-sec4-295",
+    "title": "Static GK: Black Sea Geographical Straits & Bordering Nations",
+    "staticGk": "Mnemonic for Black Sea bordering countries: BURGER (Bulgaria, Ukraine, Russia, Georgia, Romania) + Türkiye."
+  },
+  {
+    "bullets": [
+      "Geographical Significance: Located in Moirang, Manipur; famous for phumdis (floating circular heterogeneous biomass masses).",
+      "Conservation Status: Keibul Lamjao National Park is the world's only floating national park (home to Sangai brow-antlered deer); designated Ramsar Site (1990) and Montreux Record (1993)."
+    ],
+    "interviewQ": null,
+    "secId": "sec4",
+    "hook": "Largest freshwater lake in Northeast India famous for floating phumdis.",
+    "date": "2026-07-06",
+    "trap": "Ramsar designation (1990) vs Montreux Record listing (1993).",
+    "tier": "Tier A",
+    "id": "note-sec4-296",
+    "title": "Static GK: Loktak Lake & Keibul Lamjao National Park (Manipur)",
+    "staticGk": "Sangai Deer (Rucervus eldii eldii) is the state animal of Manipur."
+  },
+  {
+    "bullets": [
+      "Award Structure: ₹11 Lakh cash prize, bronze statue of Goddess Vagdevi, and citation.",
+      "Eligibility & Presenter: Instituted in 1961 by Bharatiya Jnanpith; awarded for outstanding literature in any language listed under 8th Schedule of Indian Constitution."
+    ],
+    "interviewQ": null,
+    "secId": "sec7",
+    "hook": "India's highest literary honour presented annually for Eighth Schedule language contributions.",
+    "date": "2026-07-07",
+    "trap": "Jnanpith cash prize (₹11 Lakh) vs Saraswati Samman (₹15 Lakh).",
+    "tier": "Tier A",
+    "id": "note-sec7-297",
+    "title": "Static GK: Jnanpith Award History, Eligibility & Cash Prize Structure",
+    "staticGk": "First Jnanpith Award winner: G. Sankara Kurup (Malayalam, 1965)."
+  },
+  {
+    "bullets": [
+      "Founding Members (Original 5): Indonesia, Malaysia, Philippines, Singapore, and Thailand.",
+      "Expanded Members (6 Later Nations): Brunei (1984), Vietnam (1995), Laos & Myanmar (1997), Cambodia (1999), and Timor-Leste (2025)."
+    ],
+    "interviewQ": null,
+    "secId": "sec5",
+    "hook": "Established via Bangkok Declaration on August 8, 1967 (India non-member).",
+    "date": "2026-07-08",
+    "trap": "India membership status (Non-member) vs Timor-Leste accession (11th member, 2025).",
+    "tier": "Tier A",
+    "id": "note-sec5-298",
+    "title": "Static GK: ASEAN Membership Evolution & Original 5 Founding Members",
+    "staticGk": "ASEAN Secretariat HQ: Jakarta, Indonesia | India is a Sectoral Dialogue Partner."
+  },
+  {
+    "bullets": [
+      "Alliance Expansion: Sweden joined as the 32nd member state on March 7, 2024 (Finland joined 31st in 2023).",
+      "Governance & HQ: Headquartered in Brussels, Belgium | Secretary General: Mark Rutte."
+    ],
+    "interviewQ": null,
+    "secId": "sec5",
+    "hook": "North Atlantic Treaty Organization formed April 4, 1949 with 32 member states.",
+    "date": "2026-07-09",
+    "trap": "32nd NATO member state (Sweden) vs 31st member state (Finland).",
+    "tier": "Tier A",
+    "id": "note-sec5-299",
+    "title": "Static GK: NATO 32-Nation Alliance & Sweden Accession",
+    "staticGk": "Article 5 of North Atlantic Treaty governs collective defence commitment."
+  },
+  {
+    "bullets": [
+      "Historical Significance: TAPS Units 1 & 2 (commissioned 1969) are the world's oldest operating commercial nuclear reactors."
+    ],
+    "interviewQ": null,
+    "secId": "sec4",
+    "hook": "Commissioned in 1969 in Palghar district, Maharashtra.",
+    "date": "2026-07-10",
+    "trap": null,
+    "tier": "Tier B+",
+    "id": "note-sec4-300",
+    "title": "Static GK: Tarapur Atomic Power Station (TAPS 1&2) World Oldest Commercial Reactor",
+    "staticGk": "NPCIL (Nuclear Power Corporation of India Ltd) operates Tarapur."
+  },
+  {
+    "bullets": [
+      "Musi River: Major tributary of Krishna River flowing through Hyderabad, Telangana.",
+      "Salal Hydroelectric Project: Run-of-the-river power project on Chenab River in Reasi district, J&K."
+    ],
+    "interviewQ": null,
+    "secId": "sec4",
+    "hook": "Musi is a major tributary of Krishna River; Salal Dam is on Chenab River in J&K.",
+    "date": "2026-07-11",
+    "trap": null,
+    "tier": "Tier B+",
+    "id": "note-sec4-301",
+    "title": "Static GK: Musi River (Muchukunda) & Salal Hydroelectric Dam Geography",
+    "staticGk": "Hyderabad city is situated on the banks of the Musi River."
+  },
+  {
+    "bullets": [
+      "Nehru Trophy Regatta: Held annually on 2nd Saturday of August on Punnamada Lake, Alappuzha, Kerala.",
+      "Indian Navy Domain: Safeguards 11,098 km coastline and 2.4 million sq. km. Exclusive Economic Zone (EEZ)."
+    ],
+    "interviewQ": null,
+    "secId": "sec4",
+    "hook": "Snake boat regatta held on Punnamada Lake, Alappuzha; Navy guards 11,098 km coastline.",
+    "date": "2026-07-12",
+    "trap": null,
+    "tier": "Tier B+",
+    "id": "note-sec4-302",
+    "title": "Static GK: Nehru Trophy Boat Race & Indian Navy Maritime Security Scope",
+    "staticGk": "Exclusive Economic Zone (EEZ) extends 200 nautical miles from baseline."
   }
 ];
 
