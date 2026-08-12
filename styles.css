@@ -595,6 +595,62 @@ header {
   margin-top: 10px;
 }
 
+.mnemonic-box {
+  font-family: var(--font-sans);
+  font-size: 0.86rem;
+  background: #eef2f7;
+  border-left: 3px solid var(--accent-blue);
+  border-radius: 0 6px 6px 0;
+  padding: 10px 14px;
+  color: #1e3a5f;
+  margin-top: 10px;
+}
+
+.institutional-cluster-box {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  font-weight: 600;
+  background: rgba(166, 82, 40, 0.08);
+  color: var(--accent-warm);
+  padding: 3px 10px;
+  border-radius: 12px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.institutional-cluster-box:hover {
+  background: rgba(166, 82, 40, 0.16);
+}
+
+.mini-grid-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: var(--font-sans);
+  font-size: 0.84rem;
+}
+
+.mini-grid-table th {
+  background: #eae0c9;
+  color: var(--text-main);
+  text-align: left;
+  padding: 6px 10px;
+  border-bottom: 2px solid var(--border-subtle);
+  font-weight: 600;
+}
+
+.mini-grid-table td {
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--border-subtle);
+  color: var(--text-main);
+}
+
 /* Active Recall Figure Masking */
 .masked-figure {
   background: #e2d5c1;
@@ -698,6 +754,36 @@ header {
   font-size: 0.88rem;
   color: var(--accent-blue);
   line-height: 1.6;
+}
+
+/* Flashcard Flip Mode Styles */
+.flashcard-mode .note-card {
+  cursor: pointer;
+  border-top: 3px solid var(--accent-warm);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.flashcard-mode .note-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.flashcard-body-hidden {
+  display: none !important;
+}
+
+.flashcard-prompt {
+  margin-top: 12px;
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  color: var(--accent-warm);
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(166, 82, 40, 0.08);
+  padding: 4px 10px;
+  border-radius: 4px;
 }
 
 /* Responsive Rules */
