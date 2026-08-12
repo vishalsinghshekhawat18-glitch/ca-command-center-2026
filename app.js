@@ -598,6 +598,12 @@ document.addEventListener("DOMContentLoaded", () => {
           </div>
         ` : "";
 
+        let interviewHtml = note.interviewQ ? `
+          <div class="interview-box">
+            💼 <strong>Interview Insight:</strong> ${parseMarkdown(note.interviewQ)}
+          </div>
+        ` : "";
+
         let mnemonicHtml = note.mnemonic ? `
           <div class="mnemonic-box">
             💡 <strong>Memory Mnemonic:</strong> ${parseMarkdown(note.mnemonic)}
