@@ -209,7 +209,18 @@ document.addEventListener("DOMContentLoaded", () => {
   let activeMonth = "all";
   let onlyBookmarks = false;
   let activeRecallMode = false;
+  let activeFlashcardMode = false;
   let bookmarkedIds = JSON.parse(localStorage.getItem("ca_bookmarks") || "[]");
+
+  const toggleFlashcardBtn = document.getElementById("toggleFlashcardBtn");
+
+  toggleFlashcardBtn.addEventListener("click", () => {
+    activeFlashcardMode = !activeFlashcardMode;
+    toggleFlashcardBtn.classList.toggle("active", activeFlashcardMode);
+    toggleFlashcardBtn.innerHTML = activeFlashcardMode ? "🃏 Flashcards: ON" : "🃏 Flashcards: OFF";
+    notesFeed.classList.toggle("flashcard-mode", activeFlashcardMode);
+    renderFeed();
+  });
 
   // Switch Subject Mode
   window.switchSubject = function(subj) {
@@ -568,11 +579,39 @@ document.addEventListener("DOMContentLoaded", () => {
           </div>
         ` : "";
 
-        let interviewHtml = note.interviewQ ? `
-          <div class="interview-box">
-            💼 <strong>Interview Insight:</strong> ${parseMarkdown(note.interviewQ)}
+        let mnemonicHtml = note.mnemonic ? `
+          <div class="mnemonic-box">
+            💡 <strong>Memory Mnemonic:</strong> ${parseMarkdown(note.mnemonic)}
           </div>
         ` : "";
+
+        let clusterHtml = note.cluster ? `
+          <div class="institutional-cluster-box" title="Linked Institutional Story Arc">
+            🏛️ ${parseMarkdown(note.cluster)}
+          </div>
+        ` : "";
+
+        let miniGridHtml = "";
+        if (note.miniGrid && note.miniGrid.headers && note.miniGrid.rows) {
+          const headers = note.miniGrid.headers.map(h => `<th>${h}</th>`).join("");
+          const rows = note.miniGrid.rows.map(r => `<tr>${r.map(c => `<td>${parseTrapAndStaticGK(c)}</td>`).join("")}</tr>`).join("");
+          miniGridHtml = `
+            <table class="mini-grid-table">
+              <thead><tr>${headers}</tr></thead>
+              <tbody>${rows}</tbody>
+            </table>
+          `;
+        }
+
+        const cardDetailsId = `details_${note.id}`;
+
+        if (activeFlashcardMode) {
+          card.onclick = (e) => {
+            if (e.target.tagName === 'BUTTON' || e.target.closest('button')) return;
+            const detailsEl = document.getElementById(cardDetailsId);
+            if (detailsEl) detailsEl.classList.toggle('flashcard-body-hidden');
+          };
+        }
 
         card.innerHTML = `
           <div class="note-header">
@@ -584,11 +623,17 @@ document.addEventListener("DOMContentLoaded", () => {
               </button>
             </div>
           </div>
-          ${hookHtml}
-          ${bulletsHtml}
-          ${staticHtml}
-          ${trapHtml}
-          ${interviewHtml}
+          ${clusterHtml}
+          ${activeFlashcardMode ? '<div class="flashcard-prompt">🃏 Tap Card to Reveal Details & Memory Hooks</div>' : ''}
+          <div id="${cardDetailsId}" class="${activeFlashcardMode ? 'flashcard-body-hidden' : ''}">
+            ${hookHtml}
+            ${miniGridHtml}
+            ${bulletsHtml}
+            ${mnemonicHtml}
+            ${staticHtml}
+            ${trapHtml}
+            ${interviewHtml}
+          </div>
         `;
 
         notesFeed.appendChild(card);
