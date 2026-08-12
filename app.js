@@ -214,13 +214,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const toggleFlashcardBtn = document.getElementById("toggleFlashcardBtn");
 
-  toggleFlashcardBtn.addEventListener("click", () => {
-    activeFlashcardMode = !activeFlashcardMode;
-    toggleFlashcardBtn.classList.toggle("active", activeFlashcardMode);
-    toggleFlashcardBtn.innerHTML = activeFlashcardMode ? "🃏 Flashcards: ON" : "🃏 Flashcards: OFF";
-    notesFeed.classList.toggle("flashcard-mode", activeFlashcardMode);
-    renderFeed();
-  });
+  if (toggleFlashcardBtn) {
+    toggleFlashcardBtn.addEventListener("click", () => {
+      activeFlashcardMode = !activeFlashcardMode;
+      toggleFlashcardBtn.classList.toggle("active", activeFlashcardMode);
+      toggleFlashcardBtn.innerHTML = activeFlashcardMode ? "🃏 Flashcards: ON" : "🃏 Flashcards: OFF";
+      if (notesFeed) notesFeed.classList.toggle("flashcard-mode", activeFlashcardMode);
+      renderFeed();
+    });
+  }
 
   // Switch Subject Mode
   window.switchSubject = function(subj) {
@@ -378,63 +380,80 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   // Toggle Event Listeners
-  toggleSubjectBtn.addEventListener("click", () => {
-    const isOpen = subjectNavDrawer.classList.contains("open");
-    closeAllDrawers();
-    if (!isOpen) {
-      subjectNavDrawer.classList.add("open");
-      document.getElementById("subjectChevron").textContent = "▲";
-    }
-  });
-
-  toggleTrackerBtn.addEventListener("click", () => {
-    const isOpen = trackerNavDrawer.classList.contains("open");
-    closeAllDrawers();
-    if (!isOpen) {
-      trackerNavDrawer.classList.add("open");
-      document.getElementById("trackerChevron").textContent = "▲";
-    }
-  });
-
-  toggleSidebarBtn.addEventListener("click", () => {
-    if (activeSubject === "ca") {
-      const isOpen = sectionNavDrawer.classList.contains("open");
+  if (toggleSubjectBtn) {
+    toggleSubjectBtn.addEventListener("click", () => {
+      const isOpen = subjectNavDrawer.classList.contains("open");
       closeAllDrawers();
       if (!isOpen) {
-        sectionNavDrawer.classList.add("open");
-        document.getElementById("sidebarChevron").textContent = "▲";
+        subjectNavDrawer.classList.add("open");
+        const chev = document.getElementById("subjectChevron");
+        if (chev) chev.textContent = "▲";
       }
-    } else {
-      const isOpen = quantNavDrawer.classList.contains("open");
+    });
+  }
+
+  if (toggleTrackerBtn) {
+    toggleTrackerBtn.addEventListener("click", () => {
+      const isOpen = trackerNavDrawer.classList.contains("open");
       closeAllDrawers();
       if (!isOpen) {
-        quantNavDrawer.classList.add("open");
-        document.getElementById("sidebarChevron").textContent = "▲";
+        trackerNavDrawer.classList.add("open");
+        const chev = document.getElementById("trackerChevron");
+        if (chev) chev.textContent = "▲";
       }
-    }
-  });
+    });
+  }
 
-  toggleMonthBtn.addEventListener("click", () => {
-    const isOpen = monthNavDrawer.classList.contains("open");
-    closeAllDrawers();
-    if (!isOpen) {
-      monthNavDrawer.classList.add("open");
-      if (document.getElementById("monthChevron")) document.getElementById("monthChevron").textContent = "▲";
-    }
-  });
+  if (toggleSidebarBtn) {
+    toggleSidebarBtn.addEventListener("click", () => {
+      if (activeSubject === "ca") {
+        const isOpen = sectionNavDrawer.classList.contains("open");
+        closeAllDrawers();
+        if (!isOpen) {
+          sectionNavDrawer.classList.add("open");
+          const chev = document.getElementById("sidebarChevron");
+          if (chev) chev.textContent = "▲";
+        }
+      } else {
+        const isOpen = quantNavDrawer.classList.contains("open");
+        closeAllDrawers();
+        if (!isOpen) {
+          quantNavDrawer.classList.add("open");
+          const chev = document.getElementById("sidebarChevron");
+          if (chev) chev.textContent = "▲";
+        }
+      }
+    });
+  }
 
-  toggleBookmarkFilterBtn.addEventListener("click", () => {
-    onlyBookmarks = !onlyBookmarks;
-    toggleBookmarkFilterBtn.classList.toggle("active", onlyBookmarks);
-    renderFeed();
-  });
+  if (toggleMonthBtn) {
+    toggleMonthBtn.addEventListener("click", () => {
+      const isOpen = monthNavDrawer.classList.contains("open");
+      closeAllDrawers();
+      if (!isOpen) {
+        monthNavDrawer.classList.add("open");
+        const chev = document.getElementById("monthChevron");
+        if (chev) chev.textContent = "▲";
+      }
+    });
+  }
 
-  toggleRecallBtn.addEventListener("click", () => {
-    activeRecallMode = !activeRecallMode;
-    toggleRecallBtn.classList.toggle("active", activeRecallMode);
-    toggleRecallBtn.innerHTML = activeRecallMode ? "👁️ Active Recall: ON" : "👁️ Active Recall: OFF";
-    renderFeed();
-  });
+  if (toggleBookmarkFilterBtn) {
+    toggleBookmarkFilterBtn.addEventListener("click", () => {
+      onlyBookmarks = !onlyBookmarks;
+      toggleBookmarkFilterBtn.classList.toggle("active", onlyBookmarks);
+      renderFeed();
+    });
+  }
+
+  if (toggleRecallBtn) {
+    toggleRecallBtn.addEventListener("click", () => {
+      activeRecallMode = !activeRecallMode;
+      toggleRecallBtn.classList.toggle("active", activeRecallMode);
+      toggleRecallBtn.innerHTML = activeRecallMode ? "👁️ Active Recall: ON" : "👁️ Active Recall: OFF";
+      renderFeed();
+    });
+  }
 
   function updateBookmarkBadge() {
     bookmarkBadge.textContent = bookmarkedIds.length;
