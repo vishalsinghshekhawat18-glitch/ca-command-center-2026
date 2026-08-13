@@ -584,13 +584,30 @@ document.addEventListener("DOMContentLoaded", () => {
         
         const rowsHtml = apptNotes.map(n => {
           let person = n.title;
-          let role = n.title;
+          let role = "Official Appointment";
           let context = n.bullets && n.bullets[0] ? n.bullets[0] : "";
           
           if (n.miniGrid && n.miniGrid.rows && n.miniGrid.rows[0]) {
             person = n.miniGrid.rows[0][0] || n.title;
-            role = n.miniGrid.rows[0][1] || n.title;
+            role = n.miniGrid.rows[0][1] || "Official Appointment";
             context = n.miniGrid.rows[0][2] || context;
+          }
+
+          // Smart fallback if person is full headline or matches role
+          if (person === role || person.length > 35) {
+            if (n.title.includes(" Appointed ")) {
+              const parts = n.title.split(" Appointed ");
+              person = parts[0].replace(/^(RBI|SEBI|IRDAI|IFSCA|CCI|Government|Center)\s+/, '').trim();
+              role = parts[1].trim();
+            } else if (n.title.includes(" Granted ")) {
+              const parts = n.title.split(" Granted ");
+              person = parts[0].trim();
+              role = parts[1].trim();
+            } else if (n.title.includes(" Takes Charge ")) {
+              const parts = n.title.split(" Takes Charge ");
+              person = parts[0].trim();
+              role = parts[1].trim();
+            }
           }
 
           const isBm = bookmarkedIds.includes(n.id);
@@ -598,10 +615,10 @@ document.addEventListener("DOMContentLoaded", () => {
           return `
             <tr>
               <td style="font-weight: 600; white-space: nowrap;">${formatSubtleDate(n.date)}</td>
-              <td style="font-weight: 700; color: var(--accent-blue);">${parseMarkdown(person)}</td>
-              <td style="font-weight: 600;">${parseMarkdown(role)}</td>
+              <td style="font-weight: 700; color: var(--accent-blue); width: 22%;">${parseMarkdown(person)}</td>
+              <td style="font-weight: 600; width: 30%;">${parseMarkdown(role)}</td>
               <td style="font-size: 0.88rem; color: var(--text-muted);">${parseTrapAndStaticGK(context)}</td>
-              <td style="text-align: center;">
+              <td style="text-align: center; width: 8%;">
                 <button class="btn-bookmark ${isBm ? 'bookmarked' : ''}" onclick="toggleBookmark('${n.id}')" title="Bookmark Appointment">
                   ${isBm ? '★' : '☆'}
                 </button>
