@@ -375,7 +375,21 @@ const CA_NOTES_DATA = [
     "bullets": [
       "K Rajaraman granted extension as Chairman of IFSCA beyond July 31, 2026 till age 65 (HQ: GIFT City)."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "K Rajaraman",
+          "Extension as Chairman of IFSCA",
+          "K Rajaraman granted extension as Chairman of IFSCA beyond July 31, 2026 till age 65 (HQ: GIFT City)."
+        ]
+      ]
+    }
   },
   {
     "title": "RBI Appoints Monisha Chakraborty as Executive Director Overseeing Forex & Financial Markets",
@@ -389,7 +403,21 @@ const CA_NOTES_DATA = [
     "bullets": [
       "Monisha Chakraborty appointed ED at RBI overseeing Foreign Exchange Dept & Financial Markets Regulation Dept."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "Monisha Chakraborty",
+          "Executive Director Overseeing Forex & Financial Markets",
+          "Monisha Chakraborty appointed ED at RBI overseeing Foreign Exchange Dept & Financial Markets Regulation Dept."
+        ]
+      ]
+    }
   },
   {
     "title": "SEBI Appoints Prasanta Mahapatra as Executive Director",
@@ -403,7 +431,21 @@ const CA_NOTES_DATA = [
     "bullets": [
       "Prasanta Mahapatra appointed Executive Director at markets regulator SEBI."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "Prasanta Mahapatra",
+          "Executive Director",
+          "Prasanta Mahapatra appointed Executive Director at markets regulator SEBI."
+        ]
+      ]
+    }
   },
   {
     "title": "TRAI Launches Revamped Version of MyCall App",
@@ -879,9 +921,9 @@ const CA_NOTES_DATA = [
     "trap": "GSI (HQ Kolkata, Est 1851) vs Survey of India (HQ Dehradun).",
     "miniGrid": {
       "headers": [
-        "Appointees / Official",
+        "Appointee / Official",
         "New Position & Organization",
-        "Key Context / Tenure"
+        "Key Context & Details"
       ],
       "rows": [
         [
@@ -909,9 +951,9 @@ const CA_NOTES_DATA = [
     "trap": "Central Vigilance Commissioner (CVC) vs Chief Information Commissioner (CIC).",
     "miniGrid": {
       "headers": [
-        "Appointees / Official",
+        "Appointee / Official",
         "New Position & Organization",
-        "Key Context / Tenure"
+        "Key Context & Details"
       ],
       "rows": [
         [
@@ -951,9 +993,9 @@ const CA_NOTES_DATA = [
     "trap": null,
     "miniGrid": {
       "headers": [
-        "Appointees / Official",
+        "Appointee / Official",
         "New Position & Organization",
-        "Key Context / Tenure"
+        "Key Context & Details"
       ],
       "rows": [
         [
@@ -979,9 +1021,9 @@ const CA_NOTES_DATA = [
     "trap": null,
     "miniGrid": {
       "headers": [
-        "Appointees / Official",
+        "Appointee / Official",
         "New Position & Organization",
-        "Key Context / Tenure"
+        "Key Context & Details"
       ],
       "rows": [
         [
@@ -1007,9 +1049,9 @@ const CA_NOTES_DATA = [
     "trap": null,
     "miniGrid": {
       "headers": [
-        "Appointees / Official",
+        "Appointee / Official",
         "New Position & Organization",
-        "Key Context / Tenure"
+        "Key Context & Details"
       ],
       "rows": [
         [
@@ -1035,9 +1077,9 @@ const CA_NOTES_DATA = [
     "trap": null,
     "miniGrid": {
       "headers": [
-        "Appointees / Official",
+        "Appointee / Official",
         "New Position & Organization",
-        "Key Context / Tenure"
+        "Key Context & Details"
       ],
       "rows": [
         [
@@ -1063,9 +1105,9 @@ const CA_NOTES_DATA = [
     "trap": null,
     "miniGrid": {
       "headers": [
-        "Appointees / Official",
+        "Appointee / Official",
         "New Position & Organization",
-        "Key Context / Tenure"
+        "Key Context & Details"
       ],
       "rows": [
         [
@@ -1130,7 +1172,21 @@ const CA_NOTES_DATA = [
     "bullets": [
       "C-DAC (MeitY) signed MoU with GSI (Ministry of Mines) to collaborate in geosciences and mineral exploration using AI and High-Performance Computing (HPC)."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "C-DAC & GSI MoU for AI and HPC Geoscience Exploration",
+          "Official Appointment",
+          "C-DAC (MeitY) signed MoU with GSI (Ministry of Mines) to collaborate in geosciences and mineral exploration using AI and High-Performance Computing (HPC)."
+        ]
+      ]
+    }
   },
   {
     "title": "GVMC Visakhapatnam & Moscow Govt Smart Mobility Partnership",
@@ -2062,7 +2118,21 @@ const CA_NOTES_DATA = [
       "State-owned helicopter operator Pawan Hans signed MoU with Norway's Noemi Aerospace to deploy electric seaplanes.",
       "Aims to enhance regional coastal connectivity under UDAN scheme."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "Pawan Hans Partners with Norway's Noemi Aerospace for Electric Seaplanes",
+          "Official Appointment",
+          "State-owned helicopter operator Pawan Hans signed MoU with Norway's Noemi Aerospace to deploy electric seaplanes."
+        ]
+      ]
+    }
   },
   {
     "title": "IIFL Capital Adopts Flytxt AI Platform to Accelerate AUM Growth",
@@ -2077,7 +2147,21 @@ const CA_NOTES_DATA = [
       "IIFL Capital deployed Flytxt AI customer data platform across its wealth management operations.",
       "Designed to hyper-personalise investment recommendations and scale AUM."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "IIFL Capital Adopts Flytxt AI Platform to Accelerate AUM Growth",
+          "Official Appointment",
+          "IIFL Capital deployed Flytxt AI customer data platform across its wealth management operations."
+        ]
+      ]
+    }
   },
   {
     "title": "Ministry of Culture & Tourism Partners with Netflix for 'As Seen on Netflix' Section",
@@ -2091,7 +2175,21 @@ const CA_NOTES_DATA = [
     "bullets": [
       "Netflix Co-CEO: Ted Sarandos | Union Minister: Gajendra Singh Shekhawat."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "Ministry of Culture & Tourism Partners with Netflix for 'As Seen on Netflix' Section",
+          "Official Appointment",
+          "Netflix Co-CEO: Ted Sarandos | Union Minister: Gajendra Singh Shekhawat."
+        ]
+      ]
+    }
   },
   {
     "title": "Bajaj General Insurance Partners with Swiss Re for Commercial Structured Coverage",
@@ -2106,7 +2204,21 @@ const CA_NOTES_DATA = [
       "Bajaj Allianz General Insurance partnered with global reinsurer Swiss Re for commercial structured risk coverage.",
       "Focuses on property, casualty, and renewable energy risk underwriting."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "Bajaj General Insurance Partners with Swiss Re for Commercial Structured Coverage",
+          "Official Appointment",
+          "Bajaj Allianz General Insurance partnered with global reinsurer Swiss Re for commercial structured risk coverage."
+        ]
+      ]
+    }
   },
   {
     "title": "Dr. T.V. Somanathan Gets 1-Year Extension as Cabinet Secretary; Govind Mohan as Home Secretary",
@@ -2120,7 +2232,21 @@ const CA_NOTES_DATA = [
     "bullets": [
       "CEO Air India: Tewolde Gebremariam."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "Dr. T.V. Somanathan Gets 1-Year Extension as Cabinet Secretary; Govind Mohan as Home Secretary",
+          "Official Appointment",
+          "CEO Air India: Tewolde Gebremariam."
+        ]
+      ]
+    }
   },
   {
     "title": "Rahul Jain Appointed Senior Adviser to Executive Director (India) at IMF",
@@ -2137,9 +2263,9 @@ const CA_NOTES_DATA = [
     "trap": null,
     "miniGrid": {
       "headers": [
-        "Appointees / Official",
+        "Appointee / Official",
         "New Position & Organization",
-        "Key Context / Tenure"
+        "Key Context & Details"
       ],
       "rows": [
         [
@@ -2162,7 +2288,21 @@ const CA_NOTES_DATA = [
     "bullets": [
       "Key Platforms: e-Samudra portal, Maritime Single Window, and One Nation One Port Process."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "India Hosts 2nd National Port Security Conference 2026 in New Delhi",
+          "Official Appointment",
+          "Key Platforms: e-Samudra portal, Maritime Single Window, and One Nation One Port Process."
+        ]
+      ]
+    }
   },
   {
     "title": "UNCCD COP17 to be Hosted by Mongolia in August 2026",
@@ -2177,7 +2317,21 @@ const CA_NOTES_DATA = [
       "Location & Dates: Ulaanbaatar, Mongolia (August 17 to 28, 2026).",
       "Theme: “Restoring Land. Restoring Hope”."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "UNCCD COP17 to be Hosted by Mongolia in August 2026",
+          "Official Appointment",
+          "Location & Dates: Ulaanbaatar, Mongolia (August 17 to 28, 2026)."
+        ]
+      ]
+    }
   },
   {
     "title": "Seoul Hosts Global AI and Digital Summit 2026",
@@ -2191,7 +2345,21 @@ const CA_NOTES_DATA = [
     "bullets": [
       "Haryana AI Sandbox showcased at Korea Digital Summit (October 19–22, 2026)."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "Seoul Hosts Global AI and Digital Summit 2026",
+          "Official Appointment",
+          "Haryana AI Sandbox showcased at Korea Digital Summit (October 19–22, 2026)."
+        ]
+      ]
+    }
   },
   {
     "title": "9th India Medical Device Conference 2026 Held in New Delhi",
@@ -2206,7 +2374,21 @@ const CA_NOTES_DATA = [
       "Organized By: Dept of Pharmaceuticals & FICCI (Aug 7–8, 2026).",
       "Theme: “Towards Viksit Bharat: Advancing India as a Global Hub for Quality Medical Devices”."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "9th India Medical Device Conference 2026 Held in New Delhi",
+          "Official Appointment",
+          "Organized By: Dept of Pharmaceuticals & FICCI (Aug 7–8, 2026)."
+        ]
+      ]
+    }
   },
   {
     "title": "IIT Hyderabad & Crimson Energy Launch 'ANUGYAN' Nuclear Technology Program",
@@ -2954,9 +3136,9 @@ const CA_NOTES_DATA = [
     "date": "2026-08-05",
     "miniGrid": {
       "headers": [
-        "Appointees / Official",
+        "Appointee / Official",
         "New Position & Organization",
-        "Key Context / Tenure"
+        "Key Context & Details"
       ],
       "rows": [
         [
@@ -3261,9 +3443,9 @@ const CA_NOTES_DATA = [
     "date": "2026-08-07",
     "miniGrid": {
       "headers": [
-        "Appointees / Official",
+        "Appointee / Official",
         "New Position & Organization",
-        "Key Context / Tenure"
+        "Key Context & Details"
       ],
       "rows": [
         [
@@ -3289,9 +3471,9 @@ const CA_NOTES_DATA = [
     "date": "2026-08-01",
     "miniGrid": {
       "headers": [
-        "Appointees / Official",
+        "Appointee / Official",
         "New Position & Organization",
-        "Key Context / Tenure"
+        "Key Context & Details"
       ],
       "rows": [
         [
@@ -3543,7 +3725,21 @@ const CA_NOTES_DATA = [
       "Earlier C-DOT CoEs established at IIT Kanpur, IIT Gandhinagar, IIT Roorkee, and IIT Hyderabad."
     ],
     "secId": "sec5",
-    "date": "2026-08-07"
+    "date": "2026-08-07",
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "C-DOT and FSID Sign Agreement to Establish 5th Centre of Excellence at IISc Bengaluru",
+          "Official Appointment",
+          "5th C-DOT CoE in India focused on 5G Advanced, 6G, quantum communications, and AI-native networks."
+        ]
+      ]
+    }
   },
   {
     "title": "DoT and Madhya Pradesh Sign MoU for India's 1st Telecom Manufacturing Zone in Gwalior",
@@ -3558,7 +3754,21 @@ const CA_NOTES_DATA = [
       "Central Funding: ₹493 crore 100% central funding for Phase-I testing labs (5G core, satellite comms, optical fibre)."
     ],
     "secId": "sec5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "DoT and Madhya Pradesh Sign MoU for India's 1st Telecom Manufacturing Zone in Gwalior",
+          "Official Appointment",
+          "SPV Ownership: 51% MP Govt, 49% Department of Telecommunications (MPIDC master developer)."
+        ]
+      ]
+    }
   },
   {
     "title": "Cotton Corporation of India Launches 'Kapas Darshan' Bulletin & ₹5,659 Cr Kapas Kanti Mission",
@@ -3573,7 +3783,21 @@ const CA_NOTES_DATA = [
       "Kapas Kanti Mission: Cotton Productivity Mission approved with ₹5,659 crore outlay over 5 years."
     ],
     "secId": "sec5",
-    "date": "2026-08-02"
+    "date": "2026-08-02",
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "Cotton Corporation of India Launches 'Kapas Darshan' Bulletin & ₹5,659 Cr Kapas Kanti Mission",
+          "Official Appointment",
+          "MSP Procurement: CCI procured 522 lakh quintals of seed cotton (kapas) via 24 lakh transactions, transferring ₹41,530 crore directly to bank accounts."
+        ]
+      ]
+    }
   },
   {
     "secId": "sec1",
@@ -3604,7 +3828,21 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "hook": "Links India with Malaysia and Singapore to expand regional AI and cloud data centre connectivity.",
     "trap": "Landing points (Machilipatnam & Chennai) vs international hubs (Kuala Lumpur & Singapore).",
-    "id": "note-sec5-207"
+    "id": "note-sec5-207",
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "Microsoft, Lightstorm, Singtel, & Tata Comms Partner to Build 'I-2SEA' Undersea Cable",
+          "Official Appointment",
+          "Consortium Partners: Lightstorm, Microsoft, Singtel, and Tata Communications."
+        ]
+      ]
+    }
   },
   {
     "secId": "sec1",
@@ -4479,7 +4717,21 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "hook": "Partners with Institute of Public Auditors of India to curb misselling on digital insurance portals.",
     "trap": null,
-    "id": "note-sec5-264"
+    "id": "note-sec5-264",
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "IRDAI Partners with IPAI to Eliminate Dark Patterns in Insurance Sector",
+          "Official Appointment",
+          "Regulatory Objective: Monitors dark patterns and forced add-on sales on digital insurance apps."
+        ]
+      ]
+    }
   },
   {
     "secId": "sec5",
@@ -4494,7 +4746,21 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "hook": "Grants standalone health insurance registration to Prudential HCL Health Insurance (70:30 JV).",
     "trap": "Prudential stake in Prudential HCL Health (70%) vs stake in Bharti Life (75%).",
-    "id": "note-sec5-265"
+    "id": "note-sec5-265",
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "IRDAI Grants Health Insurance License to Prudential HCL Joint Venture",
+          "Official Appointment",
+          "Equity Structure: Prudential plc holds 70% stake, HCL Group holds 30% stake."
+        ]
+      ]
+    }
   },
   {
     "secId": "sec5",
@@ -4509,7 +4775,21 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "hook": "Requires board-approved strategy validation for transitioning to Ind AS 101 and Ind AS 117 standards.",
     "trap": "Ind AS adoption timeline (FY27) vs regulatory forbearance timeline (FY28).",
-    "id": "note-sec5-266"
+    "id": "note-sec5-266",
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "IRDAI Mandates Independent Validation of Insurers' Ind AS Implementation Preparedness",
+          "Official Appointment",
+          "Implementation Window: Mandatory for insurers adopting Ind AS in FY 2026-27 (FY 2027-28 for forbearance entities)."
+        ]
+      ]
+    }
   },
   {
     "secId": "sec5",
@@ -4524,7 +4804,21 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "hook": "Patanjali Ayurved acquires 73.56% majority stake from Adar Poonawalla's Sanoti Properties.",
     "trap": "Patanjali stake (73.56%) vs DS Group stake (24.50%).",
-    "id": "note-sec5-267"
+    "id": "note-sec5-267",
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "IRDAI Approves Patanjali Ayurved & DS Group's ₹4,500 Crore Acquisition of Magma General Insurance",
+          "Official Appointment",
+          "Acquisition Value: ₹4,500 crore total transaction value."
+        ]
+      ]
+    }
   },
   {
     "secId": "sec4",
@@ -4887,7 +5181,21 @@ const CA_NOTES_DATA = [
     "tier": "Tier B+",
     "hook": null,
     "trap": null,
-    "id": "note-sec5-286"
+    "id": "note-sec5-286",
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "Aswath S (Tamil Nadu) Becomes India's 98th Chess Grandmaster",
+          "Official Appointment",
+          "Achievement: 18-year-old Aswath S becomes India's 98th Grandmaster."
+        ]
+      ]
+    }
   },
   {
     "secId": "sec5",
@@ -4904,9 +5212,9 @@ const CA_NOTES_DATA = [
     "id": "note-sec5-287",
     "miniGrid": {
       "headers": [
-        "Appointees / Official",
+        "Appointee / Official",
         "New Position & Organization",
-        "Key Context / Tenure"
+        "Key Context & Details"
       ],
       "rows": [
         [
@@ -4932,9 +5240,9 @@ const CA_NOTES_DATA = [
     "id": "note-sec5-288",
     "miniGrid": {
       "headers": [
-        "Appointees / Official",
+        "Appointee / Official",
         "New Position & Organization",
-        "Key Context / Tenure"
+        "Key Context & Details"
       ],
       "rows": [
         [
@@ -4960,9 +5268,9 @@ const CA_NOTES_DATA = [
     "id": "note-sec5-289",
     "miniGrid": {
       "headers": [
-        "Appointees / Official",
+        "Appointee / Official",
         "New Position & Organization",
-        "Key Context / Tenure"
+        "Key Context & Details"
       ],
       "rows": [
         [
@@ -4986,7 +5294,21 @@ const CA_NOTES_DATA = [
     "tier": "Tier B+",
     "hook": null,
     "trap": "SWIFT lead overseer central bank (National Bank of Belgium) vs India membership status (Non-member of G-10).",
-    "id": "note-sec5-290"
+    "id": "note-sec5-290",
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "Dilip Asbe (NPCI CEO) Inducted into SWIFT Global Supervisory Board",
+          "Official Appointment",
+          "Induction: Dilip Asbe inducted into SWIFT Global Supervisory Board."
+        ]
+      ]
+    }
   },
   {
     "bullets": [
@@ -5122,7 +5444,21 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "id": "note-sec5-298",
     "title": "Static GK: ASEAN Membership Evolution & Original 5 Founding Members",
-    "staticGk": "ASEAN Secretariat HQ: Jakarta, Indonesia | India is a Sectoral Dialogue Partner."
+    "staticGk": "ASEAN Secretariat HQ: Jakarta, Indonesia | India is a Sectoral Dialogue Partner.",
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "Static GK: ASEAN Membership Evolution & Original 5 Founding Members",
+          "Official Appointment",
+          "Founding Members (Original 5): Indonesia, Malaysia, Philippines, Singapore, and Thailand."
+        ]
+      ]
+    }
   },
   {
     "bullets": [
@@ -5137,7 +5473,21 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "id": "note-sec5-299",
     "title": "Static GK: NATO 32-Nation Alliance & Sweden Accession",
-    "staticGk": "Article 5 of North Atlantic Treaty governs collective defence commitment."
+    "staticGk": "Article 5 of North Atlantic Treaty governs collective defence commitment.",
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "Static GK: NATO 32-Nation Alliance & Sweden Accession",
+          "Official Appointment",
+          "Alliance Expansion: Sweden joined as the 32nd member state on March 7, 2024 (Finland joined 31st in 2023)."
+        ]
+      ]
+    }
   },
   {
     "bullets": [
@@ -5460,7 +5810,21 @@ const CA_NOTES_DATA = [
     "id": "note-sec5-318",
     "date": "2026-07-16",
     "hook": "Establishes 'Franco-Indian Integrated Health Campus' for joint medical and AI research.",
-    "title": "IIT Delhi and Sorbonne University (France) Launch Joint Master's & PhD in Biological Science"
+    "title": "IIT Delhi and Sorbonne University (France) Launch Joint Master's & PhD in Biological Science",
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "IIT Delhi and Sorbonne University (France) Launch Joint Master's & PhD in Biological Science",
+          "Official Appointment",
+          "Academic Partnership: IIT Delhi and Sorbonne University (Paris) launched joint master's and PhD programs."
+        ]
+      ]
+    }
   },
   {
     "tier": "Tier A",
@@ -5475,7 +5839,21 @@ const CA_NOTES_DATA = [
     "id": "note-sec5-319",
     "date": "2026-07-17",
     "hook": "Engages 12,000 young girls from 108 countries to build a lunar satellite.",
-    "title": "GBU, Space Kidz India, and IN-SPACe Launch Mission ShakthiSAT (World's 1st All-Girls Lunar Satellite)"
+    "title": "GBU, Space Kidz India, and IN-SPACe Launch Mission ShakthiSAT (World's 1st All-Girls Lunar Satellite)",
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "GBU, Space Kidz India, and IN-SPACe Launch Mission ShakthiSAT (World's 1st All-Girls Lunar Satellite)",
+          "Official Appointment",
+          "Mission Scope: World's 1st all-girls international satellite mission to the Moon."
+        ]
+      ]
+    }
   },
   {
     "tier": "Tier A",
@@ -5490,7 +5868,21 @@ const CA_NOTES_DATA = [
     "id": "note-sec5-320",
     "date": "2026-07-18",
     "hook": "India's 1st unified 9-level framework for assessing Technology Readiness Levels in deep-tech.",
-    "title": "Office of PSA and DSCI Launch TRL Compass Platform (trlcompass.in)"
+    "title": "Office of PSA and DSCI Launch TRL Compass Platform (trlcompass.in)",
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "Office of PSA and DSCI Launch TRL Compass Platform (trlcompass.in)",
+          "Official Appointment",
+          "Platform Portal: trlcompass.in launched by Principal Scientific Adviser Prof. Ajay Kumar Sood."
+        ]
+      ]
+    }
   },
   {
     "tier": "Tier A",
@@ -5505,7 +5897,21 @@ const CA_NOTES_DATA = [
     "id": "note-sec5-321",
     "date": "2026-07-19",
     "hook": "IndiGo Airbus A320 completes GAGAN-aided LPV landing at Maharana Pratap Airport, Udaipur.",
-    "title": "DGCA Supervises India's 1st Satellite-Based Landing System Trial on Mainline Commercial Aircraft"
+    "title": "DGCA Supervises India's 1st Satellite-Based Landing System Trial on Mainline Commercial Aircraft",
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "DGCA Supervises India's 1st Satellite-Based Landing System Trial on Mainline Commercial Aircraft",
+          "Official Appointment",
+          "Flight Validation: 1st operational validation of Satellite-Based Landing System (SLS) on a commercial jet in India."
+        ]
+      ]
+    }
   },
   {
     "tier": "Tier A",
@@ -6114,7 +6520,21 @@ const CA_NOTES_DATA = [
       "Financial Support: Up to 98% funding for startups (turnover ≤ ₹10 cr) and 80% (turnover ₹10 cr – ₹500 cr) to participate in 3GPP, ITU, and oneM2M standards meetings."
     ],
     "hook": "Provides up to 98% financial support to Indian startups/MSMEs for global SDO participation.",
-    "tier": "Tier A"
+    "tier": "Tier A",
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "DoT & TSDSI Sign MoU under ₹203 Crore 'TDIP Scheme' for Bharat 6G Standardisation",
+          "Official Appointment",
+          "TDIP Scheme Outlay: ₹203 crore outlay (2026-2031) under Technology Development and Investment Promotion Scheme."
+        ]
+      ]
+    }
   },
   {
     "title": "DPIIT Approves 51:49 Joint Venture Between Dixon Technologies & Vivo Mobile India",
@@ -6129,7 +6549,21 @@ const CA_NOTES_DATA = [
       "Manufacturing Scale: Dixon operates 17 manufacturing facilities in India."
     ],
     "hook": "Dixon holds 51% controlling stake in ₹5 crore JV for domestic smartphone manufacturing.",
-    "tier": "Tier A"
+    "tier": "Tier A",
+    "miniGrid": {
+      "headers": [
+        "Appointee / Official",
+        "New Position & Organization",
+        "Key Context & Details"
+      ],
+      "rows": [
+        [
+          "DPIIT Approves 51:49 Joint Venture Between Dixon Technologies & Vivo Mobile India",
+          "Official Appointment",
+          "Equity Ratio: Dixon Technologies holds 51% controlling stake; Vivo Mobile India holds 49%."
+        ]
+      ]
+    }
   },
   {
     "title": "MCD & NDDB Sign MoU for 3 Compressed Bio-Gas (CBG) Plants in Delhi",
