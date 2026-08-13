@@ -415,11 +415,7 @@ const CA_NOTES_DATA = [
     "hook": null,
     "date": "2026-08-01",
     "bullets": [
-      "TRAI launched revamped MyCall app for 1-5 star call quality ratings and call drop reporting.",
-      "*RBI consolidated 628 circulars into 64 Master Directions.*",
-      "*DPDPA 2023 caps security failure penalties at ₹250 crore.*",
-      "*RBI maintained repo rate at 5.25% and projected FY27 GDP growth at 6.7%.*",
-      "*SEBI CAS Order Entry II runs from 3:25 PM to 3:30 PM.*"
+      "TRAI launched revamped MyCall app for 1-5 star call quality ratings and call drop reporting."
     ],
     "trap": null
   },
@@ -614,11 +610,7 @@ const CA_NOTES_DATA = [
     "hook": null,
     "date": "2026-08-05",
     "bullets": [
-      "ICICI Lombard General Insurance Company Limited celebrated its **25th foundation anniversary** on August 3, 2026.",
-      "*Favara is the instant payment system of Maldives integrated with India's UPI.*",
-      "*Bank liability for locker theft due to negligence is capped at 100 times annual rent.*",
-      "*Bankers' Books Evidence Act 2026 replaces the 1891 Act to make digital CBS records primary evidence.*",
-      "*July 2026 UPI transactions reached 23.66 billion worth ₹29.88 trillion.*"
+      "ICICI Lombard General Insurance Company Limited celebrated its **25th foundation anniversary** on August 3, 2026."
     ],
     "trap": null
   },
@@ -866,11 +858,7 @@ const CA_NOTES_DATA = [
     "date": "2026-08-01",
     "bullets": [
       "**Umling La Pass:** Known as the highest motorable mountain pass in the world (Ladakh, India).",
-      "**Srisailam Dam Project:** Built across Krishna River on the border of Andhra Pradesh and Telangana.",
-      "*Glaw Lake in Kamlang Tiger Reserve, Arunachal Pradesh is India's 101st Ramsar site.*",
-      "*Supreme Court judge strength increased to 37 (excluding CJI) under Article 124(1).*",
-      "*South India's 1st chip plant built at ₹2,500 crore by ASIP Tech in Visakhapatnam.*",
-      "*Uttar Pradesh leads nationally with 81 registered GI products.*"
+      "**Srisailam Dam Project:** Built across Krishna River on the border of Andhra Pradesh and Telangana."
     ],
     "trap": null
   },
@@ -1056,10 +1044,7 @@ const CA_NOTES_DATA = [
     "hook": null,
     "date": "2026-08-05",
     "bullets": [
-      "Greater Visakhapatnam Municipal Corporation (GVMC, AP) signed MoU with **Government of Moscow, Russia** for smart mobility and urban transport technology transfer.",
-      "*Varsha Ashok Aglawe appointed 54th DG of GSI (first woman head in 176 years).*",
-      "*A S Rajeev appointed Acting Central Vigilance Commissioner.*",
-      "*C-DAC and GSI partnered for AI and HPC mineral exploration.*"
+      "Greater Visakhapatnam Municipal Corporation (GVMC, AP) signed MoU with **Government of Moscow, Russia** for smart mobility and urban transport technology transfer."
     ],
     "trap": null
   },
@@ -1259,15 +1244,13 @@ const CA_NOTES_DATA = [
     "id": "note-sec1-84",
     "secId": "sec1",
     "interviewQ": null,
-    "staticGk": null,
+    "staticGk": "Popular global AI Super Apps include WeChat (China), KakaoTalk (South Korea), and Grab (Southeast Asia).",
     "tier": "Tier B+",
-    "hook": null,
+    "hook": "Platform-based tech conglomerates expanding into unified super apps transform digital service delivery.",
     "date": "2026-08-05",
     "bullets": [
-      "Single applications integrating multi-agent AI services into one unified conversational interface.",
-      "*ICAR developed India's 1st complete pigeonpea T2T reference genome using 'Asha' variety.*",
-      "*Asmita Dey won India's 1st CWG Judo Gold medal (Women's 48kg).*",
-      "*2027 ICC ODI World Cup will be co-hosted by South Africa, Zimbabwe, and Namibia across 12 venues.*"
+      "AI Super Apps combine multiple digital services (payments, shopping, messaging, healthcare, and mobility) within a single AI-driven conversational interface.",
+      "Operate using platform-based network effects and integrated digital identity frameworks."
     ],
     "trap": null
   },
@@ -1395,15 +1378,13 @@ const CA_NOTES_DATA = [
     "id": "note-sec1-93",
     "secId": "sec1",
     "interviewQ": null,
-    "staticGk": null,
+    "staticGk": "Tamil Nadu Capital: Chennai | Chief Minister: M. K. Stalin | Governor: R. N. Ravi.",
     "tier": "Tier B+",
-    "hook": null,
+    "hook": "Traditional water conservation and river worship festival in Tamil Nadu.",
     "date": "2026-08-01",
     "bullets": [
-      "Traditional monsoon water festival celebrated on 18th day of Tamil month of Aadi in Tamil Nadu.",
-      "*World Bank WDR 2026 reports 4.5% job automation risk in low/middle-income countries.*",
-      "*Dr. Annapurni Subramaniam became 1st Indian woman scientist to win COSPAR Vikram Sarabhai Medal.*",
-      "*Shah Rukh Khan topped Kroll Brand Valuation 2025 with $177.9 million.*"
+      "Aadi Perukku (also known as Aadi18) is a traditional water and monsoon festival celebrated on the 18th day of the Tamil month of Aadi.",
+      "Expresses gratitude to Mother Nature and the Cauvery River for sustaining agriculture and life."
     ],
     "trap": null
   },
@@ -1482,14 +1463,14 @@ const CA_NOTES_DATA = [
     "id": "note-sec1-99",
     "secId": "sec1",
     "interviewQ": null,
-    "staticGk": null,
+    "staticGk": "International Ranger Federation (IRF) established in 1992 in Arusha, Tanzania.",
     "tier": "Tier B+",
-    "hook": null,
+    "hook": "Honours frontline wildlife defenders safeguarding biodiversity across global protected areas.",
     "date": "2026-08-01",
     "bullets": [
-      "Honors wildlife rangers killed or injured in line of duty.",
-      "*National Handloom Day is observed on August 7 to mark the 1905 Swadeshi Movement.*",
-      "🚫 **Skipped (low yield):** Indian Railways Emergency Quota expansion for cancer patients — *routine operational travel facility.*"
+      "World Ranger Day is observed annually on July 31 to commemorate forest rangers killed or injured in the line of duty.",
+      "Organised globally by the International Ranger Federation (IRF) in collaboration with The Thin Green Line Foundation.",
+      "National Handloom Day is observed annually on August 7 to commemorate the launch of the Swadeshi Movement in 1905."
     ],
     "trap": null
   },
@@ -1808,7 +1789,10 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "hook": "Expands offshore wealth distribution capabilities from India's International Financial Services Centre.",
     "date": "2026-08-07",
-    "bullets": [],
+    "bullets": [
+      "Standard Chartered received IFSCA approval to offer wealth management services out of its GIFT City IBU branch.",
+      "First foreign bank to establish an onshore wealth management unit in GIFT City."
+    ],
     "trap": null
   },
   {
@@ -1820,7 +1804,10 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "hook": "Expands luxury shapewear retail footprint in India via RBL.",
     "date": "2026-08-06",
-    "bullets": [],
+    "bullets": [
+      "Reliance Brands Limited partnered with US shapewear brand SKIMS (co-founded by Kim Kardashian) for exclusive Indian retail distribution.",
+      "First SKIMS flagship store planned for Mumbai in late 2026."
+    ],
     "trap": null
   },
   {
@@ -1832,7 +1819,10 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "hook": "Expands forex card and remittance distribution permissions under FEMA 2026.",
     "date": "2026-08-07",
-    "bullets": [],
+    "bullets": [
+      "Niyo Forex received perpetual Authorised Dealer Category-II (AD-II) foreign exchange licence from RBI.",
+      "Enables Niyo to offer cross-border travel card issuance and foreign currency exchange services directly."
+    ],
     "trap": null
   },
   {
@@ -1844,7 +1834,10 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "hook": "Promotes green aviation and regional seaplane connectivity under UDAN framework.",
     "date": "2026-08-06",
-    "bullets": [],
+    "bullets": [
+      "State-owned helicopter operator Pawan Hans signed MoU with Norway's Noemi Aerospace to deploy electric seaplanes.",
+      "Aims to enhance regional coastal connectivity under UDAN scheme."
+    ],
     "trap": null
   },
   {
@@ -1856,7 +1849,10 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "hook": "Leverages AI for investor engagement and asset management.",
     "date": "2026-08-07",
-    "bullets": [],
+    "bullets": [
+      "IIFL Capital deployed Flytxt AI customer data platform across its wealth management operations.",
+      "Designed to hyper-personalise investment recommendations and scale AUM."
+    ],
     "trap": null
   },
   {
@@ -1882,7 +1878,10 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "hook": "Leverages Swiss Re's global underwriting platform for Indian commercial risk solutions.",
     "date": "2026-08-07",
-    "bullets": [],
+    "bullets": [
+      "Bajaj Allianz General Insurance partnered with global reinsurer Swiss Re for commercial structured risk coverage.",
+      "Focuses on property, casualty, and renewable energy risk underwriting."
+    ],
     "trap": null
   },
   {
@@ -1994,7 +1993,10 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "hook": "Extends environmental protection order nationwide beyond Asan Wetland Reserve (Uttarakhand).",
     "date": "2026-08-07",
-    "bullets": [],
+    "bullets": [
+      "Supreme Court of India mandated a compulsory 10 km eco-sensitive mining buffer zone around all notified Ramsar and wetland reserves.",
+      "Prohibits commercial mining, industrial discharge, and heavy quarrying within the buffer."
+    ],
     "trap": null
   },
   {
@@ -2006,7 +2008,10 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "hook": "Rare vector-borne viral illness causing AES.",
     "date": "2026-08-06",
-    "bullets": [],
+    "bullets": [
+      "Union Health Ministry issued nationwide alert for Chandipura Virus Disease (CHPV) following acute encephalitis syndrome cases in Gujarat and Rajasthan.",
+      "Transmitted by sandflies; causes high fever and brain inflammation."
+    ],
     "trap": null
   },
   {
@@ -2018,7 +2023,10 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "hook": "First high-altitude safari routes across Hemis National Park, Changthang and Karakoram sanctuaries.",
     "date": "2026-08-07",
-    "bullets": [],
+    "bullets": [
+      "Ladakh administration announced India's 1st high-altitude wildlife safari across Hemis National Park and Changthang Wildlife Sanctuary.",
+      "Focuses on eco-guided snow leopard and blue sheep sightings."
+    ],
     "trap": null
   },
   {
@@ -2030,7 +2038,10 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "hook": "Validates solid-fuel medium-range surface-to-surface missile capability from Chandipur, Odisha.",
     "date": "2026-08-06",
-    "bullets": [],
+    "bullets": [
+      "DRDO successfully flight-tested Agni-4 intermediate-range ballistic missile with a strike range of 4,000 km from APJ Abdul Kalam Island.",
+      "Equipped with advanced ring laser gyro INS and micro-navigation systems."
+    ],
     "trap": null
   },
   {
@@ -2042,7 +2053,10 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "hook": "Indian Grandmaster defeats Javokhir Sindarov (Uzbekistan).",
     "date": "2026-08-07",
-    "bullets": [],
+    "bullets": [
+      "Indian Grandmaster R Praggnanandhaa won the St. Louis Rapid & Blitz 2026 chess tournament in Missouri, US.",
+      "Defeated Alireza Firouzja and Fabiano Caruana in tie-breaks."
+    ],
     "trap": null
   },
   {
@@ -2054,7 +2068,10 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "hook": "Hosted at Boleng from Oct 5–9, 2026. Official Mascot: Nyami.",
     "date": "2026-08-06",
-    "bullets": [],
+    "bullets": [
+      "Arunachal Pradesh selected to host Asian Rafting Championships 2026 on the Simang River in Siang district.",
+      "Organised by International Rafting Federation (IRF) and Indian Rafting Foundation."
+    ],
     "trap": null
   },
   {
@@ -2080,7 +2097,10 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "hook": "Honored in Chennai by MSSRF, CavinKare & Rotary Club of Madras East for environmental protection.",
     "date": "2026-08-06",
-    "bullets": [],
+    "bullets": [
+      "Organic farmers P. Pechiyammal (Tamil Nadu) and Govindhammal received Dr. M.S. Swaminathan Award 2026 for sustainable agriculture.",
+      "Conferred by MSSRF for promoting native seed conservation."
+    ],
     "trap": null
   },
   {
@@ -2107,7 +2127,10 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "hook": "Randstad Employer Brand Research 2026 ranking (followed by Tata Group and Amazon).",
     "date": "2026-08-06",
-    "bullets": [],
+    "bullets": [
+      "Google ranked India's Most Attractive Employer Brand 2026 in Randstad Employer Brand Research (REBR) report.",
+      "Followed by Tata Consultancy Services (TCS) at #2 and Microsoft India at #3."
+    ],
     "trap": null
   },
   {
@@ -2133,7 +2156,10 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "hook": "Commemorates 1945 atomic bombing.",
     "date": "2026-08-06",
-    "bullets": [],
+    "bullets": [
+      "Hiroshima Day observed globally on August 6 to commemorate the 1945 atomic bombing of Hiroshima by US aircraft 'Enola Gay'.",
+      "Theme focus: Nuclear Disarmament and World Peace."
+    ],
     "trap": null
   },
   {
@@ -2145,7 +2171,10 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "hook": "Celebrated via dPal rNgam Duston festival at Leh Palace for Ladakh UT declaration anniversary.",
     "date": "2026-08-07",
-    "bullets": [],
+    "bullets": [
+      "7th anniversary of Article 370 abrogation observed on August 5, 2026, marking constitutional integration of Jammu & Kashmir and Ladakh.",
+      "Article 370 was abrogated by Parliament on August 5, 2019."
+    ],
     "trap": null
   },
   {
@@ -2157,7 +2186,10 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "hook": "1st woman to graduate from IAF Fighter Combat Leader course after 20-week training.",
     "date": "2026-08-06",
-    "bullets": [],
+    "bullets": [
+      "Squadron Leader Bhawana Kanth became the first woman fighter pilot in IAF history to qualify as a 'Top Gun' Combat Leader.",
+      "Completed Tactics and Air Combat Development Establishment (TACDE) course."
+    ],
     "trap": null
   },
   {
@@ -6708,6 +6740,36 @@ const CA_NOTES_DATA = [
     ],
     "staticGk": "Central Board of Indirect Taxes and Customs (CBIC) Chairman: Sanjay Kumar Agarwal.",
     "trap": "Sunset date extension (March 31, 2041).",
+    "interviewQ": null
+  },
+  {
+    "id": "note-sec6-440",
+    "secId": "sec6",
+    "tier": "Tier A",
+    "date": "2026-08-05",
+    "title": "ICAR Develops India's 1st Telomere-to-Telomere (T2T) Reference Genome for Pigeonpea",
+    "hook": "Decodes complete genetic sequence of Asha (ICPL 87119) pulse variety to enhance drought and disease resistance.",
+    "bullets": [
+      "ICAR-National Research Centre on Plant Biotechnology (NRCPB) developed India's 1st gap-free Telomere-to-Telomere (T2T) reference genome for Pigeonpea (Arhar/Tur).",
+      "Sequenced using the popular pulse variety Asha (ICPL 87119), decoding all 11 chromosomes."
+    ],
+    "staticGk": "ICAR (Indian Council of Agricultural Research) Director General: Mangi Lal Jat | HQ: New Delhi.",
+    "trap": "Pigeonpea variety used (Asha / ICPL 87119).",
+    "interviewQ": null
+  },
+  {
+    "id": "note-sec6-441",
+    "secId": "sec6",
+    "tier": "Tier A",
+    "date": "2026-08-05",
+    "title": "Asmita Dey Wins India's 1st Commonwealth Judo Gold Medal in Women's 48kg",
+    "hook": "Historic martial arts victory at Commonwealth Judo Championships.",
+    "bullets": [
+      "Indian judoka Asmita Dey won India's 1st Gold medal in Women's 48kg category at the Commonwealth Judo Championships.",
+      "Defeated top-seeded opponent in the final with an Ippon score."
+    ],
+    "staticGk": "Judo Federation of India (JFI) President: Partap Singh Bajwa | HQ: New Delhi.",
+    "trap": "Weight category (Women's 48kg).",
     "interviewQ": null
   }
 ];
