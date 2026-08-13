@@ -210,9 +210,11 @@ document.addEventListener("DOMContentLoaded", () => {
   let onlyBookmarks = false;
   let activeRecallMode = false;
   let activeFlashcardMode = false;
+  let activeMasterWhosWhoMode = false;
   let bookmarkedIds = JSON.parse(localStorage.getItem("ca_bookmarks") || "[]");
 
   const toggleFlashcardBtn = document.getElementById("toggleFlashcardBtn");
+  const toggleMasterWhosWhoBtn = document.getElementById("toggleMasterWhosWhoBtn");
 
   if (toggleFlashcardBtn) {
     toggleFlashcardBtn.addEventListener("click", () => {
@@ -221,6 +223,18 @@ document.addEventListener("DOMContentLoaded", () => {
       toggleFlashcardBtn.innerHTML = activeFlashcardMode ? "🃏 Flashcards: ON" : "🃏 Flashcards: OFF";
       if (notesFeed) notesFeed.classList.toggle("flashcard-mode", activeFlashcardMode);
       renderFeed();
+    });
+  }
+
+  if (toggleMasterWhosWhoBtn) {
+    toggleMasterWhosWhoBtn.addEventListener("click", () => {
+      activeMasterWhosWhoMode = !activeMasterWhosWhoMode;
+      toggleMasterWhosWhoBtn.classList.toggle("active", activeMasterWhosWhoMode);
+      if (activeMasterWhosWhoMode) {
+        selectSection("sec5");
+      } else {
+        selectSection("all");
+      }
     });
   }
 
@@ -528,6 +542,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     activeFilterLabel.textContent = `📑 ${labelParts.join(" • ")}`;
 
+    // If Section 5 (Appointments) or Master Who's Who is selected, render ONE single living Master Table across all months!
+    if (activeSectionId === "sec5" || activeMasterWhosWhoMode) {
+      renderMasterWhosWhoTable();
+      return;
+    }
+
     if (filtered.length === 0) {
       notesFeed.innerHTML = `
         <div class="note-card" style="padding: 40px; text-align: center; color: var(--text-muted);">
@@ -755,6 +775,104 @@ document.addEventListener("DOMContentLoaded", () => {
         notesFeed.appendChild(card);
       });
     });
+  }
+
+  // Render Centralized Master Living "Who's Who & Appointments Directory" Table
+  function renderMasterWhosWhoTable() {
+    notesFeed.innerHTML = "";
+
+    // Gather all appointment notes across all months & static GA
+    const allApptNotes = CA_NOTES_DATA.filter(n => {
+      const titleLower = n.title ? n.title.toLowerCase() : "";
+      return n.secId === "sec5" || titleLower.includes("appoint") || titleLower.includes("sworn in") || titleLower.includes("takes charge") || titleLower.includes("dg of") || titleLower.includes("chairman of") || titleLower.includes("president of") || titleLower.includes("md & ceo");
+    });
+
+    // Sort by date descending (latest first: August -> July -> June)
+    allApptNotes.sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+
+    activeCountEl.textContent = `${allApptNotes.length} appointments`;
+
+    const seenRoles = new Set();
+    const rowsHtml = allApptNotes.map(n => {
+      let person = n.title;
+      let role = "Official Appointment";
+      let context = n.bullets && n.bullets[0] ? n.bullets[0] : "";
+      
+      if (n.miniGrid && n.miniGrid.rows && n.miniGrid.rows[0]) {
+        person = n.miniGrid.rows[0][0] || n.title;
+        role = n.miniGrid.rows[0][1] || "Official Appointment";
+        context = n.miniGrid.rows[0][2] || context;
+      }
+
+      if (person === role || person.length > 35) {
+        if (n.title.includes(" Appointed ")) {
+          const parts = n.title.split(" Appointed ");
+          person = parts[0].replace(/^(RBI|SEBI|IRDAI|IFSCA|CCI|Government|Center)\s+/, '').trim();
+          role = parts[1].trim();
+        } else if (n.title.includes(" Granted ")) {
+          const parts = n.title.split(" Granted ");
+          person = parts[0].trim();
+          role = parts[1].trim();
+        } else if (n.title.includes(" Takes Charge ")) {
+          const parts = n.title.split(" Takes Charge ");
+          person = parts[0].trim();
+          role = parts[1].trim();
+        }
+      }
+
+      const roleKey = (role + person).toLowerCase().replace(/[^a-z0-9]/g, '');
+      const isLatest = !seenRoles.has(roleKey);
+      seenRoles.add(roleKey);
+
+      const isBm = bookmarkedIds.includes(n.id);
+
+      return `
+        <tr>
+          <td style="font-weight: 600; white-space: nowrap;">${formatSubtleDate(n.date)}</td>
+          <td style="font-weight: 700; color: var(--accent-blue); width: 22%;">
+            ${parseMarkdown(person)}
+            ${isLatest ? '<span class="badge-count" style="background: var(--accent-green); color: #fff; font-size: 0.65rem; margin-left: 4px;">ACTIVE 2026</span>' : ''}
+          </td>
+          <td style="font-weight: 600; width: 30%;">${parseMarkdown(role)}</td>
+          <td style="font-size: 0.88rem; color: var(--text-muted);">${parseTrapAndStaticGK(context)}</td>
+          <td style="text-align: center; width: 8%;">
+            <button class="btn-bookmark ${isBm ? 'bookmarked' : ''}" onclick="toggleBookmark('${n.id}')" title="Bookmark Appointment">
+              ${isBm ? '★' : '☆'}
+            </button>
+          </td>
+        </tr>
+      `;
+    }).join("");
+
+    const masterCard = document.createElement("div");
+    masterCard.className = "note-card";
+    masterCard.innerHTML = `
+      <div class="note-header" style="border-bottom: 2px solid var(--accent-blue); padding-bottom: 12px; margin-bottom: 16px;">
+        <div>
+          <h2 class="note-title" style="font-size: 1.3rem;">🏛️ Centralized Master "Who's Who" & Active Appointments Directory</h2>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 4px;">Single living master table combining June, July, August 2026 & Static GA heads into one updated reference directory.</p>
+        </div>
+        <span class="badge-count" style="background: var(--accent-blue); color: #fff; font-size: 0.9rem; padding: 6px 14px;">${allApptNotes.length} Active Appointments</span>
+      </div>
+      <div style="overflow-x: auto;">
+        <table class="mini-grid-table" style="width: 100%; margin: 0;">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Appointee / Official</th>
+              <th>New Designation & Organization</th>
+              <th>Key Context & Details</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${rowsHtml}
+          </tbody>
+        </table>
+      </div>
+    `;
+
+    notesFeed.appendChild(masterCard);
   }
 
   // Render Quant Superbook Feed
