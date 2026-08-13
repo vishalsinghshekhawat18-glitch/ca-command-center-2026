@@ -597,80 +597,23 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       });
 
-      // 1. Render SINGLE Consolidated Appointments Master Table Card if any appointments exist
+      // 1. Render clean referral notice if any appointments exist in this month group
       if (apptNotes.length > 0) {
-        const apptCard = document.createElement("div");
-        apptCard.className = "note-card";
-        
-        const rowsHtml = apptNotes.map(n => {
-          let person = n.title;
-          let role = "Official Appointment";
-          let context = n.bullets && n.bullets[0] ? n.bullets[0] : "";
-          
-          if (n.miniGrid && n.miniGrid.rows && n.miniGrid.rows[0]) {
-            person = n.miniGrid.rows[0][0] || n.title;
-            role = n.miniGrid.rows[0][1] || "Official Appointment";
-            context = n.miniGrid.rows[0][2] || context;
-          }
-
-          // Smart fallback if person is full headline or matches role
-          if (person === role || person.length > 35) {
-            if (n.title.includes(" Appointed ")) {
-              const parts = n.title.split(" Appointed ");
-              person = parts[0].replace(/^(RBI|SEBI|IRDAI|IFSCA|CCI|Government|Center)\s+/, '').trim();
-              role = parts[1].trim();
-            } else if (n.title.includes(" Granted ")) {
-              const parts = n.title.split(" Granted ");
-              person = parts[0].trim();
-              role = parts[1].trim();
-            } else if (n.title.includes(" Takes Charge ")) {
-              const parts = n.title.split(" Takes Charge ");
-              person = parts[0].trim();
-              role = parts[1].trim();
-            }
-          }
-
-          const isBm = bookmarkedIds.includes(n.id);
-
-          return `
-            <tr>
-              <td style="font-weight: 600; white-space: nowrap;">${formatSubtleDate(n.date)}</td>
-              <td style="font-weight: 700; color: var(--accent-blue); width: 22%;">${parseMarkdown(person)}</td>
-              <td style="font-weight: 600; width: 30%;">${parseMarkdown(role)}</td>
-              <td style="font-size: 0.88rem; color: var(--text-muted);">${parseTrapAndStaticGK(context)}</td>
-              <td style="text-align: center; width: 8%;">
-                <button class="btn-bookmark ${isBm ? 'bookmarked' : ''}" onclick="toggleBookmark('${n.id}')" title="Bookmark Appointment">
-                  ${isBm ? '★' : '☆'}
-                </button>
-              </td>
-            </tr>
-          `;
-        }).join("");
-
-        apptCard.innerHTML = `
-          <div class="note-header">
-            <h3 class="note-title">🤝 Appointments & Resignations Master Compendium (${getMonthNameFull(mKey)})</h3>
-            <span class="badge-count" style="background: var(--accent-blue); color: #fff;">${apptNotes.length} Appointments</span>
-          </div>
-          <div style="overflow-x: auto; margin-top: 12px;">
-            <table class="mini-grid-table" style="width: 100%; margin: 0;">
-              <thead>
-                <tr>
-                  <th>Date</th>
-                  <th>Appointee / Official</th>
-                  <th>New Designation & Organization</th>
-                  <th>Key Context & Details</th>
-                  <th>Action</th>
-                </tr>
-              </thead>
-              <tbody>
-                ${rowsHtml}
-              </tbody>
-            </table>
+        const apptNotice = document.createElement("div");
+        apptNotice.className = "note-card";
+        apptNotice.style.background = "#fdfaf3";
+        apptNotice.style.borderLeft = "4px solid var(--accent-blue)";
+        apptNotice.innerHTML = `
+          <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
+            <div style="font-size: 0.95rem; color: var(--text-main);">
+              <strong>ℹ️ Note:</strong> All ${apptNotes.length} official appointments for this period are consolidated in the <strong>🤝 Appointments</strong> section.
+            </div>
+            <button class="toggle-chip active" onclick="selectSection('sec5')" style="white-space: nowrap; cursor: pointer; padding: 6px 14px; font-weight: 600;">
+              Open Appointments Table ➔
+            </button>
           </div>
         `;
-
-        notesFeed.appendChild(apptCard);
+        notesFeed.appendChild(apptNotice);
       }
 
       // 2. Render Regular Notes as individual cards
@@ -849,8 +792,8 @@ document.addEventListener("DOMContentLoaded", () => {
     masterCard.innerHTML = `
       <div class="note-header" style="border-bottom: 2px solid var(--accent-blue); padding-bottom: 12px; margin-bottom: 16px;">
         <div>
-          <h2 class="note-title" style="font-size: 1.3rem;">🏛️ Centralized Master "Who's Who" & Active Appointments Directory</h2>
-          <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 4px;">Single living master table combining June, July, August 2026 & Static GA heads into one updated reference directory.</p>
+          <h2 class="note-title" style="font-size: 1.3rem;">🤝 Appointments Master Directory (Living Consolidated Table)</h2>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 4px;">Single living master table combining all appointments across June, July, August 2026 & Static GA notes into one updated reference directory.</p>
         </div>
         <span class="badge-count" style="background: var(--accent-blue); color: #fff; font-size: 0.9rem; padding: 6px 14px;">${allApptNotes.length} Active Appointments</span>
       </div>
