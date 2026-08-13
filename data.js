@@ -876,7 +876,21 @@ const CA_NOTES_DATA = [
       "Milestone: **First-ever woman** to head GSI in its **176-year history**.",
       "Parent Ministry: Ministry of Mines."
     ],
-    "trap": "GSI (HQ Kolkata, Est 1851) vs Survey of India (HQ Dehradun)."
+    "trap": "GSI (HQ Kolkata, Est 1851) vs Survey of India (HQ Dehradun).",
+    "miniGrid": {
+      "headers": [
+        "Appointees / Official",
+        "New Position & Organization",
+        "Key Context / Tenure"
+      ],
+      "rows": [
+        [
+          "Varsha Ashok Aglawe",
+          "54th DG of Geological Survey of India — First Woman Head in 176 Years",
+          "Varsha Ashok Aglawe appointed 54th Director General of GSI."
+        ]
+      ]
+    }
   },
   {
     "title": "A S Rajeev Appointed Acting Central Vigilance Commissioner (CVC)",
@@ -892,7 +906,21 @@ const CA_NOTES_DATA = [
       "Appointment Committee: PM (Chair) + Union Home Minister + Leader of Opposition in Lok Sabha.",
       "Tenure Rules: Fixed **4 years or until age 65**."
     ],
-    "trap": "Central Vigilance Commissioner (CVC) vs Chief Information Commissioner (CIC)."
+    "trap": "Central Vigilance Commissioner (CVC) vs Chief Information Commissioner (CIC).",
+    "miniGrid": {
+      "headers": [
+        "Appointees / Official",
+        "New Position & Organization",
+        "Key Context / Tenure"
+      ],
+      "rows": [
+        [
+          "A S Rajeev",
+          "Acting Central Vigilance Commissioner (CVC)",
+          "A S Rajeev appointed Acting Central Vigilance Commissioner."
+        ]
+      ]
+    }
   },
   {
     "title": "Ministry of Ayush Signs MoU with IndiaAI Mission",
@@ -920,7 +948,21 @@ const CA_NOTES_DATA = [
     "bullets": [
       "Air Marshal Sandeep Thareja appointed Director General Armed Forces Medical Services (DGAFMS)."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Appointees / Official",
+        "New Position & Organization",
+        "Key Context / Tenure"
+      ],
+      "rows": [
+        [
+          "Air Marshal Sandeep Thareja",
+          "DG Armed Forces Medical Services",
+          "Air Marshal Sandeep Thareja appointed Director General Armed Forces Medical Services (DGAFMS)."
+        ]
+      ]
+    }
   },
   {
     "title": "Air Marshal Tejpal Singh Appointed Deputy Chief of Air Staff",
@@ -934,7 +976,21 @@ const CA_NOTES_DATA = [
     "bullets": [
       "Air Marshal Tejpal Singh appointed Deputy Chief of the Air Staff (DCAS)."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Appointees / Official",
+        "New Position & Organization",
+        "Key Context / Tenure"
+      ],
+      "rows": [
+        [
+          "Air Marshal Tejpal Singh",
+          "Deputy Chief of Air Staff",
+          "Air Marshal Tejpal Singh appointed Deputy Chief of the Air Staff (DCAS)."
+        ]
+      ]
+    }
   },
   {
     "title": "Vice Admiral AN Pramod Appointed Deputy Chief of Naval Staff",
@@ -948,7 +1004,21 @@ const CA_NOTES_DATA = [
     "bullets": [
       "Vice Admiral AN Pramod appointed Deputy Chief of Naval Staff (DCNS)."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Appointees / Official",
+        "New Position & Organization",
+        "Key Context / Tenure"
+      ],
+      "rows": [
+        [
+          "Vice Admiral AN Pramod",
+          "Deputy Chief of Naval Staff",
+          "Vice Admiral AN Pramod appointed Deputy Chief of Naval Staff (DCNS)."
+        ]
+      ]
+    }
   },
   {
     "title": "Vishwesh Negi Appointed Ambassador of India to Iran",
@@ -962,7 +1032,21 @@ const CA_NOTES_DATA = [
     "bullets": [
       "Vishwesh Negi appointed Ambassador of India to the Islamic Republic of Iran."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Appointees / Official",
+        "New Position & Organization",
+        "Key Context / Tenure"
+      ],
+      "rows": [
+        [
+          "Vishwesh Negi",
+          "Ambassador of India to Iran",
+          "Vishwesh Negi appointed Ambassador of India to the Islamic Republic of Iran."
+        ]
+      ]
+    }
   },
   {
     "title": "Willie Walsh Appointed Chief Executive Officer of IndiGo",
@@ -976,7 +1060,21 @@ const CA_NOTES_DATA = [
     "bullets": [
       "Willie Walsh (former IATA chief) appointed Chief Executive Officer of IndiGo."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Appointees / Official",
+        "New Position & Organization",
+        "Key Context / Tenure"
+      ],
+      "rows": [
+        [
+          "Willie Walsh",
+          "Chief Executive Officer of IndiGo",
+          "Willie Walsh (former IATA chief) appointed Chief Executive Officer of IndiGo."
+        ]
+      ]
+    }
   },
   {
     "title": "New Delhi Hosts GI & Beyond 2.0 Summit Organized by Ministry of Textiles",
@@ -1079,7 +1177,21 @@ const CA_NOTES_DATA = [
       "**Yamini Maurya** won Silver in **Women's 57 kg Judo**.",
       "Athletics: **Neeraj Chopra** (Silver Javelin), **Yash Vir Singh** (Bronze Javelin), **Tejaswin Shankar** (Bronze Decathlon)."
     ],
-    "trap": "Asmita Dey (48kg Gold) vs Yamini Maurya (57kg Silver) vs Harsh Singh (60kg Gold)."
+    "trap": "Asmita Dey (48kg Gold) vs Yamini Maurya (57kg Silver) vs Harsh Singh (60kg Gold).",
+    "miniGrid": {
+      "headers": [
+        "Award Title",
+        "Recipient / Winner",
+        "Conferred By / Key Detail"
+      ],
+      "rows": [
+        [
+          "India Secures Historic Judo Gold Medals at 23rd Commonwealth Games 2026",
+          "Asmita Dey won Gold in Women's 48 kg Judo (India's 1st CWG judo gold medallist).",
+          "International Judo Federation HQ: Budapest, Hungary."
+        ]
+      ]
+    }
   },
   {
     "title": "India Achieves Clean Sweep at 22nd Commonwealth Table Tennis Championships",
@@ -1287,7 +1399,21 @@ const CA_NOTES_DATA = [
       "Ceremony: Conferred during 46th COSPAR Scientific Assembly in **Florence, Italy** by COSPAR & ISRO.",
       "Current Post: Director of **Indian Institute of Astrophysics (IIA)**, Bengaluru."
     ],
-    "trap": "1st Indian woman scientist to win COSPAR Sarabhai Medal (and 4th Indian overall)."
+    "trap": "1st Indian woman scientist to win COSPAR Sarabhai Medal (and 4th Indian overall).",
+    "miniGrid": {
+      "headers": [
+        "Award Title",
+        "Recipient / Winner",
+        "Conferred By / Key Detail"
+      ],
+      "rows": [
+        [
+          "Annapurni Subramaniam Conferred COSPAR Vikram Sarabhai Medal 2026",
+          "Indian astrophysicist Annapurni Subramaniam conferred COSPAR Vikram Sarabhai Medal 2026.",
+          "Award instituted 1990 | Awarded biennially | ISRO HQ: Bengaluru."
+        ]
+      ]
+    }
   },
   {
     "title": "World Bank Report Highlights $194 Billion Extreme Heat Risk to India's Economy",
@@ -1343,7 +1469,21 @@ const CA_NOTES_DATA = [
     "bullets": [
       "Tamil Nadu won 'Best State' award (266 deceased donors); Delhi ranked #1 in total transplants (4,564)."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Award Title",
+        "Recipient / Winner",
+        "Conferred By / Key Detail"
+      ],
+      "rows": [
+        [
+          "Tamil Nadu Wins 'Best State' Award for Organ Donations in NOTTO Report 2025-26",
+          "Tamil Nadu won 'Best State' award (266 deceased donors); Delhi ranked #1 in total transplants (4,564).",
+          "Annual Recognition"
+        ]
+      ]
+    }
   },
   {
     "title": "Book: 'Bringing the Cheetah Back to India' by Prashant Agrawal (IFS)",
@@ -1400,7 +1540,21 @@ const CA_NOTES_DATA = [
     "bullets": [
       "Observed August 7 to commemorate Swadeshi Movement launched August 7, 1905 in Calcutta."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Date & Event",
+        "Official Theme / Mandate",
+        "Nodal Body / Significance"
+      ],
+      "rows": [
+        [
+          "12th National Handloom Day Observed on 7th August",
+          "Observed August 7 to commemorate Swadeshi Movement launched August 7, 1905 in Calcutta.",
+          "Global Observance"
+        ]
+      ]
+    }
   },
   {
     "title": "World Breastfeeding Week Observed from 1st to 7th August 2026",
@@ -1414,7 +1568,21 @@ const CA_NOTES_DATA = [
     "bullets": [
       "Theme 2026: *\"Breastfeeding for a sustainable start in life: strengthen what works\"*."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Date & Event",
+        "Official Theme / Mandate",
+        "Nodal Body / Significance"
+      ],
+      "rows": [
+        [
+          "World Breastfeeding Week Observed from 1st to 7th August 2026",
+          "Theme 2026: *\"Breastfeeding for a sustainable start in life: strengthen what works\"*.",
+          "Global Observance"
+        ]
+      ]
+    }
   },
   {
     "title": "Indian Organ Donation Day Observed on 3rd August",
@@ -1428,7 +1596,21 @@ const CA_NOTES_DATA = [
     "bullets": [
       "Promotes voluntary organ donor registration via NOTTO."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Date & Event",
+        "Official Theme / Mandate",
+        "Nodal Body / Significance"
+      ],
+      "rows": [
+        [
+          "Indian Organ Donation Day Observed on 3rd August",
+          "Promotes voluntary organ donor registration via NOTTO.",
+          "Global Observance"
+        ]
+      ]
+    }
   },
   {
     "title": "International Clouded Leopard Day Observed on 4th August",
@@ -1442,7 +1624,21 @@ const CA_NOTES_DATA = [
     "bullets": [
       "Raises global awareness for clouded leopard conservation (Meghalaya state animal)."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Date & Event",
+        "Official Theme / Mandate",
+        "Nodal Body / Significance"
+      ],
+      "rows": [
+        [
+          "International Clouded Leopard Day Observed on 4th August",
+          "Raises global awareness for clouded leopard conservation (Meghalaya state animal).",
+          "Global Observance"
+        ]
+      ]
+    }
   },
   {
     "title": "World Wide Web Day & World Lung Cancer Day Observed on 1st August",
@@ -1456,7 +1652,21 @@ const CA_NOTES_DATA = [
     "bullets": [
       "WWW Day marks Tim Berners-Lee's creation at CERN in 1989."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Date & Event",
+        "Official Theme / Mandate",
+        "Nodal Body / Significance"
+      ],
+      "rows": [
+        [
+          "World Wide Web Day & World Lung Cancer Day Observed on 1st August",
+          "WWW Day marks Tim Berners-Lee's creation at CERN in 1989.",
+          "Global Observance"
+        ]
+      ]
+    }
   },
   {
     "title": "World Ranger Day Observed on 31st July",
@@ -1472,7 +1682,21 @@ const CA_NOTES_DATA = [
       "Organised globally by the International Ranger Federation (IRF) in collaboration with The Thin Green Line Foundation.",
       "National Handloom Day is observed annually on August 7 to commemorate the launch of the Swadeshi Movement in 1905."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Date & Event",
+        "Official Theme / Mandate",
+        "Nodal Body / Significance"
+      ],
+      "rows": [
+        [
+          "World Ranger Day Observed on 31st July",
+          "World Ranger Day is observed annually on July 31 to commemorate forest rangers killed or injured in the line of duty.",
+          "International Ranger Federation (IRF) established in 1992 in Arusha, Tanzania."
+        ]
+      ]
+    }
   },
   {
     "title": "Taxation Bill 2026 Grants 15-Year Tax Exemption for Foreign Rough Diamond Trading via SNZs",
@@ -1910,7 +2134,21 @@ const CA_NOTES_DATA = [
     "bullets": [
       "Baldeo Purushartha appointed Senior Adviser to ED at ADB; Satyajit Mohanty appointed Representative of India at ICAO Council."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Appointees / Official",
+        "New Position & Organization",
+        "Key Context / Tenure"
+      ],
+      "rows": [
+        [
+          "Rahul Jain",
+          "Senior Adviser to Executive Director (India) at IMF",
+          "Baldeo Purushartha appointed Senior Adviser to ED at ADB; Satyajit Mohanty appointed Representative of India at ICAO Council."
+        ]
+      ]
+    }
   },
   {
     "title": "India Hosts 2nd National Port Security Conference 2026 in New Delhi",
@@ -2086,7 +2324,21 @@ const CA_NOTES_DATA = [
     "bullets": [
       "Award Money: Sarvottam (₹2,00,000), Uttam (₹1,50,000), Jeevan Raksha (₹100,000)."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Award Title",
+        "Recipient / Winner",
+        "Conferred By / Key Detail"
+      ],
+      "rows": [
+        [
+          "Nitin Gadkari Confers Sarvottam Jeevan Raksha Padak to 12 Silkyara Tunnel Rat Miners",
+          "Award Money: Sarvottam (₹2,00,000), Uttam (₹1,50,000), Jeevan Raksha (₹100,000).",
+          "Annual Recognition"
+        ]
+      ]
+    }
   },
   {
     "title": "P. Pechiyammal and Govindhammal Honored with Dr. M.S. Swaminathan Award 2026",
@@ -2101,7 +2353,21 @@ const CA_NOTES_DATA = [
       "Organic farmers P. Pechiyammal (Tamil Nadu) and Govindhammal received Dr. M.S. Swaminathan Award 2026 for sustainable agriculture.",
       "Conferred by MSSRF for promoting native seed conservation."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Award Title",
+        "Recipient / Winner",
+        "Conferred By / Key Detail"
+      ],
+      "rows": [
+        [
+          "P. Pechiyammal and Govindhammal Honored with Dr. M.S. Swaminathan Award 2026",
+          "Organic farmers P. Pechiyammal (Tamil Nadu) and Govindhammal received Dr. M.S. Swaminathan Award 2026 for sustainable agriculture.",
+          "Annual Recognition"
+        ]
+      ]
+    }
   },
   {
     "title": "Knight Frank Atlas 2026: Mumbai Ranks 15th, Hyderabad 27th Globally in Data Centre Capacity",
@@ -2116,7 +2382,21 @@ const CA_NOTES_DATA = [
       "Mumbai: 15th operational (11th development pipeline).",
       "Hyderabad: 27th operational (151 MW live, 2.2 GW pipeline)."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Award Title",
+        "Recipient / Winner",
+        "Conferred By / Key Detail"
+      ],
+      "rows": [
+        [
+          "Knight Frank Atlas 2026: Mumbai Ranks 15th, Hyderabad 27th Globally in Data Centre Capacity",
+          "Mumbai: 15th operational (11th development pipeline).",
+          "Annual Recognition"
+        ]
+      ]
+    }
   },
   {
     "title": "Google Named India's Most Attractive Employer Brand in REBR 2026 Report",
@@ -2131,7 +2411,21 @@ const CA_NOTES_DATA = [
       "Google ranked India's Most Attractive Employer Brand 2026 in Randstad Employer Brand Research (REBR) report.",
       "Followed by Tata Consultancy Services (TCS) at #2 and Microsoft India at #3."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Award Title",
+        "Recipient / Winner",
+        "Conferred By / Key Detail"
+      ],
+      "rows": [
+        [
+          "Google Named India's Most Attractive Employer Brand in REBR 2026 Report",
+          "Google ranked India's Most Attractive Employer Brand 2026 in Randstad Employer Brand Research (REBR) report.",
+          "Annual Recognition"
+        ]
+      ]
+    }
   },
   {
     "title": "12th National Handloom Day Observed on 7th August 2026",
@@ -2145,7 +2439,21 @@ const CA_NOTES_DATA = [
     "bullets": [
       "Awards: 22 total (3 Sant Kabir + 9 National Handloom Awards for 2025)."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Date & Event",
+        "Official Theme / Mandate",
+        "Nodal Body / Significance"
+      ],
+      "rows": [
+        [
+          "12th National Handloom Day Observed on 7th August 2026",
+          "Awards: 22 total (3 Sant Kabir + 9 National Handloom Awards for 2025).",
+          "Global Observance"
+        ]
+      ]
+    }
   },
   {
     "title": "Hiroshima Day Observed Globally on 6th August",
@@ -2160,7 +2468,21 @@ const CA_NOTES_DATA = [
       "Hiroshima Day observed globally on August 6 to commemorate the 1945 atomic bombing of Hiroshima by US aircraft 'Enola Gay'.",
       "Theme focus: Nuclear Disarmament and World Peace."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Date & Event",
+        "Official Theme / Mandate",
+        "Nodal Body / Significance"
+      ],
+      "rows": [
+        [
+          "Hiroshima Day Observed Globally on 6th August",
+          "Hiroshima Day observed globally on August 6 to commemorate the 1945 atomic bombing of Hiroshima by US aircraft 'Enola Gay'.",
+          "Global Observance"
+        ]
+      ]
+    }
   },
   {
     "title": "Article 370 Abrogation 7th Anniversary Observed on 5th August 2026",
@@ -2175,7 +2497,21 @@ const CA_NOTES_DATA = [
       "7th anniversary of Article 370 abrogation observed on August 5, 2026, marking constitutional integration of Jammu & Kashmir and Ladakh.",
       "Article 370 was abrogated by Parliament on August 5, 2019."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Date & Event",
+        "Official Theme / Mandate",
+        "Nodal Body / Significance"
+      ],
+      "rows": [
+        [
+          "Article 370 Abrogation 7th Anniversary Observed on 5th August 2026",
+          "7th anniversary of Article 370 abrogation observed on August 5, 2026, marking constitutional integration of Jammu & Kashmir and Ladakh.",
+          "Global Observance"
+        ]
+      ]
+    }
   },
   {
     "title": "Squadron Leader Bhawana Kanth Becomes First Woman IAF 'Top Gun' Combat Leader",
@@ -2190,7 +2526,21 @@ const CA_NOTES_DATA = [
       "Squadron Leader Bhawana Kanth became the first woman fighter pilot in IAF history to qualify as a 'Top Gun' Combat Leader.",
       "Completed Tactics and Air Combat Development Establishment (TACDE) course."
     ],
-    "trap": null
+    "trap": null,
+    "miniGrid": {
+      "headers": [
+        "Date & Event",
+        "Official Theme / Mandate",
+        "Nodal Body / Significance"
+      ],
+      "rows": [
+        [
+          "Squadron Leader Bhawana Kanth Becomes First Woman IAF 'Top Gun' Combat Leader",
+          "Squadron Leader Bhawana Kanth became the first woman fighter pilot in IAF history to qualify as a 'Top Gun' Combat Leader.",
+          "Global Observance"
+        ]
+      ]
+    }
   },
   {
     "title": "Static GK Highlights: Manas National Park, SpaceX Falcon 9 Lunar Impact, Himalayan Serow",
@@ -2601,7 +2951,21 @@ const CA_NOTES_DATA = [
       "Career background: Over 3 decades at RBI; previously Chief General Manager-in-Charge of Department of Supervision."
     ],
     "secId": "sec2",
-    "date": "2026-08-05"
+    "date": "2026-08-05",
+    "miniGrid": {
+      "headers": [
+        "Appointees / Official",
+        "New Position & Organization",
+        "Key Context / Tenure"
+      ],
+      "rows": [
+        [
+          "Monisha Chakraborty",
+          "Executive Director of Reserve Bank of India",
+          "Appointed ED overseeing Foreign Exchange Department and Financial Markets Regulation Department."
+        ]
+      ]
+    }
   },
   {
     "title": "IRDAI Approves ProTec General Insurance License & Operationalises Policyholders' Education Fund (PEPF)",
@@ -2725,7 +3089,21 @@ const CA_NOTES_DATA = [
       "Overall Standings: India ranked 8th overall with 15 medals (3 gold, 9 silver, 3 bronze)."
     ],
     "secId": "sec6",
-    "date": "2026-08-06"
+    "date": "2026-08-06",
+    "miniGrid": {
+      "headers": [
+        "Award Title",
+        "Recipient / Winner",
+        "Conferred By / Key Detail"
+      ],
+      "rows": [
+        [
+          "India Wins Historic Para Athletics Medals at Commonwealth Games 2026 Glasgow",
+          "Gold Medallist: Dilip Mahadu Gavit clocked Games record 10.71 seconds (1st Indian male para athletics CWG gold).",
+          "Commonwealth Games 2026 host: Glasgow, Scotland | Overall medal table topper: Australia."
+        ]
+      ]
+    }
   },
   {
     "title": "ISSF World Cup 2026 Hangzhou: India Ranks 3rd Overall with 4 Medals",
@@ -2741,7 +3119,21 @@ const CA_NOTES_DATA = [
       "Overall Winner: China topped standings in Hangzhou."
     ],
     "secId": "sec6",
-    "date": "2026-08-07"
+    "date": "2026-08-07",
+    "miniGrid": {
+      "headers": [
+        "Award Title",
+        "Recipient / Winner",
+        "Conferred By / Key Detail"
+      ],
+      "rows": [
+        [
+          "ISSF World Cup 2026 Hangzhou: India Ranks 3rd Overall with 4 Medals",
+          "Medal Breakdown: India won 1 Gold (Esha Singh), 1 Silver (Sainyam Vij), 2 Bronze (Manu Bhaker, Sonam Maskar & Himanshu Dhillon).",
+          "ISSF HQ: Munich, Germany | President: Luciano Rossi."
+        ]
+      ]
+    }
   },
   {
     "title": "Ajinkya Rahane Announces Retirement from All Formats of International Cricket",
@@ -2772,7 +3164,21 @@ const CA_NOTES_DATA = [
       "Historic Distinction: Hong Wang (China) is 3rd female recipient after Maryam Mirzakhani (2014) and Maryna Viazovska (2022)."
     ],
     "secId": "sec7",
-    "date": "2026-08-02"
+    "date": "2026-08-02",
+    "miniGrid": {
+      "headers": [
+        "Award Title",
+        "Recipient / Winner",
+        "Conferred By / Key Detail"
+      ],
+      "rows": [
+        [
+          "2026 Fields Medals Conferred on 4 Mathematicians at International Congress in Philadelphia",
+          "Recipients: Yu Deng (Univ of Chicago), John Pardon (Stony Brook), Jacob Tsimerman (Univ of Toronto), Hong Wang (NYU/IHES).",
+          "Fields Medal instituted by J.C. Fields at Univ of Toronto | International Mathematical Union (IMU) HQ: Berlin."
+        ]
+      ]
+    }
   },
   {
     "title": "Cabinet Approves Revamped Khelo India Scheme & Enhanced ANSFs Assistance with ₹36,441 Cr Outlay",
@@ -2852,7 +3258,21 @@ const CA_NOTES_DATA = [
       "Agency Mandate: Central national agency receiving and analyzing suspicious financial transaction reports."
     ],
     "secId": "sec5",
-    "date": "2026-08-07"
+    "date": "2026-08-07",
+    "miniGrid": {
+      "headers": [
+        "Appointees / Official",
+        "New Position & Organization",
+        "Key Context / Tenure"
+      ],
+      "rows": [
+        [
+          "Satya Pal Kumar",
+          "Director of Financial Intelligence Unit-India (FIU-IND)",
+          "Appointed Joint Secretary-level Director of FIU-IND for 5-year tenure (succeeding Pankaj Kumar Mishra)."
+        ]
+      ]
+    }
   },
   {
     "title": "Shailesh Jejurikar Appointed Chairman of Procter & Gamble Company",
@@ -2866,7 +3286,21 @@ const CA_NOTES_DATA = [
       "Indian-American business leader appointed P&G Board Chairman (succeeding Jon R. Moeller) while continuing as CEO."
     ],
     "secId": "sec5",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "miniGrid": {
+      "headers": [
+        "Appointees / Official",
+        "New Position & Organization",
+        "Key Context / Tenure"
+      ],
+      "rows": [
+        [
+          "Shailesh Jejurikar",
+          "Chairman of Procter & Gamble Company",
+          "Indian-American business leader appointed P&G Board Chairman (succeeding Jon R. Moeller) while continuing as CEO."
+        ]
+      ]
+    }
   },
   {
     "title": "Chhattisgarh Launches 'DWEEPTI Yojana' for Women-Led Rooftop Solar Enterprises",
@@ -2961,7 +3395,21 @@ const CA_NOTES_DATA = [
       "Workforce Growth: Share grew from 5.2% in 2015 to 12.16% in 2026 under 'Mission 20%' target."
     ],
     "secId": "sec7",
-    "date": "2026-08-07"
+    "date": "2026-08-07",
+    "miniGrid": {
+      "headers": [
+        "Award Title",
+        "Recipient / Winner",
+        "Conferred By / Key Detail"
+      ],
+      "rows": [
+        [
+          "BIMCO-ICS Seafarer Report 2026: India Emerges as World's 2nd-Largest Supplier of Seafarers",
+          "Global Ranking: India rose to 2nd globally (behind Philippines, ahead of China and Russia).",
+          "Report published by BIMCO & International Chamber of Shipping (ICS) | Ports Minister: Sarbananda Sonowal."
+        ]
+      ]
+    }
   },
   {
     "title": "Roshni Nadar Tops 2026 Candere Hurun India Women Leaders List (Wealth Multipliers)",
@@ -2976,7 +3424,21 @@ const CA_NOTES_DATA = [
       "Demographics: Oldest honouree Rajni Bector (86 yrs); youngest Sheetal Devi (19 yrs); 84% self-made leaders."
     ],
     "secId": "sec7",
-    "date": "2026-08-01"
+    "date": "2026-08-01",
+    "miniGrid": {
+      "headers": [
+        "Award Title",
+        "Recipient / Winner",
+        "Conferred By / Key Detail"
+      ],
+      "rows": [
+        [
+          "Roshni Nadar Tops 2026 Candere Hurun India Women Leaders List (Wealth Multipliers)",
+          "Top Leaders: Roshni Nadar Malhotra (HCLTech, net worth ₹2,84,120 cr); Priya Nair (HUL CEO, company value ₹5,06,600 cr).",
+          "Published by Candere by Kalyan Jewellers & Hurun India | Spans 12 categories."
+        ]
+      ]
+    }
   },
   {
     "title": "ADB Approves  Million Loan for PM Surya Ghar: Muft Bijli Yojana (PMSGMBY)",
@@ -3022,7 +3484,21 @@ const CA_NOTES_DATA = [
       "Singing Clarification: Bill criminalises deliberate insult/obstruction, NOT the choice not to sing."
     ],
     "secId": "sec4",
-    "date": "2026-08-04"
+    "date": "2026-08-04",
+    "miniGrid": {
+      "headers": [
+        "Award Title",
+        "Recipient / Winner",
+        "Conferred By / Key Detail"
+      ],
+      "rows": [
+        [
+          "Parliament Passes Prevention of Insults to National Honour (Amendment) Bill 2026",
+          "Criminal Offence: Intentional insult, prevention, or disruption of Vande Mataram rendition carries up to 3 years imprisonment or fine.",
+          "Vande Mataram composed by Bankim Chandra Chattopadhyay in 1875 (first published 1882 in Anandamath) | MoS Home: Nityanand Rai."
+        ]
+      ]
+    }
   },
   {
     "title": "Assam Passes Land & Revenue Regulation Bill 2026 Creating 5km Heritage Protected Belts",
@@ -4199,7 +4675,21 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "hook": "Conferred by President Prabowo Subianto during official visit to Jakarta.",
     "trap": null,
-    "id": "note-sec7-277"
+    "id": "note-sec7-277",
+    "miniGrid": {
+      "headers": [
+        "Award Title",
+        "Recipient / Winner",
+        "Conferred By / Key Detail"
+      ],
+      "rows": [
+        [
+          "PM Narendra Modi Conferred Indonesia's Highest State Honour 'Bintang Republik Indonesia Adipurna'",
+          "Award Name: Bintang Republik Indonesia Adipurna (established 1959).",
+          "Indonesia Capital: Jakarta / Nusantara | Currency: Indonesian Rupiah."
+        ]
+      ]
+    }
   },
   {
     "secId": "sec7",
@@ -4215,7 +4705,21 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "hook": "Becomes 3rd Tamil author to receive India's highest literary honour.",
     "trap": "60th Jnanpith winner (R. Vairamuthu) vs 59th (Vinod Kumar Shukla).",
-    "id": "note-sec7-278"
+    "id": "note-sec7-278",
+    "miniGrid": {
+      "headers": [
+        "Award Title",
+        "Recipient / Winner",
+        "Conferred By / Key Detail"
+      ],
+      "rows": [
+        [
+          "Tamil Poet R. Vairamuthu Conferred 60th Jnanpith Award (2025)",
+          "60th Jnanpith Awardee: Renowned Tamil poet and lyricist R. Vairamuthu.",
+          "Jnanpith Award instituted in 1961 by Bharatiya Jnanpith (1st winner G. Sankara Kurup 1965)."
+        ]
+      ]
+    }
   },
   {
     "secId": "sec7",
@@ -4232,7 +4736,21 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "hook": "Mammootty and Kartik Aaryan share Best Actor Award; Yami Gautam wins Best Actress.",
     "trap": null,
-    "id": "note-sec7-279"
+    "id": "note-sec7-279",
+    "miniGrid": {
+      "headers": [
+        "Award Title",
+        "Recipient / Winner",
+        "Conferred By / Key Detail"
+      ],
+      "rows": [
+        [
+          "72nd National Film Awards (2024): 'Article 370' Wins Best Film Award",
+          "Best Film: Article 370 (Hindi).",
+          "National Film Awards organized annually by Ministry of Information & Broadcasting (instituted 1954)."
+        ]
+      ]
+    }
   },
   {
     "secId": "sec7",
@@ -4247,7 +4765,21 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "hook": "Honoured for outstanding national security service on Bal Gangadhar Tilak's death anniversary.",
     "trap": null,
-    "id": "note-sec7-280"
+    "id": "note-sec7-280",
+    "miniGrid": {
+      "headers": [
+        "Award Title",
+        "Recipient / Winner",
+        "Conferred By / Key Detail"
+      ],
+      "rows": [
+        [
+          "NSA Ajit Doval Selected for Prestigious Lokmanya Tilak Award 2026",
+          "Awardee: National Security Advisor Ajit Doval (longest-serving NSA of India).",
+          "1st Lokmanya Tilak Award recipient: Socialist leader S. M. Joshi (1983)."
+        ]
+      ]
+    }
   },
   {
     "secId": "sec7",
@@ -4263,7 +4795,21 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "hook": "Hong Wang becomes 3rd woman scientist in 90-year history to win the 'Nobel Prize of Mathematics'.",
     "trap": null,
-    "id": "note-sec7-281"
+    "id": "note-sec7-281",
+    "miniGrid": {
+      "headers": [
+        "Award Title",
+        "Recipient / Winner",
+        "Conferred By / Key Detail"
+      ],
+      "rows": [
+        [
+          "Fields Medal 2026 Conferred on 4 Mathematicians: Hong Wang, Yu Deng, John Pardon, Jacob Tsimerman",
+          "Recipients: Yu Deng (Univ of Chicago), John Pardon (Stony Brook), Jacob Tsimerman (Univ of Toronto), Hong Wang (NYU/IHES).",
+          "Fields Medal instituted by J.C. Fields at Univ of Toronto | International Mathematical Union (IMU) HQ: Berlin."
+        ]
+      ]
+    }
   },
   {
     "secId": "sec6",
@@ -4355,7 +4901,21 @@ const CA_NOTES_DATA = [
     "tier": "Tier B+",
     "hook": null,
     "trap": null,
-    "id": "note-sec5-287"
+    "id": "note-sec5-287",
+    "miniGrid": {
+      "headers": [
+        "Appointees / Official",
+        "New Position & Organization",
+        "Key Context / Tenure"
+      ],
+      "rows": [
+        [
+          "Lokhande Prashant Sitaram",
+          "CBSE Chairperson",
+          "Appointment: Lokhande Prashant Sitaram appointed CBSE Chairperson."
+        ]
+      ]
+    }
   },
   {
     "secId": "sec5",
@@ -4369,7 +4929,21 @@ const CA_NOTES_DATA = [
     "tier": "Tier B+",
     "hook": null,
     "trap": null,
-    "id": "note-sec5-288"
+    "id": "note-sec5-288",
+    "miniGrid": {
+      "headers": [
+        "Appointees / Official",
+        "New Position & Organization",
+        "Key Context / Tenure"
+      ],
+      "rows": [
+        [
+          "Bijay Kumar Mohanty",
+          "CMD of IREDA",
+          "Appointment: Bijay Kumar Mohanty appointed CMD of IREDA."
+        ]
+      ]
+    }
   },
   {
     "secId": "sec5",
@@ -4383,7 +4957,21 @@ const CA_NOTES_DATA = [
     "tier": "Tier B+",
     "hook": null,
     "trap": null,
-    "id": "note-sec5-289"
+    "id": "note-sec5-289",
+    "miniGrid": {
+      "headers": [
+        "Appointees / Official",
+        "New Position & Organization",
+        "Key Context / Tenure"
+      ],
+      "rows": [
+        [
+          "Silvana Tenreyro",
+          "Chief Economist of International Monetary Fund (IMF)",
+          "Appointment: Silvana Tenreyro appointed IMF Chief Economist."
+        ]
+      ]
+    }
   },
   {
     "secId": "sec5",
@@ -4505,7 +5093,21 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "id": "note-sec7-297",
     "title": "Static GK: Jnanpith Award History, Eligibility & Cash Prize Structure",
-    "staticGk": "First Jnanpith Award winner: G. Sankara Kurup (Malayalam, 1965)."
+    "staticGk": "First Jnanpith Award winner: G. Sankara Kurup (Malayalam, 1965).",
+    "miniGrid": {
+      "headers": [
+        "Award Title",
+        "Recipient / Winner",
+        "Conferred By / Key Detail"
+      ],
+      "rows": [
+        [
+          "Static GK: Jnanpith Award History, Eligibility & Cash Prize Structure",
+          "Award Structure: ₹11 Lakh cash prize, bronze statue of Goddess Vagdevi, and citation.",
+          "First Jnanpith Award winner: G. Sankara Kurup (Malayalam, 1965)."
+        ]
+      ]
+    }
   },
   {
     "bullets": [
@@ -4800,7 +5402,21 @@ const CA_NOTES_DATA = [
     "id": "note-sec7-316",
     "date": "2026-07-14",
     "hook": "Recognized for conserving the Indian Skimmer (Chambal River) and Himalayan Salamander (Darjeeling).",
-    "title": "Parveen Shaikh & Barkha Subba Conferred 2026 Whitley Award ('Green Oscar') in London"
+    "title": "Parveen Shaikh & Barkha Subba Conferred 2026 Whitley Award ('Green Oscar') in London",
+    "miniGrid": {
+      "headers": [
+        "Award Title",
+        "Recipient / Winner",
+        "Conferred By / Key Detail"
+      ],
+      "rows": [
+        [
+          "Parveen Shaikh & Barkha Subba Conferred 2026 Whitley Award ('Green Oscar') in London",
+          "Indian Awardees: Parveen Shaikh (BNHS, Indian Skimmer) and Barkha Subba (FSEP, Himalayan Salamander).",
+          "Whitley Fund for Nature (UK) institutes the annual Whitley Awards."
+        ]
+      ]
+    }
   },
   {
     "tier": "Tier A",
@@ -4815,7 +5431,21 @@ const CA_NOTES_DATA = [
     "id": "note-sec7-317",
     "date": "2026-07-15",
     "hook": "Conferred at IX USISPF Leadership Summit alongside V Prem Watsa and Christopher Calio.",
-    "title": "Sunil Bharti Mittal Presented USISPF 2026 Leadership Award in Washington D.C."
+    "title": "Sunil Bharti Mittal Presented USISPF 2026 Leadership Award in Washington D.C.",
+    "miniGrid": {
+      "headers": [
+        "Award Title",
+        "Recipient / Winner",
+        "Conferred By / Key Detail"
+      ],
+      "rows": [
+        [
+          "Sunil Bharti Mittal Presented USISPF 2026 Leadership Award in Washington D.C.",
+          "Awardees: Sunil Bharti Mittal (Bharti Enterprises), V Prem Watsa (Fairfax Financial), and Christopher T Calio (RTX Corp).",
+          "USISPF President & CEO: Mukesh Aghi | HQ: Washington D.C."
+        ]
+      ]
+    }
   },
   {
     "tier": "Tier A",
@@ -5267,7 +5897,21 @@ const CA_NOTES_DATA = [
     "hook": "Recognizes top 100 female leaders shaping India's economic and business landscape.",
     "secId": "sec7",
     "trap": null,
-    "date": "2026-07-29"
+    "date": "2026-07-29",
+    "miniGrid": {
+      "headers": [
+        "Award Title",
+        "Recipient / Winner",
+        "Conferred By / Key Detail"
+      ],
+      "rows": [
+        [
+          "Fortune India Most Powerful Women 2026: Nita Ambani Ranks #1 Nationally",
+          "Rank #1: Nita M. Ambani (Founder & Chairperson of Reliance Foundation) ranked #1 in Fortune India MPW 2026 list.",
+          "Fortune India MPW list evaluates 100 women leaders across business, finance, and policy."
+        ]
+      ]
+    }
   },
   {
     "title": "Cabinet Approves 'Semicon 2.0' Scheme with ₹1,27,500 Crore Outlay",
@@ -5763,7 +6407,21 @@ const CA_NOTES_DATA = [
       "Sharmila Dhankar Gold: Gold in women's shot put F57 para athletics (ending India's 20-year CWG para athletics wait).",
       "Silver Medals: Gulveer Singh (men's 10,000m 27:49.78), Harjinder Kaur (women's 69kg weightlifting 227kg), Sarvesh Kushare (high jump)."
     ],
-    "date": "2026-07-08"
+    "date": "2026-07-08",
+    "miniGrid": {
+      "headers": [
+        "Award Title",
+        "Recipient / Winner",
+        "Conferred By / Key Detail"
+      ],
+      "rows": [
+        [
+          "Commonwealth Games 2026 (Glasgow): Mirabai Chanu & Sharmila Dhankar Win Gold Medals",
+          "Mirabai Chanu Gold: Lifted 190 kg (85kg snatch + 105kg clean & jerk) for 3rd straight CWG gold in women's 48kg.",
+          "Glasgow 2026 CWG: India tally 12 medals (2 gold, 7 silver, 3 bronze)."
+        ]
+      ]
+    }
   },
   {
     "tier": "Tier A",
@@ -6200,7 +6858,21 @@ const CA_NOTES_DATA = [
       "Milestone: 33rd international award conferred on PM Modi (first by independent Slovakia)."
     ],
     "id": "note-sec7-406",
-    "staticGk": "Slovakia Capital: Bratislava | Currency: Euro | PM: Robert Fico."
+    "staticGk": "Slovakia Capital: Bratislava | Currency: Euro | PM: Robert Fico.",
+    "miniGrid": {
+      "headers": [
+        "Award Title",
+        "Recipient / Winner",
+        "Conferred By / Key Detail"
+      ],
+      "rows": [
+        [
+          "PM Modi Conferred Slovakia's Highest Civilian Award 'Order of the White Double Cross'",
+          "Award Conferred: 'Order of the White Double Cross (1st Class)', Slovakia's highest civilian honour.",
+          "Slovakia Capital: Bratislava | Currency: Euro | PM: Robert Fico."
+        ]
+      ]
+    }
   },
   {
     "tier": "Tier A",
@@ -6694,7 +7366,21 @@ const CA_NOTES_DATA = [
     "tier": "Tier A",
     "id": "note-sec6-437",
     "title": "15-Year-Old Vaibhav Sooryavanshi Sweeps 5 IPL 2026 Awards as RCB Retains Title",
-    "trap": "Vaibhav sixes record (72 sixes) vs Gayle previous record (59 sixes)."
+    "trap": "Vaibhav sixes record (72 sixes) vs Gayle previous record (59 sixes).",
+    "miniGrid": {
+      "headers": [
+        "Award Title",
+        "Recipient / Winner",
+        "Conferred By / Key Detail"
+      ],
+      "rows": [
+        [
+          "15-Year-Old Vaibhav Sooryavanshi Sweeps 5 IPL 2026 Awards as RCB Retains Title",
+          "5 Individual Awards: Vaibhav Sooryavanshi (RR) won Orange Cap, MVP, Emerging Player, Super Striker, and Super Sixes.",
+          "Vaibhav Sooryavanshi (Bihar) selected for Indian Men's T20 team at age 15 years 71 days."
+        ]
+      ]
+    }
   },
   {
     "bullets": [
@@ -6770,7 +7456,21 @@ const CA_NOTES_DATA = [
     ],
     "staticGk": "Judo Federation of India (JFI) President: Partap Singh Bajwa | HQ: New Delhi.",
     "trap": "Weight category (Women's 48kg).",
-    "interviewQ": null
+    "interviewQ": null,
+    "miniGrid": {
+      "headers": [
+        "Award Title",
+        "Recipient / Winner",
+        "Conferred By / Key Detail"
+      ],
+      "rows": [
+        [
+          "Asmita Dey Wins India's 1st Commonwealth Judo Gold Medal in Women's 48kg",
+          "Indian judoka Asmita Dey won India's 1st Gold medal in Women's 48kg category at the Commonwealth Judo Championships.",
+          "Judo Federation of India (JFI) President: Partap Singh Bajwa | HQ: New Delhi."
+        ]
+      ]
+    }
   }
 ];
 
