@@ -563,7 +563,81 @@ document.addEventListener("DOMContentLoaded", () => {
         notesFeed.appendChild(groupBanner);
       }
 
+      // Separate notes into Appointment notes vs Regular notes
+      const apptNotes = [];
+      const regularNotes = [];
+
       monthGroups[mKey].forEach(note => {
+        const titleLower = note.title ? note.title.toLowerCase() : "";
+        const isAppt = note.secId === "sec5" || titleLower.includes("appoint") || titleLower.includes("sworn in") || titleLower.includes("takes charge") || titleLower.includes("dg of") || titleLower.includes("chairman of") || titleLower.includes("president of") || titleLower.includes("md & ceo");
+        if (isAppt) {
+          apptNotes.push(note);
+        } else {
+          regularNotes.push(note);
+        }
+      });
+
+      // 1. Render SINGLE Consolidated Appointments Master Table Card if any appointments exist
+      if (apptNotes.length > 0) {
+        const apptCard = document.createElement("div");
+        apptCard.className = "note-card";
+        
+        const rowsHtml = apptNotes.map(n => {
+          let person = n.title;
+          let role = n.title;
+          let context = n.bullets && n.bullets[0] ? n.bullets[0] : "";
+          
+          if (n.miniGrid && n.miniGrid.rows && n.miniGrid.rows[0]) {
+            person = n.miniGrid.rows[0][0] || n.title;
+            role = n.miniGrid.rows[0][1] || n.title;
+            context = n.miniGrid.rows[0][2] || context;
+          }
+
+          const isBm = bookmarkedIds.includes(n.id);
+
+          return `
+            <tr>
+              <td style="font-weight: 600; white-space: nowrap;">${formatSubtleDate(n.date)}</td>
+              <td style="font-weight: 700; color: var(--accent-blue);">${parseMarkdown(person)}</td>
+              <td style="font-weight: 600;">${parseMarkdown(role)}</td>
+              <td style="font-size: 0.88rem; color: var(--text-muted);">${parseTrapAndStaticGK(context)}</td>
+              <td style="text-align: center;">
+                <button class="btn-bookmark ${isBm ? 'bookmarked' : ''}" onclick="toggleBookmark('${n.id}')" title="Bookmark Appointment">
+                  ${isBm ? '★' : '☆'}
+                </button>
+              </td>
+            </tr>
+          `;
+        }).join("");
+
+        apptCard.innerHTML = `
+          <div class="note-header">
+            <h3 class="note-title">🤝 Appointments & Resignations Master Compendium (${getMonthNameFull(mKey)})</h3>
+            <span class="badge-count" style="background: var(--accent-blue); color: #fff;">${apptNotes.length} Appointments</span>
+          </div>
+          <div style="overflow-x: auto; margin-top: 12px;">
+            <table class="mini-grid-table" style="width: 100%; margin: 0;">
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Appointee / Official</th>
+                  <th>New Designation & Organization</th>
+                  <th>Key Context & Details</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${rowsHtml}
+              </tbody>
+            </table>
+          </div>
+        `;
+
+        notesFeed.appendChild(apptCard);
+      }
+
+      // 2. Render Regular Notes as individual cards
+      regularNotes.forEach(note => {
         const isBookmarked = bookmarkedIds.includes(note.id);
         const secObj = CA_SECTIONS.find(s => s.id === note.secId);
         const isCompact = note.tier === "Tier B+" || (!note.hook && !note.trap && !note.interviewQ && note.bullets.length <= 1);
