@@ -147,32 +147,19 @@ const CA_NOTES_DATA = [
     "trap": null
   },
   {
-    "title": "HSBC India Manufacturing PMI Reaches 53.5 in July 2026",
+    "title": "HSBC India Composite PMI (July 2026): Manufacturing at 53.5 & Services at 53.3",
     "id": "note-sec1-9",
     "secId": "sec1",
     "interviewQ": null,
-    "staticGk": null,
+    "staticGk": "Purchasing Managers' Index (PMI) is compiled by S&P Global; PMI score > 50 indicates expansion, while < 50 indicates contraction.",
     "tier": "Tier B+",
-    "hook": null,
+    "hook": "High-frequency survey indicator reflecting health of India's manufacturing and services output.",
     "date": "2026-08-01",
     "bullets": [
-      "HSBC India Manufacturing PMI registered **53.5 in July 2026** (above 50 signals manufacturing expansion)."
+      "HSBC India Manufacturing PMI registered **53.5 in July 2026** (above 50 signals manufacturing expansion).",
+      "HSBC India Services PMI Business Activity Index stood at **53.3 in July 2026** (down from 57.4 in June)."
     ],
-    "trap": null
-  },
-  {
-    "title": "HSBC India Services PMI Business Activity Index Reaches 53.3 in July 2026",
-    "id": "note-sec1-10",
-    "secId": "sec1",
-    "interviewQ": null,
-    "staticGk": null,
-    "tier": "Tier B+",
-    "hook": null,
-    "date": "2026-08-05",
-    "bullets": [
-      "HSBC India Services PMI Business Activity Index fell to **53.3 in July 2026** (down from 57.4 in June)."
-    ],
-    "trap": null
+    "trap": "Manufacturing PMI (53.5) vs Services PMI (53.3, down from 57.4 in June)."
   },
   {
     "title": "OPEC+ Agrees to Increase Crude Oil Production by 188,000 Barrels per Day",
@@ -193,15 +180,12 @@ const CA_NOTES_DATA = [
     "id": "note-sec1-12",
     "secId": "sec1",
     "interviewQ": null,
-    "staticGk": null,
+    "staticGk": "Union Minister of Petroleum and Natural Gas: Hardeep Singh Puri | India is world's 3rd largest crude oil consumer.",
     "tier": "Tier B+",
-    "hook": null,
+    "hook": "Diversifying crude oil import channels reduces supply vulnerability amid West Asia geopolitical tensions.",
     "date": "2026-08-05",
     "bullets": [
-      "India expanded its crude oil sourcing base to **41 countries** (up from 27 countries earlier) to enhance energy import security.",
-      "*Gross GST July 2026 grew 15.4% to reach ₹2.11 trillion.*",
-      "*CGSMFI 2.0 mandates banks to lend at least 15% of corpus to small/mid MFIs.*",
-      "*Taxation Bill 2026 extends electronics capital goods tax exemption sunset to March 31, 2041.*"
+      "India expanded its crude oil sourcing base to **41 countries** (up from 27 countries earlier) to enhance energy import security."
     ],
     "trap": null
   },
@@ -6695,6 +6679,36 @@ const CA_NOTES_DATA = [
     "id": "note-sec6-438",
     "title": "World Boxing Rankings: Jaismine Lamboria & Minakshi Hooda Ranked World No. 1",
     "trap": "Jaismine Lamboria category (57kg) vs Minakshi Hooda category (48kg)."
+  },
+  {
+    "id": "note-sec2-438",
+    "secId": "sec2",
+    "tier": "Tier A",
+    "date": "2026-08-05",
+    "title": "CGSMFI 2.0 Mandates Banks to Lend at Least 15% Corpus to Small & Mid MFIs",
+    "hook": "Ensures equitable liquidity distribution for lower-tier microfinance institutions.",
+    "bullets": [
+      "Credit Guarantee Scheme for Microfinance Institutions 2.0 (CGSMFI 2.0) requires member lending institutions to allocate at least **15% of guarantee corpus** to small and mid-sized NBFC-MFIs.",
+      "Aims to prevent capital concentration among top-tier MFIs and support last-mile credit flow."
+    ],
+    "staticGk": "National Credit Guarantee Trustee Company (NCGTC) operates under Department of Financial Services, Ministry of Finance.",
+    "trap": "Mandatory allocation to small/mid MFIs (at least 15% of corpus).",
+    "interviewQ": null
+  },
+  {
+    "id": "note-sec1-439",
+    "secId": "sec1",
+    "tier": "Tier A",
+    "date": "2026-08-05",
+    "title": "Taxation Bill 2026 Extends Electronics Capital Goods Tax Exemption Sunset to March 31, 2041",
+    "hook": "Provides 15-year long-term tax predictability for semiconductor and electronics manufacturing hardware.",
+    "bullets": [
+      "Taxation Bill 2026 extends the sunset clause for customs duty exemption on imported capital goods used in electronics manufacturing to **March 31, 2041**.",
+      "Supports India's target to build a $500 billion electronics manufacturing ecosystem."
+    ],
+    "staticGk": "Central Board of Indirect Taxes and Customs (CBIC) Chairman: Sanjay Kumar Agarwal.",
+    "trap": "Sunset date extension (March 31, 2041).",
+    "interviewQ": null
   }
 ];
 
